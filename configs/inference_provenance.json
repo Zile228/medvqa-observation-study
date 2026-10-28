@@ -1,0 +1,14 @@
+{
+  "schema": "MEASURED-INFERENCE-SOURCES-v1",
+  "high_detail": [
+    {
+      "inputs_sha256": "800a236657a36672971758f7e29f962610ad98ba96d96b617e83e52cbfadb562",
+      "source_sha256": {
+        "runner": "646144ce50324fc62d7ccb4de5d81dd93a64a0fa0ab9a28affb6da1733820619",
+        "models": "593697da455d146ea272cd234d61ca3c826d0fdb126d6c4100b976cde7960311",
+        "prompts": "2a1572173c7a5dd01ef4fb24c27d74e062f1bdad597586a8b0159ddc1aee98ee",
+        "common": "c3e2ca1de6423859033e3ed52d4f5cecb535501618bcb56fe46b367e1fc8f445"
+      }
+    }
+  ]
+}

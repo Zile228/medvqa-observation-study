@@ -1,0 +1,39 @@
+{
+  "id": "OBS-GEN-ITEMS-v1.1",
+  "note": "Arm generic: 8 item không giải phẫu, không framework. Bản 1.1 (validation của R2): ARM-GEN nhận CÙNG header route với ARM-ANA/ARM-GRD (build_prompts.py sinh OBS-GEN__<route>.txt); context_line dưới đây ('not provided') chỉ dùng cho RT-FALLBACK, nơi cả ba arm GEN/ANA/GRD đều dùng khối này.",
+  "context_line": "Image context: not provided.",
+  "items": [
+    {
+      "name": "View and orientation",
+      "ask": "how the image is oriented and from which direction it appears to be taken"
+    },
+    {
+      "name": "Body region shown",
+      "ask": "which part of the body the image appears to cover"
+    },
+    {
+      "name": "Main visible structures",
+      "ask": "the main structures that can be seen and how they are arranged"
+    },
+    {
+      "name": "Brightness and colour",
+      "ask": "variations in brightness, density or colour across the image"
+    },
+    {
+      "name": "Shapes and borders",
+      "ask": "shapes, outlines and borders of the visible structures"
+    },
+    {
+      "name": "Symmetry and alignment",
+      "ask": "symmetry between sides and alignment of structures, where applicable"
+    },
+    {
+      "name": "Focal differences",
+      "ask": "any focal area that looks different from its surroundings, with its location"
+    },
+    {
+      "name": "Image quality and limits",
+      "ask": "image quality and what cannot be judged from this image"
+    }
+  ]
+}

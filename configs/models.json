@@ -1,0 +1,39 @@
+{
+  "L": {
+    "id": "llava-hf/llava-1.5-7b-hf",
+    "revision": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+    "family": "llava_hf",
+    "env": "ENV-1"
+  },
+  "Q": {
+    "id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "family": "qwen25vl",
+    "env": "ENV-1"
+  },
+  "M": {
+    "id": "microsoft/llava-med-v1.5-mistral-7b",
+    "revision": "91bb16c122001ddc9cf1fd36ce1dae09448943a2",
+    "family": "llava_med",
+    "env": "ENV-2"
+  },
+  "J1": {
+    "id": "internlm/internlm3-8b-instruct",
+    "revision": "28c99415adaf61767bd1c619f4f99f308fdfd223",
+    "family": "text",
+    "trust_remote_code": true,
+    "env": "ENV-1/3"
+  },
+  "J2": {
+    "id": "ibm-granite/granite-3.3-8b-instruct",
+    "revision": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+    "family": "text",
+    "env": "ENV-1"
+  },
+  "PHI": {
+    "id": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "family": "text",
+    "env": "ENV-1"
+  }
+}

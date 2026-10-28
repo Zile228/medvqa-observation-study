@@ -1,0 +1,25 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: computed tomography (CT), cross-sectional; body region: abdomen and pelvis.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Window and contrast: displayed window (soft tissue, lung or bone) and whether contrast is visible
+2. Liver: contour, size, enhancement pattern, focal lesions and visible hepatic vessels
+3. Gallbladder and bile ducts: gallbladder, intrahepatic ducts and common bile duct calibre
+4. Pancreas: contour, enhancement, focal lesions and duct calibre
+5. Spleen: size impression, enhancement and focal lesions
+6. Adrenal glands: shape and any focal mass on each side
+7. Kidneys, ureters and bladder: kidney contour, enhancement, masses, stones, collecting system, ureters and bladder wall
+8. Stomach and bowel: gastro-oesophageal junction, stomach, duodenum, bowel calibre, wall and appendix
+9. Peritoneal cavity: free fluid, fluid collections, free air and peritoneal nodules
+10. Blood vessels: aorta, inferior vena cava, portal and mesenteric veins, visceral and iliac vessels
+11. Lymph nodes: enlarged nodes by region: lower chest, upper abdominal, retroperitoneal, mesenteric, pelvic, inguinal
+12. Lower chest: visible lung bases and any pleural or pericardial fluid
+13. Pelvic organs: visible uterus and ovaries, or prostate and seminal vesicles
+14. Bones and body wall: visible spine, pelvis and ribs, muscles and abdominal wall
+Write nothing before item 1 and nothing after the last item.

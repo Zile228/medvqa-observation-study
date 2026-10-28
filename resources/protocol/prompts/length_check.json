@@ -1,0 +1,1946 @@
+{
+  "tokenizers_real": [
+    "gpt-4o-mini-o200k",
+    "llava-1.5-7b",
+    "llava-med-v1.5",
+    "qwen2.5-vl-7b"
+  ],
+  "tokenizers_missing": [],
+  "tokenizer_note": "Tiêu chí độ dài áp cho mọi tokenizer thật có mặt (gate_tokenizers); approx_bpe_v1 chỉ để tham khảo, trừ khi không có tokenizer thật nào.",
+  "tolerance": {
+    "full_prompt_rel": 0.05,
+    "items_block_rel": 0.1,
+    "term_density_rel": 0.2,
+    "mean_word_len_abs": 0.5
+  },
+  "vocab_list": "specs/anatomy_terms.json",
+  "all_pass": true,
+  "routes": {
+    "RT-XR-CHEST": {
+      "n_items": 11,
+      "grd_full": {
+        "approx_bpe_v1": 520,
+        "chars": 1697,
+        "words": 278,
+        "llava-1.5-7b": 451,
+        "qwen2.5-vl-7b": 403,
+        "llava-med-v1.5": 442,
+        "gpt-4o-mini-o200k": 399
+      },
+      "ana_full": {
+        "approx_bpe_v1": 536,
+        "chars": 1738,
+        "words": 282,
+        "llava-1.5-7b": 462,
+        "qwen2.5-vl-7b": 414,
+        "llava-med-v1.5": 457,
+        "gpt-4o-mini-o200k": 415
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 241,
+        "chars": 805,
+        "words": 125,
+        "llava-1.5-7b": 233,
+        "qwen2.5-vl-7b": 204,
+        "llava-med-v1.5": 229,
+        "gpt-4o-mini-o200k": 201
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 257,
+        "chars": 846,
+        "words": 129,
+        "llava-1.5-7b": 244,
+        "qwen2.5-vl-7b": 215,
+        "llava-med-v1.5": 244,
+        "gpt-4o-mini-o200k": 217
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": 0.0308,
+        "llava-1.5-7b": 0.0244,
+        "qwen2.5-vl-7b": 0.0273,
+        "llava-med-v1.5": 0.0339,
+        "gpt-4o-mini-o200k": 0.0401
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": 0.0664,
+        "llava-1.5-7b": 0.0472,
+        "qwen2.5-vl-7b": 0.0539,
+        "llava-med-v1.5": 0.0655,
+        "gpt-4o-mini-o200k": 0.0796
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 114,
+        "n_terms": 34,
+        "term_density": 0.2982,
+        "mean_word_len": 5.526
+      },
+      "vocab_ana": {
+        "n_words": 126,
+        "n_terms": 33,
+        "term_density": 0.2619,
+        "mean_word_len": 5.302
+      },
+      "rel_diff_term_density": -0.1217,
+      "diff_mean_word_len": -0.224,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-WRIST": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 368,
+        "chars": 1184,
+        "words": 199,
+        "llava-1.5-7b": 294,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 284,
+        "gpt-4o-mini-o200k": 262
+      },
+      "ana_full": {
+        "approx_bpe_v1": 359,
+        "chars": 1157,
+        "words": 195,
+        "llava-1.5-7b": 294,
+        "qwen2.5-vl-7b": 266,
+        "llava-med-v1.5": 286,
+        "gpt-4o-mini-o200k": 264
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 89,
+        "chars": 292,
+        "words": 46,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 71,
+        "gpt-4o-mini-o200k": 64
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 80,
+        "chars": 265,
+        "words": 42,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 67,
+        "llava-med-v1.5": 73,
+        "gpt-4o-mini-o200k": 66
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0245,
+        "llava-1.5-7b": 0.0,
+        "qwen2.5-vl-7b": 0.0114,
+        "llava-med-v1.5": 0.007,
+        "gpt-4o-mini-o200k": 0.0076
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1011,
+        "llava-1.5-7b": 0.0,
+        "qwen2.5-vl-7b": 0.0469,
+        "llava-med-v1.5": 0.0282,
+        "gpt-4o-mini-o200k": 0.0312
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 42,
+        "n_terms": 13,
+        "term_density": 0.3095,
+        "mean_word_len": 5.5
+      },
+      "vocab_ana": {
+        "n_words": 38,
+        "n_terms": 12,
+        "term_density": 0.3158,
+        "mean_word_len": 5.526
+      },
+      "rel_diff_term_density": 0.0204,
+      "diff_mean_word_len": 0.026,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-ELBOW": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 368,
+        "chars": 1184,
+        "words": 199,
+        "llava-1.5-7b": 294,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 284,
+        "gpt-4o-mini-o200k": 262
+      },
+      "ana_full": {
+        "approx_bpe_v1": 349,
+        "chars": 1131,
+        "words": 194,
+        "llava-1.5-7b": 294,
+        "qwen2.5-vl-7b": 264,
+        "llava-med-v1.5": 285,
+        "gpt-4o-mini-o200k": 262
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 89,
+        "chars": 292,
+        "words": 46,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 71,
+        "gpt-4o-mini-o200k": 64
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 70,
+        "chars": 239,
+        "words": 41,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 65,
+        "llava-med-v1.5": 72,
+        "gpt-4o-mini-o200k": 64
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0516,
+        "llava-1.5-7b": 0.0,
+        "qwen2.5-vl-7b": 0.0038,
+        "llava-med-v1.5": 0.0035,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.2135,
+        "llava-1.5-7b": 0.0,
+        "qwen2.5-vl-7b": 0.0156,
+        "llava-med-v1.5": 0.0141,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 42,
+        "n_terms": 13,
+        "term_density": 0.3095,
+        "mean_word_len": 5.5
+      },
+      "vocab_ana": {
+        "n_words": 37,
+        "n_terms": 13,
+        "term_density": 0.3514,
+        "mean_word_len": 5.027
+      },
+      "rel_diff_term_density": 0.1354,
+      "diff_mean_word_len": -0.473,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-HUMERUS": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 374,
+        "chars": 1202,
+        "words": 202,
+        "llava-1.5-7b": 298,
+        "qwen2.5-vl-7b": 269,
+        "llava-med-v1.5": 290,
+        "gpt-4o-mini-o200k": 268
+      },
+      "ana_full": {
+        "approx_bpe_v1": 359,
+        "chars": 1152,
+        "words": 197,
+        "llava-1.5-7b": 299,
+        "qwen2.5-vl-7b": 268,
+        "llava-med-v1.5": 290,
+        "gpt-4o-mini-o200k": 268
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 90,
+        "chars": 296,
+        "words": 47,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 65,
+        "llava-med-v1.5": 72,
+        "gpt-4o-mini-o200k": 65
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 75,
+        "chars": 246,
+        "words": 42,
+        "llava-1.5-7b": 77,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 72,
+        "gpt-4o-mini-o200k": 65
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0401,
+        "llava-1.5-7b": 0.0034,
+        "qwen2.5-vl-7b": -0.0037,
+        "llava-med-v1.5": 0.0,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1667,
+        "llava-1.5-7b": 0.0132,
+        "qwen2.5-vl-7b": -0.0154,
+        "llava-med-v1.5": 0.0,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 43,
+        "n_terms": 12,
+        "term_density": 0.2791,
+        "mean_word_len": 5.442
+      },
+      "vocab_ana": {
+        "n_words": 38,
+        "n_terms": 10,
+        "term_density": 0.2632,
+        "mean_word_len": 5.0
+      },
+      "rel_diff_term_density": -0.057,
+      "diff_mean_word_len": -0.442,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-SHOULDER": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 368,
+        "chars": 1190,
+        "words": 199,
+        "llava-1.5-7b": 292,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 284,
+        "gpt-4o-mini-o200k": 262
+      },
+      "ana_full": {
+        "approx_bpe_v1": 350,
+        "chars": 1139,
+        "words": 191,
+        "llava-1.5-7b": 289,
+        "qwen2.5-vl-7b": 266,
+        "llava-med-v1.5": 282,
+        "gpt-4o-mini-o200k": 262
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 89,
+        "chars": 295,
+        "words": 46,
+        "llava-1.5-7b": 75,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 71,
+        "gpt-4o-mini-o200k": 64
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 71,
+        "chars": 244,
+        "words": 38,
+        "llava-1.5-7b": 72,
+        "qwen2.5-vl-7b": 67,
+        "llava-med-v1.5": 69,
+        "gpt-4o-mini-o200k": 64
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0489,
+        "llava-1.5-7b": -0.0103,
+        "qwen2.5-vl-7b": 0.0114,
+        "llava-med-v1.5": -0.007,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.2022,
+        "llava-1.5-7b": -0.04,
+        "qwen2.5-vl-7b": 0.0469,
+        "llava-med-v1.5": -0.0282,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 42,
+        "n_terms": 12,
+        "term_density": 0.2857,
+        "mean_word_len": 5.571
+      },
+      "vocab_ana": {
+        "n_words": 34,
+        "n_terms": 9,
+        "term_density": 0.2647,
+        "mean_word_len": 5.735
+      },
+      "rel_diff_term_density": -0.0735,
+      "diff_mean_word_len": 0.164,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-FINGER": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 368,
+        "chars": 1186,
+        "words": 199,
+        "llava-1.5-7b": 292,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 284,
+        "gpt-4o-mini-o200k": 262
+      },
+      "ana_full": {
+        "approx_bpe_v1": 358,
+        "chars": 1155,
+        "words": 193,
+        "llava-1.5-7b": 293,
+        "qwen2.5-vl-7b": 264,
+        "llava-med-v1.5": 288,
+        "gpt-4o-mini-o200k": 261
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 89,
+        "chars": 293,
+        "words": 46,
+        "llava-1.5-7b": 75,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 71,
+        "gpt-4o-mini-o200k": 64
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 79,
+        "chars": 262,
+        "words": 40,
+        "llava-1.5-7b": 76,
+        "qwen2.5-vl-7b": 65,
+        "llava-med-v1.5": 75,
+        "gpt-4o-mini-o200k": 63
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0272,
+        "llava-1.5-7b": 0.0034,
+        "qwen2.5-vl-7b": 0.0038,
+        "llava-med-v1.5": 0.0141,
+        "gpt-4o-mini-o200k": -0.0038
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1124,
+        "llava-1.5-7b": 0.0133,
+        "qwen2.5-vl-7b": 0.0156,
+        "llava-med-v1.5": 0.0563,
+        "gpt-4o-mini-o200k": -0.0156
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 42,
+        "n_terms": 12,
+        "term_density": 0.2857,
+        "mean_word_len": 5.524
+      },
+      "vocab_ana": {
+        "n_words": 36,
+        "n_terms": 10,
+        "term_density": 0.2778,
+        "mean_word_len": 5.833
+      },
+      "rel_diff_term_density": -0.0277,
+      "diff_mean_word_len": 0.309,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-XR-HAND": {
+      "n_items": 4,
+      "grd_full": {
+        "approx_bpe_v1": 366,
+        "chars": 1182,
+        "words": 199,
+        "llava-1.5-7b": 292,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 284,
+        "gpt-4o-mini-o200k": 262
+      },
+      "ana_full": {
+        "approx_bpe_v1": 352,
+        "chars": 1129,
+        "words": 191,
+        "llava-1.5-7b": 289,
+        "qwen2.5-vl-7b": 263,
+        "llava-med-v1.5": 280,
+        "gpt-4o-mini-o200k": 261
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 88,
+        "chars": 291,
+        "words": 46,
+        "llava-1.5-7b": 75,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 71,
+        "gpt-4o-mini-o200k": 64
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 74,
+        "chars": 238,
+        "words": 38,
+        "llava-1.5-7b": 72,
+        "qwen2.5-vl-7b": 64,
+        "llava-med-v1.5": 67,
+        "gpt-4o-mini-o200k": 63
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0383,
+        "llava-1.5-7b": -0.0103,
+        "qwen2.5-vl-7b": 0.0,
+        "llava-med-v1.5": -0.0141,
+        "gpt-4o-mini-o200k": -0.0038
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1591,
+        "llava-1.5-7b": -0.04,
+        "qwen2.5-vl-7b": 0.0,
+        "llava-med-v1.5": -0.0563,
+        "gpt-4o-mini-o200k": -0.0156
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 42,
+        "n_terms": 12,
+        "term_density": 0.2857,
+        "mean_word_len": 5.476
+      },
+      "vocab_ana": {
+        "n_words": 34,
+        "n_terms": 9,
+        "term_density": 0.2647,
+        "mean_word_len": 5.5
+      },
+      "rel_diff_term_density": -0.0735,
+      "diff_mean_word_len": 0.024,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MAMMO": {
+      "n_items": 5,
+      "grd_full": {
+        "approx_bpe_v1": 407,
+        "chars": 1300,
+        "words": 216,
+        "llava-1.5-7b": 328,
+        "qwen2.5-vl-7b": 293,
+        "llava-med-v1.5": 316,
+        "gpt-4o-mini-o200k": 291
+      },
+      "ana_full": {
+        "approx_bpe_v1": 386,
+        "chars": 1262,
+        "words": 212,
+        "llava-1.5-7b": 319,
+        "qwen2.5-vl-7b": 286,
+        "llava-med-v1.5": 307,
+        "gpt-4o-mini-o200k": 284
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 126,
+        "chars": 400,
+        "words": 61,
+        "llava-1.5-7b": 108,
+        "qwen2.5-vl-7b": 92,
+        "llava-med-v1.5": 101,
+        "gpt-4o-mini-o200k": 91
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 105,
+        "chars": 362,
+        "words": 57,
+        "llava-1.5-7b": 99,
+        "qwen2.5-vl-7b": 85,
+        "llava-med-v1.5": 92,
+        "gpt-4o-mini-o200k": 84
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0516,
+        "llava-1.5-7b": -0.0274,
+        "qwen2.5-vl-7b": -0.0239,
+        "llava-med-v1.5": -0.0285,
+        "gpt-4o-mini-o200k": -0.0241
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1667,
+        "llava-1.5-7b": -0.0833,
+        "qwen2.5-vl-7b": -0.0761,
+        "llava-med-v1.5": -0.0891,
+        "gpt-4o-mini-o200k": -0.0769
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 57,
+        "n_terms": 16,
+        "term_density": 0.2807,
+        "mean_word_len": 5.544
+      },
+      "vocab_ana": {
+        "n_words": 52,
+        "n_terms": 16,
+        "term_density": 0.3077,
+        "mean_word_len": 5.558
+      },
+      "rel_diff_term_density": 0.0962,
+      "diff_mean_word_len": 0.014,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-CT-ABDPEL": {
+      "n_items": 14,
+      "grd_full": {
+        "approx_bpe_v1": 662,
+        "chars": 2151,
+        "words": 334,
+        "llava-1.5-7b": 619,
+        "qwen2.5-vl-7b": 518,
+        "llava-med-v1.5": 602,
+        "gpt-4o-mini-o200k": 498
+      },
+      "ana_full": {
+        "approx_bpe_v1": 633,
+        "chars": 2036,
+        "words": 315,
+        "llava-1.5-7b": 596,
+        "qwen2.5-vl-7b": 501,
+        "llava-med-v1.5": 584,
+        "gpt-4o-mini-o200k": 481
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 375,
+        "chars": 1229,
+        "words": 178,
+        "llava-1.5-7b": 394,
+        "qwen2.5-vl-7b": 314,
+        "llava-med-v1.5": 381,
+        "gpt-4o-mini-o200k": 297
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 346,
+        "chars": 1114,
+        "words": 159,
+        "llava-1.5-7b": 371,
+        "qwen2.5-vl-7b": 297,
+        "llava-med-v1.5": 363,
+        "gpt-4o-mini-o200k": 280
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0438,
+        "llava-1.5-7b": -0.0372,
+        "qwen2.5-vl-7b": -0.0328,
+        "llava-med-v1.5": -0.0299,
+        "gpt-4o-mini-o200k": -0.0341
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0773,
+        "llava-1.5-7b": -0.0584,
+        "qwen2.5-vl-7b": -0.0541,
+        "llava-med-v1.5": -0.0472,
+        "gpt-4o-mini-o200k": -0.0572
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 165,
+        "n_terms": 85,
+        "term_density": 0.5152,
+        "mean_word_len": 5.879
+      },
+      "vocab_ana": {
+        "n_words": 151,
+        "n_terms": 71,
+        "term_density": 0.4702,
+        "mean_word_len": 5.841
+      },
+      "rel_diff_term_density": -0.0873,
+      "diff_mean_word_len": -0.038,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-CT-CHEST": {
+      "n_items": 9,
+      "grd_full": {
+        "approx_bpe_v1": 497,
+        "chars": 1619,
+        "words": 269,
+        "llava-1.5-7b": 433,
+        "qwen2.5-vl-7b": 375,
+        "llava-med-v1.5": 422,
+        "gpt-4o-mini-o200k": 369
+      },
+      "ana_full": {
+        "approx_bpe_v1": 486,
+        "chars": 1554,
+        "words": 250,
+        "llava-1.5-7b": 422,
+        "qwen2.5-vl-7b": 374,
+        "llava-med-v1.5": 414,
+        "gpt-4o-mini-o200k": 367
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 213,
+        "chars": 710,
+        "words": 115,
+        "llava-1.5-7b": 212,
+        "qwen2.5-vl-7b": 174,
+        "llava-med-v1.5": 206,
+        "gpt-4o-mini-o200k": 170
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 202,
+        "chars": 645,
+        "words": 96,
+        "llava-1.5-7b": 201,
+        "qwen2.5-vl-7b": 173,
+        "llava-med-v1.5": 198,
+        "gpt-4o-mini-o200k": 168
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0221,
+        "llava-1.5-7b": -0.0254,
+        "qwen2.5-vl-7b": -0.0027,
+        "llava-med-v1.5": -0.019,
+        "gpt-4o-mini-o200k": -0.0054
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0516,
+        "llava-1.5-7b": -0.0519,
+        "qwen2.5-vl-7b": -0.0057,
+        "llava-med-v1.5": -0.0388,
+        "gpt-4o-mini-o200k": -0.0118
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 106,
+        "n_terms": 38,
+        "term_density": 0.3585,
+        "mean_word_len": 5.274
+      },
+      "vocab_ana": {
+        "n_words": 91,
+        "n_terms": 37,
+        "term_density": 0.4066,
+        "mean_word_len": 5.615
+      },
+      "rel_diff_term_density": 0.1342,
+      "diff_mean_word_len": 0.341,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-CT-HEAD": {
+      "n_items": 7,
+      "grd_full": {
+        "approx_bpe_v1": 449,
+        "chars": 1439,
+        "words": 235,
+        "llava-1.5-7b": 367,
+        "qwen2.5-vl-7b": 328,
+        "llava-med-v1.5": 352,
+        "gpt-4o-mini-o200k": 324
+      },
+      "ana_full": {
+        "approx_bpe_v1": 422,
+        "chars": 1353,
+        "words": 224,
+        "llava-1.5-7b": 360,
+        "qwen2.5-vl-7b": 322,
+        "llava-med-v1.5": 350,
+        "gpt-4o-mini-o200k": 317
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 166,
+        "chars": 531,
+        "words": 81,
+        "llava-1.5-7b": 147,
+        "qwen2.5-vl-7b": 127,
+        "llava-med-v1.5": 136,
+        "gpt-4o-mini-o200k": 125
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 139,
+        "chars": 445,
+        "words": 70,
+        "llava-1.5-7b": 140,
+        "qwen2.5-vl-7b": 121,
+        "llava-med-v1.5": 134,
+        "gpt-4o-mini-o200k": 118
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0601,
+        "llava-1.5-7b": -0.0191,
+        "qwen2.5-vl-7b": -0.0183,
+        "llava-med-v1.5": -0.0057,
+        "gpt-4o-mini-o200k": -0.0216
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.1627,
+        "llava-1.5-7b": -0.0476,
+        "qwen2.5-vl-7b": -0.0472,
+        "llava-med-v1.5": -0.0147,
+        "gpt-4o-mini-o200k": -0.056
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 75,
+        "n_terms": 28,
+        "term_density": 0.3733,
+        "mean_word_len": 5.627
+      },
+      "vocab_ana": {
+        "n_words": 63,
+        "n_terms": 26,
+        "term_density": 0.4127,
+        "mean_word_len": 5.508
+      },
+      "rel_diff_term_density": 0.1055,
+      "diff_mean_word_len": -0.119,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-CT-FACE": {
+      "n_items": 7,
+      "grd_full": {
+        "approx_bpe_v1": 432,
+        "chars": 1414,
+        "words": 233,
+        "llava-1.5-7b": 358,
+        "qwen2.5-vl-7b": 317,
+        "llava-med-v1.5": 343,
+        "gpt-4o-mini-o200k": 314
+      },
+      "ana_full": {
+        "approx_bpe_v1": 423,
+        "chars": 1378,
+        "words": 230,
+        "llava-1.5-7b": 347,
+        "qwen2.5-vl-7b": 311,
+        "llava-med-v1.5": 337,
+        "gpt-4o-mini-o200k": 309
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 145,
+        "chars": 491,
+        "words": 76,
+        "llava-1.5-7b": 134,
+        "qwen2.5-vl-7b": 113,
+        "llava-med-v1.5": 124,
+        "gpt-4o-mini-o200k": 112
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 136,
+        "chars": 455,
+        "words": 73,
+        "llava-1.5-7b": 123,
+        "qwen2.5-vl-7b": 107,
+        "llava-med-v1.5": 118,
+        "gpt-4o-mini-o200k": 107
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0208,
+        "llava-1.5-7b": -0.0307,
+        "qwen2.5-vl-7b": -0.0189,
+        "llava-med-v1.5": -0.0175,
+        "gpt-4o-mini-o200k": -0.0159
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0621,
+        "llava-1.5-7b": -0.0821,
+        "qwen2.5-vl-7b": -0.0531,
+        "llava-med-v1.5": -0.0484,
+        "gpt-4o-mini-o200k": -0.0446
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 69,
+        "n_terms": 22,
+        "term_density": 0.3188,
+        "mean_word_len": 5.681
+      },
+      "vocab_ana": {
+        "n_words": 66,
+        "n_terms": 18,
+        "term_density": 0.2727,
+        "mean_word_len": 5.439
+      },
+      "rel_diff_term_density": -0.1446,
+      "diff_mean_word_len": -0.242,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-CT-NECK": {
+      "n_items": 5,
+      "grd_full": {
+        "approx_bpe_v1": 390,
+        "chars": 1270,
+        "words": 212,
+        "llava-1.5-7b": 335,
+        "qwen2.5-vl-7b": 296,
+        "llava-med-v1.5": 326,
+        "gpt-4o-mini-o200k": 290
+      },
+      "ana_full": {
+        "approx_bpe_v1": 384,
+        "chars": 1253,
+        "words": 209,
+        "llava-1.5-7b": 326,
+        "qwen2.5-vl-7b": 292,
+        "llava-med-v1.5": 319,
+        "gpt-4o-mini-o200k": 286
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 107,
+        "chars": 362,
+        "words": 58,
+        "llava-1.5-7b": 115,
+        "qwen2.5-vl-7b": 95,
+        "llava-med-v1.5": 110,
+        "gpt-4o-mini-o200k": 91
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 101,
+        "chars": 345,
+        "words": 55,
+        "llava-1.5-7b": 106,
+        "qwen2.5-vl-7b": 91,
+        "llava-med-v1.5": 103,
+        "gpt-4o-mini-o200k": 87
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0154,
+        "llava-1.5-7b": -0.0269,
+        "qwen2.5-vl-7b": -0.0135,
+        "llava-med-v1.5": -0.0215,
+        "gpt-4o-mini-o200k": -0.0138
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0561,
+        "llava-1.5-7b": -0.0783,
+        "qwen2.5-vl-7b": -0.0421,
+        "llava-med-v1.5": -0.0636,
+        "gpt-4o-mini-o200k": -0.044
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 53,
+        "n_terms": 23,
+        "term_density": 0.434,
+        "mean_word_len": 5.453
+      },
+      "vocab_ana": {
+        "n_words": 50,
+        "n_terms": 19,
+        "term_density": 0.38,
+        "mean_word_len": 5.52
+      },
+      "rel_diff_term_density": -0.1244,
+      "diff_mean_word_len": 0.067,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-BRAIN": {
+      "n_items": 10,
+      "grd_full": {
+        "approx_bpe_v1": 489,
+        "chars": 1579,
+        "words": 261,
+        "llava-1.5-7b": 417,
+        "qwen2.5-vl-7b": 379,
+        "llava-med-v1.5": 406,
+        "gpt-4o-mini-o200k": 375
+      },
+      "ana_full": {
+        "approx_bpe_v1": 483,
+        "chars": 1549,
+        "words": 251,
+        "llava-1.5-7b": 408,
+        "qwen2.5-vl-7b": 372,
+        "llava-med-v1.5": 401,
+        "gpt-4o-mini-o200k": 368
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 208,
+        "chars": 673,
+        "words": 105,
+        "llava-1.5-7b": 198,
+        "qwen2.5-vl-7b": 178,
+        "llava-med-v1.5": 191,
+        "gpt-4o-mini-o200k": 175
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 202,
+        "chars": 643,
+        "words": 95,
+        "llava-1.5-7b": 189,
+        "qwen2.5-vl-7b": 171,
+        "llava-med-v1.5": 186,
+        "gpt-4o-mini-o200k": 168
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0123,
+        "llava-1.5-7b": -0.0216,
+        "qwen2.5-vl-7b": -0.0185,
+        "llava-med-v1.5": -0.0123,
+        "gpt-4o-mini-o200k": -0.0187
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0288,
+        "llava-1.5-7b": -0.0455,
+        "qwen2.5-vl-7b": -0.0393,
+        "llava-med-v1.5": -0.0262,
+        "gpt-4o-mini-o200k": -0.04
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 96,
+        "n_terms": 38,
+        "term_density": 0.3958,
+        "mean_word_len": 5.542
+      },
+      "vocab_ana": {
+        "n_words": 86,
+        "n_terms": 38,
+        "term_density": 0.4419,
+        "mean_word_len": 5.93
+      },
+      "rel_diff_term_density": 0.1165,
+      "diff_mean_word_len": 0.388,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-ABD": {
+      "n_items": 9,
+      "grd_full": {
+        "approx_bpe_v1": 480,
+        "chars": 1600,
+        "words": 259,
+        "llava-1.5-7b": 416,
+        "qwen2.5-vl-7b": 368,
+        "llava-med-v1.5": 411,
+        "gpt-4o-mini-o200k": 364
+      },
+      "ana_full": {
+        "approx_bpe_v1": 481,
+        "chars": 1586,
+        "words": 258,
+        "llava-1.5-7b": 402,
+        "qwen2.5-vl-7b": 357,
+        "llava-med-v1.5": 396,
+        "gpt-4o-mini-o200k": 353
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 201,
+        "chars": 701,
+        "words": 105,
+        "llava-1.5-7b": 197,
+        "qwen2.5-vl-7b": 169,
+        "llava-med-v1.5": 196,
+        "gpt-4o-mini-o200k": 166
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 202,
+        "chars": 687,
+        "words": 104,
+        "llava-1.5-7b": 183,
+        "qwen2.5-vl-7b": 158,
+        "llava-med-v1.5": 181,
+        "gpt-4o-mini-o200k": 155
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": 0.0021,
+        "llava-1.5-7b": -0.0337,
+        "qwen2.5-vl-7b": -0.0299,
+        "llava-med-v1.5": -0.0365,
+        "gpt-4o-mini-o200k": -0.0302
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": 0.005,
+        "llava-1.5-7b": -0.0711,
+        "qwen2.5-vl-7b": -0.0651,
+        "llava-med-v1.5": -0.0765,
+        "gpt-4o-mini-o200k": -0.0663
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 96,
+        "n_terms": 25,
+        "term_density": 0.2604,
+        "mean_word_len": 5.927
+      },
+      "vocab_ana": {
+        "n_words": 97,
+        "n_terms": 21,
+        "term_density": 0.2165,
+        "mean_word_len": 5.711
+      },
+      "rel_diff_term_density": -0.1686,
+      "diff_mean_word_len": -0.216,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-KNEE": {
+      "n_items": 8,
+      "grd_full": {
+        "approx_bpe_v1": 456,
+        "chars": 1475,
+        "words": 242,
+        "llava-1.5-7b": 375,
+        "qwen2.5-vl-7b": 337,
+        "llava-med-v1.5": 363,
+        "gpt-4o-mini-o200k": 333
+      },
+      "ana_full": {
+        "approx_bpe_v1": 458,
+        "chars": 1477,
+        "words": 241,
+        "llava-1.5-7b": 385,
+        "qwen2.5-vl-7b": 342,
+        "llava-med-v1.5": 377,
+        "gpt-4o-mini-o200k": 341
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 178,
+        "chars": 579,
+        "words": 88,
+        "llava-1.5-7b": 157,
+        "qwen2.5-vl-7b": 138,
+        "llava-med-v1.5": 150,
+        "gpt-4o-mini-o200k": 135
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 180,
+        "chars": 581,
+        "words": 87,
+        "llava-1.5-7b": 167,
+        "qwen2.5-vl-7b": 143,
+        "llava-med-v1.5": 164,
+        "gpt-4o-mini-o200k": 143
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": 0.0044,
+        "llava-1.5-7b": 0.0267,
+        "qwen2.5-vl-7b": 0.0148,
+        "llava-med-v1.5": 0.0386,
+        "gpt-4o-mini-o200k": 0.024
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": 0.0112,
+        "llava-1.5-7b": 0.0637,
+        "qwen2.5-vl-7b": 0.0362,
+        "llava-med-v1.5": 0.0933,
+        "gpt-4o-mini-o200k": 0.0593
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 80,
+        "n_terms": 21,
+        "term_density": 0.2625,
+        "mean_word_len": 5.725
+      },
+      "vocab_ana": {
+        "n_words": 79,
+        "n_terms": 23,
+        "term_density": 0.2911,
+        "mean_word_len": 5.873
+      },
+      "rel_diff_term_density": 0.109,
+      "diff_mean_word_len": 0.148,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-SHOULDER": {
+      "n_items": 9,
+      "grd_full": {
+        "approx_bpe_v1": 447,
+        "chars": 1468,
+        "words": 240,
+        "llava-1.5-7b": 376,
+        "qwen2.5-vl-7b": 338,
+        "llava-med-v1.5": 367,
+        "gpt-4o-mini-o200k": 337
+      },
+      "ana_full": {
+        "approx_bpe_v1": 426,
+        "chars": 1388,
+        "words": 226,
+        "llava-1.5-7b": 366,
+        "qwen2.5-vl-7b": 329,
+        "llava-med-v1.5": 360,
+        "gpt-4o-mini-o200k": 325
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 168,
+        "chars": 568,
+        "words": 86,
+        "llava-1.5-7b": 159,
+        "qwen2.5-vl-7b": 139,
+        "llava-med-v1.5": 154,
+        "gpt-4o-mini-o200k": 139
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 147,
+        "chars": 488,
+        "words": 72,
+        "llava-1.5-7b": 149,
+        "qwen2.5-vl-7b": 130,
+        "llava-med-v1.5": 147,
+        "gpt-4o-mini-o200k": 127
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.047,
+        "llava-1.5-7b": -0.0266,
+        "qwen2.5-vl-7b": -0.0266,
+        "llava-med-v1.5": -0.0191,
+        "gpt-4o-mini-o200k": -0.0356
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.125,
+        "llava-1.5-7b": -0.0629,
+        "qwen2.5-vl-7b": -0.0647,
+        "llava-med-v1.5": -0.0455,
+        "gpt-4o-mini-o200k": -0.0863
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 77,
+        "n_terms": 32,
+        "term_density": 0.4156,
+        "mean_word_len": 5.896
+      },
+      "vocab_ana": {
+        "n_words": 63,
+        "n_terms": 24,
+        "term_density": 0.381,
+        "mean_word_len": 6.175
+      },
+      "rel_diff_term_density": -0.0833,
+      "diff_mean_word_len": 0.279,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-HIP": {
+      "n_items": 9,
+      "grd_full": {
+        "approx_bpe_v1": 471,
+        "chars": 1523,
+        "words": 249,
+        "llava-1.5-7b": 393,
+        "qwen2.5-vl-7b": 353,
+        "llava-med-v1.5": 382,
+        "gpt-4o-mini-o200k": 348
+      },
+      "ana_full": {
+        "approx_bpe_v1": 459,
+        "chars": 1493,
+        "words": 245,
+        "llava-1.5-7b": 394,
+        "qwen2.5-vl-7b": 358,
+        "llava-med-v1.5": 385,
+        "gpt-4o-mini-o200k": 354
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 193,
+        "chars": 628,
+        "words": 95,
+        "llava-1.5-7b": 176,
+        "qwen2.5-vl-7b": 154,
+        "llava-med-v1.5": 169,
+        "gpt-4o-mini-o200k": 150
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 181,
+        "chars": 598,
+        "words": 91,
+        "llava-1.5-7b": 177,
+        "qwen2.5-vl-7b": 159,
+        "llava-med-v1.5": 172,
+        "gpt-4o-mini-o200k": 156
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0255,
+        "llava-1.5-7b": 0.0025,
+        "qwen2.5-vl-7b": 0.0142,
+        "llava-med-v1.5": 0.0079,
+        "gpt-4o-mini-o200k": 0.0172
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0622,
+        "llava-1.5-7b": 0.0057,
+        "qwen2.5-vl-7b": 0.0325,
+        "llava-med-v1.5": 0.0178,
+        "gpt-4o-mini-o200k": 0.04
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 86,
+        "n_terms": 28,
+        "term_density": 0.3256,
+        "mean_word_len": 5.802
+      },
+      "vocab_ana": {
+        "n_words": 82,
+        "n_terms": 31,
+        "term_density": 0.378,
+        "mean_word_len": 5.78
+      },
+      "rel_diff_term_density": 0.1609,
+      "diff_mean_word_len": -0.022,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-ANKLE": {
+      "n_items": 9,
+      "grd_full": {
+        "approx_bpe_v1": 444,
+        "chars": 1432,
+        "words": 234,
+        "llava-1.5-7b": 374,
+        "qwen2.5-vl-7b": 336,
+        "llava-med-v1.5": 363,
+        "gpt-4o-mini-o200k": 329
+      },
+      "ana_full": {
+        "approx_bpe_v1": 440,
+        "chars": 1419,
+        "words": 236,
+        "llava-1.5-7b": 379,
+        "qwen2.5-vl-7b": 339,
+        "llava-med-v1.5": 367,
+        "gpt-4o-mini-o200k": 332
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 162,
+        "chars": 522,
+        "words": 78,
+        "llava-1.5-7b": 151,
+        "qwen2.5-vl-7b": 134,
+        "llava-med-v1.5": 146,
+        "gpt-4o-mini-o200k": 128
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 158,
+        "chars": 509,
+        "words": 80,
+        "llava-1.5-7b": 156,
+        "qwen2.5-vl-7b": 137,
+        "llava-med-v1.5": 150,
+        "gpt-4o-mini-o200k": 131
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.009,
+        "llava-1.5-7b": 0.0134,
+        "qwen2.5-vl-7b": 0.0089,
+        "llava-med-v1.5": 0.011,
+        "gpt-4o-mini-o200k": 0.0091
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0247,
+        "llava-1.5-7b": 0.0331,
+        "qwen2.5-vl-7b": 0.0224,
+        "llava-med-v1.5": 0.0274,
+        "gpt-4o-mini-o200k": 0.0234
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 69,
+        "n_terms": 31,
+        "term_density": 0.4493,
+        "mean_word_len": 6.029
+      },
+      "vocab_ana": {
+        "n_words": 71,
+        "n_terms": 30,
+        "term_density": 0.4225,
+        "mean_word_len": 5.634
+      },
+      "rel_diff_term_density": -0.0596,
+      "diff_mean_word_len": -0.395,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-MIDFOOT": {
+      "n_items": 3,
+      "grd_full": {
+        "approx_bpe_v1": 336,
+        "chars": 1087,
+        "words": 182,
+        "llava-1.5-7b": 270,
+        "qwen2.5-vl-7b": 240,
+        "llava-med-v1.5": 262,
+        "gpt-4o-mini-o200k": 238
+      },
+      "ana_full": {
+        "approx_bpe_v1": 331,
+        "chars": 1068,
+        "words": 181,
+        "llava-1.5-7b": 266,
+        "qwen2.5-vl-7b": 242,
+        "llava-med-v1.5": 259,
+        "gpt-4o-mini-o200k": 241
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 58,
+        "chars": 191,
+        "words": 28,
+        "llava-1.5-7b": 53,
+        "qwen2.5-vl-7b": 41,
+        "llava-med-v1.5": 49,
+        "gpt-4o-mini-o200k": 40
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 53,
+        "chars": 172,
+        "words": 27,
+        "llava-1.5-7b": 49,
+        "qwen2.5-vl-7b": 43,
+        "llava-med-v1.5": 46,
+        "gpt-4o-mini-o200k": 43
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0149,
+        "llava-1.5-7b": -0.0148,
+        "qwen2.5-vl-7b": 0.0083,
+        "llava-med-v1.5": -0.0115,
+        "gpt-4o-mini-o200k": 0.0126
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0862,
+        "llava-1.5-7b": -0.0755,
+        "qwen2.5-vl-7b": 0.0488,
+        "llava-med-v1.5": -0.0612,
+        "gpt-4o-mini-o200k": 0.075
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 25,
+        "n_terms": 9,
+        "term_density": 0.36,
+        "mean_word_len": 6.12
+      },
+      "vocab_ana": {
+        "n_words": 24,
+        "n_terms": 10,
+        "term_density": 0.4167,
+        "mean_word_len": 5.667
+      },
+      "rel_diff_term_density": 0.1575,
+      "diff_mean_word_len": -0.453,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-TOE": {
+      "n_items": 5,
+      "grd_full": {
+        "approx_bpe_v1": 385,
+        "chars": 1240,
+        "words": 209,
+        "llava-1.5-7b": 316,
+        "qwen2.5-vl-7b": 285,
+        "llava-med-v1.5": 308,
+        "gpt-4o-mini-o200k": 282
+      },
+      "ana_full": {
+        "approx_bpe_v1": 388,
+        "chars": 1248,
+        "words": 213,
+        "llava-1.5-7b": 321,
+        "qwen2.5-vl-7b": 288,
+        "llava-med-v1.5": 315,
+        "gpt-4o-mini-o200k": 289
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 107,
+        "chars": 345,
+        "words": 55,
+        "llava-1.5-7b": 99,
+        "qwen2.5-vl-7b": 86,
+        "llava-med-v1.5": 95,
+        "gpt-4o-mini-o200k": 84
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 110,
+        "chars": 353,
+        "words": 59,
+        "llava-1.5-7b": 104,
+        "qwen2.5-vl-7b": 89,
+        "llava-med-v1.5": 102,
+        "gpt-4o-mini-o200k": 91
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": 0.0078,
+        "llava-1.5-7b": 0.0158,
+        "qwen2.5-vl-7b": 0.0105,
+        "llava-med-v1.5": 0.0227,
+        "gpt-4o-mini-o200k": 0.0248
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": 0.028,
+        "llava-1.5-7b": 0.0505,
+        "qwen2.5-vl-7b": 0.0349,
+        "llava-med-v1.5": 0.0737,
+        "gpt-4o-mini-o200k": 0.0833
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 50,
+        "n_terms": 18,
+        "term_density": 0.36,
+        "mean_word_len": 5.42
+      },
+      "vocab_ana": {
+        "n_words": 54,
+        "n_terms": 16,
+        "term_density": 0.2963,
+        "mean_word_len": 5.074
+      },
+      "rel_diff_term_density": -0.1769,
+      "diff_mean_word_len": -0.346,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-MR-SPINE": {
+      "n_items": 7,
+      "grd_full": {
+        "approx_bpe_v1": 415,
+        "chars": 1349,
+        "words": 220,
+        "llava-1.5-7b": 336,
+        "qwen2.5-vl-7b": 298,
+        "llava-med-v1.5": 331,
+        "gpt-4o-mini-o200k": 295
+      },
+      "ana_full": {
+        "approx_bpe_v1": 410,
+        "chars": 1325,
+        "words": 219,
+        "llava-1.5-7b": 337,
+        "qwen2.5-vl-7b": 303,
+        "llava-med-v1.5": 332,
+        "gpt-4o-mini-o200k": 301
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 136,
+        "chars": 452,
+        "words": 66,
+        "llava-1.5-7b": 118,
+        "qwen2.5-vl-7b": 99,
+        "llava-med-v1.5": 118,
+        "gpt-4o-mini-o200k": 97
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 131,
+        "chars": 428,
+        "words": 65,
+        "llava-1.5-7b": 119,
+        "qwen2.5-vl-7b": 104,
+        "llava-med-v1.5": 119,
+        "gpt-4o-mini-o200k": 103
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.012,
+        "llava-1.5-7b": 0.003,
+        "qwen2.5-vl-7b": 0.0168,
+        "llava-med-v1.5": 0.003,
+        "gpt-4o-mini-o200k": 0.0203
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0368,
+        "llava-1.5-7b": 0.0085,
+        "qwen2.5-vl-7b": 0.0505,
+        "llava-med-v1.5": 0.0085,
+        "gpt-4o-mini-o200k": 0.0619
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 59,
+        "n_terms": 25,
+        "term_density": 0.4237,
+        "mean_word_len": 6.186
+      },
+      "vocab_ana": {
+        "n_words": 58,
+        "n_terms": 24,
+        "term_density": 0.4138,
+        "mean_word_len": 5.897
+      },
+      "rel_diff_term_density": -0.0234,
+      "diff_mean_word_len": -0.289,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-SKIN-DERM": {
+      "n_items": 8,
+      "grd_full": {
+        "approx_bpe_v1": 410,
+        "chars": 1309,
+        "words": 217,
+        "llava-1.5-7b": 334,
+        "qwen2.5-vl-7b": 313,
+        "llava-med-v1.5": 337,
+        "gpt-4o-mini-o200k": 309
+      },
+      "ana_full": {
+        "approx_bpe_v1": 422,
+        "chars": 1374,
+        "words": 228,
+        "llava-1.5-7b": 344,
+        "qwen2.5-vl-7b": 314,
+        "llava-med-v1.5": 339,
+        "gpt-4o-mini-o200k": 309
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 140,
+        "chars": 432,
+        "words": 65,
+        "llava-1.5-7b": 121,
+        "qwen2.5-vl-7b": 117,
+        "llava-med-v1.5": 127,
+        "gpt-4o-mini-o200k": 116
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 152,
+        "chars": 497,
+        "words": 76,
+        "llava-1.5-7b": 131,
+        "qwen2.5-vl-7b": 118,
+        "llava-med-v1.5": 129,
+        "gpt-4o-mini-o200k": 116
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": 0.0293,
+        "llava-1.5-7b": 0.0299,
+        "qwen2.5-vl-7b": 0.0032,
+        "llava-med-v1.5": 0.0059,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": 0.0857,
+        "llava-1.5-7b": 0.0826,
+        "qwen2.5-vl-7b": 0.0085,
+        "llava-med-v1.5": 0.0157,
+        "gpt-4o-mini-o200k": 0.0
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 57,
+        "n_terms": 16,
+        "term_density": 0.2807,
+        "mean_word_len": 5.842
+      },
+      "vocab_ana": {
+        "n_words": 68,
+        "n_terms": 18,
+        "term_density": 0.2647,
+        "mean_word_len": 5.779
+      },
+      "rel_diff_term_density": -0.057,
+      "diff_mean_word_len": -0.063,
+      "vocab_pass": true,
+      "pass": true
+    },
+    "RT-SKIN-CLIN": {
+      "n_items": 7,
+      "grd_full": {
+        "approx_bpe_v1": 384,
+        "chars": 1238,
+        "words": 217,
+        "llava-1.5-7b": 306,
+        "qwen2.5-vl-7b": 281,
+        "llava-med-v1.5": 302,
+        "gpt-4o-mini-o200k": 280
+      },
+      "ana_full": {
+        "approx_bpe_v1": 383,
+        "chars": 1248,
+        "words": 220,
+        "llava-1.5-7b": 314,
+        "qwen2.5-vl-7b": 287,
+        "llava-med-v1.5": 308,
+        "gpt-4o-mini-o200k": 285
+      },
+      "grd_items_block": {
+        "approx_bpe_v1": 114,
+        "chars": 359,
+        "words": 65,
+        "llava-1.5-7b": 95,
+        "qwen2.5-vl-7b": 88,
+        "llava-med-v1.5": 96,
+        "gpt-4o-mini-o200k": 88
+      },
+      "ana_items_block": {
+        "approx_bpe_v1": 113,
+        "chars": 369,
+        "words": 68,
+        "llava-1.5-7b": 103,
+        "qwen2.5-vl-7b": 94,
+        "llava-med-v1.5": 102,
+        "gpt-4o-mini-o200k": 93
+      },
+      "rel_diff_full": {
+        "approx_bpe_v1": -0.0026,
+        "llava-1.5-7b": 0.0261,
+        "qwen2.5-vl-7b": 0.0214,
+        "llava-med-v1.5": 0.0199,
+        "gpt-4o-mini-o200k": 0.0179
+      },
+      "rel_diff_items": {
+        "approx_bpe_v1": -0.0088,
+        "llava-1.5-7b": 0.0842,
+        "qwen2.5-vl-7b": 0.0682,
+        "llava-med-v1.5": 0.0625,
+        "gpt-4o-mini-o200k": 0.0568
+      },
+      "gate_tokenizers": [
+        "llava-1.5-7b",
+        "qwen2.5-vl-7b",
+        "llava-med-v1.5",
+        "gpt-4o-mini-o200k"
+      ],
+      "length_pass": true,
+      "vocab_grd": {
+        "n_words": 59,
+        "n_terms": 7,
+        "term_density": 0.1186,
+        "mean_word_len": 4.61
+      },
+      "vocab_ana": {
+        "n_words": 61,
+        "n_terms": 7,
+        "term_density": 0.1148,
+        "mean_word_len": 4.59
+      },
+      "rel_diff_term_density": -0.032,
+      "diff_mean_word_len": -0.02,
+      "vocab_pass": true,
+      "pass": true
+    }
+  },
+  "generated_sha256": {
+    "OBS-ANA__RT-CT-ABDPEL.txt": "6698ba03d3f39990d951be22341228e18d9522a7c4d202e9cbc483641427a4ac",
+    "OBS-ANA__RT-CT-CHEST.txt": "4dd8ae4fd5bef45fafa43df4c3ddde9ca1bdf9288c152832b2c929ad82716a41",
+    "OBS-ANA__RT-CT-FACE.txt": "6d17cdc5a99402d28043e82c6c57b4559f8f008d9b16fd8156fb4717f0676796",
+    "OBS-ANA__RT-CT-HEAD.txt": "aa380ff7708a75f831facd7c7077a3a17b39ced4aed1c55bd21c1ca92f19bc16",
+    "OBS-ANA__RT-CT-NECK.txt": "05324d646e8d52bb057e8f756cdcf037a8e55c8471b6a33a2f3d26d3c5bbd129",
+    "OBS-ANA__RT-FALLBACK.txt": "5cf7bb44db50df4d7d86e3063c9860256b75d02c0149e887155b0bb6bbaee537",
+    "OBS-ANA__RT-MAMMO.txt": "d6910b4385995054a3faaeae2694eaa23f2c6f5ef074c852b5a22c8ca4d2a227",
+    "OBS-ANA__RT-MR-ABD.txt": "046e160a4b7f3dc0a8641f71b33532ff0370cfb7567aa543e01193429528c298",
+    "OBS-ANA__RT-MR-ANKLE.txt": "1e222e7e09e76a7ffaffb4446e1ab0825b49703e1bfd7a700f34a1d158a612ca",
+    "OBS-ANA__RT-MR-BRAIN.txt": "127dbfe2cc7922d1323b59c35ecb2aaf48db5eb44067e1929b1762e77219f031",
+    "OBS-ANA__RT-MR-HIP.txt": "2f87f7a48723a87de6a7f55f29fd3faa2ab4aa49a9445cd40ea9c18510b6c845",
+    "OBS-ANA__RT-MR-KNEE.txt": "a189fb1f67ca527755da5d2886a7eaaab1883a63eacdb86bfb569266dcb181ed",
+    "OBS-ANA__RT-MR-MIDFOOT.txt": "0f0a9bb375e5ecc986af27d77175b43a19dda32ade8cdfc974b0f00ae8b8eaff",
+    "OBS-ANA__RT-MR-SHOULDER.txt": "2de2311fe4a0bae1324255de0fbd2ab59746c5e5498670654939704beeca7a5f",
+    "OBS-ANA__RT-MR-SPINE.txt": "b67a88d2f47bb3a98e80efef58ad465218eaf6799f8b6937cba1ebd7d5fdf4fe",
+    "OBS-ANA__RT-MR-TOE.txt": "475a15f81423ad4819a127eb854b1e354667ba3434a93d051318db15aa034444",
+    "OBS-ANA__RT-SKIN-CLIN.txt": "e796572a569c9e71333eb73fa019bce7da2d686678407a24ca4bac360be8707d",
+    "OBS-ANA__RT-SKIN-DERM.txt": "edbdcc36b933cda8784a6ce4ddf139820af37274126a248f3a0380c198562814",
+    "OBS-ANA__RT-XR-CHEST.txt": "d75c9f95ffb62d4f1f18c33c021299764cd17249958556499f6852b22ab09d5f",
+    "OBS-ANA__RT-XR-ELBOW.txt": "77821dfbabcf78dd0944f7b86b575a3e9e51b20556183c670f54a2bda80562b7",
+    "OBS-ANA__RT-XR-FINGER.txt": "a73c0ad7e82b408c3cb85a0e518b8ddc46163fe60b5adf0d34c52ae5d77104c8",
+    "OBS-ANA__RT-XR-HAND.txt": "f5bd8b7bcccd10e458d52b7e4b026df5adcf309576bceccabef8a29868b9b073",
+    "OBS-ANA__RT-XR-HUMERUS.txt": "8338ea3c0a8153f4a8c57d592ce471d78815c2e7c878ae8a343b093456210eff",
+    "OBS-ANA__RT-XR-SHOULDER.txt": "61c44b5900492cfe2cb3aff82a0d74c3b997a5cd614c769733c7f08ab20a2b59",
+    "OBS-ANA__RT-XR-WRIST.txt": "f7d8a33d61f3c70b747da18d7364dd39d07dc435264da89aa2e2e66e95627ad9",
+    "OBS-EMPTY__RT-CT-ABDPEL.txt": "8d8ee8d26902fed45b92fa468aa0a30c4d42985d11970f31d69c9840a68775ee",
+    "OBS-EMPTY__RT-CT-CHEST.txt": "c82556205463f46a9d21305b3bcda61615de8616555b4d5a7ed8bfced0ac6bb6",
+    "OBS-EMPTY__RT-CT-FACE.txt": "e2f982c89cca0c9163eb00db7f0f393d6d73f8dd5626fb900b82f8730fc0ccb9",
+    "OBS-EMPTY__RT-CT-HEAD.txt": "7f55dccf65f6e3e53f36a6c5045ab09c89a463437a105a1d576c394953724f67",
+    "OBS-EMPTY__RT-CT-NECK.txt": "962c60f6718560e33482374fe4bcabdc5a42b6ee94860ade0519025605507214",
+    "OBS-EMPTY__RT-FALLBACK.txt": "a1fba6cd33115a4b4517dcf6f8d3d808800c462c58f51749656750758601cc3c",
+    "OBS-EMPTY__RT-MAMMO.txt": "bc7b3d54a24c8df6f6f9b494f9c14f9b630d31aaf4aac19a1bb123167d6332b9",
+    "OBS-EMPTY__RT-MR-ABD.txt": "96f80998de5b3335c4c7e9a53261cc9491a789ef62a4f4160028b48e05a97440",
+    "OBS-EMPTY__RT-MR-ANKLE.txt": "a564ec2f2d8109e4bda58943e3bd6d261b7fe4b2773ed7aba04548713f4f4adf",
+    "OBS-EMPTY__RT-MR-BRAIN.txt": "83caeeb3ea82976d24d5007851095acb15d85202c81141aa7edc5f031d7b6d6f",
+    "OBS-EMPTY__RT-MR-HIP.txt": "6828367878932c96d470b66ececb05e4b2748849d8a223a61ecdc1813e72e757",
+    "OBS-EMPTY__RT-MR-KNEE.txt": "4c76e76b4fef54822d86e1500a7de25a25c6b892749bbf2d3cdcad951812bbb6",
+    "OBS-EMPTY__RT-MR-MIDFOOT.txt": "3b684590902c819b1400235ed1c36701c2abadd1b2c26064a8e5b2a0217bfa28",
+    "OBS-EMPTY__RT-MR-SHOULDER.txt": "6f040527c0034164178e52865fa69504bb7ffc02252bbd3e1f16b81ae285c884",
+    "OBS-EMPTY__RT-MR-SPINE.txt": "519b6f71f50b74da70b90571e1edcdebdd6e39ea1d74c83513b2383a432905a9",
+    "OBS-EMPTY__RT-MR-TOE.txt": "2f418e663c320241ac7359bcb97dab17567655fea248053149b0a27cb3dfcf16",
+    "OBS-EMPTY__RT-SKIN-CLIN.txt": "719388d0ff2aaa76be0750463b63dfb5d4699c5ac6cb3d27d847fa0e4f9c8d29",
+    "OBS-EMPTY__RT-SKIN-DERM.txt": "3fae595f9cbb1bdb8b348b28146d557ff67c75eec371eff0ad6be3f03109e5b7",
+    "OBS-EMPTY__RT-XR-CHEST.txt": "5339f6e2ab2221b1c0587a86f2afa847f63cf0251b448d46d97bdf77e7367fe4",
+    "OBS-EMPTY__RT-XR-ELBOW.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-EMPTY__RT-XR-FINGER.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-EMPTY__RT-XR-HAND.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-EMPTY__RT-XR-HUMERUS.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-EMPTY__RT-XR-SHOULDER.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-EMPTY__RT-XR-WRIST.txt": "262e53c0e1a32c337ea9defba2ddb23f544e9c78c3584a677c811202a2c9f3e8",
+    "OBS-GEN__RT-CT-ABDPEL.txt": "6d225da78870f1116a2e3013ae98312276ec46627954de1e2e203fe2a8e2c546",
+    "OBS-GEN__RT-CT-CHEST.txt": "eaae387d00d2da4e8280ac1311bc9975fc05274e508769d4e7c048d3b76ec768",
+    "OBS-GEN__RT-CT-FACE.txt": "97b837e70f2e19fc868e8ce8136d53b6beb31d31eea9b7fd7be7f070834f4de7",
+    "OBS-GEN__RT-CT-HEAD.txt": "befd56b00250c053dfabd5b2fa4c8cfa0b9fc966e824f5172058cf70266054bb",
+    "OBS-GEN__RT-CT-NECK.txt": "179a85f580c5ad54393efcaa8b60287332affb6e335e25c69f0c735fc9fff4fd",
+    "OBS-GEN__RT-FALLBACK.txt": "5cf7bb44db50df4d7d86e3063c9860256b75d02c0149e887155b0bb6bbaee537",
+    "OBS-GEN__RT-MAMMO.txt": "c5605c716420b7e75ec23c5e9f69b28be2e2087ac8832ce53f208ee9a100d676",
+    "OBS-GEN__RT-MR-ABD.txt": "663df6522b2eb9e636ba72313e3b3db17fe7a8e6e480c6cd2712928311f30632",
+    "OBS-GEN__RT-MR-ANKLE.txt": "592c753d9fa7f13092be064cc325fd86851346fc46f32ca7e2861cfae770ebd2",
+    "OBS-GEN__RT-MR-BRAIN.txt": "1b6acfd8f0a606dab26e38689dea4b7ab8292470ac3a4af1a2511fe00614cbc3",
+    "OBS-GEN__RT-MR-HIP.txt": "0938c416e6ad626ad8574a7c60f22293638f0cfce149bccbed89a7daa468eabe",
+    "OBS-GEN__RT-MR-KNEE.txt": "ca43c9b3d26beafbd726fd815312132376234f8b60ad7d2d9d940f252b1d3316",
+    "OBS-GEN__RT-MR-MIDFOOT.txt": "d6335ff52e56f642fc11ade2a3f94611a682c2595311630403852b4fb614508e",
+    "OBS-GEN__RT-MR-SHOULDER.txt": "0e5935c6ee56d07f056f6f6bc8c63968faedffa0164ffcfdfc2e8058974466fc",
+    "OBS-GEN__RT-MR-SPINE.txt": "6502ddb6b17e616ad432e167b20c2a6ba4bf6c721f992dc2429ecd6c3dbd209d",
+    "OBS-GEN__RT-MR-TOE.txt": "0d3fed45809d406b21de27e02ab838fb0935aefe9fa61c3e026ac49e7e6435f5",
+    "OBS-GEN__RT-SKIN-CLIN.txt": "8f96c4f359a5649dc870167897bf299fa71686e37677122275a6dae9951f7241",
+    "OBS-GEN__RT-SKIN-DERM.txt": "f8ac835e289e9217952112915f1e3984ef32599197099a89464c155352107a48",
+    "OBS-GEN__RT-XR-CHEST.txt": "21ef0efd8e50457490c5b797a47156937c6217cbfdcadbe5651b54af1c9ecc2e",
+    "OBS-GEN__RT-XR-ELBOW.txt": "3eb7e835591ea7b63269d120c249f7c078ff9f7189447095a5fc81f23a152289",
+    "OBS-GEN__RT-XR-FINGER.txt": "f123130c23d9c5534dfed8d48fad9385f510ce8aab9911da93b506373ada129a",
+    "OBS-GEN__RT-XR-HAND.txt": "324a1a1f58c95ee8236bc70ee0bcd76c04b928041f20fe82e365c596770ded9f",
+    "OBS-GEN__RT-XR-HUMERUS.txt": "83220726de6c1f2f28a7a8d3789564df1862537503e6e8d2901752cfc5a2a836",
+    "OBS-GEN__RT-XR-SHOULDER.txt": "5bb895a5294ce14c5656594aeb0edcb573b5c940523402779444590777667db0",
+    "OBS-GEN__RT-XR-WRIST.txt": "c5f91e907aa0c670b18a49094143f1eff3db1b1f1573cd07c8e53b05e82f549b",
+    "OBS-GRD__RT-CT-ABDPEL.txt": "733f0c746c8ec6af9a1cac8adef15814265bee16ce7e27bbaf656b1ef3d6cde2",
+    "OBS-GRD__RT-CT-CHEST.txt": "f48341a8068b156d57c6ae42a7b33d0f6a2fc1df4a2d4cb99d73937d5a2d6ea1",
+    "OBS-GRD__RT-CT-FACE.txt": "c668fefa476010ba8367f2e5263c081e7cb35529022cec5acfb61b53b8458080",
+    "OBS-GRD__RT-CT-HEAD.txt": "fd84e61098c245214d56e76d798e61675478aa0172309d026de4b4be89cfb732",
+    "OBS-GRD__RT-CT-NECK.txt": "81702378f3692845c0989065d3b4910028e56bc86d8bd63e6bccac33ee237178",
+    "OBS-GRD__RT-FALLBACK.txt": "5cf7bb44db50df4d7d86e3063c9860256b75d02c0149e887155b0bb6bbaee537",
+    "OBS-GRD__RT-MAMMO.txt": "f91cb8d44d12caccc95bba7b641062f6635cd1ea5dc4823cc63aac0f9ecf9c31",
+    "OBS-GRD__RT-MR-ABD.txt": "4e2bc8b20842d07b8e357e6ea0641671b3c8499abf32edd2ed9625968e71b2a9",
+    "OBS-GRD__RT-MR-ANKLE.txt": "3c43a6f9420ded92940c0fd231ee89f872885f4f7efd1fb649f6ef7136eeff3d",
+    "OBS-GRD__RT-MR-BRAIN.txt": "82b61325c68d352af2b1f74ca722e3a45d9cb21bd81c35f8fa76990864283687",
+    "OBS-GRD__RT-MR-HIP.txt": "3d4e0797ab49ee048639dca25dd3fe4e4bf90e299f4b040bb2aee7c464c37503",
+    "OBS-GRD__RT-MR-KNEE.txt": "a752a97a08781ded85b11341b992a4b8a69c9e389e971eaaaefd3f87a8d53ee0",
+    "OBS-GRD__RT-MR-MIDFOOT.txt": "699bfa5c378d7035b395f3f5708dce9beca8e273d14316074faf0accb96ad09c",
+    "OBS-GRD__RT-MR-SHOULDER.txt": "013a3b7004073ca6983c3cc0697b73f67db93ea0388b31cff3c991306dc2b8fd",
+    "OBS-GRD__RT-MR-SPINE.txt": "4c6c3595b1dfa6cbff679cd467baf6e51166aeb0cac4d80ea073202955d07443",
+    "OBS-GRD__RT-MR-TOE.txt": "ea764c76ecba6389341aeef7c2e437e2d0d1d010066353c7bd24e22f3ff0e1f4",
+    "OBS-GRD__RT-SKIN-CLIN.txt": "63b216b808a0ca58a76092efc840c0f05e7f737db6b1f58a8cec931c4738a43e",
+    "OBS-GRD__RT-SKIN-DERM.txt": "631423150dc01f0a9b8c1f4107e8b0634d9b365fcdcd45c21bdbaf952f36bd0c",
+    "OBS-GRD__RT-XR-CHEST.txt": "83c4b3cdaac3f5b395126b11a099604c1e0f9f1b50f47cede7184620bac98d57",
+    "OBS-GRD__RT-XR-ELBOW.txt": "34e1843e0bd4f9b560e9830ebad28d5ca59717b069ccd586104bce263c4e130f",
+    "OBS-GRD__RT-XR-FINGER.txt": "3fd7372c4bac76ca291827f4bd54f16cb9163d55d0e62d13836699de6df57854",
+    "OBS-GRD__RT-XR-HAND.txt": "db423dfd973dbc93b9b7f3a00996595f09bf38dec5ebfa6d3e5df6983ee73a6b",
+    "OBS-GRD__RT-XR-HUMERUS.txt": "f37032b05b2d486f110debefd4e1ca71ac1de141b83f36d21dde968a739d4630",
+    "OBS-GRD__RT-XR-SHOULDER.txt": "a80664bc00a5d43608d617ebf344307a556091e4a7b57516a071c0f631a72eee",
+    "OBS-GRD__RT-XR-WRIST.txt": "d7f8a25aeff073ac0448103bea0d6cd422827e9b8babdbf14f2bcdd829b07c04"
+  }
+}

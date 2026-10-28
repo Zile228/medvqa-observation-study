@@ -1,0 +1,18 @@
+experiment,model,condition,measurement,value,denominator,unit,notes
+text_intervention,Q,CORR,unavailable,515,599,images,
+text_intervention,Q,CORR,no_feasible_edit,513,515,images,
+text_intervention,Q,CORR,failed_validation,2,515,images,
+text_intervention,Q,CORR,no_feasible_edit,428,436,images,bad_format
+text_intervention,Q,PARA,unavailable,54,436,images,bad_format
+text_intervention,Q,CORR,no_feasible_edit,85,163,images,good_format
+text_intervention,Q,PARA,unavailable,30,163,images,good_format
+text_intervention,Q,PARA,keywords_validation_failure_last_attempt,42,,images,Failures may overlap.
+text_intervention,Q,PARA,length_validation_failure_last_attempt,28,,images,Failures may overlap.
+text_intervention,Q,PARA,items_validation_failure_last_attempt,13,,images,Failures may overlap.
+text_intervention,Q,PARA,status_validation_failure_last_attempt,8,,images,Failures may overlap.
+image_preparation,,COH-NAT-DEV|Monkeypox Skin Image 2022,color_check_failure,2,14,images,
+image_preparation,,COH-NAT-TEST|Monkeypox Skin Image 2022,color_check_failure,1,14,images,
+image_preparation,,native_X-Ray,RGB_duplicate_replacement,1,,images,
+observation_shuffle,Q,route,assigned_donor,596,599,images,
+observation_shuffle,Q,modality,assigned_donor,3,599,images,
+observation_generation,,TEST,maximum_new_tokens,900,,tokens,

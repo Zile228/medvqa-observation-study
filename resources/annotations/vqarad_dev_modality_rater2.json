@@ -1,0 +1,902 @@
+{
+  "rater": "independent_visual_annotation",
+  "created": "2026-10-17",
+  "scope": "111 ảnh VQA-RAD dev (train-only, từ split_inventory.json vqarad.train_only_image_names)",
+  "method": "Chấm mù chỉ bằng mắt trên contact sheet (4x3, ô 360px, mã trung tính D000-D110 thay tên file); không xem nhãn rater 1, image_organ, câu hỏi/đáp án. Ảnh khó (D052, D070) xem lại ở độ phân giải ~900px. Quy ước: CT/MR chậu xếp ABD; X quang ngực lấy cả bụng trên vẫn CHEST.",
+  "counts": {
+    "CHEST|X-Ray": 34,
+    "HEAD|MR": 38,
+    "ABD|CT": 34,
+    "HEAD|CT": 5
+  },
+  "rows": {
+    "synpic100132.jpg": {
+      "blind_code": "D000",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic15006.jpg": {
+      "blind_code": "D001",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic17145.jpg": {
+      "blind_code": "D002",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic17153.jpg": {
+      "blind_code": "D003",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI T2 axial: dịch não tủy sáng, khối tổn thương bán cầu phải"
+    },
+    "synpic17693.jpg": {
+      "blind_code": "D004",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic18250.jpg": {
+      "blind_code": "D005",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic18461.jpg": {
+      "blind_code": "D006",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic18896.jpg": {
+      "blind_code": "D007",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "X quang ngực thẳng lấy cả vùng bụng trên (bóng hơi dạ dày) nhưng trọng tâm là phế trường"
+    },
+    "synpic19114.jpg": {
+      "blind_code": "D008",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic19232.jpg": {
+      "blind_code": "D009",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic21037.jpg": {
+      "blind_code": "D010",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic21042.jpg": {
+      "blind_code": "D011",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic21902.jpg": {
+      "blind_code": "D012",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22020.jpg": {
+      "blind_code": "D013",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22097.jpg": {
+      "blind_code": "D014",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "X quang ngực thẳng, mờ đáy phổi hai bên"
+    },
+    "synpic22156.jpg": {
+      "blind_code": "D015",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22286.jpg": {
+      "blind_code": "D016",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22310.jpg": {
+      "blind_code": "D017",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22684.jpg": {
+      "blind_code": "D018",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22874.jpg": {
+      "blind_code": "D019",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22967.jpg": {
+      "blind_code": "D020",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic22982.jpg": {
+      "blind_code": "D021",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT ngang mức chậu (cánh chậu), xếp vào ABD theo quy ước bụng-chậu"
+    },
+    "synpic23053.jpg": {
+      "blind_code": "D022",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic24350.jpg": {
+      "blind_code": "D023",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic24424.jpg": {
+      "blind_code": "D024",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic24729.jpg": {
+      "blind_code": "D025",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic26158.jpg": {
+      "blind_code": "D026",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT ngang bụng trên mức gan/lách (có đáy phổi ở viền), vẫn là ABD"
+    },
+    "synpic26413.jpg": {
+      "blind_code": "D027",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic26925.jpg": {
+      "blind_code": "D028",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic27013.jpg": {
+      "blind_code": "D029",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic27047.jpg": {
+      "blind_code": "D030",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic27277.jpg": {
+      "blind_code": "D031",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic27402.jpg": {
+      "blind_code": "D032",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic27597.jpg": {
+      "blind_code": "D033",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT ngang mức chậu thấp, xếp ABD"
+    },
+    "synpic27601.jpg": {
+      "blind_code": "D034",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic27655.jpg": {
+      "blind_code": "D035",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic28180.jpg": {
+      "blind_code": "D036",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic28277.jpg": {
+      "blind_code": "D037",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic28569.jpg": {
+      "blind_code": "D038",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic28602.jpg": {
+      "blind_code": "D039",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic28718.jpg": {
+      "blind_code": "D040",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic28987.jpg": {
+      "blind_code": "D041",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic29048.jpg": {
+      "blind_code": "D042",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic29795.jpg": {
+      "blind_code": "D043",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic31248.jpg": {
+      "blind_code": "D044",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic31467.jpg": {
+      "blind_code": "D045",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic31916.jpg": {
+      "blind_code": "D046",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic32012.jpg": {
+      "blind_code": "D047",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic32081.jpg": {
+      "blind_code": "D048",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic32108.jpg": {
+      "blind_code": "D049",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic32981.jpg": {
+      "blind_code": "D050",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic33102.jpg": {
+      "blind_code": "D051",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic33226.jpg": {
+      "blind_code": "D052",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "trung bình",
+      "reason": "X quang trẻ em, lấy ngực + bụng trên + cánh tay; trọng tâm phế trường nên xếp CHEST"
+    },
+    "synpic33378.jpg": {
+      "blind_code": "D053",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic33689.jpg": {
+      "blind_code": "D054",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic33844.jpg": {
+      "blind_code": "D055",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic33892.jpg": {
+      "blind_code": "D056",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic34017.jpg": {
+      "blind_code": "D057",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic34836.jpg": {
+      "blind_code": "D058",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "bản đồ ADC (MR khuếch tán) sọ não"
+    },
+    "synpic34854.jpg": {
+      "blind_code": "D059",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "DWI sọ não"
+    },
+    "synpic34947.jpg": {
+      "blind_code": "D060",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic37605.jpg": {
+      "blind_code": "D061",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic39460.jpg": {
+      "blind_code": "D062",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic39757.jpg": {
+      "blind_code": "D063",
+      "label": "HEAD|CT",
+      "region": "HEAD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT sọ không thuốc: xương sọ trắng, tăng đậm độ dọc khe/bể nền"
+    },
+    "synpic41667.jpg": {
+      "blind_code": "D064",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic41772.jpg": {
+      "blind_code": "D065",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic42157.jpg": {
+      "blind_code": "D066",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic42182.jpg": {
+      "blind_code": "D067",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT bụng trẻ sơ sinh: khối lớn bên trái, thận, cột sống; phủ cả bụng"
+    },
+    "synpic42245.jpg": {
+      "blind_code": "D068",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic43433.jpg": {
+      "blind_code": "D069",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic44865.jpg": {
+      "blind_code": "D070",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "trung bình",
+      "reason": "X quang ngực thẳng (phim cũ), mờ toàn bộ nửa ngực một bên, thấy khung sườn và xương đòn"
+    },
+    "synpic44995.jpg": {
+      "blind_code": "D071",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic45039.jpg": {
+      "blind_code": "D072",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic45115.jpg": {
+      "blind_code": "D073",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic45162.jpg": {
+      "blind_code": "D074",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT cắt ngang ổ bụng/chậu: cửa sổ mô mềm, cột sống đậm độ xương, thận/ruột/gan"
+    },
+    "synpic45544.jpg": {
+      "blind_code": "D075",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "DWI: tổn thương tăng tín hiệu bán cầu phải"
+    },
+    "synpic45634.jpg": {
+      "blind_code": "D076",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic45914.jpg": {
+      "blind_code": "D077",
+      "label": "HEAD|CT",
+      "region": "HEAD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT sọ không thuốc, máu khoang dưới nhện bể nền"
+    },
+    "synpic46720.jpg": {
+      "blind_code": "D078",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "DWI sọ não độ phân giải thấp"
+    },
+    "synpic46764.jpg": {
+      "blind_code": "D079",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic46943.jpg": {
+      "blind_code": "D080",
+      "label": "HEAD|CT",
+      "region": "HEAD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT sọ, có gối đầu/khung máy"
+    },
+    "synpic47964.jpg": {
+      "blind_code": "D081",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic48091.jpg": {
+      "blind_code": "D082",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic48714.jpg": {
+      "blind_code": "D083",
+      "label": "HEAD|CT",
+      "region": "HEAD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT sọ không thuốc"
+    },
+    "synpic48749.jpg": {
+      "blind_code": "D084",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic49027.jpg": {
+      "blind_code": "D085",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic49381.jpg": {
+      "blind_code": "D086",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic49862.jpg": {
+      "blind_code": "D087",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic50848.jpg": {
+      "blind_code": "D088",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic50943.jpg": {
+      "blind_code": "D089",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "X quang ngực thẳng có dây điện cực/ống thông, mờ lan tỏa"
+    },
+    "synpic50962.jpg": {
+      "blind_code": "D090",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic51212.jpg": {
+      "blind_code": "D091",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic51709.jpg": {
+      "blind_code": "D092",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic51774.jpg": {
+      "blind_code": "D093",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic52732.jpg": {
+      "blind_code": "D094",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic53097.jpg": {
+      "blind_code": "D095",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic53207.jpg": {
+      "blind_code": "D096",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "DWI sọ não"
+    },
+    "synpic53816.jpg": {
+      "blind_code": "D097",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic54004.jpg": {
+      "blind_code": "D098",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic54391.jpg": {
+      "blind_code": "D099",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic54823.jpg": {
+      "blind_code": "D100",
+      "label": "ABD|CT",
+      "region": "ABD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT ngang mức chậu (cánh chậu, ruột có thuốc cản quang)"
+    },
+    "synpic55245.jpg": {
+      "blind_code": "D101",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic55317.jpg": {
+      "blind_code": "D102",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic56422.jpg": {
+      "blind_code": "D103",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "DWI mức hố sau"
+    },
+    "synpic57813.jpg": {
+      "blind_code": "D104",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic58261.jpg": {
+      "blind_code": "D105",
+      "label": "HEAD|CT",
+      "region": "HEAD",
+      "modality": "CT",
+      "confidence": "cao",
+      "reason": "CT sọ không thuốc"
+    },
+    "synpic58547.jpg": {
+      "blind_code": "D106",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic59356.jpg": {
+      "blind_code": "D107",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic59935.jpg": {
+      "blind_code": "D108",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    },
+    "synpic60423.jpg": {
+      "blind_code": "D109",
+      "label": "CHEST|X-Ray",
+      "region": "CHEST",
+      "modality": "X-Ray",
+      "confidence": "cao",
+      "reason": "phim X quang ngực thẳng: khung sườn, phế trường, bóng tim"
+    },
+    "synpic60831.jpg": {
+      "blind_code": "D110",
+      "label": "HEAD|MR",
+      "region": "HEAD",
+      "modality": "MR",
+      "confidence": "cao",
+      "reason": "MRI sọ não cắt ngang: tương phản mô mềm kiểu chuỗi xung MR (T2/FLAIR/DWI/T1), xương sọ tối"
+    }
+  }
+}

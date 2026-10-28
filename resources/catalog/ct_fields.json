@@ -1,0 +1,589 @@
+{
+  "delta_version": "ct_delta_r2.1_20261016",
+  "revision_note": "r2.1 applies fixes from validation_r1.md (PASS WITH FIXES)",
+  "base_catalog": "dataset_aligned_research_v2_20261015 (dataset_source/dataset_aligned_research_151026/dataset_aligned_field_catalog_v2.json)",
+  "status": "RESEARCH_DELTA_NOT_DEPLOYED; INDEPENDENT_SOURCE_CHECK_R1_PASS_WITH_FIXES_APPLIED",
+  "policy_inherited_from_catalog_v2": true,
+  "evidence_levels": {
+    "T": "technical practice parameter",
+    "C": "peer-reviewed review",
+    "C-weak": "peer-reviewed, non-radiology/emergency perspective",
+    "I": "single-institution template",
+    "L": "lexicon",
+    "abstract-only": "only abstract read"
+  },
+  "sources": [
+    {
+      "source_id": "ACR-CTCHEST-2023",
+      "level": "T",
+      "title": "ACR-SABI-SPR-STR Practice Parameter for the Performance of Thoracic CT",
+      "version": "Revised 2023 (Res. 17)",
+      "url": "https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=13",
+      "local": "sources/doc13.txt",
+      "anchor": "IV.F (txt lines 179-181; section letter verified on live PDF by validator): window/level to view lung parenchyma, mediastinum, vasculature, chest wall, skeletal structures, visible lower neck and upper abdomen, implanted metallic devices",
+      "supersedes": "BODY-CTCHEST-ACR (version uncertain, direct PDF failed)"
+    },
+    {
+      "source_id": "ACR-CTHEAD-2025",
+      "level": "T",
+      "title": "ACR-ASNR-SPR Practice Parameter for the Performance of CT of the Head",
+      "version": "Revised 2025 (Res. 20)",
+      "url": "https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=76",
+      "local": "sources/doc76.txt",
+      "anchor": "Specifications (txt lines 144-147): axial images with brain/soft-tissue and bone kernels; windows for brain, bone, soft tissue incl. hemorrhage",
+      "supersedes": null
+    },
+    {
+      "source_id": "ACR-CTAP-2026",
+      "level": "T",
+      "title": "ACR-SABI-SAR-SPR Practice Parameter for the Performance of CT of the Abdomen and CT of the Pelvis",
+      "version": "Revised 2026 (Res. 1)",
+      "url": "https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=168",
+      "local": "sources/doc168.txt",
+      "anchor": "IV.D phases (lines 167-168); IV.F (lines 203-205; letters verified on live PDF by validator): windows for visceral organs, vessels, intra-abdominal fat and muscles, lung bases, osseous structures",
+      "supersedes": "BODY-CTAP-ACR (Revised 2021 indexed snippet)"
+    },
+    {
+      "source_id": "ACR-CTNECK-2026",
+      "level": "T",
+      "title": "ACR-ASNR-SPR Practice Parameter for the Performance of CT of the Extracranial Head and Neck",
+      "version": "Revised 2026 (Res. 16)",
+      "url": "https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=169",
+      "local": "sources/doc169.txt",
+      "anchor": "Specifications: soft-tissue algorithm reconstructions; additional bone kernel/technique when needed (optional, not mandatory)",
+      "supersedes": "BODY-NECK-ACR (2021/2023 indexed) and NEURO-EXTRACRANIAL-ACR2016"
+    },
+    {
+      "source_id": "ACR-HRCT-2025",
+      "level": "T",
+      "title": "ACR-SPR-STR Practice Parameter for the Performance of HRCT of the Lungs",
+      "version": "Revised 2025 (Res. 8)",
+      "url": "https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=83",
+      "local": "sources/doc83.txt",
+      "anchor": "High spatial-frequency algorithm for parenchyma (lines 55, 217)",
+      "supersedes": null
+    },
+    {
+      "source_id": "RSNA-50515",
+      "level": "I",
+      "title": "RadReport CT Chest wo Contrast (University of Utah, M. Heilbrun)",
+      "version": "published 2018-11-20; template_version e1ccdb9e",
+      "url": "https://radreport.org/home/50515",
+      "local": "sources/t50515.json",
+      "anchor": "Findings sections",
+      "supersedes": null
+    },
+    {
+      "source_id": "RSNA-50516",
+      "level": "I",
+      "title": "RadReport CT Abdomen & Pelvis w Contrast (University of Utah, M. Heilbrun)",
+      "version": "published 2018-11-20; template_version e1cce0f5",
+      "url": "https://radreport.org/home/50516",
+      "local": "sources/t50516.json",
+      "anchor": "Findings sections",
+      "supersedes": null
+    },
+    {
+      "source_id": "RSNA-50672",
+      "level": "I",
+      "title": "RadReport CT Head WO Contrast (Kaiser Permanente, M. Mamlouk)",
+      "version": "published 2019-03-20",
+      "url": "https://radreport.org/home/50672",
+      "local": "sources/t50672.json",
+      "anchor": "FINDINGS: Brain parenchyma; Ventricles/extra-axial spaces; Extracranial structures",
+      "supersedes": null,
+      "note": "Same author/institution as Mamlouk 2018 AJNR contextual templates (BODY-CTMR-NECK-MAMLOUK2018), whose library content was not retrieved in catalog v2"
+    },
+    {
+      "source_id": "RSNA-50674",
+      "level": "I",
+      "title": "RadReport CT Neck W Contrast (Kaiser Permanente, M. Mamlouk)",
+      "version": "published 2019-03-20; reviewInProgress=1",
+      "url": "https://radreport.org/home/50674",
+      "local": "sources/t50674.json",
+      "anchor": "FINDINGS: Pharyngeal mucosa; Oral cavity; Larynx; Lymph nodes; Salivary glands; Thyroid; Vessels and carotid space; Bones; Other",
+      "supersedes": null
+    },
+    {
+      "source_id": "ALIUS2023",
+      "level": "C-weak",
+      "title": "Alius C et al. When Not to Operate on Acute Cases - A Surgeon's Perspective on Rapid Assessment of Emergency Abdominopelvic CT. J Imaging 2023;9(10):200",
+      "version": "2023; doi:10.3390/jimaging9100200; PMC10607302",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10607302/",
+      "local": "sources/alius.xml",
+      "anchor": "Table 1, Steps 1-16 (liver ... bones, muscles, air and fluid), with window and contrast-phase columns",
+      "supersedes": null,
+      "note": "Peer-reviewed narrative review by surgeons for emergency setting; not a radiology society consensus"
+    },
+    {
+      "source_id": "ATAK2025",
+      "level": "C",
+      "title": "Atak F et al. Early clues, critical outcomes: a pictorial review of subtle intracranial pathologies on non-contrast head CT. Emerg Radiol 2025;32(6):989-1003",
+      "version": "2025; doi:10.1007/s10140-025-02408-4; PMID 41125978",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41125978/",
+      "local": null,
+      "anchor": "Compartment-based organisation confirmed from PubMed abstract only; full text not read (C, abstract-verified)",
+      "supersedes": null
+    },
+    {
+      "source_id": "HERTS2019",
+      "level": "abstract-only",
+      "title": "Herts BR et al. How We Do It: Creating Consistent Structure and Content in Abdominal Radiology Report Templates. AJR 2019;212(3):490-496",
+      "version": "PMID 30620681",
+      "url": "https://doi.org/10.2214/AJR.18.20368",
+      "local": null,
+      "anchor": "Abstract only: organ-system (review-of-systems) templates; full text paywalled (AJR 403, no PMC)",
+      "supersedes": null
+    }
+  ],
+  "fields": [
+    {
+      "field_id": "CTCHEST.lung_parenchyma_airways",
+      "family_modality_region": "CT/chest",
+      "field_group": "lung parenchyma and airways",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTCHEST-2023",
+        "RSNA-50515",
+        "ACR-HRCT-2025",
+        "FLEISCHNER2024 (catalog v2)"
+      ],
+      "allowed_image_level_request": "Describe visible lung parenchyma/airway appearance (side, zone, focal vs diffuse, opacity/mass/cavity using Fleischner terms) only where a lung window is displayed.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Lung window displayed; on mediastinal window mark parenchyma not assessable"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Nodule management category",
+        "Malignancy",
+        "Stage"
+      ],
+      "relation_to_catalog_v2": "NEW (gap)",
+      "note": "Lexicon: Fleischner glossary 2024 already in catalog v2",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTCHEST.mediastinum_hila",
+      "family_modality_region": "CT/chest",
+      "field_group": "mediastinum and hila",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTCHEST-2023",
+        "RSNA-50515"
+      ],
+      "allowed_image_level_request": "Describe visible mediastinal/hilar contour, mass or displacement (non-nodal; nodes go to CTCHEST.thoracic_nodes_adenopathy).",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Mediastinal/soft-tissue window"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Nodal stage",
+        "Invasion"
+      ],
+      "relation_to_catalog_v2": "NEW (gap); overlaps existing CTCHEST.thoracic_nodes_adenopathy for nodes",
+      "note": "ACR names mediastinum only; hila supported by RSNA-50515 section Mediastinum and Hila",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTCHEST.heart_pericardium",
+      "family_modality_region": "CT/chest",
+      "field_group": "heart and pericardium",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50515"
+      ],
+      "allowed_image_level_request": "Describe gross visible cardiac size impression and pericardial fluid if depicted.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Mediastinal window"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Cardiac function",
+        "Coronary disease on non-gated CT"
+      ],
+      "relation_to_catalog_v2": "NEW (gap); complements CTCHEST.pleura_pericardium_effusion",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTCHEST.thoracic_vessels",
+      "family_modality_region": "CT/chest",
+      "field_group": "thoracic vessels",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTCHEST-2023",
+        "RSNA-50515"
+      ],
+      "allowed_image_level_request": "Describe visible aortic/pulmonary arterial caliber or contour.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Mediastinal window",
+        "Contrast phase known before any filling-defect statement"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Pulmonary embolism without CTPA phase",
+        "Dissection without adequate phase"
+      ],
+      "relation_to_catalog_v2": "NEW (gap)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTCHEST.visible_upper_abdomen_lower_neck",
+      "family_modality_region": "CT/chest",
+      "field_group": "visible upper abdomen / lower neck",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTCHEST-2023",
+        "RSNA-50515"
+      ],
+      "allowed_image_level_request": "Note only clearly visible structures at slice edges.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice"
+      ],
+      "relation_to_catalog_v2": "PARTIAL gap; overlaps existing CTCHEST.adrenal_slot",
+      "note": "Lower neck supported by ACR-CTCHEST-2023 only; RSNA-50515 has Upper Abdomen section but no lower-neck section",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTCHEST.implanted_devices",
+      "family_modality_region": "CT/chest",
+      "field_group": "implanted metallic devices",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTCHEST-2023"
+      ],
+      "allowed_image_level_request": "Note visible devices/lines.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame"
+      ],
+      "unsupported_inferences": [
+        "Device malposition without reference anatomy"
+      ],
+      "relation_to_catalog_v2": "NEW (gap)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTAP.osseous_structures",
+      "family_modality_region": "CT/abdomen_or_pelvis",
+      "field_group": "osseous structures",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTAP-2026",
+        "RSNA-50516",
+        "ALIUS2023"
+      ],
+      "allowed_image_level_request": "Describe visible bone lesion/fracture only on bone window; on soft-tissue window mark bone detail limited.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Bone window for trabecular/cortical detail"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Metastasis diagnosis"
+      ],
+      "relation_to_catalog_v2": "NEW (absent in Hartung set)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTAP.muscles_body_wall_soft_tissues",
+      "family_modality_region": "CT/abdomen_or_pelvis",
+      "field_group": "muscles, body wall, soft tissues",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "ACR-CTAP-2026",
+        "RSNA-50516",
+        "ALIUS2023"
+      ],
+      "allowed_image_level_request": "Describe visible body-wall/muscle or subcutaneous soft-tissue abnormality.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Soft-tissue window"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice"
+      ],
+      "relation_to_catalog_v2": "NEW (absent in Hartung set)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTAP.pelvic_reproductive_organs",
+      "family_modality_region": "CT/abdomen_or_pelvis",
+      "field_group": "pelvic reproductive organs",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50516",
+        "ALIUS2023"
+      ],
+      "allowed_image_level_request": "Describe visible uterus/adnexa or prostate/seminal vesicles if depicted.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Pelvic-level slice"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Sex inferred from absence of organ",
+        "Gynecologic staging"
+      ],
+      "relation_to_catalog_v2": "NEW (absent in Hartung set)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTAP.window_phase_gate",
+      "family_modality_region": "CT/abdomen_or_pelvis",
+      "field_group": "technical gate",
+      "status": "gate",
+      "source_ids": [
+        "ACR-CTAP-2026",
+        "ALIUS2023"
+      ],
+      "allowed_image_level_request": "Before field descriptions: state window type (soft tissue/lung/bone) and whether IV/oral contrast appears present; enhancement/phase statements only if phase is determinable.",
+      "prerequisites": [],
+      "unsupported_inferences": [
+        "Specific phase timing from appearance alone when ambiguous"
+      ],
+      "relation_to_catalog_v2": "NEW gate; upgrades BODY-CTAP-ACR to 2026 full text",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTNECK.larynx",
+      "family_modality_region": "CT/neck",
+      "field_group": "larynx",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50674",
+        "ACR-CTNECK-2026"
+      ],
+      "allowed_image_level_request": "Describe visible laryngeal airway lumen and soft-tissue contour.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Soft-tissue window"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Vocal cord function",
+        "Cancer stage"
+      ],
+      "relation_to_catalog_v2": "UPGRADE: replaces and retires CT.neck.laryngeal_lumen (pending_disabled -> institutional template)",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTNECK.pharynx_oral_cavity",
+      "family_modality_region": "CT/neck",
+      "field_group": "pharyngeal mucosa / oral cavity",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50674"
+      ],
+      "allowed_image_level_request": "Describe visible asymmetry/mass.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice"
+      ],
+      "relation_to_catalog_v2": "NEW",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTNECK.thyroid_salivary",
+      "family_modality_region": "CT/neck",
+      "field_group": "thyroid / salivary glands",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50674"
+      ],
+      "allowed_image_level_request": "Describe visible gland size/focal lesion.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Nodule risk category"
+      ],
+      "relation_to_catalog_v2": "NEW for thyroid; salivary part overlaps existing CT_FACE_parotid_visible_anatomy",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTNECK.nodes_vessels",
+      "family_modality_region": "CT/neck",
+      "field_group": "lymph nodes / vessels and carotid space",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50674"
+      ],
+      "allowed_image_level_request": "Describe visible node enlargement or vascular contour.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice",
+        "Nodal stage"
+      ],
+      "relation_to_catalog_v2": "NEW",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTNECK.bones",
+      "family_modality_region": "CT/neck",
+      "field_group": "bones",
+      "status": "source_backed_candidate",
+      "source_ids": [
+        "RSNA-50674",
+        "ACR-CTNECK-2026"
+      ],
+      "allowed_image_level_request": "Describe visible osseous change on bone window.",
+      "prerequisites": [
+        "Modality visually CT",
+        "Structure visually confirmed in this single frame",
+        "Bone window/kernel"
+      ],
+      "unsupported_inferences": [
+        "Whole-exam normality",
+        "Absence of disease outside the visible slice"
+      ],
+      "relation_to_catalog_v2": "NEW",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CT.neck.tracheal_caliber",
+      "family_modality_region": "CT/neck",
+      "field_group": "trachea",
+      "status": "pending_disabled",
+      "source_ids": [
+        "ACR-CTNECK-2026"
+      ],
+      "allowed_image_level_request": "-",
+      "prerequisites": [],
+      "unsupported_inferences": [],
+      "relation_to_catalog_v2": "UNCHANGED: ACR names trachea only as an indication, not a reporting field; not a section in RSNA-50674",
+      "note": "SLAKE CT neck labels include trachea",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CT.neck.esophageal_wall_contour",
+      "family_modality_region": "CT/neck",
+      "field_group": "esophagus",
+      "status": "pending_disabled",
+      "source_ids": [],
+      "allowed_image_level_request": "-",
+      "prerequisites": [],
+      "unsupported_inferences": [],
+      "relation_to_catalog_v2": "UNCHANGED: no source; ACR neck parameter does not mention esophagus and RSNA-50674 has no esophagus section",
+      "note": "SLAKE CT neck labels include esophagus",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CT_HEAD.window_kernel_gate",
+      "family_modality_region": "CT/head",
+      "field_group": "technical gate",
+      "status": "gate",
+      "source_ids": [
+        "ACR-CTHEAD-2025"
+      ],
+      "allowed_image_level_request": "State displayed window (brain vs bone); parenchymal/hemorrhage statements only on brain window, fracture statements only on bone window.",
+      "prerequisites": [],
+      "unsupported_inferences": [
+        "Fracture exclusion on brain window"
+      ],
+      "relation_to_catalog_v2": "NEW gate",
+      "note": "",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CT_HEAD.sistrom_fields_corroboration",
+      "family_modality_region": "CT/head",
+      "field_group": "parenchyma / ventricles-extra-axial / extracranial",
+      "status": "corroboration",
+      "source_ids": [
+        "RSNA-50672",
+        "ATAK2025"
+      ],
+      "allowed_image_level_request": "No new field; per-field corroboration of existing CT_HEAD_* fields (see note).",
+      "prerequisites": [],
+      "unsupported_inferences": [],
+      "relation_to_catalog_v2": "CORROBORATES 6/7 CT_HEAD_* fields (NEURO-CT-SISTROM2005)",
+      "note": "RSNA-50672: brain_visible_findings, ventricles, extra_axial_spaces, extracranial_soft_tissues. ATAK2025 (abstract): brain_visible_findings, extra_axial_spaces, vascular_structures, bones_sinuses, extracranial_soft_tissues. NOT corroborated: CT_HEAD_image_quality",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    },
+    {
+      "field_id": "CTAP.hartung_fields_corroboration",
+      "family_modality_region": "CT/abdomen_or_pelvis",
+      "field_group": "49 Hartung-derived fields",
+      "status": "corroboration",
+      "source_ids": [
+        "RSNA-50516",
+        "ALIUS2023",
+        "HERTS2019"
+      ],
+      "allowed_image_level_request": "No new field; per-field corroboration of Hartung-derived fields by RSNA-50516 section headings (see note). Herts 2019 supports organ-system structure (abstract only).",
+      "prerequisites": [],
+      "unsupported_inferences": [],
+      "relation_to_catalog_v2": "PARTIALLY CORROBORATES CTAP.* (BODY-CTAP-HARTUNG-ORIGINAL)",
+      "note": "RSNA-50516 sections cover: liver.*, biliary.*, pancreas.*, spleen.*, adrenals.*, urinary (kidney-level: morphology, enhancement, masses, stones, collecting_system), GI.stomach, GI.duodenum and bowel caliber/wall/enhancement (Bowel and Stomach), GI.appendix, GI.fluid_collections and GI.free_fluid (Fluid), lower_chest.lung_bases, vascular.*, nodes.*; GI.peritoneal_omental_implants only via generic Mesentery/Peritoneum. NOT corroborated by RSNA-50516: urinary.ureters, urinary.bladder, urinary.bladder_wall_thickness, GI.distal_esophagus_GEJ, GI.free_air (ALIUS2023 step 15 Air and fluid only), lower_chest.pleural_effusion, lower_chest.pericardial_effusion",
+      "runtime_activation": false,
+      "clinical_validation": "NOT_ESTABLISHED"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# ANS-TEMPLATE v1 — một template duy nhất cho MỌI arm (ARM-NONE, ARM-GEN, ARM-ANA, ARM-GRD, INT-*, INT2-*).
+# Dòng bắt đầu bằng '#' là chú thích, KHÔNG đưa vào prompt.
+# Ảnh được chèn theo chat template của từng answerer (vị trí image token mặc định của processor, trước phần text của lượt user).
+# Không có system prompt riêng; dùng mặc định của chat template từng model, giống nhau ở mọi arm.
+# {OBS_TEXT}: observation của arm; ARM-NONE và INT-BLANK0 dùng đúng chuỗi "none".
+# Không có dòng modality benchmark.
+# {OPTIONS_BLOCK}: chỉ có ở answer_kind=mcq: "Options:\nA. <text>\nB. <text>..." ; các kind khác: chuỗi rỗng và bỏ luôn dòng trống thừa.
+# {FORMAT_LINE} theo answer_kind:
+#   yesno        -> Answer with one word: Yes or No.
+#   mcq          -> Answer with the letter of one option only.
+#   closed_short -> Answer with a single word or short phrase only.
+#   open         -> Answer with a single word or short phrase only.
+Image observation:
+{OBS_TEXT}
+
+Question: {QUESTION}
+{OPTIONS_BLOCK}
+{FORMAT_LINE}

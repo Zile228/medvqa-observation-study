@@ -1,0 +1,5 @@
+model,cohort,scope,images,questions,execution_turns_per_arm,questions_with_any_three_arm_parsed_change,images_with_any_three_arm_parsed_change,questions_with_any_three_arm_raw_change,images_with_any_three_arm_raw_change
+Q,ALL,all_questions,13,21,57,1,1,1,1
+Q,ALL,closed_questions,13,15,51,0,0,0,0
+L,ALL,all_questions,13,21,57,2,2,2,2
+L,ALL,closed_questions,13,15,51,2,2,2,2

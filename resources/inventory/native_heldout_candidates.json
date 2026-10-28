@@ -1,0 +1,3612 @@
+{
+  "version": "native_heldout_candidates_v1_20261016",
+  "rule": "reserve_order đóng băng (seed 42), bắt đầu sau vị trí cuối native300 dùng; bỏ đường dẫn legacy/pilot/đã dùng; 100 đầu mỗi modality là test chính, phần sau là dự phòng theo đúng thứ tự khi ảnh hỏng hoặc trùng RGB. Không đọc gold/đáp án. KHÔNG đưa file này hay đường dẫn vào router/observer/prompt (đường dẫn chứa tên thư mục mang chẩn đoán); P3 đổi sang ID trung tính. Không đưa vào gói có thể tới observer.",
+  "pools": {
+    "MR": [
+      {
+        "reserve_index": 100,
+        "question_id": "Omni/RadImageNet/RadImageNet_31198",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot010945.png"
+      },
+      {
+        "reserve_index": 101,
+        "question_id": "Omni/RadImageNet/RadImageNet_41863",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/shoulder014882.png"
+      },
+      {
+        "reserve_index": 102,
+        "question_id": "Omni/RadImageNet/RadImageNet_48901",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/osseous_disruption/ankle002504.png"
+      },
+      {
+        "reserve_index": 103,
+        "question_id": "Omni/RadImageNet/RadImageNet_44117",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee126424.png"
+      },
+      {
+        "reserve_index": 104,
+        "question_id": "Omni/RadImageNet/RadImageNet_29762",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acute_infarct/brain003921.png"
+      },
+      {
+        "reserve_index": 105,
+        "question_id": "Omni/RadImageNet/RadImageNet_31578",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/knee077075.png"
+      },
+      {
+        "reserve_index": 106,
+        "question_id": "Omni/RadImageNet/RadImageNet_50296",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/peroneal_pathology/ankle078258.png"
+      },
+      {
+        "reserve_index": 107,
+        "question_id": "Omni/RadImageNet/RadImageNet_47098",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal033542.png"
+      },
+      {
+        "reserve_index": 108,
+        "question_id": "Omni/RadImageNet/RadImageNet_53466",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/foot074569.png"
+      },
+      {
+        "reserve_index": 109,
+        "question_id": "Omni/RadImageNet/RadImageNet_32958",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee169170.png"
+      },
+      {
+        "reserve_index": 110,
+        "question_id": "Omni/RadImageNet/RadImageNet_34672",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee137151.png"
+      },
+      {
+        "reserve_index": 111,
+        "question_id": "Omni/RadImageNet/RadImageNet_54506",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee084012.png"
+      },
+      {
+        "reserve_index": 112,
+        "question_id": "Omni/RadImageNet/RadImageNet_47552",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal061096.png"
+      },
+      {
+        "reserve_index": 113,
+        "question_id": "Omni/RadImageNet/RadImageNet_38964",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/focal_flair_hyper/brain001929.png"
+      },
+      {
+        "reserve_index": 114,
+        "question_id": "Omni/RadImageNet/RadImageNet_46190",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal045350.png"
+      },
+      {
+        "reserve_index": 115,
+        "question_id": "Omni/RadImageNet/RadImageNet_51138",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/post_op/foot052695.png"
+      },
+      {
+        "reserve_index": 116,
+        "question_id": "Omni/RadImageNet/RadImageNet_56676",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain009106.png"
+      },
+      {
+        "reserve_index": 117,
+        "question_id": "Omni/RadImageNet/RadImageNet_36776",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine022685.png"
+      },
+      {
+        "reserve_index": 118,
+        "question_id": "Omni/RadImageNet/RadImageNet_47397",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal071763.png"
+      },
+      {
+        "reserve_index": 119,
+        "question_id": "Omni/RadImageNet/RadImageNet_34414",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/foot036854.png"
+      },
+      {
+        "reserve_index": 120,
+        "question_id": "Omni/RadImageNet/RadImageNet_32944",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee042669.png"
+      },
+      {
+        "reserve_index": 121,
+        "question_id": "Omni/RadImageNet/RadImageNet_28962",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/foot096788.png"
+      },
+      {
+        "reserve_index": 122,
+        "question_id": "Omni/RadImageNet/RadImageNet_47091",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/spine-normal003028.png"
+      },
+      {
+        "reserve_index": 123,
+        "question_id": "Omni/RadImageNet/RadImageNet_56320",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain015139.png"
+      },
+      {
+        "reserve_index": 124,
+        "question_id": "Omni/RadImageNet/RadImageNet_47239",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal053576.png"
+      },
+      {
+        "reserve_index": 125,
+        "question_id": "Omni/RadImageNet/RadImageNet_37960",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/dural_epidural_abn/spine009531.png"
+      },
+      {
+        "reserve_index": 126,
+        "question_id": "Omni/RadImageNet/RadImageNet_32473",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/cfl_pathology/ankle081122.png"
+      },
+      {
+        "reserve_index": 127,
+        "question_id": "Omni/RadImageNet/RadImageNet_29357",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acl_pathology/knee123258.png"
+      },
+      {
+        "reserve_index": 128,
+        "question_id": "Omni/RadImageNet/RadImageNet_55382",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_mass/foot085326.png"
+      },
+      {
+        "reserve_index": 129,
+        "question_id": "Omni/RadImageNet/RadImageNet_44856",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/hip-normal005741.png"
+      },
+      {
+        "reserve_index": 130,
+        "question_id": "Omni/RadImageNet/RadImageNet_36990",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine045362.png"
+      },
+      {
+        "reserve_index": 131,
+        "question_id": "Omni/RadImageNet/RadImageNet_52283",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_edema/shoulder047064.png"
+      },
+      {
+        "reserve_index": 132,
+        "question_id": "Omni/RadImageNet/RadImageNet_42504",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/marrow_abn/mrabd011264.png"
+      },
+      {
+        "reserve_index": 133,
+        "question_id": "Omni/RadImageNet/RadImageNet_29326",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acl_pathology/knee156765.png"
+      },
+      {
+        "reserve_index": 134,
+        "question_id": "Omni/RadImageNet/RadImageNet_35375",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_pathology/hip003767.png"
+      },
+      {
+        "reserve_index": 135,
+        "question_id": "Omni/RadImageNet/RadImageNet_56694",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain013271.png"
+      },
+      {
+        "reserve_index": 136,
+        "question_id": "Omni/RadImageNet/RadImageNet_38616",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/flexor_pathology_/foot012625.png"
+      },
+      {
+        "reserve_index": 137,
+        "question_id": "Omni/RadImageNet/RadImageNet_38499",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/fat_containing_tumor/ankle053723.png"
+      },
+      {
+        "reserve_index": 138,
+        "question_id": "Omni/RadImageNet/RadImageNet_53278",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/foot077041.png"
+      },
+      {
+        "reserve_index": 139,
+        "question_id": "Omni/RadImageNet/RadImageNet_53974",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/ankle042506.png"
+      },
+      {
+        "reserve_index": 140,
+        "question_id": "Omni/RadImageNet/RadImageNet_51572",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/renal_lesion/mrabd022988.png"
+      },
+      {
+        "reserve_index": 141,
+        "question_id": "Omni/RadImageNet/RadImageNet_39889",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/ghj_oa/shoulder022015.png"
+      },
+      {
+        "reserve_index": 142,
+        "question_id": "Omni/RadImageNet/RadImageNet_38755",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/flexor_pathology_/ankle044238.png"
+      },
+      {
+        "reserve_index": 143,
+        "question_id": "Omni/RadImageNet/RadImageNet_46082",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal016023.png"
+      },
+      {
+        "reserve_index": 144,
+        "question_id": "Omni/RadImageNet/RadImageNet_56386",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain014973.png"
+      },
+      {
+        "reserve_index": 145,
+        "question_id": "Omni/RadImageNet/RadImageNet_30538",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle083022.png"
+      },
+      {
+        "reserve_index": 146,
+        "question_id": "Omni/RadImageNet/RadImageNet_32369",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/cfl_pathology/foot107256.png"
+      },
+      {
+        "reserve_index": 147,
+        "question_id": "Omni/RadImageNet/RadImageNet_31084",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/ankle007697.png"
+      },
+      {
+        "reserve_index": 148,
+        "question_id": "Omni/RadImageNet/RadImageNet_36840",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine050426.png"
+      },
+      {
+        "reserve_index": 149,
+        "question_id": "Omni/RadImageNet/RadImageNet_32702",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee064800.png"
+      },
+      {
+        "reserve_index": 150,
+        "question_id": "Omni/RadImageNet/RadImageNet_51159",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/post_op/ankle035431.png"
+      },
+      {
+        "reserve_index": 151,
+        "question_id": "Omni/RadImageNet/RadImageNet_51593",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/renal_lesion/mrabd022587.png"
+      },
+      {
+        "reserve_index": 152,
+        "question_id": "Omni/RadImageNet/RadImageNet_41793",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/hip015343.png"
+      },
+      {
+        "reserve_index": 153,
+        "question_id": "Omni/RadImageNet/RadImageNet_31690",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/ankle011034.png"
+      },
+      {
+        "reserve_index": 154,
+        "question_id": "Omni/RadImageNet/RadImageNet_34628",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee142198.png"
+      },
+      {
+        "reserve_index": 155,
+        "question_id": "Omni/RadImageNet/RadImageNet_31329",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot022878.png"
+      },
+      {
+        "reserve_index": 156,
+        "question_id": "Omni/RadImageNet/RadImageNet_49579",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/osseous_neoplasm/foot051740.png"
+      },
+      {
+        "reserve_index": 157,
+        "question_id": "Omni/RadImageNet/RadImageNet_47001",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal057174.png"
+      },
+      {
+        "reserve_index": 158,
+        "question_id": "Omni/RadImageNet/RadImageNet_49520",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/osseous_neoplasm/ankle034264.png"
+      },
+      {
+        "reserve_index": 159,
+        "question_id": "Omni/RadImageNet/RadImageNet_38229",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/enlarged_organ/mrabd004940.png"
+      },
+      {
+        "reserve_index": 160,
+        "question_id": "Omni/RadImageNet/RadImageNet_36839",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine018939.png"
+      },
+      {
+        "reserve_index": 161,
+        "question_id": "Omni/RadImageNet/RadImageNet_51757",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/scoliosis/spine074913.png"
+      },
+      {
+        "reserve_index": 162,
+        "question_id": "Omni/RadImageNet/RadImageNet_56401",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain008711.png"
+      },
+      {
+        "reserve_index": 163,
+        "question_id": "Omni/RadImageNet/RadImageNet_56601",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain013119.png"
+      },
+      {
+        "reserve_index": 164,
+        "question_id": "Omni/RadImageNet/RadImageNet_47258",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal072883.png"
+      },
+      {
+        "reserve_index": 165,
+        "question_id": "Omni/RadImageNet/RadImageNet_51249",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/post_op/hip045245.png"
+      },
+      {
+        "reserve_index": 166,
+        "question_id": "Omni/RadImageNet/RadImageNet_39099",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/foraminal_pathlogy/spine068703.png"
+      },
+      {
+        "reserve_index": 167,
+        "question_id": "Omni/RadImageNet/RadImageNet_52117",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_edema/shoulder033216.png"
+      },
+      {
+        "reserve_index": 168,
+        "question_id": "Omni/RadImageNet/RadImageNet_56480",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain012538.png"
+      },
+      {
+        "reserve_index": 169,
+        "question_id": "Omni/RadImageNet/RadImageNet_31482",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/ankle014139.png"
+      },
+      {
+        "reserve_index": 170,
+        "question_id": "Omni/RadImageNet/RadImageNet_31363",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/knee146204.png"
+      },
+      {
+        "reserve_index": 171,
+        "question_id": "Omni/RadImageNet/RadImageNet_42456",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/liver_lesion/mrabd008185.png"
+      },
+      {
+        "reserve_index": 172,
+        "question_id": "Omni/RadImageNet/RadImageNet_39395",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/foraminal_pathlogy/spine069496.png"
+      },
+      {
+        "reserve_index": 173,
+        "question_id": "Omni/RadImageNet/RadImageNet_38372",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/extensor_pathology_/foot000253.png"
+      },
+      {
+        "reserve_index": 174,
+        "question_id": "Omni/RadImageNet/RadImageNet_52310",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_edema/ankle041298.png"
+      },
+      {
+        "reserve_index": 175,
+        "question_id": "Omni/RadImageNet/RadImageNet_46892",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/brain-normal018293.png"
+      },
+      {
+        "reserve_index": 176,
+        "question_id": "Omni/RadImageNet/RadImageNet_38672",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/flexor_pathology_/foot104935.png"
+      },
+      {
+        "reserve_index": 177,
+        "question_id": "Omni/RadImageNet/RadImageNet_47217",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/spine-normal013874.png"
+      },
+      {
+        "reserve_index": 178,
+        "question_id": "Omni/RadImageNet/RadImageNet_28834",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/ankle060994.png"
+      },
+      {
+        "reserve_index": 179,
+        "question_id": "Omni/RadImageNet/RadImageNet_35038",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee040606.png"
+      },
+      {
+        "reserve_index": 180,
+        "question_id": "Omni/RadImageNet/RadImageNet_41470",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/shoulder013306.png"
+      },
+      {
+        "reserve_index": 181,
+        "question_id": "Omni/RadImageNet/RadImageNet_40418",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/intra/knee184444.png"
+      },
+      {
+        "reserve_index": 182,
+        "question_id": "Omni/RadImageNet/RadImageNet_31930",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot014802.png"
+      },
+      {
+        "reserve_index": 183,
+        "question_id": "Omni/RadImageNet/RadImageNet_33925",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee025008.png"
+      },
+      {
+        "reserve_index": 184,
+        "question_id": "Omni/RadImageNet/RadImageNet_40587",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/intraperitoneal_mass/mrabd005852.png"
+      },
+      {
+        "reserve_index": 185,
+        "question_id": "Omni/RadImageNet/RadImageNet_28986",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/ankle071538.png"
+      },
+      {
+        "reserve_index": 186,
+        "question_id": "Omni/RadImageNet/RadImageNet_43979",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee005711.png"
+      },
+      {
+        "reserve_index": 187,
+        "question_id": "Omni/RadImageNet/RadImageNet_29187",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acj_oa/shoulder025758.png"
+      },
+      {
+        "reserve_index": 188,
+        "question_id": "Omni/RadImageNet/RadImageNet_54249",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee094112.png"
+      },
+      {
+        "reserve_index": 189,
+        "question_id": "Omni/RadImageNet/RadImageNet_39066",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/foraminal_pathlogy/spine061455.png"
+      },
+      {
+        "reserve_index": 190,
+        "question_id": "Omni/RadImageNet/RadImageNet_28690",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/ankle066356.png"
+      },
+      {
+        "reserve_index": 191,
+        "question_id": "Omni/RadImageNet/RadImageNet_29348",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acl_pathology/knee117524.png"
+      },
+      {
+        "reserve_index": 192,
+        "question_id": "Omni/RadImageNet/RadImageNet_30921",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot012592.png"
+      },
+      {
+        "reserve_index": 193,
+        "question_id": "Omni/RadImageNet/RadImageNet_55265",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_mass/foot078455.png"
+      },
+      {
+        "reserve_index": 194,
+        "question_id": "Omni/RadImageNet/RadImageNet_51812",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_collection/mrabd024568.png"
+      },
+      {
+        "reserve_index": 195,
+        "question_id": "Omni/RadImageNet/RadImageNet_43747",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee009713.png"
+      },
+      {
+        "reserve_index": 196,
+        "question_id": "Omni/RadImageNet/RadImageNet_30175",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle016708.png"
+      },
+      {
+        "reserve_index": 197,
+        "question_id": "Omni/RadImageNet/RadImageNet_47159",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal011424.png"
+      },
+      {
+        "reserve_index": 198,
+        "question_id": "Omni/RadImageNet/RadImageNet_37048",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine020124.png"
+      },
+      {
+        "reserve_index": 199,
+        "question_id": "Omni/RadImageNet/RadImageNet_54031",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee182813.png"
+      },
+      {
+        "reserve_index": 200,
+        "question_id": "Omni/RadImageNet/RadImageNet_49077",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/osseous_disruption/ankle000108.png"
+      },
+      {
+        "reserve_index": 201,
+        "question_id": "Omni/RadImageNet/RadImageNet_45456",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal002002.png"
+      },
+      {
+        "reserve_index": 202,
+        "question_id": "Omni/RadImageNet/RadImageNet_28958",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/foot091900.png"
+      },
+      {
+        "reserve_index": 203,
+        "question_id": "Omni/RadImageNet/RadImageNet_37165",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine037175.png"
+      },
+      {
+        "reserve_index": 204,
+        "question_id": "Omni/RadImageNet/RadImageNet_37460",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine042178.png"
+      },
+      {
+        "reserve_index": 205,
+        "question_id": "Omni/RadImageNet/RadImageNet_30165",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle070167.png"
+      },
+      {
+        "reserve_index": 206,
+        "question_id": "Omni/RadImageNet/RadImageNet_54143",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee095748.png"
+      },
+      {
+        "reserve_index": 207,
+        "question_id": "Omni/RadImageNet/RadImageNet_45042",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal018098.png"
+      },
+      {
+        "reserve_index": 208,
+        "question_id": "Omni/RadImageNet/RadImageNet_50350",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/peroneal_pathology/ankle079755.png"
+      },
+      {
+        "reserve_index": 209,
+        "question_id": "Omni/RadImageNet/RadImageNet_48471",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/brain-normal026423.png"
+      },
+      {
+        "reserve_index": 210,
+        "question_id": "Omni/RadImageNet/RadImageNet_35299",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee145566.png"
+      },
+      {
+        "reserve_index": 211,
+        "question_id": "Omni/RadImageNet/RadImageNet_42660",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/marrow_inflammation/hip037907.png"
+      },
+      {
+        "reserve_index": 212,
+        "question_id": "Omni/RadImageNet/RadImageNet_55139",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_mass/hip014619.png"
+      },
+      {
+        "reserve_index": 213,
+        "question_id": "Omni/RadImageNet/RadImageNet_38937",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/focal_flair_hyper/brain002068.png"
+      },
+      {
+        "reserve_index": 214,
+        "question_id": "Omni/RadImageNet/RadImageNet_31790",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot010137.png"
+      },
+      {
+        "reserve_index": 215,
+        "question_id": "Omni/RadImageNet/RadImageNet_28627",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/foot095647.png"
+      },
+      {
+        "reserve_index": 216,
+        "question_id": "Omni/RadImageNet/RadImageNet_45737",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal053101.png"
+      },
+      {
+        "reserve_index": 217,
+        "question_id": "Omni/RadImageNet/RadImageNet_35828",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chronic_infarct/brain001817.png"
+      },
+      {
+        "reserve_index": 218,
+        "question_id": "Omni/RadImageNet/RadImageNet_30513",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle078714.png"
+      },
+      {
+        "reserve_index": 219,
+        "question_id": "Omni/RadImageNet/RadImageNet_42878",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/marrow_inflammation/hip038542.png"
+      },
+      {
+        "reserve_index": 220,
+        "question_id": "Omni/RadImageNet/RadImageNet_34349",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee045725.png"
+      },
+      {
+        "reserve_index": 221,
+        "question_id": "Omni/RadImageNet/RadImageNet_35967",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chronic_infarct/brain002390.png"
+      },
+      {
+        "reserve_index": 222,
+        "question_id": "Omni/RadImageNet/RadImageNet_55812",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/supraspinatus_pathology/shoulder042372.png"
+      },
+      {
+        "reserve_index": 223,
+        "question_id": "Omni/RadImageNet/RadImageNet_35506",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_pathology/hip044760.png"
+      },
+      {
+        "reserve_index": 224,
+        "question_id": "Omni/RadImageNet/RadImageNet_46025",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal069724.png"
+      },
+      {
+        "reserve_index": 225,
+        "question_id": "Omni/RadImageNet/RadImageNet_43198",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/mcl_pathology/knee115369.png"
+      },
+      {
+        "reserve_index": 226,
+        "question_id": "Omni/RadImageNet/RadImageNet_54787",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee089974.png"
+      },
+      {
+        "reserve_index": 227,
+        "question_id": "Omni/RadImageNet/RadImageNet_29382",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acl_pathology/knee146709.png"
+      },
+      {
+        "reserve_index": 228,
+        "question_id": "Omni/RadImageNet/RadImageNet_55128",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_mass/foot084290.png"
+      },
+      {
+        "reserve_index": 229,
+        "question_id": "Omni/RadImageNet/RadImageNet_38594",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/flexor_pathology_/ankle053808.png"
+      },
+      {
+        "reserve_index": 230,
+        "question_id": "Omni/RadImageNet/RadImageNet_54275",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee182138.png"
+      },
+      {
+        "reserve_index": 231,
+        "question_id": "Omni/RadImageNet/RadImageNet_52775",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/foot065911.png"
+      },
+      {
+        "reserve_index": 232,
+        "question_id": "Omni/RadImageNet/RadImageNet_40775",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/shoulder011553.png"
+      },
+      {
+        "reserve_index": 233,
+        "question_id": "Omni/RadImageNet/RadImageNet_48172",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/brain-normal024828.png"
+      },
+      {
+        "reserve_index": 234,
+        "question_id": "Omni/RadImageNet/RadImageNet_30323",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle078729.png"
+      },
+      {
+        "reserve_index": 235,
+        "question_id": "Omni/RadImageNet/RadImageNet_43062",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/mcl_pathology/knee109145.png"
+      },
+      {
+        "reserve_index": 236,
+        "question_id": "Omni/RadImageNet/RadImageNet_33875",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/foot042955.png"
+      },
+      {
+        "reserve_index": 237,
+        "question_id": "Omni/RadImageNet/RadImageNet_30300",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/ankle087682.png"
+      },
+      {
+        "reserve_index": 238,
+        "question_id": "Omni/RadImageNet/RadImageNet_51555",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/renal_lesion/mrabd023750.png"
+      },
+      {
+        "reserve_index": 239,
+        "question_id": "Omni/RadImageNet/RadImageNet_45051",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/hip-normal002171.png"
+      },
+      {
+        "reserve_index": 240,
+        "question_id": "Omni/RadImageNet/RadImageNet_38948",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/focal_flair_hyper/brain003577.png"
+      },
+      {
+        "reserve_index": 241,
+        "question_id": "Omni/RadImageNet/RadImageNet_37712",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine026379.png"
+      },
+      {
+        "reserve_index": 242,
+        "question_id": "Omni/RadImageNet/RadImageNet_52874",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/foot077411.png"
+      },
+      {
+        "reserve_index": 243,
+        "question_id": "Omni/RadImageNet/RadImageNet_53713",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/ankle037369.png"
+      },
+      {
+        "reserve_index": 244,
+        "question_id": "Omni/RadImageNet/RadImageNet_31342",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot028970.png"
+      },
+      {
+        "reserve_index": 245,
+        "question_id": "Omni/RadImageNet/RadImageNet_43192",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/mcl_pathology/knee188704.png"
+      },
+      {
+        "reserve_index": 246,
+        "question_id": "Omni/RadImageNet/RadImageNet_44122",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee025199.png"
+      },
+      {
+        "reserve_index": 247,
+        "question_id": "Omni/RadImageNet/RadImageNet_40237",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/intra/knee106337.png"
+      },
+      {
+        "reserve_index": 248,
+        "question_id": "Omni/RadImageNet/RadImageNet_43684",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee012737.png"
+      },
+      {
+        "reserve_index": 249,
+        "question_id": "Omni/RadImageNet/RadImageNet_45497",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal027509.png"
+      },
+      {
+        "reserve_index": 250,
+        "question_id": "Omni/RadImageNet/RadImageNet_33713",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee173853.png"
+      },
+      {
+        "reserve_index": 251,
+        "question_id": "Omni/RadImageNet/RadImageNet_31936",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/knee079239.png"
+      },
+      {
+        "reserve_index": 252,
+        "question_id": "Omni/RadImageNet/RadImageNet_37121",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine017854.png"
+      },
+      {
+        "reserve_index": 253,
+        "question_id": "Omni/RadImageNet/RadImageNet_30382",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/atfl_pathology/foot093405.png"
+      },
+      {
+        "reserve_index": 254,
+        "question_id": "Omni/RadImageNet/RadImageNet_31193",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot012986.png"
+      },
+      {
+        "reserve_index": 255,
+        "question_id": "Omni/RadImageNet/RadImageNet_43031",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/mcl_pathology/knee119088.png"
+      },
+      {
+        "reserve_index": 256,
+        "question_id": "Omni/RadImageNet/RadImageNet_45378",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal061407.png"
+      },
+      {
+        "reserve_index": 257,
+        "question_id": "Omni/RadImageNet/RadImageNet_33943",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/foot045377.png"
+      },
+      {
+        "reserve_index": 258,
+        "question_id": "Omni/RadImageNet/RadImageNet_33302",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee169721.png"
+      },
+      {
+        "reserve_index": 259,
+        "question_id": "Omni/RadImageNet/RadImageNet_45309",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal054171.png"
+      },
+      {
+        "reserve_index": 260,
+        "question_id": "Omni/RadImageNet/RadImageNet_39348",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/foraminal_pathlogy/spine067069.png"
+      },
+      {
+        "reserve_index": 261,
+        "question_id": "Omni/RadImageNet/RadImageNet_56603",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain014702.png"
+      },
+      {
+        "reserve_index": 262,
+        "question_id": "Omni/RadImageNet/RadImageNet_36679",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/disc_pathology/spine048922.png"
+      },
+      {
+        "reserve_index": 263,
+        "question_id": "Omni/RadImageNet/RadImageNet_34710",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee033414.png"
+      },
+      {
+        "reserve_index": 264,
+        "question_id": "Omni/RadImageNet/RadImageNet_44733",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee007342.png"
+      },
+      {
+        "reserve_index": 265,
+        "question_id": "Omni/RadImageNet/RadImageNet_39029",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/foraminal_pathlogy/spine067602.png"
+      },
+      {
+        "reserve_index": 266,
+        "question_id": "Omni/RadImageNet/RadImageNet_34988",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/ankle031512.png"
+      },
+      {
+        "reserve_index": 267,
+        "question_id": "Omni/RadImageNet/RadImageNet_43876",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee017615.png"
+      },
+      {
+        "reserve_index": 268,
+        "question_id": "Omni/RadImageNet/RadImageNet_31941",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/ankle013983.png"
+      },
+      {
+        "reserve_index": 269,
+        "question_id": "Omni/RadImageNet/RadImageNet_54768",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee175549.png"
+      },
+      {
+        "reserve_index": 270,
+        "question_id": "Omni/RadImageNet/RadImageNet_48352",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal028175.png"
+      },
+      {
+        "reserve_index": 271,
+        "question_id": "Omni/RadImageNet/RadImageNet_28648",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/achilles_pathology_/ankle078998.png"
+      },
+      {
+        "reserve_index": 272,
+        "question_id": "Omni/RadImageNet/RadImageNet_34721",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee029631.png"
+      },
+      {
+        "reserve_index": 273,
+        "question_id": "Omni/RadImageNet/RadImageNet_40813",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/shoulder009475.png"
+      },
+      {
+        "reserve_index": 274,
+        "question_id": "Omni/RadImageNet/RadImageNet_56356",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/white_matter_changes/brain012941.png"
+      },
+      {
+        "reserve_index": 275,
+        "question_id": "Omni/RadImageNet/RadImageNet_38605",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/flexor_pathology_/foot090833.png"
+      },
+      {
+        "reserve_index": 276,
+        "question_id": "Omni/RadImageNet/RadImageNet_29772",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acute_infarct/brain004090.png"
+      },
+      {
+        "reserve_index": 277,
+        "question_id": "Omni/RadImageNet/RadImageNet_32888",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee044715.png"
+      },
+      {
+        "reserve_index": 278,
+        "question_id": "Omni/RadImageNet/RadImageNet_49282",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/osseous_lesion/hip043291.png"
+      },
+      {
+        "reserve_index": 279,
+        "question_id": "Omni/RadImageNet/RadImageNet_35682",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_pathology/hip001467.png"
+      },
+      {
+        "reserve_index": 280,
+        "question_id": "Omni/RadImageNet/RadImageNet_47124",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/foot-normal004386.png"
+      },
+      {
+        "reserve_index": 281,
+        "question_id": "Omni/RadImageNet/RadImageNet_30831",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bladder_pathology/mrabd002120.png"
+      },
+      {
+        "reserve_index": 282,
+        "question_id": "Omni/RadImageNet/RadImageNet_52853",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/foot076271.png"
+      },
+      {
+        "reserve_index": 283,
+        "question_id": "Omni/RadImageNet/RadImageNet_54117",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid_collection/knee101198.png"
+      },
+      {
+        "reserve_index": 284,
+        "question_id": "Omni/RadImageNet/RadImageNet_45059",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal055648.png"
+      },
+      {
+        "reserve_index": 285,
+        "question_id": "Omni/RadImageNet/RadImageNet_50981",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/post_op/shoulder046917.png"
+      },
+      {
+        "reserve_index": 286,
+        "question_id": "Omni/RadImageNet/RadImageNet_42318",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/liver_lesion/mrabd007857.png"
+      },
+      {
+        "reserve_index": 287,
+        "question_id": "Omni/RadImageNet/RadImageNet_40851",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/hip024597.png"
+      },
+      {
+        "reserve_index": 288,
+        "question_id": "Omni/RadImageNet/RadImageNet_31758",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/foot016125.png"
+      },
+      {
+        "reserve_index": 289,
+        "question_id": "Omni/RadImageNet/RadImageNet_40998",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/hip031338.png"
+      },
+      {
+        "reserve_index": 290,
+        "question_id": "Omni/RadImageNet/RadImageNet_29721",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/acute_infarct/brain004479.png"
+      },
+      {
+        "reserve_index": 291,
+        "question_id": "Omni/RadImageNet/RadImageNet_35148",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/chondral_abnormality/knee071052.png"
+      },
+      {
+        "reserve_index": 292,
+        "question_id": "Omni/RadImageNet/RadImageNet_44674",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee162114.png"
+      },
+      {
+        "reserve_index": 293,
+        "question_id": "Omni/RadImageNet/RadImageNet_41986",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/labral_pathology/hip035064.png"
+      },
+      {
+        "reserve_index": 294,
+        "question_id": "Omni/RadImageNet/RadImageNet_47028",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/brain-normal003242.png"
+      },
+      {
+        "reserve_index": 295,
+        "question_id": "Omni/RadImageNet/RadImageNet_53560",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/soft_tissue_fluid/ankle043672.png"
+      },
+      {
+        "reserve_index": 296,
+        "question_id": "Omni/RadImageNet/RadImageNet_44689",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/meniscal_abnormality/knee003812.png"
+      },
+      {
+        "reserve_index": 297,
+        "question_id": "Omni/RadImageNet/RadImageNet_47895",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/spine-normal003290.png"
+      },
+      {
+        "reserve_index": 298,
+        "question_id": "Omni/RadImageNet/RadImageNet_30884",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/bone_inflammation/ankle017882.png"
+      },
+      {
+        "reserve_index": 299,
+        "question_id": "Omni/RadImageNet/RadImageNet_47385",
+        "source_dataset": "RadImageNet",
+        "source_image_path": "Images/RadImageNet/normal/mri-abd-normal059665.png"
+      }
+    ],
+    "X-Ray": [
+      {
+        "reserve_index": 101,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0390",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/7D2CF6CE-F529-4470-8356-D33FFAF98600.jpeg"
+      },
+      {
+        "reserve_index": 102,
+        "question_id": "Omni/CoronaHack/CoronaHack_0612",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person78_bacteria_385.jpeg"
+      },
+      {
+        "reserve_index": 103,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0031",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Covid/0106.jpeg"
+      },
+      {
+        "reserve_index": 104,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0257",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/COVID/COVID (237).png"
+      },
+      {
+        "reserve_index": 105,
+        "question_id": "Omni/MIAS/MIAS_0101",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb133.png"
+      },
+      {
+        "reserve_index": 106,
+        "question_id": "Omni/Mura/Mura_0745",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11364/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 107,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0937",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0373-0001.jpeg"
+      },
+      {
+        "reserve_index": 108,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0029",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0194_1.png"
+      },
+      {
+        "reserve_index": 109,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0205",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0555_1.png"
+      },
+      {
+        "reserve_index": 110,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0479",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-001661-28330-1.png"
+      },
+      {
+        "reserve_index": 111,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0736",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/pneumonia/00021016_000.png"
+      },
+      {
+        "reserve_index": 112,
+        "question_id": "Omni/CoronaHack/CoronaHack_0583",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person100_bacteria_482.jpeg"
+      },
+      {
+        "reserve_index": 113,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0060",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0103.jpeg"
+      },
+      {
+        "reserve_index": 114,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0582",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (646).png"
+      },
+      {
+        "reserve_index": 115,
+        "question_id": "Omni/MIAS/MIAS_0112",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb281.png"
+      },
+      {
+        "reserve_index": 116,
+        "question_id": "Omni/Mura/Mura_0810",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_FOREARM/patient11316/study1_negative/image1.png"
+      },
+      {
+        "reserve_index": 117,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0960",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0352-0001.jpeg"
+      },
+      {
+        "reserve_index": 118,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0023",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0062_0.png"
+      },
+      {
+        "reserve_index": 119,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0224",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0488_1.png"
+      },
+      {
+        "reserve_index": 120,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0454",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-000086-21140-0.png"
+      },
+      {
+        "reserve_index": 121,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0581",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00001045_000.png"
+      },
+      {
+        "reserve_index": 122,
+        "question_id": "Omni/CoronaHack/CoronaHack_0367",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/NORMAL2-IM-0035-0001.jpeg"
+      },
+      {
+        "reserve_index": 123,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0086",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0104.jpeg"
+      },
+      {
+        "reserve_index": 124,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0244",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/COVID/COVID (27).png"
+      },
+      {
+        "reserve_index": 125,
+        "question_id": "Omni/MIAS/MIAS_0132",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb163.png"
+      },
+      {
+        "reserve_index": 126,
+        "question_id": "Omni/Mura/Mura_1268",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_HUMERUS/patient11643/study1_positive/image1.png"
+      },
+      {
+        "reserve_index": 127,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1194",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person155_bacteria_729.jpeg"
+      },
+      {
+        "reserve_index": 128,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0028",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0196_1.png"
+      },
+      {
+        "reserve_index": 129,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0092",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0219_0.png"
+      },
+      {
+        "reserve_index": 130,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0424",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-002768-13069-0.png"
+      },
+      {
+        "reserve_index": 131,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0426",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (60).jpg"
+      },
+      {
+        "reserve_index": 132,
+        "question_id": "Omni/CoronaHack/CoronaHack_0409",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/NORMAL2-IM-0323-0001.jpeg"
+      },
+      {
+        "reserve_index": 133,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0080",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0105.jpeg"
+      },
+      {
+        "reserve_index": 134,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0473",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (268).png"
+      },
+      {
+        "reserve_index": 135,
+        "question_id": "Omni/MIAS/MIAS_0078",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb001.png"
+      },
+      {
+        "reserve_index": 136,
+        "question_id": "Omni/Mura/Mura_1114",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11216/study1_positive/image4.png"
+      },
+      {
+        "reserve_index": 137,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1116",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person120_bacteria_570.jpeg"
+      },
+      {
+        "reserve_index": 138,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0015",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0079_0.png"
+      },
+      {
+        "reserve_index": 139,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0188",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0409_1.png"
+      },
+      {
+        "reserve_index": 140,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0324",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/4bc8ce99-2420-48c2-a768-d067da67ced2.png"
+      },
+      {
+        "reserve_index": 141,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0672",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/pneumonia/person504_bacteria_2127.jpeg"
+      },
+      {
+        "reserve_index": 142,
+        "question_id": "Omni/CoronaHack/CoronaHack_0600",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person86_bacteria_428.jpeg"
+      },
+      {
+        "reserve_index": 143,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0063",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0102.jpeg"
+      },
+      {
+        "reserve_index": 144,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0686",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (172).png"
+      },
+      {
+        "reserve_index": 145,
+        "question_id": "Omni/MIAS/MIAS_0084",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb057.png"
+      },
+      {
+        "reserve_index": 146,
+        "question_id": "Omni/Mura/Mura_1362",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_ELBOW/patient11586/study1_positive/image1.png"
+      },
+      {
+        "reserve_index": 147,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1206",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person88_bacteria_438.jpeg"
+      },
+      {
+        "reserve_index": 148,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0030",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0228_1.png"
+      },
+      {
+        "reserve_index": 149,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0226",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0549_1.png"
+      },
+      {
+        "reserve_index": 150,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0439",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-440808-000016-8.281-0.png"
+      },
+      {
+        "reserve_index": 151,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0775",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/pneumonia/person1941_bacteria_4863.jpeg"
+      },
+      {
+        "reserve_index": 152,
+        "question_id": "Omni/CoronaHack/CoronaHack_0538",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person133_bacteria_638.jpeg"
+      },
+      {
+        "reserve_index": 153,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0041",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Covid/0102.jpeg"
+      },
+      {
+        "reserve_index": 154,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0688",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (330).png"
+      },
+      {
+        "reserve_index": 155,
+        "question_id": "Omni/MIAS/MIAS_0109",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb283.png"
+      },
+      {
+        "reserve_index": 156,
+        "question_id": "Omni/Mura/Mura_1396",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_ELBOW/patient11831/study1_positive/image4.png"
+      },
+      {
+        "reserve_index": 157,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0965",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0111-0001.jpeg"
+      },
+      {
+        "reserve_index": 158,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0014",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0028_0.png"
+      },
+      {
+        "reserve_index": 159,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0095",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0087_0.png"
+      },
+      {
+        "reserve_index": 160,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0415",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-002281-83348-0.png"
+      },
+      {
+        "reserve_index": 161,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0625",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00000376_011.png"
+      },
+      {
+        "reserve_index": 162,
+        "question_id": "Omni/CoronaHack/CoronaHack_0654",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person20_virus_51.jpeg"
+      },
+      {
+        "reserve_index": 163,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0037",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Covid/auntminnie-a-2020_01_28_23_51_6665_2020_01_28_Vietnam_coronavirus.jpeg"
+      },
+      {
+        "reserve_index": 164,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0314",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/COVID/COVID (901).png"
+      },
+      {
+        "reserve_index": 165,
+        "question_id": "Omni/MIAS/MIAS_0138",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb209.png"
+      },
+      {
+        "reserve_index": 166,
+        "question_id": "Omni/Mura/Mura_0741",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11361/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 167,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1232",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person38_virus_83.jpeg"
+      },
+      {
+        "reserve_index": 168,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0036",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0223_1.png"
+      },
+      {
+        "reserve_index": 169,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0050",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0109_0.png"
+      },
+      {
+        "reserve_index": 170,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0203",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/71d25920-4060-4a31-b7aa-cfbf4721a5c5.png"
+      },
+      {
+        "reserve_index": 171,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0564",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00000637_000.png"
+      },
+      {
+        "reserve_index": 172,
+        "question_id": "Omni/CoronaHack/CoronaHack_0576",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person110_bacteria_531.jpeg"
+      },
+      {
+        "reserve_index": 173,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0083",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0116.jpeg"
+      },
+      {
+        "reserve_index": 174,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0554",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (594).png"
+      },
+      {
+        "reserve_index": 175,
+        "question_id": "Omni/MIAS/MIAS_0089",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb084.png"
+      },
+      {
+        "reserve_index": 176,
+        "question_id": "Omni/Mura/Mura_1162",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11273/study1_positive/image3.png"
+      },
+      {
+        "reserve_index": 177,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1082",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/IM-0027-0001.jpeg"
+      },
+      {
+        "reserve_index": 178,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0033",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0316_1.png"
+      },
+      {
+        "reserve_index": 179,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0096",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0010_0.png"
+      },
+      {
+        "reserve_index": 180,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0210",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/35cda03a-0898-4f8b-92d3-6f263aed23ff.png"
+      },
+      {
+        "reserve_index": 181,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0499",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (447).jpg"
+      },
+      {
+        "reserve_index": 182,
+        "question_id": "Omni/CoronaHack/CoronaHack_0533",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person136_bacteria_649.jpeg"
+      },
+      {
+        "reserve_index": 183,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0052",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Covid/0112.jpg"
+      },
+      {
+        "reserve_index": 184,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0479",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (1225).png"
+      },
+      {
+        "reserve_index": 185,
+        "question_id": "Omni/MIAS/MIAS_0129",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb167.png"
+      },
+      {
+        "reserve_index": 186,
+        "question_id": "Omni/Mura/Mura_0963",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_SHOULDER/patient11792/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 187,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1150",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person1628_virus_2822.jpeg"
+      },
+      {
+        "reserve_index": 188,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0024",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0077_0.png"
+      },
+      {
+        "reserve_index": 189,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0072",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0298_0.png"
+      },
+      {
+        "reserve_index": 190,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0353",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-SITE2-000171-45676-0.png"
+      },
+      {
+        "reserve_index": 191,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0417",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (726).jpg"
+      },
+      {
+        "reserve_index": 192,
+        "question_id": "Omni/CoronaHack/CoronaHack_0415",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/NORMAL2-IM-0310-0001.jpeg"
+      },
+      {
+        "reserve_index": 193,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0092",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0114.jpeg"
+      },
+      {
+        "reserve_index": 194,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0289",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/COVID/COVID (728).png"
+      },
+      {
+        "reserve_index": 195,
+        "question_id": "Omni/MIAS/MIAS_0134",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb188.png"
+      },
+      {
+        "reserve_index": 196,
+        "question_id": "Omni/Mura/Mura_0736",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11354/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 197,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1182",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person1_virus_6.jpeg"
+      },
+      {
+        "reserve_index": 198,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0012",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0017_0.png"
+      },
+      {
+        "reserve_index": 199,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0071",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0035_0.png"
+      },
+      {
+        "reserve_index": 200,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0199",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/5f137fa7-6539-499e-b0d5-0e481221bf5a.png"
+      },
+      {
+        "reserve_index": 201,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0469",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (589).jpg"
+      },
+      {
+        "reserve_index": 202,
+        "question_id": "Omni/CoronaHack/CoronaHack_0495",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person1627_virus_2819.jpeg"
+      },
+      {
+        "reserve_index": 203,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0075",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0101.jpeg"
+      },
+      {
+        "reserve_index": 204,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0377",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (224).png"
+      },
+      {
+        "reserve_index": 205,
+        "question_id": "Omni/MIAS/MIAS_0131",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb160.png"
+      },
+      {
+        "reserve_index": 206,
+        "question_id": "Omni/Mura/Mura_0819",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_HAND/patient11551/study1_negative/image1.png"
+      },
+      {
+        "reserve_index": 207,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0971",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/IM-0016-0001.jpeg"
+      },
+      {
+        "reserve_index": 208,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0010",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0008_0.png"
+      },
+      {
+        "reserve_index": 209,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0210",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0612_1.png"
+      },
+      {
+        "reserve_index": 210,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0241",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/06b2f933-3ea2-4477-ac27-18f732d1f4e1.png"
+      },
+      {
+        "reserve_index": 211,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0645",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00001047_000.png"
+      },
+      {
+        "reserve_index": 212,
+        "question_id": "Omni/CoronaHack/CoronaHack_0353",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/IM-0019-0001.jpeg"
+      },
+      {
+        "reserve_index": 213,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0062",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0114.jpeg"
+      },
+      {
+        "reserve_index": 214,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0618",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (1105).png"
+      },
+      {
+        "reserve_index": 215,
+        "question_id": "Omni/MIAS/MIAS_0128",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb121.png"
+      },
+      {
+        "reserve_index": 216,
+        "question_id": "Omni/Mura/Mura_0943",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_SHOULDER/patient11777/study1_negative/image5.png"
+      },
+      {
+        "reserve_index": 217,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1103",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person1610_virus_2793.jpeg"
+      },
+      {
+        "reserve_index": 218,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0035",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0255_1.png"
+      },
+      {
+        "reserve_index": 219,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0198",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0626_1.png"
+      },
+      {
+        "reserve_index": 220,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0356",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-SITE2-000099-22857-0.png"
+      },
+      {
+        "reserve_index": 221,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0473",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (843).jpg"
+      },
+      {
+        "reserve_index": 222,
+        "question_id": "Omni/CoronaHack/CoronaHack_0483",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/NORMAL2-IM-0359-0001.jpeg"
+      },
+      {
+        "reserve_index": 223,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0093",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0112.jpeg"
+      },
+      {
+        "reserve_index": 224,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0489",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (438).png"
+      },
+      {
+        "reserve_index": 225,
+        "question_id": "Omni/MIAS/MIAS_0090",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb140.png"
+      },
+      {
+        "reserve_index": 226,
+        "question_id": "Omni/Mura/Mura_1092",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11186/study3_positive/image2.png"
+      },
+      {
+        "reserve_index": 227,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1214",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person143_bacteria_689.jpeg"
+      },
+      {
+        "reserve_index": 228,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0032",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0243_1.png"
+      },
+      {
+        "reserve_index": 229,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0230",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0396_1.png"
+      },
+      {
+        "reserve_index": 230,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0376",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-001287-60951-0.png"
+      },
+      {
+        "reserve_index": 231,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0476",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID-19 (476).jpg"
+      },
+      {
+        "reserve_index": 232,
+        "question_id": "Omni/CoronaHack/CoronaHack_0590",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person96_bacteria_464.jpeg"
+      },
+      {
+        "reserve_index": 233,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0064",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0120.jpeg"
+      },
+      {
+        "reserve_index": 234,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0519",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (1089).png"
+      },
+      {
+        "reserve_index": 235,
+        "question_id": "Omni/MIAS/MIAS_0079",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb059.png"
+      },
+      {
+        "reserve_index": 236,
+        "question_id": "Omni/Mura/Mura_1344",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_SHOULDER/patient11386/study1_positive/image3.png"
+      },
+      {
+        "reserve_index": 237,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1095",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person37_virus_82.jpeg"
+      },
+      {
+        "reserve_index": 238,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0022",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0027_0.png"
+      },
+      {
+        "reserve_index": 239,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0068",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0161_0.png"
+      },
+      {
+        "reserve_index": 240,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0450",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-003232-50592-0.png"
+      },
+      {
+        "reserve_index": 241,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0574",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00001048_001.png"
+      },
+      {
+        "reserve_index": 242,
+        "question_id": "Omni/CoronaHack/CoronaHack_0387",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/IM-0063-0001.jpeg"
+      },
+      {
+        "reserve_index": 243,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0088",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0119.jpeg"
+      },
+      {
+        "reserve_index": 244,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0560",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (623).png"
+      },
+      {
+        "reserve_index": 245,
+        "question_id": "Omni/MIAS/MIAS_0121",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb312.png"
+      },
+      {
+        "reserve_index": 246,
+        "question_id": "Omni/Mura/Mura_0811",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_FOREARM/patient11492/study1_negative/image1.png"
+      },
+      {
+        "reserve_index": 247,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0992",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/IM-0071-0001.jpeg"
+      },
+      {
+        "reserve_index": 248,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0027",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0301_1.png"
+      },
+      {
+        "reserve_index": 249,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0062",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0042_0.png"
+      },
+      {
+        "reserve_index": 250,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0481",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-419639-003099-52606-0.png"
+      },
+      {
+        "reserve_index": 251,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0714",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/pneumonia/person325_virus_661.jpeg"
+      },
+      {
+        "reserve_index": 252,
+        "question_id": "Omni/CoronaHack/CoronaHack_0674",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person1664_virus_2877.jpeg"
+      },
+      {
+        "reserve_index": 253,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0089",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0115.jpeg"
+      },
+      {
+        "reserve_index": 254,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0275",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/COVID/COVID (167).png"
+      },
+      {
+        "reserve_index": 255,
+        "question_id": "Omni/MIAS/MIAS_0125",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb095.png"
+      },
+      {
+        "reserve_index": 256,
+        "question_id": "Omni/Mura/Mura_1089",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_FINGER/patient11738/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 257,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0963",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0130-0001.jpeg"
+      },
+      {
+        "reserve_index": 258,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0034",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0188_1.png"
+      },
+      {
+        "reserve_index": 259,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0223",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0547_1.png"
+      },
+      {
+        "reserve_index": 260,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0218",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/b8dd7d32-b177-4d1e-982f-6f0a743828fa.png"
+      },
+      {
+        "reserve_index": 261,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0539",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00000879_000.png"
+      },
+      {
+        "reserve_index": 262,
+        "question_id": "Omni/CoronaHack/CoronaHack_0388",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/IM-0061-0001.jpeg"
+      },
+      {
+        "reserve_index": 263,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0070",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0109.jpeg"
+      },
+      {
+        "reserve_index": 264,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0583",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/Viral_Pneumonia/Viral Pneumonia (1311).png"
+      },
+      {
+        "reserve_index": 265,
+        "question_id": "Omni/MIAS/MIAS_0095",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb116.png"
+      },
+      {
+        "reserve_index": 266,
+        "question_id": "Omni/Mura/Mura_1149",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_WRIST/patient11254/study1_positive/image1.png"
+      },
+      {
+        "reserve_index": 267,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1017",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/IM-0069-0001.jpeg"
+      },
+      {
+        "reserve_index": 268,
+        "question_id": "Omni/Pulmonary Chest MC/Pulmonary Chest MC_0017",
+        "source_dataset": "Pulmonary Chest MC",
+        "source_image_path": "Images/Pulmonary Chest MC/MCUCXR_0024_0.png"
+      },
+      {
+        "reserve_index": 269,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0098",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0119_0.png"
+      },
+      {
+        "reserve_index": 270,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0414",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/MIDRC-RICORD-1C-SITE2-000149-71428-1.png"
+      },
+      {
+        "reserve_index": 271,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0659",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00000265_001.png"
+      },
+      {
+        "reserve_index": 272,
+        "question_id": "Omni/CoronaHack/CoronaHack_0650",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person23_virus_56.jpeg"
+      },
+      {
+        "reserve_index": 273,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0071",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0116.jpeg"
+      },
+      {
+        "reserve_index": 274,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0381",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (548).png"
+      },
+      {
+        "reserve_index": 275,
+        "question_id": "Omni/MIAS/MIAS_0082",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb286.png"
+      },
+      {
+        "reserve_index": 276,
+        "question_id": "Omni/Mura/Mura_1403",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_ELBOW/patient11839/study1_positive/image3.png"
+      },
+      {
+        "reserve_index": 277,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1097",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/PNEUMONIA/person1662_virus_2875.jpeg"
+      },
+      {
+        "reserve_index": 278,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0215",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0602_1.png"
+      },
+      {
+        "reserve_index": 279,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0325",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/6df82c7a-a91e-487c-ae3a-9022b17d7c7a.png"
+      },
+      {
+        "reserve_index": 280,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0317",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID19(155).jpg"
+      },
+      {
+        "reserve_index": 281,
+        "question_id": "Omni/CoronaHack/CoronaHack_0616",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person71_virus_132.jpeg"
+      },
+      {
+        "reserve_index": 282,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0076",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Viral-Pneumonia/0108.jpeg"
+      },
+      {
+        "reserve_index": 283,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0456",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (449).png"
+      },
+      {
+        "reserve_index": 284,
+        "question_id": "Omni/MIAS/MIAS_0114",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb228.png"
+      },
+      {
+        "reserve_index": 285,
+        "question_id": "Omni/Mura/Mura_1337",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_SHOULDER/patient11737/study1_positive/image3.png"
+      },
+      {
+        "reserve_index": 286,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_1036",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0309-0001.jpeg"
+      },
+      {
+        "reserve_index": 287,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0052",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0248_0.png"
+      },
+      {
+        "reserve_index": 288,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0272",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/7ca5c75a-1ec6-49a7-a3b0-93b6122a3170.png"
+      },
+      {
+        "reserve_index": 289,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0483",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/covid/COVID19(83).jpg"
+      },
+      {
+        "reserve_index": 290,
+        "question_id": "Omni/CoronaHack/CoronaHack_0602",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person85_bacteria_422.jpeg"
+      },
+      {
+        "reserve_index": 291,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0073",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Normal/0110.jpeg"
+      },
+      {
+        "reserve_index": 292,
+        "question_id": "Omni/Covid19 heywhale/Covid19 heywhale_0500",
+        "source_dataset": "Covid19 heywhale",
+        "source_image_path": "Images/Covid19 heywhale/NORMAL/NORMAL (1318).png"
+      },
+      {
+        "reserve_index": 293,
+        "question_id": "Omni/MIAS/MIAS_0133",
+        "source_dataset": "MIAS",
+        "source_image_path": "Images/MIAS/mdb152.png"
+      },
+      {
+        "reserve_index": 294,
+        "question_id": "Omni/Mura/Mura_0932",
+        "source_dataset": "Mura",
+        "source_image_path": "Images/Mura/MURA-v1.1/valid/XR_SHOULDER/patient11236/study1_negative/image3.png"
+      },
+      {
+        "reserve_index": 295,
+        "question_id": "Omni/OCT & X-Ray 2017/OCT & X-Ray 2017_0933",
+        "source_dataset": "OCT & X-Ray 2017",
+        "source_image_path": "Images/OCT & X-Ray 2017/test/NORMAL/NORMAL2-IM-0364-0001.jpeg"
+      },
+      {
+        "reserve_index": 296,
+        "question_id": "Omni/Pulmonary Chest Shenzhen/Pulmonary Chest Shenzhen_0207",
+        "source_dataset": "Pulmonary Chest Shenzhen",
+        "source_image_path": "Images/Pulmonary Chest Shenzhen/CHNCXR_0458_1.png"
+      },
+      {
+        "reserve_index": 297,
+        "question_id": "Omni/COVIDx CXR-4/COVIDx CXR-4_0207",
+        "source_dataset": "COVIDx CXR-4",
+        "source_image_path": "Images/COVIDx CXR-4/test/af6ef3d9-81c8-434e-bc5a-dbf89bc418aa.png"
+      },
+      {
+        "reserve_index": 298,
+        "question_id": "Omni/Chest X-Ray PA/Chest X-Ray PA_0565",
+        "source_dataset": "Chest X-Ray PA",
+        "source_image_path": "Images/Chest X-Ray PA/normal/00001008_000.png"
+      },
+      {
+        "reserve_index": 299,
+        "question_id": "Omni/CoronaHack/CoronaHack_0544",
+        "source_dataset": "CoronaHack",
+        "source_image_path": "Images/CoronaHack/test/person130_bacteria_626.jpeg"
+      },
+      {
+        "reserve_index": 300,
+        "question_id": "Omni/Covid-19 tianchi/Covid-19 tianchi_0046",
+        "source_dataset": "Covid-19 tianchi",
+        "source_image_path": "Images/Covid-19 tianchi/Covid-19-Image-Dataset_test_datasets/Covid/0108.jpeg"
+      }
+    ],
+    "Dermoscopy": [
+      {
+        "reserve_index": 100,
+        "question_id": "Omni/ISIC2018/ISIC2018_0103",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034381.jpg"
+      },
+      {
+        "reserve_index": 101,
+        "question_id": "Omni/ISIC2019/ISIC2019_1140",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0068731.jpg"
+      },
+      {
+        "reserve_index": 102,
+        "question_id": "Omni/ISIC2020/ISIC2020_0805",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8816154.jpg"
+      },
+      {
+        "reserve_index": 103,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0091",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/monkeypox/mo_0062.jpg"
+      },
+      {
+        "reserve_index": 104,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0279",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_236_1071_810.png"
+      },
+      {
+        "reserve_index": 105,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0669",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/75bbd59a808977f934508f3192e88303.jpg"
+      },
+      {
+        "reserve_index": 106,
+        "question_id": "Omni/ISBI2016/ISBI2016_0243",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000407.jpg"
+      },
+      {
+        "reserve_index": 107,
+        "question_id": "Omni/ISIC2018/ISIC2018_0134",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034349.jpg"
+      },
+      {
+        "reserve_index": 108,
+        "question_id": "Omni/ISIC2019/ISIC2019_0319",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0065374.jpg"
+      },
+      {
+        "reserve_index": 109,
+        "question_id": "Omni/ISIC2020/ISIC2020_0456",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8203661.jpg"
+      },
+      {
+        "reserve_index": 110,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0112",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0104.jpg"
+      },
+      {
+        "reserve_index": 111,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0404",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1406_1396_511.png"
+      },
+      {
+        "reserve_index": 112,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0619",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/18446bd3497739a3f01eb3decafc0d0b.jpg"
+      },
+      {
+        "reserve_index": 113,
+        "question_id": "Omni/ISBI2016/ISBI2016_0259",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0001204.jpg"
+      },
+      {
+        "reserve_index": 114,
+        "question_id": "Omni/ISIC2018/ISIC2018_0208",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034502.jpg"
+      },
+      {
+        "reserve_index": 115,
+        "question_id": "Omni/ISIC2019/ISIC2019_1515",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0065514.jpg"
+      },
+      {
+        "reserve_index": 116,
+        "question_id": "Omni/ISIC2020/ISIC2020_0826",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8840271.jpg"
+      },
+      {
+        "reserve_index": 117,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0052",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/cowpox/co_0042.jpg"
+      },
+      {
+        "reserve_index": 118,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0387",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_1075_324_177.png"
+      },
+      {
+        "reserve_index": 119,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1331",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/76c6ff58a8babae647dcc37ea074939d.jpg"
+      },
+      {
+        "reserve_index": 120,
+        "question_id": "Omni/ISBI2016/ISBI2016_0549",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000149.jpg"
+      },
+      {
+        "reserve_index": 121,
+        "question_id": "Omni/ISIC2018/ISIC2018_0206",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034499.jpg"
+      },
+      {
+        "reserve_index": 122,
+        "question_id": "Omni/ISIC2019/ISIC2019_0443",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0068586.jpg"
+      },
+      {
+        "reserve_index": 123,
+        "question_id": "Omni/ISIC2020/ISIC2020_1504",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8493108.jpg"
+      },
+      {
+        "reserve_index": 124,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0014",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0006.jpg"
+      },
+      {
+        "reserve_index": 125,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0338",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_1035_165_800.png"
+      },
+      {
+        "reserve_index": 126,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1353",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/aed381c868ecd4d8bcd3d78390206a60.jpg"
+      },
+      {
+        "reserve_index": 127,
+        "question_id": "Omni/ISBI2016/ISBI2016_0305",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010020.jpg"
+      },
+      {
+        "reserve_index": 128,
+        "question_id": "Omni/ISIC2018/ISIC2018_0188",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034458.jpg"
+      },
+      {
+        "reserve_index": 129,
+        "question_id": "Omni/ISIC2019/ISIC2019_1585",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0068284.jpg"
+      },
+      {
+        "reserve_index": 130,
+        "question_id": "Omni/ISIC2020/ISIC2020_0601",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8425338.jpg"
+      },
+      {
+        "reserve_index": 131,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0113",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0325.jpg"
+      },
+      {
+        "reserve_index": 132,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0210",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_587_1117_880.png"
+      },
+      {
+        "reserve_index": 133,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1058",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/0670109bba30929ab1f1597ab29e3826.jpg"
+      },
+      {
+        "reserve_index": 134,
+        "question_id": "Omni/ISBI2016/ISBI2016_0212",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000072.jpg"
+      },
+      {
+        "reserve_index": 135,
+        "question_id": "Omni/ISIC2018/ISIC2018_0233",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034409.jpg"
+      },
+      {
+        "reserve_index": 136,
+        "question_id": "Omni/ISIC2019/ISIC2019_1004",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0073219.jpg"
+      },
+      {
+        "reserve_index": 137,
+        "question_id": "Omni/ISIC2020/ISIC2020_1035",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9201657.jpg"
+      },
+      {
+        "reserve_index": 138,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0070",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/measles/me_0001.jpg"
+      },
+      {
+        "reserve_index": 139,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0375",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1765_3337_365.png"
+      },
+      {
+        "reserve_index": 140,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0992",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/ceb4c9a1e0abc9440c01d820804ec451.jpg"
+      },
+      {
+        "reserve_index": 141,
+        "question_id": "Omni/ISBI2016/ISBI2016_0381",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000015.jpg"
+      },
+      {
+        "reserve_index": 142,
+        "question_id": "Omni/ISIC2018/ISIC2018_0211",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034507.jpg"
+      },
+      {
+        "reserve_index": 143,
+        "question_id": "Omni/ISIC2019/ISIC2019_1789",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0070113.jpg"
+      },
+      {
+        "reserve_index": 144,
+        "question_id": "Omni/ISIC2020/ISIC2020_0692",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8598253.jpg"
+      },
+      {
+        "reserve_index": 145,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0051",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/cowpox/co_0023.jpg"
+      },
+      {
+        "reserve_index": 146,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0369",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_971_1847_99.png"
+      },
+      {
+        "reserve_index": 147,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0837",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/c18c5c539fc4340dbddb542e8fc6cf8d.jpg"
+      },
+      {
+        "reserve_index": 148,
+        "question_id": "Omni/ISBI2016/ISBI2016_0459",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0009948.jpg"
+      },
+      {
+        "reserve_index": 149,
+        "question_id": "Omni/ISIC2018/ISIC2018_0250",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034366.jpg"
+      },
+      {
+        "reserve_index": 150,
+        "question_id": "Omni/ISIC2019/ISIC2019_1642",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0070688.jpg"
+      },
+      {
+        "reserve_index": 151,
+        "question_id": "Omni/ISIC2020/ISIC2020_1105",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9335977.jpg"
+      },
+      {
+        "reserve_index": 152,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0149",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0255.jpg"
+      },
+      {
+        "reserve_index": 153,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0163",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_519_979_104.png"
+      },
+      {
+        "reserve_index": 154,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0653",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/aafc091486c0b29dd05d399e88bb96b8.jpg"
+      },
+      {
+        "reserve_index": 155,
+        "question_id": "Omni/ISBI2016/ISBI2016_0227",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000200.jpg"
+      },
+      {
+        "reserve_index": 156,
+        "question_id": "Omni/ISIC2018/ISIC2018_0154",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034395.jpg"
+      },
+      {
+        "reserve_index": 157,
+        "question_id": "Omni/ISIC2019/ISIC2019_0366",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0066492.jpg"
+      },
+      {
+        "reserve_index": 158,
+        "question_id": "Omni/ISIC2020/ISIC2020_0969",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9101579.jpg"
+      },
+      {
+        "reserve_index": 159,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0071",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/measles/me_0010.jpg"
+      },
+      {
+        "reserve_index": 160,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0420",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1332_1174_839.png"
+      },
+      {
+        "reserve_index": 161,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1539",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/274fcc8858e2524666aac80c117c1eae.jpg"
+      },
+      {
+        "reserve_index": 162,
+        "question_id": "Omni/ISBI2016/ISBI2016_0334",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010378.jpg"
+      },
+      {
+        "reserve_index": 163,
+        "question_id": "Omni/ISIC2018/ISIC2018_0235",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034478.jpg"
+      },
+      {
+        "reserve_index": 164,
+        "question_id": "Omni/ISIC2019/ISIC2019_0694",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0066919.jpg"
+      },
+      {
+        "reserve_index": 165,
+        "question_id": "Omni/ISIC2020/ISIC2020_0592",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8406465.jpg"
+      },
+      {
+        "reserve_index": 166,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0147",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0281.jpg"
+      },
+      {
+        "reserve_index": 167,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0220",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_674_1277_9.png"
+      },
+      {
+        "reserve_index": 168,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0580",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/3c4fbff24b36b238ae017477e66ec37c.jpg"
+      },
+      {
+        "reserve_index": 169,
+        "question_id": "Omni/ISBI2016/ISBI2016_0310",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010041.jpg"
+      },
+      {
+        "reserve_index": 170,
+        "question_id": "Omni/ISIC2018/ISIC2018_0221",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034519.jpg"
+      },
+      {
+        "reserve_index": 171,
+        "question_id": "Omni/ISIC2019/ISIC2019_1249",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0071157.jpg"
+      },
+      {
+        "reserve_index": 172,
+        "question_id": "Omni/ISIC2020/ISIC2020_1121",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9362964.jpg"
+      },
+      {
+        "reserve_index": 173,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0039",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0044.jpg"
+      },
+      {
+        "reserve_index": 174,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0476",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_115_1138_870.png"
+      },
+      {
+        "reserve_index": 175,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1329",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/250e8552aca769e9e33e753f50423bda.jpg"
+      },
+      {
+        "reserve_index": 176,
+        "question_id": "Omni/ISBI2016/ISBI2016_0424",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000456.jpg"
+      },
+      {
+        "reserve_index": 177,
+        "question_id": "Omni/ISIC2018/ISIC2018_0176",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034440.jpg"
+      },
+      {
+        "reserve_index": 178,
+        "question_id": "Omni/ISIC2019/ISIC2019_1290",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0072306.jpg"
+      },
+      {
+        "reserve_index": 179,
+        "question_id": "Omni/ISIC2020/ISIC2020_0748",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8689144.jpg"
+      },
+      {
+        "reserve_index": 180,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0123",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0215.jpg"
+      },
+      {
+        "reserve_index": 181,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0457",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_482_924_134.png"
+      },
+      {
+        "reserve_index": 182,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1527",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/daf718978f62033d239c595e96ad3d2c.jpg"
+      },
+      {
+        "reserve_index": 183,
+        "question_id": "Omni/ISBI2016/ISBI2016_0210",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000066.jpg"
+      },
+      {
+        "reserve_index": 184,
+        "question_id": "Omni/ISIC2018/ISIC2018_0245",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034436.jpg"
+      },
+      {
+        "reserve_index": 185,
+        "question_id": "Omni/ISIC2019/ISIC2019_0718",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067371.jpg"
+      },
+      {
+        "reserve_index": 186,
+        "question_id": "Omni/ISIC2020/ISIC2020_1425",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9909792.jpg"
+      },
+      {
+        "reserve_index": 187,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0044",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/cowpox/co_0027.jpg"
+      },
+      {
+        "reserve_index": 188,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0448",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_365_751_709.png"
+      },
+      {
+        "reserve_index": 189,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1470",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/8342209d734a75f169dff1ce216bcf51.jpg"
+      },
+      {
+        "reserve_index": 190,
+        "question_id": "Omni/ISBI2016/ISBI2016_0511",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0011089.jpg"
+      },
+      {
+        "reserve_index": 191,
+        "question_id": "Omni/ISIC2018/ISIC2018_0193",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034468.jpg"
+      },
+      {
+        "reserve_index": 192,
+        "question_id": "Omni/ISIC2019/ISIC2019_0737",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067684.jpg"
+      },
+      {
+        "reserve_index": 193,
+        "question_id": "Omni/ISIC2020/ISIC2020_1245",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9574488.jpg"
+      },
+      {
+        "reserve_index": 194,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0031",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0159.jpg"
+      },
+      {
+        "reserve_index": 195,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0416",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1764_3335_803.png"
+      },
+      {
+        "reserve_index": 196,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1048",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/143032b49ca9b35c3a4f58e63932931d.jpg"
+      },
+      {
+        "reserve_index": 197,
+        "question_id": "Omni/ISBI2016/ISBI2016_0316",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010088.jpg"
+      },
+      {
+        "reserve_index": 198,
+        "question_id": "Omni/ISIC2018/ISIC2018_0271",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034508.jpg"
+      },
+      {
+        "reserve_index": 199,
+        "question_id": "Omni/ISIC2019/ISIC2019_1916",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0070772.jpg"
+      },
+      {
+        "reserve_index": 200,
+        "question_id": "Omni/ISIC2020/ISIC2020_0756",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8708756.jpg"
+      },
+      {
+        "reserve_index": 201,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0094",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/monkeypox/mo_0011.jpg"
+      },
+      {
+        "reserve_index": 202,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0258",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_789_1483_793.png"
+      },
+      {
+        "reserve_index": 203,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0948",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/4695bfda5557fa0aaae6e81d4492e0a5.jpg"
+      },
+      {
+        "reserve_index": 204,
+        "question_id": "Omni/ISBI2016/ISBI2016_0225",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000197.jpg"
+      },
+      {
+        "reserve_index": 205,
+        "question_id": "Omni/ISIC2018/ISIC2018_0119",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034504.jpg"
+      },
+      {
+        "reserve_index": 206,
+        "question_id": "Omni/ISIC2019/ISIC2019_1111",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067683.jpg"
+      },
+      {
+        "reserve_index": 207,
+        "question_id": "Omni/ISIC2020/ISIC2020_0834",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8856151.jpg"
+      },
+      {
+        "reserve_index": 208,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0057",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/healthy/he_0022.jpg"
+      },
+      {
+        "reserve_index": 209,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0452",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_770_1451_136.png"
+      },
+      {
+        "reserve_index": 210,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1225",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/09890e72772d3ca35764342f06c15281.jpg"
+      },
+      {
+        "reserve_index": 211,
+        "question_id": "Omni/ISBI2016/ISBI2016_0597",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010379.jpg"
+      },
+      {
+        "reserve_index": 212,
+        "question_id": "Omni/ISIC2018/ISIC2018_0179",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034444.jpg"
+      },
+      {
+        "reserve_index": 213,
+        "question_id": "Omni/ISIC2019/ISIC2019_0666",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0066348.jpg"
+      },
+      {
+        "reserve_index": 214,
+        "question_id": "Omni/ISIC2020/ISIC2020_0559",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8348317.jpg"
+      },
+      {
+        "reserve_index": 215,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0041",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0169.jpg"
+      },
+      {
+        "reserve_index": 216,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0384",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_354_1814_619.png"
+      },
+      {
+        "reserve_index": 217,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1479",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/29818f25971da35c87e40384c78a653d.jpg"
+      },
+      {
+        "reserve_index": 218,
+        "question_id": "Omni/ISBI2016/ISBI2016_0605",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0011122.jpg"
+      },
+      {
+        "reserve_index": 219,
+        "question_id": "Omni/ISIC2018/ISIC2018_0126",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034335.jpg"
+      },
+      {
+        "reserve_index": 220,
+        "question_id": "Omni/ISIC2019/ISIC2019_0916",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0071091.jpg"
+      },
+      {
+        "reserve_index": 221,
+        "question_id": "Omni/ISIC2020/ISIC2020_0877",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8928069.jpg"
+      },
+      {
+        "reserve_index": 222,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0133",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0335.jpg"
+      },
+      {
+        "reserve_index": 223,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0243",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_711_1334_480.png"
+      },
+      {
+        "reserve_index": 224,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1362",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/548ec840d0d93a2e469cd33f6127cd6d.jpg"
+      },
+      {
+        "reserve_index": 225,
+        "question_id": "Omni/ISBI2016/ISBI2016_0348",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010592.jpg"
+      },
+      {
+        "reserve_index": 226,
+        "question_id": "Omni/ISIC2018/ISIC2018_0177",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034442.jpg"
+      },
+      {
+        "reserve_index": 227,
+        "question_id": "Omni/ISIC2019/ISIC2019_0971",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0072331.jpg"
+      },
+      {
+        "reserve_index": 228,
+        "question_id": "Omni/ISIC2020/ISIC2020_1420",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9892318.jpg"
+      },
+      {
+        "reserve_index": 229,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0033",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0003.jpg"
+      },
+      {
+        "reserve_index": 230,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0106",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1448_1551_366.png"
+      },
+      {
+        "reserve_index": 231,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1175",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/e853570597d53d361cc70868ada1a07b.jpg"
+      },
+      {
+        "reserve_index": 232,
+        "question_id": "Omni/ISBI2016/ISBI2016_0207",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000052.jpg"
+      },
+      {
+        "reserve_index": 233,
+        "question_id": "Omni/ISIC2018/ISIC2018_0153",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034393.jpg"
+      },
+      {
+        "reserve_index": 234,
+        "question_id": "Omni/ISIC2019/ISIC2019_1411",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067945.jpg"
+      },
+      {
+        "reserve_index": 235,
+        "question_id": "Omni/ISIC2020/ISIC2020_1052",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9239632.jpg"
+      },
+      {
+        "reserve_index": 236,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0038",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0175.jpg"
+      },
+      {
+        "reserve_index": 237,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0241",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_73_111_435.png"
+      },
+      {
+        "reserve_index": 238,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0468",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/460d3e4a95107988d677eb482273288e.jpg"
+      },
+      {
+        "reserve_index": 239,
+        "question_id": "Omni/ISBI2016/ISBI2016_0599",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0010587.jpg"
+      },
+      {
+        "reserve_index": 240,
+        "question_id": "Omni/ISIC2018/ISIC2018_0262",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034485.jpg"
+      },
+      {
+        "reserve_index": 241,
+        "question_id": "Omni/ISIC2019/ISIC2019_1569",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067608.jpg"
+      },
+      {
+        "reserve_index": 242,
+        "question_id": "Omni/ISIC2020/ISIC2020_1549",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9317483.jpg"
+      },
+      {
+        "reserve_index": 243,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0022",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/chickenpox/ch_0085.jpg"
+      },
+      {
+        "reserve_index": 244,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0195",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_516_966_57.png"
+      },
+      {
+        "reserve_index": 245,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0708",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/d2e55a1959fdb0563226fbada4e405b3.jpg"
+      },
+      {
+        "reserve_index": 246,
+        "question_id": "Omni/ISBI2016/ISBI2016_0534",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0011325.jpg"
+      },
+      {
+        "reserve_index": 247,
+        "question_id": "Omni/ISIC2018/ISIC2018_0113",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034477.jpg"
+      },
+      {
+        "reserve_index": 248,
+        "question_id": "Omni/ISIC2019/ISIC2019_1122",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0068021.jpg"
+      },
+      {
+        "reserve_index": 249,
+        "question_id": "Omni/ISIC2020/ISIC2020_0801",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8812621.jpg"
+      },
+      {
+        "reserve_index": 250,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0062",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/healthy/he_0033.jpg"
+      },
+      {
+        "reserve_index": 251,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0308",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_2024_4224_141.png"
+      },
+      {
+        "reserve_index": 252,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0645",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/67d7c82e7ad8e2a7b8717d1ff9374c34.jpg"
+      },
+      {
+        "reserve_index": 253,
+        "question_id": "Omni/ISBI2016/ISBI2016_0624",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000279.jpg"
+      },
+      {
+        "reserve_index": 254,
+        "question_id": "Omni/ISIC2018/ISIC2018_0163",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034414.jpg"
+      },
+      {
+        "reserve_index": 255,
+        "question_id": "Omni/ISIC2019/ISIC2019_0729",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067569.jpg"
+      },
+      {
+        "reserve_index": 256,
+        "question_id": "Omni/ISIC2020/ISIC2020_0813",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8821137.jpg"
+      },
+      {
+        "reserve_index": 257,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0151",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0087.jpg"
+      },
+      {
+        "reserve_index": 258,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0231",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_815_1535_536.png"
+      },
+      {
+        "reserve_index": 259,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0473",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/7bf30acc4f0b260d57d84857a0fa5af7.jpg"
+      },
+      {
+        "reserve_index": 260,
+        "question_id": "Omni/ISBI2016/ISBI2016_0527",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0011219.jpg"
+      },
+      {
+        "reserve_index": 261,
+        "question_id": "Omni/ISIC2018/ISIC2018_0201",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034484.jpg"
+      },
+      {
+        "reserve_index": 262,
+        "question_id": "Omni/ISIC2019/ISIC2019_1775",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0067029.jpg"
+      },
+      {
+        "reserve_index": 263,
+        "question_id": "Omni/ISIC2020/ISIC2020_0872",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8917078.jpg"
+      },
+      {
+        "reserve_index": 264,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0114",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0091.jpg"
+      },
+      {
+        "reserve_index": 265,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0312",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1210_738_915.png"
+      },
+      {
+        "reserve_index": 266,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1382",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/25240cda5c5a576b9bbf092957512804.jpg"
+      },
+      {
+        "reserve_index": 267,
+        "question_id": "Omni/ISBI2016/ISBI2016_0301",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0009988.jpg"
+      },
+      {
+        "reserve_index": 268,
+        "question_id": "Omni/ISIC2018/ISIC2018_0168",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034426.jpg"
+      },
+      {
+        "reserve_index": 269,
+        "question_id": "Omni/ISIC2019/ISIC2019_0428",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0068164.jpg"
+      },
+      {
+        "reserve_index": 270,
+        "question_id": "Omni/ISIC2020/ISIC2020_1099",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9328512.jpg"
+      },
+      {
+        "reserve_index": 271,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0148",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0015.jpg"
+      },
+      {
+        "reserve_index": 272,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0223",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_2/PAT_738_1397_966.png"
+      },
+      {
+        "reserve_index": 273,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1420",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/3ea363b923f2da47e9d4a12c5b093448.jpg"
+      },
+      {
+        "reserve_index": 274,
+        "question_id": "Omni/ISBI2016/ISBI2016_0269",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0003728.jpg"
+      },
+      {
+        "reserve_index": 275,
+        "question_id": "Omni/ISIC2018/ISIC2018_0259",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034453.jpg"
+      },
+      {
+        "reserve_index": 276,
+        "question_id": "Omni/ISIC2019/ISIC2019_0589",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0072377.jpg"
+      },
+      {
+        "reserve_index": 277,
+        "question_id": "Omni/ISIC2020/ISIC2020_1528",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8892236.jpg"
+      },
+      {
+        "reserve_index": 278,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0130",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0195.jpg"
+      },
+      {
+        "reserve_index": 279,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0327",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_1/PAT_337_1697_721.png"
+      },
+      {
+        "reserve_index": 280,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0428",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/1dfd372dd25c563cf1d07b76ea669bd1.jpg"
+      },
+      {
+        "reserve_index": 281,
+        "question_id": "Omni/ISBI2016/ISBI2016_0366",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0011167.jpg"
+      },
+      {
+        "reserve_index": 282,
+        "question_id": "Omni/ISIC2018/ISIC2018_0255",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034390.jpg"
+      },
+      {
+        "reserve_index": 283,
+        "question_id": "Omni/ISIC2019/ISIC2019_1682",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0072357.jpg"
+      },
+      {
+        "reserve_index": 284,
+        "question_id": "Omni/ISIC2020/ISIC2020_0915",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9001472.jpg"
+      },
+      {
+        "reserve_index": 285,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0079",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/monkeypox/mo_0101.jpg"
+      },
+      {
+        "reserve_index": 286,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0393",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1577_2543_510.png"
+      },
+      {
+        "reserve_index": 287,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_1263",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/6ed58ed2e4c8b378493cd5766f7bad56.jpg"
+      },
+      {
+        "reserve_index": 288,
+        "question_id": "Omni/ISBI2016/ISBI2016_0218",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0000115.jpg"
+      },
+      {
+        "reserve_index": 289,
+        "question_id": "Omni/ISIC2018/ISIC2018_0143",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034367.jpg"
+      },
+      {
+        "reserve_index": 290,
+        "question_id": "Omni/ISIC2019/ISIC2019_0504",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0070344.jpg"
+      },
+      {
+        "reserve_index": 291,
+        "question_id": "Omni/ISIC2020/ISIC2020_0737",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_8663971.jpg"
+      },
+      {
+        "reserve_index": 292,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0132",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/smallpox/sm_0299.jpg"
+      },
+      {
+        "reserve_index": 293,
+        "question_id": "Omni/PAD-UFES-20/PAD-UFES-20_0406",
+        "source_dataset": "PAD-UFES-20",
+        "source_image_path": "Images/PAD-UFES-20/uncompresses_data/imgs_part_3/PAT_1494_1707_125.png"
+      },
+      {
+        "reserve_index": 294,
+        "question_id": "Omni/Fitzpatrick 17k/Fitzpatrick 17k_0326",
+        "source_dataset": "Fitzpatrick 17k",
+        "source_image_path": "Images/Fitzpatrick 17k/e7c05b125f8c5b63ca95c677ec4d782b.jpg"
+      },
+      {
+        "reserve_index": 295,
+        "question_id": "Omni/ISBI2016/ISBI2016_0258",
+        "source_dataset": "ISBI2016",
+        "source_image_path": "Images/ISBI2016/ISBI2016_ISIC_Part3_Test_Data/ISIC_0001186.jpg"
+      },
+      {
+        "reserve_index": 296,
+        "question_id": "Omni/ISIC2018/ISIC2018_0263",
+        "source_dataset": "ISIC2018",
+        "source_image_path": "Images/ISIC2018/val/ISIC_0034490.jpg"
+      },
+      {
+        "reserve_index": 297,
+        "question_id": "Omni/ISIC2019/ISIC2019_0836",
+        "source_dataset": "ISIC2019",
+        "source_image_path": "Images/ISIC2019/train/ISIC_0069413.jpg"
+      },
+      {
+        "reserve_index": 298,
+        "question_id": "Omni/ISIC2020/ISIC2020_1353",
+        "source_dataset": "ISIC2020",
+        "source_image_path": "Images/ISIC2020/train/ISIC_9764833.jpg"
+      },
+      {
+        "reserve_index": 299,
+        "question_id": "Omni/Monkeypox Skin Image 2022/Monkeypox Skin Image 2022_0063",
+        "source_dataset": "Monkeypox Skin Image 2022",
+        "source_image_path": "Images/Monkeypox Skin Image 2022/healthy/he_0014.jpg"
+      }
+    ]
+  }
+}

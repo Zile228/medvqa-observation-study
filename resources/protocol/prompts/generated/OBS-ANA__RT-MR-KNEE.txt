@@ -1,0 +1,19 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: magnetic resonance (MR) image; body region: knee.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Medial compartment: whether medial femur and tibia are depicted; if so, their appearance
+2. Lateral compartment: whether lateral femur and tibia are depicted; if so, their appearance
+3. Patellofemoral joint: whether the patella and trochlea are depicted; if so, their appearance
+4. Intercondylar notch: cruciate structures in the notch
+5. Extensor tendons: quadriceps and patellar tendon appearance
+6. Popliteal fossa: popliteal vessels and posterior capsule
+7. Sides of the knee: collateral structures along both sides
+8. Fluid and fat: joint fluid, fat pads and other findings
+Write nothing before item 1 and nothing after the last item.

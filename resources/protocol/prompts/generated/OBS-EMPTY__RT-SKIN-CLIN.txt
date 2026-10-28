@@ -1,0 +1,7 @@
+1. Colour | — | —
+2. Border | — | —
+3. Shape | — | —
+4. Scale | — | —
+5. Crust | — | —
+6. Flat or raised | — | —
+7. Location in image | — | —

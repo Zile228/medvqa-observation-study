@@ -1,0 +1,20 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: computed tomography (CT), cross-sectional; body region: chest.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Image-left lung: parenchyma, airways and fissures of the image-left lung
+2. Image-right lung: parenchyma, airways and fissures of the image-right lung
+3. Anterior mediastinum: upper front region, mediastinal fat and lymph nodes
+4. Middle mediastinum: heart, pericardium, trachea and main bronchi
+5. Great vessels: ascending and descending aorta and pulmonary trunk
+6. Posterior mediastinum: oesophagus and the tissue beside the spine
+7. Pleural spaces: pleural surfaces and dependent pleural spaces
+8. Thoracic wall: ribs, sternum, thoracic spine and chest wall muscles
+9. Slice edges: upper abdomen or lower neck at the edges, and any device
+Write nothing before item 1 and nothing after the last item.

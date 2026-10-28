@@ -1,0 +1,1418 @@
+{
+  "version": "CORR-PLAN-v1",
+  "assignments": {
+    "NT-0224": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines: black",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0138": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "RT-0115": {
+      "edit_type": "PRES",
+      "item_no": 9,
+      "line_no": 9,
+      "item_name": "Orbits: visible orbits and their contents",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0074": {
+      "edit_type": "PRES",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: central part of the image",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0029": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0256": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0286": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots: brown",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0187": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines: black",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0044": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0163": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Focus in image: located in the upper outer quadrant",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0105": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines: black",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0222": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0239": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: where the change lies in the image",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0198": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0127": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0227": {
+      "edit_type": "PRES",
+      "item_no": 4,
+      "line_no": 4,
+      "item_name": "Midline: position of midline structures and any shift",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0166": {
+      "edit_type": "PRES",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Vessels: visible vessels or flow voids",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0292": {
+      "edit_type": "PRES",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Structureless areas:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0191": {
+      "edit_type": "SEV",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0075": {
+      "edit_type": "PRES",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Structureless areas:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0289": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0065": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0013": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0013": {
+      "edit_type": "PRES",
+      "item_no": 10,
+      "line_no": 10,
+      "item_name": "Sella and upper neck: sella region and the visible upper cervical region",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0056": {
+      "edit_type": "PRES",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Structureless areas:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0244": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: image-right",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0203": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0274": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0094": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0300": {
+      "edit_type": "PRES",
+      "item_no": 8,
+      "line_no": 8,
+      "item_name": "Sinuses and mastoids: paranasal sinuses and mastoid air cells",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0232": {
+      "edit_type": "SEV",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Structureless areas:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0088": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: lower back",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0288": {
+      "edit_type": "PRES",
+      "item_no": 4,
+      "line_no": 4,
+      "item_name": "Midline: position of midline structures and any shift",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0035": {
+      "edit_type": "PRES",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Structureless areas:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0264": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0155": {
+      "edit_type": "SEV",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Crust: any visible crust on the surface",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0047": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: image-left",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "RT-0108": {
+      "edit_type": "PRES",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Vessels: visible vessels or flow voids",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0090": {
+      "edit_type": "SEV",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Crust: any visible crust on the surface",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0105": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "RT-0137": {
+      "edit_type": "LAT",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Posterior fossa: cerebellum and brainstem appearance",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "RT-0218": {
+      "edit_type": "LAT",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Lines, tubes and devices: any visible device, its type and where it lies",
+      "synonyms": [],
+      "feasible": [
+        "LAT"
+      ]
+    },
+    "RT-0251": {
+      "edit_type": "PRES",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Brain tissue: grey and white matter",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0229": {
+      "edit_type": "PRES",
+      "item_no": 3,
+      "line_no": 3,
+      "item_name": "Extra-axial space: spaces between brain and skull, any fluid or collection",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0031": {
+      "edit_type": "SEV",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Crust: any visible crust on the surface",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0230": {
+      "edit_type": "PRES",
+      "item_no": 6,
+      "line_no": 6,
+      "item_name": "Flat or raised: raised",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0254": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0135": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0207": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0100": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0076": {
+      "edit_type": "PRES",
+      "item_no": 3,
+      "line_no": 3,
+      "item_name": "Extra-axial space: spaces between brain and skull, any fluid or collection",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0253": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0226": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0167": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0236": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0191": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Ventricles and cisterns: size, shape and symmetry of ventricles and basal cisterns",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0174": {
+      "edit_type": "PRES",
+      "item_no": 3,
+      "line_no": 3,
+      "item_name": "Clods:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0102": {
+      "edit_type": "PRES",
+      "item_no": 3,
+      "line_no": 3,
+      "item_name": "Joints: joint spaces, articular surfaces and alignment at each joint",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0066": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: red, inflamed",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0192": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0020": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0136": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0262": {
+      "edit_type": "PRES",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Border: ill-defined",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0146": {
+      "edit_type": "PRES",
+      "item_no": 4,
+      "line_no": 4,
+      "item_name": "Scale: any visible scale on the surface",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0283": {
+      "edit_type": "LAT",
+      "item_no": 10,
+      "line_no": 10,
+      "item_name": "Sella and upper neck: sella region and the visible upper cervical region",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT",
+        "SEV"
+      ]
+    },
+    "RT-0147": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0050": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: where the change lies in the image",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT",
+        "SEV"
+      ]
+    },
+    "RT-0170": {
+      "edit_type": "PRES",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Bones: visible cervical spine and other bones",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0151": {
+      "edit_type": "LAT",
+      "item_no": 7,
+      "line_no": 7,
+      "item_name": "Location in image: where the change lies in the image",
+      "synonyms": [],
+      "feasible": [
+        "LAT"
+      ]
+    },
+    "NT-0077": {
+      "edit_type": "PRES",
+      "item_no": 10,
+      "line_no": 10,
+      "item_name": "Sella and upper neck: sella region and the visible upper cervical region",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0053": {
+      "edit_type": "PRES",
+      "item_no": 10,
+      "line_no": 10,
+      "item_name": "Sella and upper neck: sella region and the visible upper cervical region",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0214": {
+      "edit_type": "SEV",
+      "item_no": 5,
+      "line_no": 5,
+      "item_name": "Crust: any visible crust on the surface",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0268": {
+      "edit_type": "PRES",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Ventricles and cisterns: size, shape and symmetry of ventricles and basal cisterns",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0246": {
+      "edit_type": "PRES",
+      "item_no": 8,
+      "line_no": 8,
+      "item_name": "Sinuses and mastoids: paranasal sinuses and mastoid air cells",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0249": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0274": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "RT-0072": {
+      "edit_type": "PRES",
+      "item_no": 4,
+      "line_no": 4,
+      "item_name": "Lymph nodes and vessels: visible neck nodes and the carotid and jugular vessels",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0143": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0215": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "RT-0066": {
+      "edit_type": "PRES",
+      "item_no": 9,
+      "line_no": 9,
+      "item_name": "Orbits: visible orbits and their contents",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0287": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Colour: colours of the visible skin change",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "NT-0076": {
+      "edit_type": "SEV",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Dots:",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "SEV"
+      ]
+    },
+    "NT-0114": {
+      "edit_type": "LAT",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Focus in image: top-right quadrant",
+      "synonyms": [],
+      "feasible": [
+        "PRES",
+        "LAT"
+      ]
+    },
+    "NT-0267": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Lines:",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0048": {
+      "edit_type": "PRES",
+      "item_no": 2,
+      "line_no": 2,
+      "item_name": "Pharynx and oral cavity: pharyngeal and oral cavity soft tissues and airway",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    },
+    "RT-0067": {
+      "edit_type": "PRES",
+      "item_no": 1,
+      "line_no": 1,
+      "item_name": "Brain parenchyma: grey and white matter appearance, focal areas with side and lobe",
+      "synonyms": [],
+      "feasible": [
+        "PRES"
+      ]
+    }
+  },
+  "no_feasible": [
+    "RT-0157",
+    "RT-0258",
+    "RT-0095",
+    "NT-0089",
+    "NT-0054",
+    "NT-0117",
+    "NT-0007",
+    "NT-0042",
+    "RT-0244",
+    "RT-0197",
+    "RT-0017",
+    "NT-0104",
+    "RT-0005",
+    "RT-0041",
+    "RT-0139",
+    "RT-0077",
+    "RT-0165",
+    "NT-0144",
+    "NT-0049",
+    "NT-0106",
+    "RT-0056",
+    "NT-0157",
+    "RT-0069",
+    "RT-0183",
+    "RT-0061",
+    "NT-0255",
+    "NT-0254",
+    "NT-0168",
+    "RT-0113",
+    "RT-0164",
+    "RT-0162",
+    "RT-0107",
+    "NT-0185",
+    "NT-0186",
+    "NT-0057",
+    "RT-0217",
+    "RT-0103",
+    "NT-0009",
+    "RT-0036",
+    "RT-0240",
+    "NT-0171",
+    "NT-0059",
+    "RT-0104",
+    "NT-0193",
+    "NT-0201",
+    "RT-0171",
+    "NT-0263",
+    "RT-0267",
+    "NT-0001",
+    "NT-0246",
+    "NT-0209",
+    "NT-0093",
+    "NT-0064",
+    "NT-0272",
+    "NT-0033",
+    "RT-0207",
+    "RT-0018",
+    "NT-0225",
+    "NT-0021",
+    "NT-0170",
+    "RT-0194",
+    "NT-0261",
+    "RT-0284",
+    "NT-0113",
+    "RT-0133",
+    "RT-0264",
+    "NT-0175",
+    "NT-0210",
+    "RT-0148",
+    "RT-0203",
+    "RT-0081",
+    "NT-0197",
+    "NT-0231",
+    "RT-0015",
+    "NT-0211",
+    "NT-0259",
+    "RT-0285",
+    "RT-0289",
+    "NT-0266",
+    "NT-0283",
+    "RT-0130",
+    "NT-0251",
+    "RT-0098",
+    "NT-0257",
+    "RT-0297",
+    "NT-0019",
+    "RT-0131",
+    "NT-0101",
+    "RT-0260",
+    "RT-0252",
+    "RT-0195",
+    "NT-0070",
+    "NT-0139",
+    "RT-0269",
+    "RT-0110",
+    "RT-0224",
+    "RT-0180",
+    "NT-0034",
+    "NT-0194",
+    "RT-0118",
+    "RT-0210",
+    "NT-0046",
+    "RT-0129",
+    "RT-0151",
+    "RT-0209",
+    "RT-0277",
+    "RT-0187",
+    "RT-0145",
+    "NT-0152",
+    "NT-0003",
+    "RT-0271",
+    "NT-0109",
+    "RT-0173",
+    "NT-0206",
+    "NT-0199",
+    "NT-0141",
+    "NT-0188",
+    "NT-0192",
+    "RT-0023",
+    "NT-0012",
+    "RT-0136",
+    "NT-0129",
+    "NT-0248",
+    "NT-0282",
+    "RT-0090",
+    "NT-0217",
+    "NT-0132",
+    "NT-0140",
+    "RT-0291",
+    "NT-0179",
+    "NT-0271",
+    "NT-0167",
+    "RT-0216",
+    "NT-0071",
+    "NT-0295",
+    "NT-0181",
+    "RT-0279",
+    "RT-0172",
+    "RT-0263",
+    "NT-0024",
+    "NT-0299",
+    "NT-0122",
+    "NT-0294",
+    "RT-0243",
+    "RT-0106",
+    "RT-0232",
+    "NT-0124",
+    "RT-0290",
+    "NT-0265",
+    "RT-0152",
+    "NT-0091",
+    "NT-0085",
+    "NT-0067",
+    "NT-0166",
+    "RT-0214",
+    "RT-0008",
+    "NT-0058",
+    "RT-0042",
+    "RT-0226",
+    "RT-0256",
+    "RT-0122",
+    "NT-0055",
+    "RT-0088",
+    "RT-0060",
+    "RT-0205",
+    "NT-0212",
+    "RT-0208",
+    "RT-0097",
+    "NT-0183",
+    "NT-0006",
+    "NT-0123",
+    "RT-0257",
+    "RT-0032",
+    "NT-0016",
+    "NT-0202",
+    "RT-0228",
+    "NT-0213",
+    "RT-0196",
+    "RT-0034",
+    "RT-0262",
+    "NT-0041",
+    "RT-0273",
+    "RT-0054",
+    "NT-0082",
+    "NT-0020",
+    "NT-0270",
+    "NT-0252",
+    "RT-0001",
+    "NT-0072",
+    "RT-0295",
+    "NT-0223",
+    "NT-0276",
+    "RT-0132",
+    "RT-0153",
+    "RT-0233",
+    "RT-0282",
+    "NT-0196",
+    "NT-0026",
+    "RT-0299",
+    "RT-0030",
+    "NT-0269",
+    "RT-0242",
+    "RT-0127",
+    "RT-0123",
+    "NT-0084",
+    "RT-0003",
+    "RT-0125",
+    "RT-0231",
+    "RT-0094",
+    "NT-0149",
+    "RT-0155",
+    "NT-0142",
+    "RT-0075",
+    "RT-0109",
+    "NT-0169",
+    "NT-0038",
+    "RT-0011",
+    "NT-0260",
+    "NT-0083",
+    "NT-0279",
+    "NT-0241",
+    "NT-0161",
+    "RT-0259",
+    "RT-0235",
+    "NT-0173",
+    "RT-0186",
+    "RT-0027",
+    "RT-0281",
+    "NT-0065",
+    "RT-0200",
+    "NT-0285",
+    "RT-0270",
+    "RT-0201",
+    "RT-0278",
+    "NT-0118",
+    "RT-0175",
+    "NT-0296",
+    "RT-0071",
+    "RT-0031",
+    "NT-0160",
+    "RT-0160",
+    "RT-0121",
+    "RT-0141",
+    "RT-0051",
+    "RT-0163",
+    "RT-0043",
+    "RT-0292",
+    "RT-0177",
+    "NT-0080",
+    "RT-0126",
+    "RT-0086",
+    "RT-0202",
+    "RT-0146",
+    "NT-0032",
+    "NT-0125",
+    "NT-0004",
+    "RT-0168",
+    "NT-0128",
+    "NT-0023",
+    "NT-0063",
+    "NT-0010",
+    "NT-0018",
+    "RT-0057",
+    "RT-0114",
+    "NT-0176",
+    "RT-0144",
+    "RT-0249",
+    "NT-0158",
+    "NT-0280",
+    "NT-0030",
+    "RT-0221",
+    "RT-0111",
+    "NT-0061",
+    "RT-0280",
+    "NT-0253",
+    "NT-0297",
+    "RT-0213",
+    "RT-0150",
+    "NT-0162",
+    "NT-0111",
+    "RT-0080",
+    "NT-0153",
+    "NT-0154",
+    "NT-0002",
+    "NT-0227",
+    "RT-0078",
+    "NT-0107",
+    "NT-0242",
+    "RT-0049",
+    "RT-0037",
+    "NT-0164",
+    "NT-0234",
+    "RT-0204",
+    "NT-0048",
+    "RT-0035",
+    "RT-0149",
+    "NT-0121",
+    "NT-0247",
+    "RT-0039",
+    "RT-0093",
+    "NT-0110",
+    "NT-0099",
+    "RT-0241",
+    "NT-0220",
+    "RT-0128",
+    "RT-0237",
+    "RT-0059",
+    "RT-0206",
+    "RT-0238",
+    "NT-0182",
+    "NT-0228",
+    "NT-0237",
+    "RT-0006",
+    "NT-0134",
+    "RT-0296",
+    "RT-0272",
+    "NT-0229",
+    "NT-0159",
+    "RT-0010",
+    "NT-0195",
+    "RT-0112",
+    "NT-0145",
+    "NT-0087",
+    "RT-0234",
+    "NT-0131",
+    "RT-0091",
+    "NT-0015",
+    "NT-0115",
+    "NT-0156",
+    "RT-0161",
+    "RT-0062",
+    "NT-0045",
+    "NT-0221",
+    "RT-0193",
+    "NT-0291",
+    "NT-0078",
+    "NT-0126",
+    "RT-0222",
+    "RT-0287",
+    "NT-0243",
+    "RT-0101",
+    "RT-0182",
+    "NT-0219",
+    "NT-0205",
+    "RT-0179",
+    "NT-0216",
+    "NT-0204",
+    "RT-0250",
+    "RT-0073",
+    "NT-0011",
+    "RT-0124",
+    "RT-0022",
+    "RT-0026",
+    "RT-0119",
+    "RT-0275",
+    "RT-0247",
+    "NT-0028",
+    "RT-0009",
+    "RT-0178",
+    "RT-0052",
+    "NT-0235",
+    "RT-0174",
+    "NT-0036",
+    "NT-0025",
+    "NT-0277",
+    "NT-0092",
+    "RT-0219",
+    "RT-0288",
+    "NT-0147",
+    "NT-0039",
+    "RT-0055",
+    "NT-0081",
+    "NT-0268",
+    "RT-0033",
+    "NT-0293",
+    "NT-0148",
+    "NT-0298",
+    "NT-0208",
+    "RT-0135",
+    "RT-0230",
+    "NT-0200",
+    "NT-0150",
+    "NT-0238",
+    "RT-0212",
+    "NT-0097",
+    "NT-0250",
+    "NT-0178",
+    "RT-0044",
+    "RT-0188",
+    "RT-0169",
+    "NT-0022",
+    "RT-0220",
+    "RT-0266",
+    "RT-0092",
+    "RT-0004",
+    "NT-0112",
+    "RT-0293",
+    "RT-0199",
+    "RT-0223",
+    "RT-0053",
+    "RT-0215",
+    "RT-0140",
+    "RT-0298",
+    "RT-0016",
+    "RT-0024",
+    "RT-0099",
+    "RT-0181",
+    "RT-0087",
+    "NT-0258",
+    "RT-0265",
+    "NT-0040",
+    "RT-0082",
+    "NT-0281",
+    "NT-0180",
+    "RT-0248",
+    "NT-0103",
+    "RT-0050",
+    "RT-0002",
+    "RT-0134",
+    "RT-0276",
+    "RT-0045",
+    "NT-0116",
+    "RT-0159",
+    "NT-0130",
+    "RT-0156",
+    "NT-0098",
+    "RT-0047",
+    "NT-0119",
+    "RT-0064",
+    "NT-0189",
+    "NT-0062",
+    "NT-0278",
+    "RT-0158",
+    "NT-0073",
+    "NT-0240",
+    "RT-0019",
+    "RT-0096",
+    "RT-0100",
+    "RT-0239",
+    "RT-0038",
+    "RT-0063",
+    "NT-0172",
+    "RT-0102",
+    "NT-0165",
+    "RT-0070",
+    "NT-0014",
+    "NT-0027",
+    "NT-0184",
+    "RT-0185",
+    "RT-0190",
+    "NT-0096",
+    "RT-0085",
+    "NT-0137",
+    "NT-0108",
+    "NT-0290",
+    "RT-0012",
+    "NT-0086",
+    "NT-0069",
+    "RT-0184",
+    "RT-0198",
+    "NT-0245",
+    "RT-0245",
+    "NT-0284",
+    "RT-0046",
+    "NT-0120",
+    "RT-0120",
+    "RT-0176",
+    "NT-0017",
+    "NT-0005",
+    "RT-0116",
+    "RT-0084",
+    "RT-0028",
+    "RT-0261",
+    "RT-0058",
+    "RT-0143",
+    "NT-0043",
+    "RT-0089",
+    "RT-0117",
+    "RT-0225",
+    "RT-0286",
+    "RT-0142",
+    "RT-0040",
+    "NT-0190",
+    "RT-0079",
+    "NT-0273",
+    "RT-0014",
+    "NT-0177",
+    "NT-0060",
+    "NT-0275",
+    "NT-0079",
+    "RT-0154",
+    "RT-0236",
+    "NT-0068",
+    "RT-0029",
+    "NT-0008",
+    "NT-0052",
+    "RT-0068",
+    "NT-0095",
+    "NT-0051",
+    "NT-0133",
+    "RT-0074",
+    "RT-0083",
+    "RT-0294",
+    "RT-0211",
+    "RT-0007",
+    "NT-0218",
+    "NT-0037",
+    "RT-0025",
+    "NT-0233",
+    "RT-0189",
+    "RT-0021",
+    "RT-0255",
+    "NT-0138"
+  ],
+  "counts": {
+    "PRES": 53,
+    "LAT": 15,
+    "SEV": 18
+  }
+}

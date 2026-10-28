@@ -1,0 +1,21 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: magnetic resonance (MR) image; body region: head and brain.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Brain parenchyma: grey and white matter appearance, focal areas with side and lobe
+2. Ventricles and cisterns: size, shape and symmetry of ventricles and basal cisterns
+3. Extra-axial space: spaces between brain and skull, any fluid or collection
+4. Midline: position of midline structures and any shift
+5. Posterior fossa: cerebellum and brainstem appearance
+6. Skull, skull base and marrow: calvarium, skull base and bone marrow appearance
+7. Vessels: visible vessels or flow voids
+8. Sinuses and mastoids: paranasal sinuses and mastoid air cells
+9. Orbits: visible orbits and their contents
+10. Sella and upper neck: sella region and the visible upper cervical region
+Write nothing before item 1 and nothing after the last item.

@@ -1,0 +1,19 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: dermoscopic image of the skin.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Lesion centre: colours and structures at the lesion centre
+2. Lesion periphery: colours and structures at the lesion edge
+3. Lesion border: border sharpness and contour of the lesion
+4. Lesion symmetry: colour and structure symmetry across two axes
+5. Colour distribution: brown, black, blue, red or white areas
+6. Vascular pattern: visible vessels and redness within the lesion
+7. Lesion surface: scale, crust, ulceration or keratin
+8. Perilesional skin: surrounding skin pigmentation and hair
+Write nothing before item 1 and nothing after the last item.

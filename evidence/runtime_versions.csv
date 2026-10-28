@@ -1,0 +1,8 @@
+run,mode,python,gpu,precision,torch,transformers,accelerate,bitsandbytes,tokenizers,pillow,openai,numpy
+test_ans_Q,TEST,3.13.15,NVIDIA L4,PREC-0,2.11.0+cu130,4.49.0,1.3.0,0.45.2,0.21.0,11.3.0,2.54.0,2.1.3
+test_ans_L,TEST,3.13.15,Tesla T4;Tesla T4,PREC-0,2.11.0+cu128,4.49.0,1.3.0,0.45.2,0.21.0,12.3.0,2.54.0,2.1.3
+test_obs_Q,TEST,3.13.15,NVIDIA L4,PREC-0,2.11.0+cu130,4.49.0,1.3.0,0.45.2,0.21.0,11.3.0,2.54.0,2.1.3
+test_obs_L,TEST,3.13.15,Tesla T4;Tesla T4,PREC-0,2.11.0+cu128,4.49.0,1.3.0,0.45.2,0.21.0,12.3.0,2.54.0,2.1.3
+test_obs_G,TEST,3.13.16,,API,2.11.0+cpu,5.20.1,1.15.0,,0.23.3,11.3.0,2.54.0,2.1.3
+test_judge_J1_ref87,TEST,3.13.15,Tesla T4;Tesla T4,PREC-0,2.11.0+cu128,4.49.0,1.3.0,0.45.2,0.21.0,12.3.0,2.54.0,2.1.3
+test_judge_J2_ref87,TEST,3.13.15,Tesla T4;Tesla T4,PREC-0,2.11.0+cu128,4.49.0,1.3.0,0.45.2,0.21.0,12.3.0,2.54.0,2.1.3

@@ -1,0 +1,586 @@
+{
+  "schema": "AGGREGATE-STUDY-EVIDENCE-v1",
+  "files": {
+    "main_endpoints.csv": {
+      "sha256": "632d1be8c296fa88bcbf362e0da22340bb910d2ba2dfc0aeb0e142f662693c54",
+      "rows": 266,
+      "columns": [
+        "endpoint",
+        "cell",
+        "cohort",
+        "metric",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high"
+      ],
+      "original_filename": "T01_cell_endpoints.csv"
+    },
+    "main_confirmatory.csv": {
+      "sha256": "30263abaa99b109037286a5f450c3113b70a2d5d16c6f5bb5e27371965309952",
+      "rows": 25,
+      "columns": [
+        "contrast",
+        "family",
+        "rq",
+        "kind",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p",
+        "p_holm",
+        "holm_sig",
+        "family_size",
+        "tost_level",
+        "tost_ci_low",
+        "tost_ci_high",
+        "equivalent",
+        "state"
+      ],
+      "original_filename": "T02_confirmatory_holm_tost.csv"
+    },
+    "main_descriptive.csv": {
+      "sha256": "6eb9cff1ff5e30d6bf8d83b12b538dc12aa3d84ffdf6f9a1ed055911f075acb0",
+      "rows": 86,
+      "columns": [
+        "contrast",
+        "rq",
+        "kind",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p"
+      ],
+      "original_filename": "T03_descriptive.csv"
+    },
+    "main_answer_validity.csv": {
+      "sha256": "56374d8b2f03312a2f85f5a8b0e1ae3b8ea551da4bdd029b5208c82433351b1b",
+      "rows": 57,
+      "columns": [
+        "cell",
+        "cohort",
+        "kind",
+        "n_rows",
+        "invalid_rate",
+        "n_gen_error",
+        "n_missing_row",
+        "n_b_is_correct",
+        "n_int_missing"
+      ],
+      "original_filename": "T06_E-S1_invalid.csv"
+    },
+    "main_observation_format.csv": {
+      "sha256": "b0094d22950036f33449b6e782d07e8c29b52938c74ab5656531bfce546835d0",
+      "rows": 207,
+      "columns": [
+        "observer",
+        "arm",
+        "n",
+        "format_ok_rate",
+        "lines_fmt_share",
+        "mean_output_tokens",
+        "truncated_rate",
+        "obs_error_rate",
+        "empty_rate",
+        "route"
+      ],
+      "original_filename": "T11_E-S9_observation.csv"
+    },
+    "supplementary_comparisons.csv": {
+      "sha256": "41fbd57a50e17aa547de08ce345477c670ff218d2d15dced4ca82c7869970fbd",
+      "rows": 76,
+      "columns": [
+        "task",
+        "contrast",
+        "code_contrast",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p",
+        "source",
+        "tost_level",
+        "tost_ci_low",
+        "tost_ci_high",
+        "equivalent"
+      ],
+      "original_filename": "A_existing_data.csv"
+    },
+    "neutral_list_contrasts.csv": {
+      "sha256": "5e3c467af404bf81483e9695e227a21e061991ea4e942b7f0002ef0824228478",
+      "rows": 14,
+      "columns": [
+        "contrast",
+        "cohort",
+        "n_questions",
+        "terms",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p",
+        "tost_level",
+        "tost_ci_low",
+        "tost_ci_high",
+        "equivalent",
+        "state",
+        "p_holm_sensitivity",
+        "holm_reject_sensitivity"
+      ],
+      "original_filename": "contrasts.csv"
+    },
+    "neutral_list_answer_direction.csv": {
+      "sha256": "b63cd9918b3dc9efb7631ae8b65479a15bb294b69856a70a81830d911d36fdff",
+      "rows": 33,
+      "columns": [
+        "cell",
+        "cohort",
+        "metric",
+        "n_questions",
+        "scale",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p",
+        "reference"
+      ],
+      "original_filename": "answer_direction.csv"
+    },
+    "neutral_list_answer_changes.csv": {
+      "sha256": "f921d47fd92234cfb2b9a34d8e78b4b4a7f3d8b69e071c984b119d26d0b45436",
+      "rows": 20,
+      "columns": [
+        "cell",
+        "reference",
+        "metric",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p"
+      ],
+      "original_filename": "answer_changes.csv"
+    },
+    "high_detail_contrasts.csv": {
+      "sha256": "c0a8ed1f3d55da31388c54aac4897faddc7e3e12237bc67c2d5bc7060afa9748",
+      "rows": 12,
+      "columns": [
+        "contrast",
+        "description",
+        "model",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p"
+      ],
+      "original_filename": "contrasts.csv"
+    },
+    "high_detail_endpoints.csv": {
+      "sha256": "987645b048d725d5aa51121fa1b17762b2f8be74339d7853bac2047f3da7de0b",
+      "rows": 16,
+      "columns": [
+        "endpoint",
+        "cell",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high"
+      ],
+      "original_filename": "endpoints.csv"
+    },
+    "high_detail_observation_checks.csv": {
+      "sha256": "2c3d254c41b680adbfd32e4e1d641541d20ebc2ea229cf6e3fbd4c08e29b1c52",
+      "rows": 46,
+      "columns": [
+        "observer",
+        "arm",
+        "n",
+        "format_ok_rate",
+        "lines_fmt_share",
+        "mean_output_tokens",
+        "truncated_rate",
+        "obs_error_rate",
+        "empty_rate",
+        "route",
+        "detail"
+      ],
+      "original_filename": "observation_checks.csv"
+    },
+    "main_routing_sensitivity.csv": {
+      "sha256": "90f2136c442bc96b97036a82c71b3741f08db3f1e8acfd5b81b0d7dfe7bcce11",
+      "rows": 18,
+      "columns": [
+        "contrast",
+        "cohort",
+        "main_estimate",
+        "main_ci_low",
+        "main_ci_high",
+        "main_holm_sig",
+        "routeq_n",
+        "routeq_estimate",
+        "routeq_ci_low",
+        "routeq_ci_high",
+        "nonroute_n",
+        "nonroute_estimate",
+        "nonroute_ci_low",
+        "nonroute_ci_high"
+      ],
+      "original_filename": "T04_R-ROUTEQ.csv",
+      "source_sha256": "3c3a7682ca3e7306010fbef5e936273cd12edfd050be43ed7b18e880562f870f",
+      "description": "Hiệu độ chính xác trên câu hỏi nhận diện loại/vùng ảnh và các câu còn lại.",
+      "selection": "Numerical estimates and identifiers retained; autogenerated interpretation column omitted."
+    },
+    "main_sensitivity.csv": {
+      "sha256": "cf7f170115d3941e81997ed7eac3138776a914f1c88bd24254b6632e39079149",
+      "rows": 100,
+      "columns": [
+        "analysis",
+        "contrast",
+        "cohort",
+        "subset",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p"
+      ],
+      "original_filename": "T05_sensitivity.csv",
+      "source_sha256": "cf7f170115d3941e81997ed7eac3138776a914f1c88bd24254b6632e39079149",
+      "description": "Các phân tích độ nhạy theo dữ liệu, loại ảnh và tiêu chí chọn mẫu."
+    },
+    "correction_by_type.csv": {
+      "sha256": "ae58193901284924cd37b334fa60f8699f4f3f274e4ac74aa195bf9da62fb607",
+      "rows": 18,
+      "columns": [
+        "contrast",
+        "edit_type",
+        "cohort",
+        "n_questions",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "p"
+      ],
+      "original_filename": "T07_INT-CORR_by_type.csv",
+      "source_sha256": "ae58193901284924cd37b334fa60f8699f4f3f274e4ac74aa195bf9da62fb607",
+      "description": "Tỷ lệ đổi đáp án theo loại sửa mô tả."
+    },
+    "routing_answer_overlap.csv": {
+      "sha256": "080ebb4cee991c8937542566e9b826efae3475f8c263f13b369ab712139226c8",
+      "rows": 4,
+      "columns": [
+        "cohort",
+        "kind",
+        "measure",
+        "n",
+        "rate"
+      ],
+      "original_filename": "T10_check13_leakage.csv",
+      "source_sha256": "080ebb4cee991c8937542566e9b826efae3475f8c263f13b369ab712139226c8",
+      "description": "Mức xuất hiện đáp án trong phần thông tin định tuyến."
+    },
+    "judge_output_validity.csv": {
+      "sha256": "c53bf2d1ce1572ca12e702983982bbfcc68338255159c4edce2db902a04c9af7",
+      "rows": 2,
+      "columns": [
+        "judge",
+        "task",
+        "n",
+        "n_skipped",
+        "n_valid_schema",
+        "n_invalid",
+        "n_fence_would_parse",
+        "strip_one_fence_in_force"
+      ],
+      "original_filename": "T14_judge_status.csv",
+      "source_sha256": "c53bf2d1ce1572ca12e702983982bbfcc68338255159c4edce2db902a04c9af7",
+      "description": "Số lượt chấm và tỷ lệ đầu ra đúng định dạng."
+    },
+    "judge_calibration.csv": {
+      "sha256": "be1974a67a630f7f1b24d40b3cfcce0613c557f01b0aa41f2e988581fa39fce2",
+      "rows": 10,
+      "columns": [
+        "cls",
+        "judge",
+        "n_units",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high",
+        "template"
+      ],
+      "original_filename": "T2x_RQ2_J-PROBE.csv",
+      "source_sha256": "be1974a67a630f7f1b24d40b3cfcce0613c557f01b0aa41f2e988581fa39fce2",
+      "description": "Độ chính xác của hai mô hình chấm trên các nhận định hiệu chuẩn."
+    },
+    "judge_sample_coverage.csv": {
+      "sha256": "bc128d8bfc1f08e1c6f34606ba2db813d4e35b435945653f04b81967d1944452",
+      "rows": 18,
+      "columns": [
+        "judge",
+        "observer",
+        "arm",
+        "expected_images",
+        "eligible_images",
+        "missing_reference_images",
+        "coverage",
+        "images_with_records",
+        "images_missing_records",
+        "images_with_statements",
+        "images_with_valid_statements",
+        "valid_statements",
+        "invalid_statements",
+        "judge_invalid",
+        "no_statements",
+        "obs_error_skipped"
+      ],
+      "original_filename": "T2x_RQ2_AX1-coverage.csv",
+      "source_sha256": "bc128d8bfc1f08e1c6f34606ba2db813d4e35b435945653f04b81967d1944452",
+      "description": "Mức bao phủ của mẫu chấm mô tả."
+    },
+    "observation_support.csv": {
+      "sha256": "5c2f754a8a59099c68a003596dac9697c37bef5f1aa6259bb2b0e891b566555b",
+      "rows": 27,
+      "columns": [
+        "observer",
+        "arm",
+        "judge",
+        "n_units",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high"
+      ],
+      "original_filename": "T2x_RQ2_E-R2a.csv",
+      "source_sha256": "5c2f754a8a59099c68a003596dac9697c37bef5f1aa6259bb2b0e891b566555b",
+      "description": "Tỷ lệ nhận định được ảnh hỗ trợ."
+    },
+    "observation_contradiction.csv": {
+      "sha256": "2114d85cb07eeafe559ea5074f83888338b6889708ad7d9a7e5c3abb77921fa5",
+      "rows": 27,
+      "columns": [
+        "observer",
+        "arm",
+        "judge",
+        "n_units",
+        "estimate",
+        "B_eff",
+        "B_nan",
+        "ci_low",
+        "ci_high"
+      ],
+      "original_filename": "T2x_RQ2_E-R2b.csv",
+      "source_sha256": "2114d85cb07eeafe559ea5074f83888338b6889708ad7d9a7e5c3abb77921fa5",
+      "description": "Tỷ lệ nhận định mâu thuẫn với ảnh."
+    },
+    "neutral_list_token_lengths.csv": {
+      "sha256": "ef499b1379c5a606341da122373f7deab606bcc2af7fa27b3fe7ab25b84e3dd2",
+      "rows": 599,
+      "columns": [
+        "mode",
+        "neutral_id",
+        "route_key",
+        "status",
+        "errors",
+        "empty_tokens",
+        "items_tokens",
+        "neutral_dash_tokens",
+        "neutral_list_tokens",
+        "ND_minus_EMPTY_tokens",
+        "ITEMS_minus_NL_tokens",
+        "repeated_label_groups",
+        "repeated_label_extra_instances"
+      ],
+      "original_filename": "fullrow_token_audit.csv",
+      "source_sha256": "ddd4ddac05fa4651927825540e5eb7ab71ac0ff34562846c6ad2fa153ac104a2",
+      "description": "Độ dài token của các văn bản đối chứng theo ảnh và điều kiện.",
+      "publication_filter": "Pilot rows excluded; retained TEST/non-pilot rows are unchanged."
+    },
+    "neutral_list_item_tokens.csv": {
+      "sha256": "f517caff70ec5c8b604c1990bae124db3206329cd014821f932c2f5f6e6a6cb4",
+      "rows": 5900,
+      "columns": [
+        "mode",
+        "neutral_id",
+        "route_key",
+        "line_index",
+        "status",
+        "ki_context",
+        "ki_standalone_subtraction",
+        "ki_difference",
+        "original_name_standalone_tokens",
+        "label",
+        "label_standalone_tokens",
+        "label_context_gate"
+      ],
+      "original_filename": "item_boundary_audit.csv",
+      "source_sha256": "4473aafc52c0c64735b394b5ce869891f5235ca44b744633197cf19ffa4f4dfc",
+      "description": "Độ dài token của tên mục giải phẫu và nhãn trung tính trong ngữ cảnh.",
+      "publication_filter": "Pilot rows excluded; retained TEST/non-pilot rows are unchanged."
+    },
+    "answer_execution_counts.csv": {
+      "sha256": "d192dc1354f3e97ba63692eb1d7e85e3df6e70471d5466e947e81a9b8b30955e",
+      "rows": 14,
+      "columns": [
+        "cell",
+        "unique_execution_records",
+        "closed_execution_records",
+        "open_execution_records",
+        "unique_questions",
+        "yesno_execution_records",
+        "short_execution_records",
+        "mcq_execution_records"
+      ],
+      "original_filename": "main_condition_execution_counts.csv",
+      "source_sha256": "d192dc1354f3e97ba63692eb1d7e85e3df6e70471d5466e947e81a9b8b30955e",
+      "description": "Số câu hỏi và lượt trả lời theo điều kiện, tách câu đóng và câu mở.",
+      "data_origin": "Counts from stored model outputs or recorded runtime metadata; no accuracy rescoring."
+    },
+    "runtime_versions.csv": {
+      "sha256": "313fc1c851f79435946c852accaec715e18fa7f787e7125e471e644588d812ce",
+      "rows": 7,
+      "columns": [
+        "run",
+        "mode",
+        "python",
+        "gpu",
+        "precision",
+        "torch",
+        "transformers",
+        "accelerate",
+        "bitsandbytes",
+        "tokenizers",
+        "pillow",
+        "openai",
+        "numpy"
+      ],
+      "original_filename": "measured_runtime_versions.csv",
+      "source_sha256": "313fc1c851f79435946c852accaec715e18fa7f787e7125e471e644588d812ce",
+      "description": "Phiên bản thư viện và phần cứng thực tế theo tác vụ.",
+      "data_origin": "Counts from stored model outputs or recorded runtime metadata; no accuracy rescoring."
+    },
+    "fallback_text_comparison.csv": {
+      "sha256": "05c11ef95fccc82bbaf5b3b4d8b019e766076b0b616c8628bf71b63d50d87e1f",
+      "rows": 3,
+      "columns": [
+        "pair",
+        "images_compared",
+        "exact_UTF8_text_different",
+        "whitespace_normalized_text_different",
+        "prompt_hash_different"
+      ],
+      "original_filename": "fallback_observation_comparisons.csv",
+      "source_sha256": "05c11ef95fccc82bbaf5b3b4d8b019e766076b0b616c8628bf71b63d50d87e1f",
+      "description": "Số mô tả giống và khác nhau giữa ba khung trên ảnh dự phòng.",
+      "data_origin": "Counts from stored model outputs or recorded runtime metadata; no accuracy rescoring."
+    },
+    "fallback_answer_changes.csv": {
+      "sha256": "8034cf5feabc8d84d1d54c5f4196804a29248cdaf3d924c6a1227e1346013c48",
+      "rows": 4,
+      "columns": [
+        "model",
+        "cohort",
+        "scope",
+        "images",
+        "questions",
+        "execution_turns_per_arm",
+        "questions_with_any_three_arm_parsed_change",
+        "images_with_any_three_arm_parsed_change",
+        "questions_with_any_three_arm_raw_change",
+        "images_with_any_three_arm_raw_change"
+      ],
+      "original_filename": "fallback_three_arm_answer_changes.csv",
+      "source_sha256": "c9e737bb8c4caf3eb639e6da468ea32020685b01ae1baa04d176a6b9b91f1cd6",
+      "description": "Số câu có dự đoán thay đổi giữa ba khung trên nhóm ảnh dự phòng.",
+      "selection": "Rows for the full fallback sample; closed-only and all-question scopes reported separately.",
+      "data_origin": "Counts from stored model outputs or recorded runtime metadata; no accuracy rescoring."
+    },
+    "experiment_counts.csv": {
+      "sha256": "9d36c7f3d0b1707f92de5177ca9804790cb802489a0abfbffd64b338a7ebb4ea",
+      "rows": 17,
+      "columns": [
+        "experiment",
+        "model",
+        "condition",
+        "measurement",
+        "value",
+        "denominator",
+        "unit",
+        "notes"
+      ],
+      "description": "Số đếm kỹ thuật của chạy thử, can thiệp văn bản và chuẩn bị dữ liệu.",
+      "data_origin": "Summarized from stored records, preparation reports and runtime configurations; no reference-answer scoring.",
+      "publication_filter": "Pilot rows excluded; retained TEST/non-pilot rows are unchanged."
+    }
+  },
+  "measurement_sources": {
+    "test_ans_L/shard_00_20261020T160859Z-aef6f0/records.jsonl": "ef889d9335583a22c43e81012c11b00dd4436abdd1991c0a4e50fe278e8bb35d",
+    "test_ans_L/shard_01_20261021T011748Z-8673dd/records.jsonl": "66eb3ff5401415740e224aa1f1c5b1da1cc757f5750854a42b811c30f7244d75",
+    "test_ans_Q/shard_00_20261021T011423Z-325129/records.jsonl": "2dfe345813097a611cc435c99b23fff76313a2ecd83b19bda4aaaeac77bef513",
+    "test_ans_Q/shard_01_20261021T011508Z-d0d5e0/records.jsonl": "b3cac49384b47aa9f72993f0340f7a54a0566f3484be968f22e1962c8c2ee94a",
+    "test_ans_Q/shard_02_20261021T015839Z-fd491d/records.jsonl": "5cf6f7294590ce2fb1ffeda50d076d94e51a451c50a80efccb791ecd53896655",
+    "test_ans_Q/shard_03_20261021T020047Z-9bd1c0/records.jsonl": "b8d3803ed2cadb863714cdea8a7dd4dababe269cc5b4fe47d841a4f4739dad5d",
+    "test_ans_Q/shard_00_20261021T011423Z-325129/run_config.json": "580e4ae2fc01b32ae84ebb9359f0c17804149be2ee3fd09bf7ceab86cc4033c0",
+    "test_ans_Q/shard_01_20261021T011508Z-d0d5e0/run_config.json": "580e4ae2fc01b32ae84ebb9359f0c17804149be2ee3fd09bf7ceab86cc4033c0",
+    "test_ans_Q/shard_02_20261021T015839Z-fd491d/run_config.json": "580e4ae2fc01b32ae84ebb9359f0c17804149be2ee3fd09bf7ceab86cc4033c0",
+    "test_ans_Q/shard_03_20261021T020047Z-9bd1c0/run_config.json": "580e4ae2fc01b32ae84ebb9359f0c17804149be2ee3fd09bf7ceab86cc4033c0",
+    "test_ans_L/shard_00_20261020T160859Z-aef6f0/run_config.json": "b9babc76883fc63bea17f3101cb8fe23b6574fc7bd1acacff2db94d7fbe3ca73",
+    "test_ans_L/shard_01_20261021T011748Z-8673dd/run_config.json": "b9babc76883fc63bea17f3101cb8fe23b6574fc7bd1acacff2db94d7fbe3ca73",
+    "test_obs_Q/shard_00_20261020T061736Z-294e36/run_config.json": "20800cae24f4de21c9e9a3e38f47c6c0ea922dc5e5a11630b71b7f2ec91a503d",
+    "test_obs_Q/shard_01_20261020T085739Z-c0916e/run_config.json": "69b31239def1bdf43df83e779c71e7a498e2067ac339251004ae59d400821a5f",
+    "test_obs_Q/shard_02_20261020T090542Z-120e17/run_config.json": "acc87b8d84f3058b2ce6be17478faa394a96a9c100b979e6419b9e75f2d0b3ab",
+    "test_obs_Q/shard_03_20261020T113958Z-a13c4b/run_config.json": "214937c10a0c531528a73690dfec3f84ed61af85a7adbf37766a26849a88dcce",
+    "test_obs_Q/shard_04_20261020T114011Z-679947/run_config.json": "9c2b14f38cbd3527ce0c1ad4976d0dea47f6e158fec1c8474c41eee7a6ee8ded",
+    "test_obs_Q/shard_05_20261020T125956Z-185dc2/run_config.json": "982112c33a3e5ce114d253914c57d95f91908dd7e9cf5395d6aa71682629b9af",
+    "test_obs_L/shard_00_20261020T065743Z-46181b/run_config.json": "fe39159e9d83b1c4bfde40c25f7661c3b191efc18ad2c7533c7c7d3bfd8dcb90",
+    "test_obs_L/shard_01_20261020T094945Z-212226/run_config.json": "9a414b49dfac269c51e245e6aa7e0920172350177da00ca48e622ae0a7e9e916",
+    "test_obs_G/shard_00_20261020T044100Z-3d89fd/run_config.json": "e481ea9fe68d11dc0407cc8cb4c7c0e98ac6de8cb372bb5392d92e80eb7fa59b",
+    "test_judge_J1_ref87/shard_00_20261022T124319Z-d8c902/run_config.json": "af8592d88b46f178e044c0b0dc85ae3599d9cd6d504b095545d136f058743495",
+    "test_judge_J2_ref87/shard_00_20261022T124423Z-2f0524/run_config.json": "6a84a7b3ef8359922efa4f449b4850a738201c20d6b04c0b04b647eb1caaf09c",
+    "test_obs_G/shard_00_20261020T044100Z-3d89fd/records.jsonl": "094cf785533b5d8183ff368e54443251a21f94236e3562173c0975704ba8b782",
+    "test_edit/shard_00_20261020T152038Z-b102f0/records.jsonl": "9e0764e59c8f42dcdad39e3a6e4e1629fa8e1052f70d05740524d02e5b79c977",
+    "test_obs_Q/shard_00_20261020T061736Z-294e36/records.jsonl": "8e1ecec74c19c5dc19cc3300a190eb38fbb9ab0b5fb019861b8470d85dd0b3fe",
+    "test_obs_Q/shard_01_20261020T085739Z-c0916e/records.jsonl": "833672016bc99582ab7b6aa7dee926ad49f01492a04832d6ca3aff8b1044fdca",
+    "test_obs_Q/shard_02_20261020T090542Z-120e17/records.jsonl": "5b3a5f19eca74da2f7b9b3e3dbc24cc48fb4812cdfeb832e3dbc0d6afedf3acd",
+    "test_obs_Q/shard_03_20261020T113958Z-a13c4b/records.jsonl": "ce73e9a9e2859596c0725249e2ebed896b7e042a7bf5502a8a9dbbca8b826d28",
+    "test_obs_Q/shard_04_20261020T114011Z-679947/records.jsonl": "4dc4ffc77c44bad07451035952c48e374a174296a9a3fa9f88b87cbc2358ad50",
+    "test_obs_Q/shard_05_20261020T125956Z-185dc2/records.jsonl": "d857e1791370ce36752712d9634523e775b204abe0d81555a9a3f499245513bf",
+    "test_judge_J1_ref87/shard_00_20261022T124319Z-d8c902/records.jsonl": "8230f12058e09bb503687272d86a0bd562e14550206b36aa301f1577ee7cbfe7",
+    "test_judge_J2_ref87/shard_00_20261022T124423Z-2f0524/records.jsonl": "51af0e2652778d5d2b612d5e60bba4e4e9acf00b974f74f9ac30b4fd429ac682",
+    "prep/prep_out/reports/eda_summary.json": "2a5a29468efef01cd399e6272b4233e67bc4e3f11935418a25ef656d13c6936c",
+    "prep/prep_out/reports/native_heldout_selection.json": "f83fc53a092084d4e8529f6f7cf86980b9e225c94f6fa8ca1fb8d543f2d5c5bc",
+    "prep/prep_out/reports/native_provenance_counts.json": "4e266496c7ecc66f881e603c3411c5d1e1d103a14d659f6993975a071aabbe7b"
+  }
+}

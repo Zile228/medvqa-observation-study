@@ -1,0 +1,25 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: computed tomography (CT), cross-sectional; body region: abdomen and pelvis.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Image display: window setting, intravenous and oral contrast
+2. Image-left upper abdomen: liver and gallbladder outline, focal areas and the hepatic flexure
+3. Epigastrium: stomach, pancreatic head and body, and midline hepatic lobe outline
+4. Image-right upper abdomen: spleen size, pancreatic tail and the splenic flexure
+5. Image-left retroperitoneum: kidney, adrenal gland and ureter on the image-left side
+6. Image-right retroperitoneum: kidney, adrenal gland and ureter on the image-right side
+7. Midline vessels: aorta, inferior vena cava, portal and mesenteric vessels, calibre
+8. Retroperitoneal nodes: lymph nodes around the aorta, mesentery and iliac vessels
+9. Central abdomen: duodenum, jejunum, ileum and mesentery, with bowel calibre
+10. Flanks and colon: ascending and descending colon and paracolic gutters
+11. Pelvis: urinary bladder, rectum, and uterus or prostate outline
+12. Peritoneal spaces: ascites, free gas and peritoneal or omental nodules
+13. Lung bases: basal lung, pleural spaces and pericardium, any fluid
+14. Musculoskeletal: lumbar spine, pelvis, ribs and abdominal wall muscles
+Write nothing before item 1 and nothing after the last item.

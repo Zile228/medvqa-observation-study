@@ -1,0 +1,5 @@
+cohort,kind,measure,n,rate
+NAT,mcq,gold_option_text_in_header,300,0.0
+NAT,mcq,exactly_one_option_in_header,300,0.0
+RAD,closed_short,gold_in_header,85,0.011764705882352941
+RAD,yesno,proxy_share_in_routeq_set,603,0.37645107794361526

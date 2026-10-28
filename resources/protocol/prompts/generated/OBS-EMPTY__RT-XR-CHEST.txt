@@ -1,0 +1,11 @@
+1. Technical quality | — | —
+2. Lines, tubes and devices | — | —
+3. Chest wall | — | —
+4. Mediastinum | — | —
+5. Hila | — | —
+6. Airways | — | —
+7. Lungs | — | —
+8. Lung opacity | — | —
+9. Rounded opacity | — | —
+10. Pleura | — | —
+11. Diaphragm | — | —

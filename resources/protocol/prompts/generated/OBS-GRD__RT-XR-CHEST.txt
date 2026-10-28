@@ -1,0 +1,22 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: plain radiograph (X-ray); body region: chest.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Technical quality: patient rotation, penetration, motion blur, inspiratory lung volume and artifacts
+2. Lines, tubes and devices: any visible device, its type and where it lies
+3. Chest wall: visible ribs, clavicles, spine and chest wall soft tissue
+4. Mediastinum: mediastinal width and contour, including the cardiac silhouette
+5. Hila: size, density and position of each hilum
+6. Airways: course and calibre of the trachea and main bronchi
+7. Lungs: each lung by side and zone, overall lucency and markings
+8. Lung opacity: opacity, consolidation or atelectasis, with side, zone and extent
+9. Rounded opacity: any rounded opacity, with side and zone, without a size category
+10. Pleura: pleural lines, costophrenic angles and any pleural fluid
+11. Diaphragm: contour and height of each hemidiaphragm
+Write nothing before item 1 and nothing after the last item.

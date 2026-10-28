@@ -1,0 +1,375 @@
+{
+  "id": "ROUTER-TABLE-v1.1",
+  "note": "Router tất định: tra bảng theo (modality, region) đã có provenance. Không dùng câu hỏi, đáp án, nhãn bệnh, question_type, đường dẫn/tên thư mục gốc. Header chỉ nêu loại ảnh và vùng; giống hệt nhau giữa ARM-GEN, ARM-ANA và ARM-GRD (bản 1.1, P1-1). Metadata route phải hằng số theo ảnh. Mọi cặp (modality, vùng) thực tế được liệt kê vào route_pairs.json ở P3; cặp không khớp dòng tra nào làm build dừng, không rơi im lặng vào RT-FALLBACK (P2-2).",
+  "routes": {
+    "RT-XR-CHEST": {
+      "header": "plain radiograph (X-ray); body region: chest",
+      "weak_group": false
+    },
+    "RT-XR-WRIST": {
+      "header": "plain radiograph (X-ray); body region: wrist",
+      "weak_group": false
+    },
+    "RT-XR-ELBOW": {
+      "header": "plain radiograph (X-ray); body region: elbow",
+      "weak_group": false
+    },
+    "RT-XR-HUMERUS": {
+      "header": "plain radiograph (X-ray); body region: upper arm (humerus)",
+      "weak_group": false
+    },
+    "RT-XR-SHOULDER": {
+      "header": "plain radiograph (X-ray); body region: shoulder",
+      "weak_group": false
+    },
+    "RT-XR-FINGER": {
+      "header": "plain radiograph (X-ray); body region: finger",
+      "weak_group": false
+    },
+    "RT-XR-HAND": {
+      "header": "plain radiograph (X-ray); body region: hand",
+      "weak_group": false
+    },
+    "RT-MAMMO": {
+      "header": "mammogram (X-ray of the breast); body region: breast",
+      "weak_group": false
+    },
+    "RT-CT-ABDPEL": {
+      "header": "computed tomography (CT), cross-sectional; body region: abdomen and pelvis",
+      "weak_group": false
+    },
+    "RT-CT-CHEST": {
+      "header": "computed tomography (CT), cross-sectional; body region: chest",
+      "weak_group": false
+    },
+    "RT-CT-HEAD": {
+      "header": "computed tomography (CT), cross-sectional; body region: head",
+      "weak_group": false
+    },
+    "RT-CT-FACE": {
+      "header": "computed tomography (CT), cross-sectional; body region: face and skull base",
+      "weak_group": false
+    },
+    "RT-CT-NECK": {
+      "header": "computed tomography (CT), cross-sectional; body region: neck",
+      "weak_group": true
+    },
+    "RT-MR-BRAIN": {
+      "header": "magnetic resonance (MR) image; body region: head and brain",
+      "weak_group": false
+    },
+    "RT-MR-ABD": {
+      "header": "magnetic resonance (MR) image; body region: abdomen",
+      "weak_group": true
+    },
+    "RT-MR-KNEE": {
+      "header": "magnetic resonance (MR) image; body region: knee",
+      "weak_group": false
+    },
+    "RT-MR-SHOULDER": {
+      "header": "magnetic resonance (MR) image; body region: shoulder",
+      "weak_group": false
+    },
+    "RT-MR-HIP": {
+      "header": "magnetic resonance (MR) image; body region: hip",
+      "weak_group": false
+    },
+    "RT-MR-ANKLE": {
+      "header": "magnetic resonance (MR) image; body region: ankle and hindfoot",
+      "weak_group": false
+    },
+    "RT-MR-MIDFOOT": {
+      "header": "magnetic resonance (MR) image; body region: foot",
+      "weak_group": false
+    },
+    "RT-MR-TOE": {
+      "header": "magnetic resonance (MR) image; body region: toe",
+      "weak_group": false
+    },
+    "RT-MR-SPINE": {
+      "header": "magnetic resonance (MR) image; body region: spine",
+      "weak_group": false
+    },
+    "RT-SKIN-DERM": {
+      "header": "dermoscopic image of the skin",
+      "weak_group": false
+    },
+    "RT-SKIN-CLIN": {
+      "header": "clinical photograph of the skin",
+      "weak_group": false
+    },
+    "RT-FALLBACK": {
+      "header": null,
+      "weak_group": false,
+      "note": "Không có field nguồn dùng được, hoặc unknown/conflict/metadata không hằng theo ảnh. GEN, ANA và GRD đều dùng nguyên khối generic (generic_items.json) với 'Image context: not provided.'. MR ngực (1 ảnh SLAKE) rơi vào đây và được tính là nhóm yếu."
+    }
+  },
+  "lookup": [
+    {
+      "source": "SLAKE metadata (modality, location)",
+      "match": {
+        "modality": "X-Ray",
+        "location": [
+          "Lung",
+          "Chest"
+        ]
+      },
+      "route": "RT-XR-CHEST"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "CT",
+        "location": [
+          "Abdomen",
+          "Pelvic Cavity"
+        ]
+      },
+      "route": "RT-CT-ABDPEL"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "CT",
+        "location": [
+          "Lung",
+          "Chest_mediastinal",
+          "Chest_heart",
+          "Chest_lung"
+        ]
+      },
+      "route": "RT-CT-CHEST"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "CT",
+        "location": [
+          "Brain_Tissue",
+          "Brain"
+        ]
+      },
+      "route": "RT-CT-HEAD"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "CT",
+        "location": [
+          "Brain_Face"
+        ]
+      },
+      "route": "RT-CT-FACE"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "CT",
+        "location": [
+          "Neck"
+        ]
+      },
+      "route": "RT-CT-NECK"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "MRI",
+        "location": [
+          "Brain",
+          "Brain_Tissue",
+          "Brain_Face"
+        ]
+      },
+      "route": "RT-MR-BRAIN"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "MRI",
+        "location": [
+          "Abdomen"
+        ]
+      },
+      "route": "RT-MR-ABD"
+    },
+    {
+      "source": "SLAKE metadata",
+      "match": {
+        "modality": "MRI",
+        "location": [
+          "Lung",
+          "Chest"
+        ]
+      },
+      "route": "RT-FALLBACK",
+      "weak_group_override": true
+    },
+    {
+      "source": "VQA-RAD image_organ + vqarad_modality_inventory.json (P0, 2 người chấm, chỉ nhìn ảnh)",
+      "match": {
+        "modality": "X-Ray",
+        "region": [
+          "CHEST"
+        ]
+      },
+      "route": "RT-XR-CHEST"
+    },
+    {
+      "source": "VQA-RAD",
+      "match": {
+        "modality": "CT",
+        "region": [
+          "ABD"
+        ]
+      },
+      "route": "RT-CT-ABDPEL"
+    },
+    {
+      "source": "VQA-RAD",
+      "match": {
+        "modality": "CT",
+        "region": [
+          "HEAD"
+        ]
+      },
+      "route": "RT-CT-HEAD"
+    },
+    {
+      "source": "VQA-RAD",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "HEAD"
+        ]
+      },
+      "route": "RT-MR-BRAIN"
+    },
+    {
+      "source": "native visual inventory (P3, 2 người chấm, chỉ nhìn ảnh ID trung tính)",
+      "match": {
+        "modality": "X-ray",
+        "region": [
+          "chest"
+        ]
+      },
+      "route": "RT-XR-CHEST"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "X-ray",
+        "region": [
+          "wrist",
+          "elbow",
+          "humerus",
+          "shoulder",
+          "finger",
+          "hand"
+        ]
+      },
+      "route": "RT-XR-<REGION>"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "mammography",
+        "region": [
+          "breast"
+        ]
+      },
+      "route": "RT-MAMMO"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "brain"
+        ]
+      },
+      "route": "RT-MR-BRAIN"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "abdomen"
+        ]
+      },
+      "route": "RT-MR-ABD"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "knee",
+          "shoulder",
+          "hip",
+          "spine"
+        ]
+      },
+      "route": "RT-MR-<REGION>"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "ankle_hindfoot"
+        ]
+      },
+      "route": "RT-MR-ANKLE"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "toe_MTP_only"
+        ]
+      },
+      "route": "RT-MR-TOE"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "MR",
+        "region": [
+          "midfoot_forefoot",
+          "foot_unresolved"
+        ]
+      },
+      "route": "RT-MR-MIDFOOT"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "skin",
+        "acquisition": [
+          "dermoscopy"
+        ]
+      },
+      "route": "RT-SKIN-DERM"
+    },
+    {
+      "source": "native visual inventory",
+      "match": {
+        "modality": "skin",
+        "acquisition": [
+          "clinical_photo",
+          "unresolved"
+        ]
+      },
+      "route": "RT-SKIN-CLIN"
+    },
+    {
+      "source": "any",
+      "match": "unknown | conflict | rater disagreement on modality or region | region without route",
+      "route": "RT-FALLBACK"
+    }
+  ],
+  "multi_region_rule": "Ảnh có >1 vùng có provenance (vd. VQA-RAD C66 ngực + bụng X-ray): ghép các khối item theo thứ tự route trong bảng này, đánh số liên tục; vùng không có route (X-ray bụng) bị bỏ và ghi gap. Header nối bằng ' + '. ANA ghép đúng các route tương ứng nên vẫn cùng số item; GEN dùng cùng header ghép."
+}

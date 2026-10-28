@@ -1,0 +1,18 @@
+You are given one medical image. Write a structured visual observation of this image.
+Rules:
+- Describe only what is visible in this image. Do not give a diagnosis or a disease name.
+- If an item cannot be judged from this single image, write "not assessable". Not assessable does not mean absent.
+- Do not state that the whole examination is normal. Do not give sizes in units, signal or sequence names, contrast phase, or change over time unless directly visible.
+- State side as it appears in the image (image-left or image-right) unless orientation markers are visible.
+Image context: computed tomography (CT), cross-sectional; body region: face and skull base.
+Report each item below on its own line, in this exact format:
+<item number>. <item name> | <visible / partly visible / not visible / not assessable> | <short observation, at most 25 words>
+Items:
+1. Window and image quality: displayed window (soft tissue or bone) and visible artifacts
+2. Bones and sinuses: facial and skull bones, paranasal sinuses and mastoid air cells
+3. Soft tissues: facial and extracranial soft tissue swelling or collections
+4. Ear and temporal bone: locate the ear and temporal bone structures if recognizable
+5. Parotid region: locate the parotid region if recognizable
+6. Mandible: locate the mandible if recognizable
+7. Teeth: locate the teeth if recognizable
+Write nothing before item 1 and nothing after the last item.

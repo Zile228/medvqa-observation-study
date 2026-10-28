@@ -1,0 +1,4 @@
+{
+  "ordering_namespace": "thesis_v2",
+  "purpose": "Fixed hash namespace for deterministic image ordering; changing it changes identifiers and split correspondence."
+}

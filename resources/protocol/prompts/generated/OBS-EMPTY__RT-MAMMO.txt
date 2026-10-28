@@ -1,0 +1,5 @@
+1. Focus in image | — | —
+2. Mass shape | — | —
+3. Mass margin | — | —
+4. Mass density | — | —
+5. Architectural distortion | — | —

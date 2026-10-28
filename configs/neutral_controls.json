@@ -1,0 +1,49 @@
+{
+  "study_type": "exploratory",
+  "answerer": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "neutral_vocabulary": [
+    "Bravo",
+    "Charlie",
+    "Golf",
+    "Hotel",
+    "India",
+    "Mike",
+    "November",
+    "Oscar",
+    "Papa",
+    "Quebec",
+    "Romeo",
+    "Sierra",
+    "Tango",
+    "Victor",
+    "Yankee"
+  ],
+  "construction": "Consecutive vocabulary words; start at (line_index - 1) modulo vocabulary size; preserve each anatomical item token count in context.",
+  "token_gate": {
+    "rows": 669,
+    "per_item_difference": 0,
+    "maximum_row_difference": 2,
+    "stop_above_failure_fraction": 0.02
+  },
+  "bootstrap_replicates": 10000,
+  "seed": 20261016,
+  "equivalence_margin_percentage_points": 3,
+  "primary_group": "RAD",
+  "secondary_group": "NAT",
+  "contrasts": {
+    "T1": "EMPTY - NONE",
+    "T2": "EMPTY - ITEMS",
+    "T3": "EMPTY - NEUTRAL-DASH",
+    "T4": "NEUTRAL-DASH - NONE",
+    "T5": "SELF-GRD - EMPTY",
+    "T6": "ITEMS - NEUTRAL-LIST",
+    "T7": "(EMPTY - ITEMS) - (NEUTRAL-DASH - NEUTRAL-LIST)"
+  },
+  "inference": "Paired question contrasts with image-cluster bootstrap; unadjusted p-values and Holm sensitivity across seven contrasts.",
+  "limitations": [
+    "Removing placeholder columns also changes text length.",
+    "Neutral labels preserve the number of lines and item token lengths, which can retain route-related structure.",
+    "Output behavior does not establish an internal model mechanism."
+  ]
+}

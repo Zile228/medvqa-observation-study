@@ -1,0 +1,5522 @@
+{
+  "version": "RQ1-COHORT-IDS-v1",
+  "source": "Prior experiment cohort manifest; original dataset identifiers retained.",
+  "note": "IDs and RGB hashes only (no question/answer text).",
+  "slake": [
+    {
+      "source_qid": "11934",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11935",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11936",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11937",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11938",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11939",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11940",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11941",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11942",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11943",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11944",
+      "source_image_id": "102",
+      "image_rgb": "rgb:0da2cfd85600bf65be75728b6a17519a751562a2d6d6b1955900e552649260ac"
+    },
+    {
+      "source_qid": "11945",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11946",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11947",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11948",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11949",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11950",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11951",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11952",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11953",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11954",
+      "source_image_id": "103",
+      "image_rgb": "rgb:45e1bed819d62af9f0e3e0787e6f1c276be7dac444033bf6e2ce668377239080"
+    },
+    {
+      "source_qid": "11955",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11956",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11957",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11958",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11959",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11960",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11961",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11962",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11963",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11964",
+      "source_image_id": "105",
+      "image_rgb": "rgb:57f6be9403ff2b612e28d83f86cf687588dc1943d03cba2e33b2be981b539d0a"
+    },
+    {
+      "source_qid": "11965",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11966",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11967",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11968",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11969",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11970",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11971",
+      "source_image_id": "124",
+      "image_rgb": "rgb:335a603a1894eb8803ca362e0d2fa1a5887f14ccc96fc2fb188d7cde7aaa02ee"
+    },
+    {
+      "source_qid": "11972",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11973",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11974",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11975",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11976",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11977",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11978",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11979",
+      "source_image_id": "13",
+      "image_rgb": "rgb:967efc34cb3bf3970ede58ec1a505b64bbff5b85ade3478a8727b9ff8a6303cf"
+    },
+    {
+      "source_qid": "11980",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11981",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11982",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11983",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11984",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11985",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11986",
+      "source_image_id": "130",
+      "image_rgb": "rgb:173b9c090caf8f48fb3560cac2809ba19f77ea3ef831f1352eb5cb9d8c2e7b16"
+    },
+    {
+      "source_qid": "11987",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11988",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11989",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11990",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11991",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11992",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11993",
+      "source_image_id": "135",
+      "image_rgb": "rgb:00c82be30476ef9bdd5372d6a8e4f01b4c76b477a0a4176600f75cb076d01833"
+    },
+    {
+      "source_qid": "11994",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "11995",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "11996",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "11997",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "11998",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "11999",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "12000",
+      "source_image_id": "142",
+      "image_rgb": "rgb:2cfdbabd40b020fdec5db624d284cff55a7e9c836167d6a566092d7e55ce3a22"
+    },
+    {
+      "source_qid": "12001",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12002",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12003",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12004",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12005",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12006",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12007",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12008",
+      "source_image_id": "147",
+      "image_rgb": "rgb:6c8d59c5062f2ff8ad66e86fe6a5330d25deb35bb91f388a25a270ee779ae6aa"
+    },
+    {
+      "source_qid": "12009",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12010",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12011",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12012",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12013",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12014",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12015",
+      "source_image_id": "148",
+      "image_rgb": "rgb:a8c8249d1a36a6f94179d333984b815d58f87381cbfd1ad6dbad85e8ac4204ab"
+    },
+    {
+      "source_qid": "12016",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12017",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12018",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12019",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12020",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12021",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12022",
+      "source_image_id": "152",
+      "image_rgb": "rgb:51f83db4a56110b62fb897fb0b86159e321c1cb7031f3ab7f9dd488bb6a6760b"
+    },
+    {
+      "source_qid": "12023",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12024",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12025",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12026",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12027",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12028",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12029",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12030",
+      "source_image_id": "159",
+      "image_rgb": "rgb:ea1a21d7f6f044e3d53a6bd13c18120c491bfc7948315d2ea89431f2a7afeda5"
+    },
+    {
+      "source_qid": "12031",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12032",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12033",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12034",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12035",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12036",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12037",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12038",
+      "source_image_id": "160",
+      "image_rgb": "rgb:a1ea81c3b823de522f5b77e9290d0e2fdddcae26a269a9c4c8198862d8d822b7"
+    },
+    {
+      "source_qid": "12039",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12040",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12041",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12042",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12043",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12044",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12045",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12046",
+      "source_image_id": "169",
+      "image_rgb": "rgb:c1c9203507d9c28c0fba135024cd6cacf45962177abeca0725540666c656c60d"
+    },
+    {
+      "source_qid": "12047",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12048",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12049",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12050",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12051",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12052",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12053",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12054",
+      "source_image_id": "173",
+      "image_rgb": "rgb:2dd4f9749c7378b8a1f27e8e04e435a8eb9e26032741d88602c9d678b321fd69"
+    },
+    {
+      "source_qid": "12055",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12056",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12057",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12058",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12059",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12060",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12061",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12062",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12063",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12064",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12065",
+      "source_image_id": "18",
+      "image_rgb": "rgb:e807c8ed8a46d94a028779bfdd78851b9766bd26066c28d5db02e9043cdc1fad"
+    },
+    {
+      "source_qid": "12066",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12067",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12068",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12069",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12070",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12071",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12072",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12073",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12074",
+      "source_image_id": "185",
+      "image_rgb": "rgb:a97312aff0f97207636432ee8395e787d74681db91b93239bb66ce95b2778ad7"
+    },
+    {
+      "source_qid": "12075",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12076",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12077",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12078",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12079",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12080",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12081",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12082",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12083",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12084",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12085",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12086",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12087",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12088",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12089",
+      "source_image_id": "208",
+      "image_rgb": "rgb:51946bac1da30d04ded2035697a50c1204d0ad73c8cde8f4b2d159ecfa72310c"
+    },
+    {
+      "source_qid": "12090",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12091",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12092",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12093",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12094",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12095",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12096",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12097",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12098",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12099",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12100",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12101",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12102",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12103",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12104",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12105",
+      "source_image_id": "219",
+      "image_rgb": "rgb:c69b470427754750df9cc4261a96c38b6b552dad0e8e4fad400de130211b61b4"
+    },
+    {
+      "source_qid": "12106",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12107",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12108",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12109",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12110",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12111",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12112",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12113",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12114",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12115",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12116",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12117",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12118",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12119",
+      "source_image_id": "224",
+      "image_rgb": "rgb:74ef4d16146eec69425ff622fb168f6683248976c06257d6b8beba296b566ea7"
+    },
+    {
+      "source_qid": "12120",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12121",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12122",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12123",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12124",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12125",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12126",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12127",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12128",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12129",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12130",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12131",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12132",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12133",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12134",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12135",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12136",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12137",
+      "source_image_id": "234",
+      "image_rgb": "rgb:28edc9d2f900d35de89aac78f091f440f9801006f4717a8876581b6665675988"
+    },
+    {
+      "source_qid": "12138",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12139",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12140",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12141",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12142",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12143",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12144",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12145",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12146",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12147",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12148",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12149",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12150",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12151",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12152",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12153",
+      "source_image_id": "235",
+      "image_rgb": "rgb:43cb35eb08721eeba890f9f14e46b5b981ad810a8ba05c72a379426cea1c6372"
+    },
+    {
+      "source_qid": "12154",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12155",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12156",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12157",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12158",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12159",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12160",
+      "source_image_id": "24",
+      "image_rgb": "rgb:c86bc236feb158eb0ba17af8311a0110ec61b5cc7b7a5d8218c84a88d01f311c"
+    },
+    {
+      "source_qid": "12161",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12162",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12163",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12164",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12165",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12166",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12167",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12168",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12169",
+      "source_image_id": "25",
+      "image_rgb": "rgb:348ba7fba391271bd8e28a63573e1e842e325b7e5f8d8fdf4ddf167b5c5740f0"
+    },
+    {
+      "source_qid": "12170",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12171",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12172",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12173",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12174",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12175",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12176",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12177",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12178",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12179",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12180",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12181",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12182",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12183",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12184",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12185",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12186",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12187",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12188",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12189",
+      "source_image_id": "250",
+      "image_rgb": "rgb:d107c527f84bff212f2f3b970e4cd217b9331ce18f34b7ad800eeef2fa841274"
+    },
+    {
+      "source_qid": "12190",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12191",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12192",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12193",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12194",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12195",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12196",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12197",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12198",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12199",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12200",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12201",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12202",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12203",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12204",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12205",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12206",
+      "source_image_id": "252",
+      "image_rgb": "rgb:7853c131f487616df2ddd681388b4518d7dbc72cc2823d37d43c128f01cd97c2"
+    },
+    {
+      "source_qid": "12207",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12208",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12209",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12210",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12211",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12212",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12213",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12214",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12215",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12216",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12217",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12218",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12219",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12220",
+      "source_image_id": "253",
+      "image_rgb": "rgb:eb960a9fb2feb2c1ed68b4c9451359ff48f544ffc5fe00ee26d47365027b7f05"
+    },
+    {
+      "source_qid": "12221",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12222",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12223",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12224",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12225",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12226",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12227",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12228",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12229",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12230",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12231",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12232",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12233",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12234",
+      "source_image_id": "264",
+      "image_rgb": "rgb:9e0880c42f5b6eb43ad5f15ae4f40f6a415c893c373ea355a29cfe7f9b9d2c09"
+    },
+    {
+      "source_qid": "12235",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12236",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12237",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12238",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12239",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12240",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12241",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12242",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12243",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12244",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12245",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12246",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12247",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12248",
+      "source_image_id": "269",
+      "image_rgb": "rgb:4dde2f211fb55b52e13979aa718818c00c552c1c3df37c01cb702b551369ea99"
+    },
+    {
+      "source_qid": "12249",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12250",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12251",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12252",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12253",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12254",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12255",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12256",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12257",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12258",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12259",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12260",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12261",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12262",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12263",
+      "source_image_id": "274",
+      "image_rgb": "rgb:e5a37fbf2efb0df46413710bc47737b7ab2c6079a18477138d00edee1ff528da"
+    },
+    {
+      "source_qid": "12264",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12265",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12266",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12267",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12268",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12269",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12270",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12271",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12272",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12273",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12274",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12275",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12276",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12277",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12278",
+      "source_image_id": "299",
+      "image_rgb": "rgb:05874bb01608363e66018944d1eb6a68ef00d7ecc02daaef636c6d00ea8bc58e"
+    },
+    {
+      "source_qid": "12279",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12280",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12281",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12282",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12283",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12284",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12285",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12286",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12287",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12288",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12289",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12290",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12291",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12292",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12293",
+      "source_image_id": "304",
+      "image_rgb": "rgb:77d6f0c7060a369db7628abc99439debf81c7f74feab768425ee1a7b8df8e6da"
+    },
+    {
+      "source_qid": "12294",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12295",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12296",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12297",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12298",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12299",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12300",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12301",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12302",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12303",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12304",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12305",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12306",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12307",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12308",
+      "source_image_id": "311",
+      "image_rgb": "rgb:e1f74fc8d90aed3b03a511515b46d83e1b55044f9cb0b396caf1162da540fdaf"
+    },
+    {
+      "source_qid": "12309",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12310",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12311",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12312",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12313",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12314",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12315",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12316",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12317",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12318",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12319",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12320",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12321",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12322",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12323",
+      "source_image_id": "312",
+      "image_rgb": "rgb:121ee62a833ae3ba3fddf17401c73bb6fd2cf6057cee678ba3d637f8e6910faa"
+    },
+    {
+      "source_qid": "12324",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12325",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12326",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12327",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12328",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12329",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12330",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12331",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12332",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12333",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12334",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12335",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12336",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12337",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12338",
+      "source_image_id": "314",
+      "image_rgb": "rgb:7a77a5c22c632402f2d2d5ca2e9ba277fb26975a77c01a9e449b551b175b0e2b"
+    },
+    {
+      "source_qid": "12339",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12340",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12341",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12342",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12343",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12344",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12345",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12346",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12347",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12348",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12349",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12350",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12351",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12352",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12353",
+      "source_image_id": "320",
+      "image_rgb": "rgb:e6ad4337b8869b2587c03e0080bf64aa145c46e1b598ef807f74908756e059c9"
+    },
+    {
+      "source_qid": "12354",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12355",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12356",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12357",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12358",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12359",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12360",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12361",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12362",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12363",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12364",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12365",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12366",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12367",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12368",
+      "source_image_id": "329",
+      "image_rgb": "rgb:12728d899399720681ffa57b4b60c171c4251fb9e389b7d12f319b900102ef8b"
+    },
+    {
+      "source_qid": "12369",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12370",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12371",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12372",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12373",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12374",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12375",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12376",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12377",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12378",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12379",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12380",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12381",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12382",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12383",
+      "source_image_id": "338",
+      "image_rgb": "rgb:d957cfd33f77c12c50c11b12b7de5c6ff6193f824f7030554743024ed993956e"
+    },
+    {
+      "source_qid": "12384",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12385",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12386",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12387",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12388",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12389",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12390",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12391",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12392",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12393",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12394",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12395",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12396",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12397",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12398",
+      "source_image_id": "344",
+      "image_rgb": "rgb:0e9a2791ca903fd9318cef41562ebe1c789284f19edb73d1a42c882b982196bf"
+    },
+    {
+      "source_qid": "12399",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12400",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12401",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12402",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12403",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12404",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12405",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12406",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12407",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12408",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12409",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12410",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12411",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12412",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12413",
+      "source_image_id": "350",
+      "image_rgb": "rgb:f870599ee30cc87d25bc50e7ab9d16ea0958717ea5c508b970a119acd9265227"
+    },
+    {
+      "source_qid": "12414",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12415",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12416",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12417",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12418",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12419",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12420",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12421",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12422",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12423",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12424",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12425",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12426",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12427",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12428",
+      "source_image_id": "357",
+      "image_rgb": "rgb:d65156a4bb32f3f0f79a91f7084e4f77ec812b5269882887ca7239f6c919d0e4"
+    },
+    {
+      "source_qid": "12429",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12430",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12431",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12432",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12433",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12434",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12435",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12436",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12437",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12438",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12439",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12440",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12441",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12442",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12443",
+      "source_image_id": "361",
+      "image_rgb": "rgb:9b593da145f23114f179742b3f2b15f94fb9e7bf0dfa0fe94764ab0003b92581"
+    },
+    {
+      "source_qid": "12444",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12445",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12446",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12447",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12448",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12449",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12450",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12451",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12452",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12453",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12454",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12455",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12456",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12457",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12458",
+      "source_image_id": "367",
+      "image_rgb": "rgb:9053019c8ae8e44b727bf7f6734b889281d40eef4456563e5bd334b6ae991dea"
+    },
+    {
+      "source_qid": "12459",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12460",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12461",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12462",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12463",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12464",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12465",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12466",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12467",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12468",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12469",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12470",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12471",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12472",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12473",
+      "source_image_id": "374",
+      "image_rgb": "rgb:b31f1ab3e1e868d792c6aeded2ec7b86e5db01cb4b4f6ac75b73e1cada38ba4a"
+    },
+    {
+      "source_qid": "12474",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12475",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12476",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12477",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12478",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12479",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12480",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12481",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12482",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12483",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12484",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12485",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12486",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12487",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12488",
+      "source_image_id": "375",
+      "image_rgb": "rgb:606b21416495b8c2c8e05a5cdaf665cd1e18c36c213ce70d1c2ca833c7fcab88"
+    },
+    {
+      "source_qid": "12489",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12490",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12491",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12492",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12493",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12494",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12495",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12496",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12497",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12498",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12499",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12500",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12501",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12502",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12503",
+      "source_image_id": "378",
+      "image_rgb": "rgb:146592874b5baa083e0d876ce57265b4a92d1c49916f0aa155afc75654b1392c"
+    },
+    {
+      "source_qid": "12504",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12505",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12506",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12507",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12508",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12509",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12510",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12511",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12512",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12513",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12514",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12515",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12516",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12517",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12518",
+      "source_image_id": "385",
+      "image_rgb": "rgb:e8db35b958aacbac12fbb6fbabc8a2a2155ecb4dadf4230fba5b1be8473bb036"
+    },
+    {
+      "source_qid": "12519",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12520",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12521",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12522",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12523",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12524",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12525",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12526",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12527",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12528",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12529",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12530",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12531",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12532",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12533",
+      "source_image_id": "386",
+      "image_rgb": "rgb:a180075dba686e74785d511b3ca7f32f26b850f0dc9460a1943c844644a123d4"
+    },
+    {
+      "source_qid": "12534",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12535",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12536",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12537",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12538",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12539",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12540",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12541",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12542",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12543",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12544",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12545",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12546",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12547",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12548",
+      "source_image_id": "401",
+      "image_rgb": "rgb:f9be35d95b32d725f6b57d11bba62c330616285bbccf3882144601906fb1e925"
+    },
+    {
+      "source_qid": "12549",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12550",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12551",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12552",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12553",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12554",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12555",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12556",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12557",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12558",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12559",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12560",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12561",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12562",
+      "source_image_id": "405",
+      "image_rgb": "rgb:5ed7b6a8d83ffd4c5668f0108a500192a16adca10a34862e2007fb77915f0f44"
+    },
+    {
+      "source_qid": "12563",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12564",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12565",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12566",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12567",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12568",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12569",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12570",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12571",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12572",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12573",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12574",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12575",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12576",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12577",
+      "source_image_id": "407",
+      "image_rgb": "rgb:c0d911892609556b066c3e2670e1836fb8ef3dbcd3132c7b581dda61d31f033d"
+    },
+    {
+      "source_qid": "12578",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12579",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12580",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12581",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12582",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12583",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12584",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12585",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12586",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12587",
+      "source_image_id": "427",
+      "image_rgb": "rgb:c6229278a033e7e3ba5d1ae1175c388a343a8d67fbb4d0bcab3ca17b30d8a964"
+    },
+    {
+      "source_qid": "12588",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12589",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12590",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12591",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12592",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12593",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12594",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12595",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12596",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12597",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12598",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12599",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12600",
+      "source_image_id": "428",
+      "image_rgb": "rgb:93d81d994cd943e5b52d0c7d20fc51724bab2894bff8ef0035fbefafcacdc360"
+    },
+    {
+      "source_qid": "12601",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12602",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12603",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12604",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12605",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12606",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12607",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12608",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12609",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12610",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12611",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12612",
+      "source_image_id": "429",
+      "image_rgb": "rgb:70cf621ab08f47a65c43dc34898f1286b23dbe499de9039ae0f1d85d0257435d"
+    },
+    {
+      "source_qid": "12613",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12614",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12615",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12616",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12617",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12618",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12619",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12620",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12621",
+      "source_image_id": "436",
+      "image_rgb": "rgb:daf77217fcf2cb7ea6c2ed9518ce2c09d8517ed116d75c4907609cab73435166"
+    },
+    {
+      "source_qid": "12622",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12623",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12624",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12625",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12626",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12627",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12628",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12629",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12630",
+      "source_image_id": "442",
+      "image_rgb": "rgb:3ae8e9cd3ff4d699078edb236caa02cea84dbc8d1ac94739559f1926a68f8433"
+    },
+    {
+      "source_qid": "12631",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12632",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12633",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12634",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12635",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12636",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12637",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12638",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12639",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12640",
+      "source_image_id": "447",
+      "image_rgb": "rgb:31deb43a6f0d6be7c1b992084b60387a36b1759c17887c4c5137b5950c5b456d"
+    },
+    {
+      "source_qid": "12641",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12642",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12643",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12644",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12645",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12646",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12647",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12648",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12649",
+      "source_image_id": "468",
+      "image_rgb": "rgb:0124e7a13b25d007764d1f316ad6b00c17bd94dfa966777b45e717fb33b00536"
+    },
+    {
+      "source_qid": "12650",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12651",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12652",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12653",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12654",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12655",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12656",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12657",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12658",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12659",
+      "source_image_id": "469",
+      "image_rgb": "rgb:b06da8c8b549c060ca54e6f5cb11888f583d8f124a0a8abbd714a05ea7ae8fee"
+    },
+    {
+      "source_qid": "12660",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12661",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12662",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12663",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12664",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12665",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12666",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12667",
+      "source_image_id": "471",
+      "image_rgb": "rgb:d989bbfef7fcd25a777a010206b07914e35cac924b1be811102eb0b82229f2a9"
+    },
+    {
+      "source_qid": "12668",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12669",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12670",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12671",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12672",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12673",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12674",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12675",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12676",
+      "source_image_id": "473",
+      "image_rgb": "rgb:f276b7f667c3dc0a9f194b5c3f1374efcdcd18b46b891ecc46d630321b021901"
+    },
+    {
+      "source_qid": "12677",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12678",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12679",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12680",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12681",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12682",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12683",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12684",
+      "source_image_id": "474",
+      "image_rgb": "rgb:3872515db7c06d8d3df6b4cb445fb9795344369d0dabf898326bf551a0286b45"
+    },
+    {
+      "source_qid": "12685",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12686",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12687",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12688",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12689",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12690",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12691",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12692",
+      "source_image_id": "483",
+      "image_rgb": "rgb:1bfe4a6726439998897dbb078419513a58166df109c8b51fc3c24d9220e480ff"
+    },
+    {
+      "source_qid": "12693",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12694",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12695",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12696",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12697",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12698",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12699",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12700",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12701",
+      "source_image_id": "49",
+      "image_rgb": "rgb:caf0c157fd9f56dd8c632144f671e9379a63c91156b755fc76e798a2aa410069"
+    },
+    {
+      "source_qid": "12702",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12703",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12704",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12705",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12706",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12707",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12708",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12709",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12710",
+      "source_image_id": "495",
+      "image_rgb": "rgb:85bad6dc014423c469e7b033a1c03cae9a3d4989a7fa799012b03ae733757f14"
+    },
+    {
+      "source_qid": "12711",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12712",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12713",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12714",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12715",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12716",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12717",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12718",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12719",
+      "source_image_id": "498",
+      "image_rgb": "rgb:829290f9414706d2e72b08a5cc0606605ca2a76af2103d841b00c9bd6cac2a92"
+    },
+    {
+      "source_qid": "12720",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12721",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12722",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12723",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12724",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12725",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12726",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12727",
+      "source_image_id": "506",
+      "image_rgb": "rgb:04b19a40d07be18a78247b2c3427e1befa64c05bd1f60690ab7516176c282050"
+    },
+    {
+      "source_qid": "12728",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12729",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12730",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12731",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12732",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12733",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12734",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12735",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12736",
+      "source_image_id": "508",
+      "image_rgb": "rgb:a032a1d90ad85a09efcaa7dc36fab1c35ae67c03fee4489594db1de68b7198c4"
+    },
+    {
+      "source_qid": "12737",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12738",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12739",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12740",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12741",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12742",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12743",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12744",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12745",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12746",
+      "source_image_id": "513",
+      "image_rgb": "rgb:a6d5709cd697338bbe5031156285fb78245a3c796450f2d2bfc7c1ccc67c1c47"
+    },
+    {
+      "source_qid": "12747",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12748",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12749",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12750",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12751",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12752",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12753",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12754",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12755",
+      "source_image_id": "525",
+      "image_rgb": "rgb:35ba2f68bdbb892777412fef2bb449d4127240777757d050e6bf10e980b0f0da"
+    },
+    {
+      "source_qid": "12756",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12757",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12758",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12759",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12760",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12761",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12762",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12763",
+      "source_image_id": "529",
+      "image_rgb": "rgb:cd08baf8068afb57959f10c6f33675fcc61c997107ef3f1fff18f20a9f324d6f"
+    },
+    {
+      "source_qid": "12764",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12765",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12766",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12767",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12768",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12769",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12770",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12771",
+      "source_image_id": "53",
+      "image_rgb": "rgb:90b78728eca684e26768e22d5eab26d64342c5966dc48c97e9454bb3d3426042"
+    },
+    {
+      "source_qid": "12772",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12773",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12774",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12775",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12776",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12777",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12778",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12779",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12780",
+      "source_image_id": "532",
+      "image_rgb": "rgb:5d77774826d3815f712c13b789a629316b381679caad199b8d1c46570ea7ef44"
+    },
+    {
+      "source_qid": "12781",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12782",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12783",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12784",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12785",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12786",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12787",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12788",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12789",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12790",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12791",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12792",
+      "source_image_id": "538",
+      "image_rgb": "rgb:0fb9a3174e0d672f742476eca5704f32f04c2b7bc52a2bb8e8f582d85b8961c1"
+    },
+    {
+      "source_qid": "12793",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12794",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12795",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12796",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12797",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12798",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12799",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12800",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12801",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12802",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12803",
+      "source_image_id": "543",
+      "image_rgb": "rgb:32be045217efe6dc7cece48957eeb9fbae26c9813096522233374dacbbcd77a2"
+    },
+    {
+      "source_qid": "12804",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12805",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12806",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12807",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12808",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12809",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12810",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12811",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12812",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12813",
+      "source_image_id": "548",
+      "image_rgb": "rgb:00a0f8eb354c6f3581e751001b398e93770624b2e81b731de61b7b3576e9e605"
+    },
+    {
+      "source_qid": "12814",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12815",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12816",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12817",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12818",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12819",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12820",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12821",
+      "source_image_id": "554",
+      "image_rgb": "rgb:d5a367201cbd81c7bfd5392fd0133c67bb52110cc291d5add7ae2e2e8904f67b"
+    },
+    {
+      "source_qid": "12822",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12823",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12824",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12825",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12826",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12827",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12828",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12829",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12830",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12831",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12832",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12833",
+      "source_image_id": "557",
+      "image_rgb": "rgb:5af653360a0bddd4cb8e41b2139e8978cdf5b8fa0792574f15fcccbafeeae624"
+    },
+    {
+      "source_qid": "12834",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12835",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12836",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12837",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12838",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12839",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12840",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12841",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12842",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12843",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12844",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12845",
+      "source_image_id": "561",
+      "image_rgb": "rgb:11784b271556e1a061b95d880ad1eb6e8fc12863a89f727a2259e623645ec2fa"
+    },
+    {
+      "source_qid": "12846",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12847",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12848",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12849",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12850",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12851",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12852",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12853",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12854",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12855",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12856",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12857",
+      "source_image_id": "573",
+      "image_rgb": "rgb:62d7c4c53292f9611b3ae3451adccbe284dbb2d820940d76544f8ec11444e159"
+    },
+    {
+      "source_qid": "12858",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12859",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12860",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12861",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12862",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12863",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12864",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12865",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12866",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12867",
+      "source_image_id": "578",
+      "image_rgb": "rgb:29a04778c1f7d24289527384731503208232ea8ead287ad271afd6baddb5d35f"
+    },
+    {
+      "source_qid": "12868",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12869",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12870",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12871",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12872",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12873",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12874",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12875",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12876",
+      "source_image_id": "58",
+      "image_rgb": "rgb:81f7f860941ae92bba9040b69130a2186e9ed4da5796cedb0c8c8404df7dfeb1"
+    },
+    {
+      "source_qid": "12877",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12878",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12879",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12880",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12881",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12882",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12883",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12884",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12885",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12886",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12887",
+      "source_image_id": "580",
+      "image_rgb": "rgb:a8b663a1cd096fb2bdf4b6228c1198ab375c488fa63245aa296c4be6342b8e41"
+    },
+    {
+      "source_qid": "12888",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12889",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12890",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12891",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12892",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12893",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12894",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12895",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12896",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12897",
+      "source_image_id": "586",
+      "image_rgb": "rgb:eed615c7b3c0b9963d6095191def57436b12760e5f286bae5c3772b1daaf7a5d"
+    },
+    {
+      "source_qid": "12898",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12899",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12900",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12901",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12902",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12903",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12904",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12905",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12906",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12907",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12908",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12909",
+      "source_image_id": "604",
+      "image_rgb": "rgb:e8c8882482d294ec6ee3f275e08f3cb4998f102413443a0b3471484ca59aed8c"
+    },
+    {
+      "source_qid": "12910",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12911",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12912",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12913",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12914",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12915",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12916",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12917",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12918",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12919",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12920",
+      "source_image_id": "605",
+      "image_rgb": "rgb:730c2d782fbc96c098e4b375f8cc0554508dba553325ef9d898717797f4c1068"
+    },
+    {
+      "source_qid": "12921",
+      "source_image_id": "622",
+      "image_rgb": "rgb:ad909bbf291e881044faadac3b653f12af59e3529b5ed46e0f587dc3880ba88a"
+    },
+    {
+      "source_qid": "12922",
+      "source_image_id": "622",
+      "image_rgb": "rgb:ad909bbf291e881044faadac3b653f12af59e3529b5ed46e0f587dc3880ba88a"
+    },
+    {
+      "source_qid": "12923",
+      "source_image_id": "622",
+      "image_rgb": "rgb:ad909bbf291e881044faadac3b653f12af59e3529b5ed46e0f587dc3880ba88a"
+    },
+    {
+      "source_qid": "12924",
+      "source_image_id": "622",
+      "image_rgb": "rgb:ad909bbf291e881044faadac3b653f12af59e3529b5ed46e0f587dc3880ba88a"
+    },
+    {
+      "source_qid": "12925",
+      "source_image_id": "622",
+      "image_rgb": "rgb:ad909bbf291e881044faadac3b653f12af59e3529b5ed46e0f587dc3880ba88a"
+    },
+    {
+      "source_qid": "12926",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12927",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12928",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12929",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12930",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12931",
+      "source_image_id": "628",
+      "image_rgb": "rgb:012cc000ddf89c011524fa4bad109ab1fa0c367dfd58367a8f67b0da385ed76a"
+    },
+    {
+      "source_qid": "12932",
+      "source_image_id": "629",
+      "image_rgb": "rgb:53c23d4b45907a2e9f6ce3e8e539bb625d7b2bdf2a5eae83ad48ff9c6e313557"
+    },
+    {
+      "source_qid": "12933",
+      "source_image_id": "629",
+      "image_rgb": "rgb:53c23d4b45907a2e9f6ce3e8e539bb625d7b2bdf2a5eae83ad48ff9c6e313557"
+    },
+    {
+      "source_qid": "12934",
+      "source_image_id": "629",
+      "image_rgb": "rgb:53c23d4b45907a2e9f6ce3e8e539bb625d7b2bdf2a5eae83ad48ff9c6e313557"
+    },
+    {
+      "source_qid": "12935",
+      "source_image_id": "629",
+      "image_rgb": "rgb:53c23d4b45907a2e9f6ce3e8e539bb625d7b2bdf2a5eae83ad48ff9c6e313557"
+    },
+    {
+      "source_qid": "12936",
+      "source_image_id": "629",
+      "image_rgb": "rgb:53c23d4b45907a2e9f6ce3e8e539bb625d7b2bdf2a5eae83ad48ff9c6e313557"
+    },
+    {
+      "source_qid": "12937",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12938",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12939",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12940",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12941",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12942",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12943",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12944",
+      "source_image_id": "634",
+      "image_rgb": "rgb:b5585bd4aebdd6647447908882dad7bb3fe12582d36ab99af86eb0d41eade60e"
+    },
+    {
+      "source_qid": "12945",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12946",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12947",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12948",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12949",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12950",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12951",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12952",
+      "source_image_id": "71",
+      "image_rgb": "rgb:ca85befcbd57771f3ea00fe1fb2aaac87da13394bd3e8b4bf19783153efa4758"
+    },
+    {
+      "source_qid": "12953",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12954",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12955",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12956",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12957",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12958",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12959",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12960",
+      "source_image_id": "77",
+      "image_rgb": "rgb:d0a41fe1b4aed2e53324b80197d020d9dbe450b20344af7de8b0702506023752"
+    },
+    {
+      "source_qid": "12961",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12962",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12963",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12964",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12965",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12966",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12967",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12968",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12969",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12970",
+      "source_image_id": "82",
+      "image_rgb": "rgb:f135fb66bf470017406de9fec19d6534768c238662e6eb86857a313a5f2800a1"
+    },
+    {
+      "source_qid": "12971",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12972",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12973",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12974",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12975",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12976",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12977",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12978",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12979",
+      "source_image_id": "85",
+      "image_rgb": "rgb:c6ac534377f8befc62a3f17984fbee46b710bca84f2ea57c6a87e7f615d5a5a9"
+    },
+    {
+      "source_qid": "12980",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12981",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12982",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12983",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12984",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12985",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12986",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12987",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12988",
+      "source_image_id": "90",
+      "image_rgb": "rgb:7e41d5c55a3d0d8bc402d518f031b4fed46399428efcbff35d07c8ff188587a1"
+    },
+    {
+      "source_qid": "12989",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    },
+    {
+      "source_qid": "12990",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    },
+    {
+      "source_qid": "12991",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    },
+    {
+      "source_qid": "12992",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    },
+    {
+      "source_qid": "12993",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    },
+    {
+      "source_qid": "12994",
+      "source_image_id": "93",
+      "image_rgb": "rgb:472e5d1175f8633675d0ebad9296c2007f405807b49f86af574c3de817ead6d2"
+    }
+  ],
+  "vqarad_test_image_rgb": [
+    "rgb:02abef169ec7469fddb6214e53bc9bc66adb94156f0f16b3d287e477a8661102",
+    "rgb:04e1b5dc2d43655238e2f27813a3430c468880a5f7dd7109e1dc54870f11a1b9",
+    "rgb:0546591cad7e7e830eedb323ee88c8257a88c21d437ca9c08e1d930459ede09b",
+    "rgb:05b5881b495fe7dbfcaf0ab84f1de70a407091263e7a2d0110472dbf0456c5b4",
+    "rgb:069ec54489ad38ec070aab3bc8c51b68f8a142c12d425b89efbd17fbc3fcf4e9",
+    "rgb:0727520b5aefdb4929ebbd537623a008b71819ba72a0f735a8bc122d14aaad1c",
+    "rgb:08c3dcacc1a62f1f352c889a3693a1a90cd660a06f7a94b7468d7fd45a0c2b8c",
+    "rgb:094721eed6d51ad26ce064ce9a6d7546acaee16c5f76b7ff03934a81b985aa22",
+    "rgb:09e7324e7bb29ddf7d4ebfad5310625324b2997d9b81071ff036ceeaa1ac2146",
+    "rgb:0aa5b759fa248d2b57f391154a67cf53ff8930e4365e445d0e2c2d75ca007c2f",
+    "rgb:0abb3a9723b4f05825739d7cd5c84f51a8358271df762c9cc2d8f9c691373620",
+    "rgb:0c1cf6d5bf2488eb8811353855605122715505399d0536fef375107d8523b3ae",
+    "rgb:0dab67af13777c7fbcb0fba51a9ec08269570a0e4036f48a3bb8363c9c400a55",
+    "rgb:0df9c1c63516a694136e32dd062840c5f6b8b70ce0587c6951132da45c66fad1",
+    "rgb:0f5be483ddaf27bb834377eb11e215e0b3820bf41845d3d9eb60c7cabfb8aba2",
+    "rgb:0f673aa892348bd6e387913e3439ce2865b692b67d38295f0d29816f953636ff",
+    "rgb:10ef99cda1b9ee05fcce305e834bfffbe39cbd7859dd9e543bcd822671f1c266",
+    "rgb:10fa8f008d4a79dd18737205657a4083775afef1c6ad14978a189a08e0aed751",
+    "rgb:184e3f45d0c0f782208587a5acdf8b1a6d642b4fe8cead7b6ba9b398c64c4606",
+    "rgb:190241abe8070c6d109a69e17a84e6a4f047af9055f80524e4db3d7b722e39ac",
+    "rgb:19896f4f28d2b0e4efb69e8e3f179c3e1d9d193fb9704888be435a7f45b70fa8",
+    "rgb:19a1afd30541d5601426dffe3412a627e2c9433a349c359b38ed5bc807dc62bc",
+    "rgb:1a3bbdfe361277a410780848c41297c7662dc99949f6c1f3b24bbc67eb3ce522",
+    "rgb:1b22287ede5d60dde69d33ebc4d86a65a1d3b0a757d183ff64954955978209b4",
+    "rgb:1bd90802db8f2c4b6d6ba64d78fb52f2a9b47687b3c93ed89bdf41d34b4ff82b",
+    "rgb:1c62c7d46c3fb1648baff2ebc37420b2f03848d28fa22f9388bd41a24407b5ce",
+    "rgb:1cb92a10b7430f259441e09ef71ff1c622a40ffe73182c77b53d9d6982a47333",
+    "rgb:1fea87d10dfa704cd42fde6e1965670809b5d85bc114bfb1064883dd85eda0cf",
+    "rgb:2114dc4fbce7789c1f096e7426f9e382f884b8597c7ee852513d3367c2591df2",
+    "rgb:216e933721654ba9549ff7e387c5ad29910353fb8160b9b07f6068c8685df611",
+    "rgb:224a477094d20268a555d96e42e2176a1063a2ce6bc58c1db68c5234c49a8af5",
+    "rgb:22a1ecd986130af2efe552187f47b0ba57bc697a9a476c695e6e4b8f2220b3de",
+    "rgb:240fc0c4a0c259e93ca153453e6ce66c44dc9490923ad224e2aa52e65663cbdd",
+    "rgb:24b3629c89ee0ba2d228dbeefb3e00f0d089cf3833aa66257ddc1303e0f9f2cd",
+    "rgb:2511598fb37ec4710d6d8d8cbcc44f25922753ec2ee83051b6720434e75571f2",
+    "rgb:2550eeff2c530f559d45d3202cb1d562dc8f0c9f96798ffe558dbb3bd8e8f09a",
+    "rgb:28aeaec142ef6a3f92fa6b87f4825ce37c05dbb826672491b35a3c512705e0f8",
+    "rgb:2a1eedcb2462f00a1bad6b9006691932fbcda59e6378e12f940eb631277b9f5f",
+    "rgb:2ad6e45c1518877a4f766018fa39a341525357b5591c8fc0700ffca86389fec2",
+    "rgb:2db41b582fc27e489441ee72374f1b5a26d494aa76bd9259cb2810ee9c49ed6f",
+    "rgb:2db5562cfc56718dd9031691a026d4bd95916ac14e4946842fd286a7c4dfd29b",
+    "rgb:2ec6e3114dae0f65fce7cab402eb384133bd3c1183837fb9782041de164b16cd",
+    "rgb:2f9fbe6caeb007b33c80c96b3ecdc9bc0856b4a5f21316a3900efade65e35267",
+    "rgb:30430d13ffa1dab866d6eca7ef44f1ca74c6f3af671540f3edc7b213115dcd5b",
+    "rgb:30b67f678dd31a4c0a16f87d17064769ce71ee3b68244d935b9238cd5f9009cc",
+    "rgb:3171d0f97fcaddad63495076664cf3ec55f910de9f85d6d946c923c9f3281883",
+    "rgb:31a3a6ff62167ddbd45b158f16cb49f8867e7fbf29d6c4559affb10fd75040f7",
+    "rgb:31f674c4d98b54faa02de3375a303d987e47d160e2a269ae77c05569f9ae7662",
+    "rgb:3430c22fa098a953688a90d80f66faca18a9d11aba13d2045db962071f89628f",
+    "rgb:34e37596dd8d1c363a1961d737e4ab36d9453c6d50182ea70974d27d529f94d0",
+    "rgb:35adbd5743c83ec1c519f9e028afffa357c071109bf20186a681730f3e71cb8d",
+    "rgb:35e9ed0eb97c0d321705b96a190a141c6895cf3a8ff9cc40b0e4f6f6a3cd597c",
+    "rgb:3a7d42cdddab6dcf3f3af12fe3467e6419f7b806b173a97908ce6d042e1e115c",
+    "rgb:3a84816fd78ec4b9a9087bf188a93befe07007086bd62fc27f6ab67ee0dfab21",
+    "rgb:3c22843c07e1d54cac69a79db77c2de6284fbcb9ea7185629494763127a57780",
+    "rgb:3ca8e8f720257398157fb0b9769be3a101311a14e24169c3623194e828ab612f",
+    "rgb:3cdf901dfd90383d2bda1eb8ef57dbdc2a70ecf9908621a7ffa2eaf9e125a5e1",
+    "rgb:3d288bf7aafd31a5f73fc8b025ffba57bb893408b06d66e131ae25264c381f84",
+    "rgb:3fd3e6ea56c2916b44a562775ab2d13dd30d8b1422361f44b2e056fd1d16d7e8",
+    "rgb:3ffa956fd0b3bbc826c3a55718dce1fb0a98d4e920e0cf83a9281805d3a7a1ab",
+    "rgb:4156dc2a1490a3088bbfecc213d96e6bb4d9b4ac15fc7d88c0050cbd0fb308b6",
+    "rgb:4299cb0b1fe99b78d4c86167ccd27ba2f3fa538e3da3cda84484bd053c786bd5",
+    "rgb:43b7336df18876dd58082ca54d5b526aff6c70c702647cc60a761847a25c6c6d",
+    "rgb:43c3fdde0b8cff021649abd97669d49d38c75575dfb106c6a43e0da95b8fa2f6",
+    "rgb:43e3c4f186f0ccff1ee110977f7c532ed48832e9a917e3221d1a69596f85c76d",
+    "rgb:44752d7102b37b2f1483d6a85b235dc309ebec1a0b68173a6a1d46b5a2e1d323",
+    "rgb:44beb22eb745b1096e95874643b457559fe13048eaaeac337c0a0e692f947722",
+    "rgb:45b635a5ca0c053b156cf6b8f76f427edf4dfa06a05fdefe7649a6e11342719d",
+    "rgb:477605c1b439f3aecdb21715b374b4805f84604714b3776694275b4403a1dc6f",
+    "rgb:49446f952fd36dc3b1ecf8c851c0adac9d1a4d286979d225348f34ea527e36ad",
+    "rgb:4a0fe92784f826d1e7aa064a0e9c92bce605a8d026226d80b1b362bcfdb69ccc",
+    "rgb:4b90a57d7a55df96dd549458f5880def970a85debb41115d5aa9c79a593d66a1",
+    "rgb:4dad7a8ca8c1af12fcb15e84db0170d75ec97e525ec7d5f86c42ad85bdfba4fa",
+    "rgb:4dc297ae5846c9b8b2d9c7f4dbef66e36cbd22a31328d67fcf14d644da6d2fd5",
+    "rgb:4dc75d71ec6011e58bc2e06516aab372279e67b25626b80413caaaa8f3babaeb",
+    "rgb:4f81f2667bff6f27ccc8454436dbffd2f7d8b98de6d61a99f66a2929ea492803",
+    "rgb:50c9e34040179574d1c9ab34ed0582b44b21a8a345c9314b429b3b93b4794ad9",
+    "rgb:514f481c7815bde3cd07c009a1011687e66bc06287cc9efbf6ccbaad781d62d4",
+    "rgb:538c1284d859aa45252434fda7a5cd8899005831c07563f95a2c4e740d028c1d",
+    "rgb:53d88175cd9188c75c3666942d060bd51001adb6a35effbd7c6e68dbfb1b58a5",
+    "rgb:56d96964caade2a6e301ae77001ac9d103ea169d2a27c8e25d4578e203a2cef9",
+    "rgb:57bb2e98b5a91745f823b6bcc9e7fc8f4e2c7214b1ec7d36b63191608b6cb9de",
+    "rgb:59892f29c716f727330f39c5a346a36c4c67ec7ca2c15a3bd9b55c453278fd48",
+    "rgb:5c8e7bad19fa94332b74d9f00731a6d06e0b4b5fc9e3c21bf1bf054d556dd053",
+    "rgb:5f1799e4c54a9d5048b0de575d6240a9dda6fc1cffaac424bc3bbd33f879e031",
+    "rgb:61498539d0a5e8a4cda3b22f7b495a87bbae74a89dab91ce8742ecd73688f520",
+    "rgb:62b25a553402fe4d8fcb32618c462075b026731009a697894800227d0ea6feb2",
+    "rgb:64dec04767ed6b4830daf347be787657cb833ddc5cc9ca45bc4b850acc11f10a",
+    "rgb:6690b9e6a77b8cffe5f4e4bbd902e560ff1b160bf9e2b011bdf9f47e10b77047",
+    "rgb:67e5d420befd4d2da98c7274a1ca2ba4952c6fb1f72dbb9154fe192c02d6a7d5",
+    "rgb:6956028cfb7ccc5bacb5d9d89912bec2270b581ee61f6bbc088e88586cd4c6fb",
+    "rgb:697724fe7bc1159784dd2880fba3025d2c149dc35db56b109ddfae2a36df3121",
+    "rgb:6caf07a4771eba8c8c3f683aa616148aa5dfc9094d6495ba51335453296c4471",
+    "rgb:6d7babdf1c92b575cece55c4c3c7b2ef5fe7010fcbbb8ded78ddf47aefae6022",
+    "rgb:6f0be50c26daf40b7014385f1e73c48a78ed6a8fe9bf03564dc89c97640a4330",
+    "rgb:733cfd791043824aea0e20b455e139572b1444182db1e9697bfe3d39d99285e7",
+    "rgb:73fa9716e111929e73cf1cdfadc65fd71a83e64c8fe552ccfecc3be48386904c",
+    "rgb:75b1c97f4218632681600a58b55389ee9c2040b01ff9667ee169d7a433994c93",
+    "rgb:7c8c33335402d9a9698839dc33e27120000a3932760fb18203c3f746a38c4a34",
+    "rgb:7d2db08ecc10b1011053e22b3d953c42581228537452315aaf90e424ebcff9bc",
+    "rgb:7dbd06565dedf5cd761277a21532d834016812624f7c965c634b2fc66cf9eb88",
+    "rgb:852e3849a4c4165e68836e8d618cfbb76f27502939a4f27814d7a16e19138e72",
+    "rgb:876d99a989e9c506de442e2547c2f0d48c9f7a3011d08a51be45c0b6490f20ac",
+    "rgb:87ad82d8939581e706ba4e6c21b5157090ac9e2605b93f71e5d26dc6f6bfc83e",
+    "rgb:8a3c7f3ef6545a0ef64d913bceb06f2e039a75964d0896c9c0ccdb2cf0169d01",
+    "rgb:8a5974dfcd898eade6472078b4231794d1aed795aa8c41d632a48eeabf64afb3",
+    "rgb:8abad642de4ac813e113963676d7ab4efa127150fb0cf9583af14b39dbcea4b5",
+    "rgb:8b721e417fc99a80992c6ce2143b411313397f3dd5451e1aa0cc8850c0a2fe89",
+    "rgb:8c378cabd44a47951a2404c33813cf9224b3551f7a10ddc851e7119b7a89cb74",
+    "rgb:8c392213bdb98df432abcdfa4dfc70790282a01e867be16ab6f6d1ed17ed6c02",
+    "rgb:8d3061d22e5b7f26690fb7c9b7cc8f7c4788c03b18430f3831aaf99451ce4b60",
+    "rgb:8e5d6e4118c4e9fa35cfb9dd76905655e4f7a88a83b36acae0787901437b4075",
+    "rgb:8e9e21cbb95acbe6161acf812aa3b7cc52898442ae89035769e3feb2e01b7224",
+    "rgb:92b3b774ef921f54186e51710e6f46a0ac28fa7221b0eb3fe5578c306a918f51",
+    "rgb:932c6035079aad2e68a78a0efde15eca0a92d11c551802425048bc164cf3e647",
+    "rgb:93bb407c675186abb69c10836cbf35112aad9cc3e9c35f3211948d8b36a62d5c",
+    "rgb:9474f228caf6c301dc4bddb240cb33820e81f22c8219d936db1e41e392e3f084",
+    "rgb:94eb241ed261fecdd47dbb2990bdb13b17670abe001de2c5fface78639a63ed8",
+    "rgb:95e2d6f7a5405e5a7aee593af647240541468202a2adfb097cc1a3ad0389b3f0",
+    "rgb:963c0dd7bc3187c1c618e85403450819f4649015472b2d0fb15638f673f29f3d",
+    "rgb:967d32a8750015f0cb2bf84ba8870decdf9862c9214c924c8a9fb924f7fe74a8",
+    "rgb:96c62acaa02f56397aacd231738dadc5e1b06b4dbba2093b6e9518fae45fe69f",
+    "rgb:977134f7cdf52bf0da35fe1a6ce3c486f7c49e5057d41983491dbe0f37744245",
+    "rgb:9839a4a87e122af47f3aabc1d4478f9459333bc54cb11c1e96bd62923d3ff0ba",
+    "rgb:9870be6f029dca559cb77fe91386358048da45ae84bd5c7f1c5febb566206507",
+    "rgb:99409ef1307b57a8c50e3983b58dc42dd3fea5e4dd5a70e971728ff43883e782",
+    "rgb:996cf85c7dd93d56a5d7fb68cf3eda4920927d4293e7adc9e8ee9eafdc7807d3",
+    "rgb:9ac4084d0293924dcd1cc5470e18a39d666e8f98d7cb72d01ec4f95655db3794",
+    "rgb:9af6c8e19854954521582fcfed1b59ac58a0b1176fd72b85f323394322cd0fa5",
+    "rgb:9afd69e3c7a97eeedc1ccbeb3553d74958d8f96319fd7ad873bb13873e511972",
+    "rgb:9b395d800bbcef0a437ae60c2a5c6d792f0ed7d5bc6b5c259b10690b5621db29",
+    "rgb:9b47e84e284250b904cd9e0dbc543f6584b93c7b855e7d17958b85c6e0d8dcab",
+    "rgb:9c22ce29ae18ba8b0f2c53d3e2ea7ba6acc8fb69726be1026e162ad1061b9e50",
+    "rgb:9ea4e66943f0dfbe8477b213124467250357a7f00b21a3c851b52178ead0db1d",
+    "rgb:9ee5caaef1d4ab3b61ca9f835065dee95f31fa98a0f28e2d64ad3f3c8bde59d2",
+    "rgb:9ee8f41c0c2fdb822a90be4e69a1d5c07227dfed5ad82e70ed01051f62f5798b",
+    "rgb:a18478d29cdaeaddcdaa332263e6711a661a2e5065fa9981befc415438fc7ac9",
+    "rgb:a3a90a01f42fff9eb383ffcf1131076f708814c604e6c5d336438b9d9a7c750e",
+    "rgb:a4d7af1f8403f7bffd6f331ac8e98ca8dc799543c86bad8cdbde4a23e1d498cb",
+    "rgb:aab68062a578496d2b6556d7551a26c5b363f8f4d2a026da664b3c857f8e5ee0",
+    "rgb:ac341d9b13f0ce18eb3afba1c442ff71f7c3bbe0af02e13d8e140e6f4f8bfcbe",
+    "rgb:ace0b6c5d08afdee028967ef674c0808db64fe2b2725d716b2dbaefa1e47ce06",
+    "rgb:ace95d78635d93a18ab37a2c5e63070c8f4859df7ac4f9d2535cbf38512fe21b",
+    "rgb:adb9ec1803a9c6fda2e65927ebc74ef00854dacc80a4ef57bed6eadf7b8b40f5",
+    "rgb:af157326d3886fd17feac8adae5061d53666834d6dcc67d257dbd85ea5fbe22d",
+    "rgb:af8f78ebfd8e9626a073a5bc1db0dff4509a4f6891b90df7cc456c44b847824a",
+    "rgb:b0ed4c2f97f0173a3f8d2284cf0f2ccabd75e2efb11f73edbbcf34e265d90aa5",
+    "rgb:b527fb3b6456d7a67e4d6b34de5433dc54fb6aa59e8a593e834a7433befa4a53",
+    "rgb:b82ce1e76c46ca943039cee6b305eb2fc411a1bf547efeb687d5e2fb4fc26d64",
+    "rgb:b9c14f55bccd14627fe3f7318c3c48040278ba9d2c8706450d61373fcc3b9cf4",
+    "rgb:bb2e64245e5196c8829cfa09ff7310b85751b657e1162c0e78b719517590d34a",
+    "rgb:bcd721f96ff713d9b450b16b8dd30043f2057aa0168ad7a914e7b3721b9b33b9",
+    "rgb:be60957e7c84bac7ca6760358f031ee2ee74fd8b7ae4210ea64ae32f8acbde19",
+    "rgb:c00e78ada4acdf0f2be5bbd9fe6afbe6b844a85bcd64a3c47f46d4ef1485b383",
+    "rgb:c02851263e746acde9990782e208e383156d8fb208168f9faf037f271b39fc4d",
+    "rgb:c155d3162ab9d7435aa165fb892823251f06db65db6bd71658e3b25d7ee4a818",
+    "rgb:c173f47bbb1ff5de2f3f97a1b7b3daa0ebfd1ee08f23b86ba072ae91f51a114a",
+    "rgb:c2735b65d6515e7fac9f98598105c3a45f17eeeb0844bbcfba2816747362558b",
+    "rgb:c334f647f2f4e91fc3f8ee05ca641d5db3feee35a7b645779988d8497e523bee",
+    "rgb:c4c41104eeba100a245b9adb8a16c0024f4b01d37dcf947bcd614088fb4b1908",
+    "rgb:c5a1f150ebb0ba02febce0aeb569a9ba72c1377ee0bab589dae2b62d24d322da",
+    "rgb:c6995ad5159358737ea30cbcec95de2cd2794adcfb05486f028392f58223fd85",
+    "rgb:ca93893c399d9ac2a75561c7d22dddc0dc84ba0ece78a934cc189781e8c09e99",
+    "rgb:caf7fa942bb2b8279f8f5883fbb4eb659caad371924fb42f21687a8e0c0eb0a1",
+    "rgb:cbed4f9589be902ea26a3690f53b04af9223b4ac8a3964f7a251f18223d95e01",
+    "rgb:cf6db3a6d28fe2a336fb105892b03d16bc48ce1b0c0fdb01eea910ae0f6d83cd",
+    "rgb:d02cf8304e40f90590b534f8c953f564015ae790b561bd99c4f9a1c33d4c9fba",
+    "rgb:d22fecbab0f3192fbc5d40a46917b5011458d6a6d01cf0f35f5fafa878a15322",
+    "rgb:d3757359983115a7ed42154aff1e090d6bb5c36e4855c795248407a4aceba721",
+    "rgb:d5a91e965c6d5c0da48dd38288a470ae19098c03d9a99377568aa556ff1f454b",
+    "rgb:d5b06103268b1b98ac4328aaac79cce7f116a0962a99eb078af2dfedfec4078f",
+    "rgb:d68552f08bb872fc3c18f32ef139da534295aa671c7cd39b995b1b87d448c339",
+    "rgb:d687d2111e8bb9b952e5c9235077fa8364a2178e7adbaeba2fca9e9a20690dd7",
+    "rgb:d7a0e98e0fedd20f9d7c798a06192570918665a3a4f0b2ef5dbf402cacddc7ee",
+    "rgb:d7d2c52a79fd4990b839be04aec60a9f6802525fa3e786e93734df4e0a418060",
+    "rgb:d85b5c53ba036de6309e279cbde924690937872ddbb39465cf85b5854298e6f8",
+    "rgb:d8cfce831dc6f147726f5e97f4fb0cee180ffebffdb995fb62c1c5725f0ed37d",
+    "rgb:dc6eeaada6a7f571cec8e5dd845cf3dccf2c55b8054bc01bdc357d5b82f50dd0",
+    "rgb:e2e1714ed022f85bc2bf1adcf473c7214f4855aab1045d8091d9286717394b16",
+    "rgb:e338ae3ef26c93ecfde68678539533e139cb1309245976f96c140b3f3be5a30d",
+    "rgb:e45947b69bfb9aa53bd3ca6e88e5c690ba305627d8e068ed8aaea9ca0ff2a7ea",
+    "rgb:e522840479ca7c3fcd1c93e89198dcba0758e341f5c907698d79b3febe9e6744",
+    "rgb:e6bd027f43b9cfb02fe227959586aac6eb5983f076cea7fd421b79a08e16b074",
+    "rgb:e9403139f5479863d3041d58004a8823bb412de067f84c97eebde52d3f41cc6f",
+    "rgb:e9639c4f30051a960f421d08e919fd4e894e359ed396d49003a39b345cfd2589",
+    "rgb:ea88e58d8ba53ef9c65c259ed5f5f8c20b535743f14ee2789a6707f34d4c6963",
+    "rgb:eab9dd48ea736f035a094e41313138c3304118d7aeb84eea0390376de2a6ad2e",
+    "rgb:eb456979afa7813c88bc7c09fe8fbc097011f6a286e280a08ca805e92a68ea86",
+    "rgb:ef13d39ae84e0b027889dd039bd3efcf65bacff9a1842e9145e8d3a4efb8b91d",
+    "rgb:f26dbe0dd879132231497d07e6c5f11ec4d2f022794ff37117245c443cd38a55",
+    "rgb:f35598361d3afe42a742e84b62db983e260b25ed6d3f22d96acccd89caaaa188",
+    "rgb:f3f81c0e490038ce22a47515b0e117aefe1a3ff3fadeadb8e3791fbc1291988f",
+    "rgb:f4798274a0f3f0f1c6901b0393008437317a2199fd4dc491b21ea5412b70f4c0",
+    "rgb:f51856020e99125f74a2d51f405dfc655f6314558d483825a4cd23a78f5a5027",
+    "rgb:f5b807380a1c599001e21968cb29a67a0ff0696b89e57a7b5810d325079e64fa",
+    "rgb:f635a0b94047d3f9220fb8f79eff03d51976cbbf3be357fba23e6c6c9ec16f90",
+    "rgb:f6a6efbf335c71d09e16d228f19552440a9bdf0193a4536ab2c9a46e99abb1b1",
+    "rgb:f7844a6d4324932fc0ea31d19c233b462df03bf6c5e5547f6a08140d4cc47136",
+    "rgb:f7b7202f200b2702e67e6578a034ed9db3c6c6af6d010995bbe9c65f366abbbf",
+    "rgb:f7f8209e041653fae215b44b63a179554efd1fe8c693304779772158fe800453",
+    "rgb:fd1c8bf4b1c090ea4d35b2f0a23f379e1339029b68df55df7f2878bfe0226025",
+    "rgb:ff924d67d0636ded52608e0e41395b5d70898bdbd4266a27e54414b90fc35bbe",
+    "rgb:ffe76ccb3f76646080e3085ef3de5fdcdbe880e0779b4a6eb0968795e9655068"
+  ],
+  "counts": {
+    "slake_questions": 1061,
+    "slake_images": 96,
+    "vqarad_images": 203
+  }
+}

@@ -1,0 +1,1290 @@
+{
+  "id": "OBS-GRD-SPEC-v1",
+  "note": "Arm clinical-grounded. Mỗi item gom 1..n field cùng nhóm cấu trúc; mọi field phải có trong catalog v2 (prefix 'catalog:' + catalog_field_id) hoặc CT delta r2.1 (prefix 'ctdelta:' + field_id), status khác pending_disabled. Nhãn author_adaptation/gate được ghi trong field_trace.json do build_prompts.py sinh, KHÔNG in vào prompt (để giữ cùng hình thức với ARM-ANA). 'ask' viết lại allowed_image_level_request của field thành chỉ dẫn ngắn; không thêm tiêu chí ngoài nguồn.",
+  "excluded_fields_policy": "Không dùng: (1) pending_disabled; (2) field cần bằng chứng không có trong một ảnh đơn: chuỗi xung/sequence (MR_BRAIN_sequence_specific_signal, MRTHORAX.*, MRABD.chemical_shift_change, MRABD.diffusion_context, MRLIVER.*), ảnh cặp/tiêm thuốc (MR_BRAIN_contrast_change), arthrogram (mr_hip_arthrogram_*), polarized (skin.dermoscopy.shiny_white_streaks); (3) field 'corroboration' của delta (không phải field quan sát).",
+  "routes": {
+    "RT-XR-CHEST": [
+      {
+        "name": "Technical quality",
+        "ask": "patient rotation, penetration, motion blur, inspiratory lung volume and artifacts",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.quality.positioning",
+          "catalog:chest_skin_mammo:cxr.quality.penetration",
+          "catalog:chest_skin_mammo:cxr.quality.motion",
+          "catalog:chest_skin_mammo:cxr.quality.lung_volume",
+          "catalog:chest_skin_mammo:cxr.quality.artifact"
+        ]
+      },
+      {
+        "name": "Lines, tubes and devices",
+        "ask": "any visible device, its type and where it lies",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.devices"
+        ]
+      },
+      {
+        "name": "Chest wall",
+        "ask": "visible ribs, clavicles, spine and chest wall soft tissue",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.chest_wall"
+        ]
+      },
+      {
+        "name": "Mediastinum",
+        "ask": "mediastinal width and contour, including the cardiac silhouette",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.mediastinum"
+        ]
+      },
+      {
+        "name": "Hila",
+        "ask": "size, density and position of each hilum",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.hila"
+        ]
+      },
+      {
+        "name": "Airways",
+        "ask": "course and calibre of the trachea and main bronchi",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.airways"
+        ]
+      },
+      {
+        "name": "Lungs",
+        "ask": "each lung by side and zone, overall lucency and markings",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.lungs"
+        ]
+      },
+      {
+        "name": "Lung opacity",
+        "ask": "opacity, consolidation or atelectasis, with side, zone and extent",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.finding.opacity",
+          "catalog:chest_skin_mammo:cxr.finding.consolidation",
+          "catalog:chest_skin_mammo:cxr.finding.atelectasis"
+        ]
+      },
+      {
+        "name": "Rounded opacity",
+        "ask": "any rounded opacity, with side and zone, without a size category",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.nodular_appearance"
+        ]
+      },
+      {
+        "name": "Pleura",
+        "ask": "pleural lines, costophrenic angles and any pleural fluid",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.pleura",
+          "catalog:chest_skin_mammo:cxr.finding.pleural_effusion"
+        ]
+      },
+      {
+        "name": "Diaphragm",
+        "ask": "contour and height of each hemidiaphragm",
+        "fields": [
+          "catalog:chest_skin_mammo:cxr.compartment.diaphragm"
+        ]
+      }
+    ],
+    "RT-XR-WRIST": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the wrist region are included",
+        "fields": [
+          "catalog:msk_spine:xr_wrist_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_wrist_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_wrist_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_wrist_soft_tissues"
+        ]
+      }
+    ],
+    "RT-XR-ELBOW": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the elbow region are included",
+        "fields": [
+          "catalog:msk_spine:xr_elbow_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_elbow_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_elbow_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_elbow_soft_tissues"
+        ]
+      }
+    ],
+    "RT-XR-HUMERUS": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the upper arm region are included",
+        "fields": [
+          "catalog:msk_spine:xr_humerus_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_humerus_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_humerus_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_humerus_soft_tissues"
+        ]
+      }
+    ],
+    "RT-XR-SHOULDER": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the shoulder region are included",
+        "fields": [
+          "catalog:msk_spine:xr_shoulder_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_shoulder_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_shoulder_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_shoulder_soft_tissues"
+        ]
+      }
+    ],
+    "RT-XR-FINGER": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the finger region are included",
+        "fields": [
+          "catalog:msk_spine:xr_finger_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_finger_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_finger_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_finger_soft_tissues"
+        ]
+      }
+    ],
+    "RT-XR-HAND": [
+      {
+        "name": "Anatomic coverage",
+        "ask": "which bones and joints of the hand region are included",
+        "fields": [
+          "catalog:msk_spine:xr_hand_anatomic_selection"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "cortical outline, alignment and density of the visible bones",
+        "fields": [
+          "catalog:msk_spine:xr_hand_bones"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "joint spaces, articular surfaces and alignment at each joint",
+        "fields": [
+          "catalog:msk_spine:xr_hand_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "soft tissue outline, swelling, gas or foreign material",
+        "fields": [
+          "catalog:msk_spine:xr_hand_soft_tissues"
+        ]
+      }
+    ],
+    "RT-MAMMO": [
+      {
+        "name": "Focus in image",
+        "ask": "location in image coordinates of any focal density or contour",
+        "fields": [
+          "catalog:chest_skin_mammo:mammo.image_focus"
+        ]
+      },
+      {
+        "name": "Mass shape",
+        "ask": "for a confirmed mass only: oval, lobulated, round or irregular",
+        "fields": [
+          "catalog:chest_skin_mammo:mammo.mass_shape.oval",
+          "catalog:chest_skin_mammo:mammo.mass_shape.lobulated",
+          "catalog:chest_skin_mammo:mammo.mass_shape.round",
+          "catalog:chest_skin_mammo:mammo.mass_shape.irregular"
+        ]
+      },
+      {
+        "name": "Mass margin",
+        "ask": "circumscribed, obscured, indistinct or spiculated, if resolved",
+        "fields": [
+          "catalog:chest_skin_mammo:mammo.mass_margin.circumscribed",
+          "catalog:chest_skin_mammo:mammo.mass_margin.obscured",
+          "catalog:chest_skin_mammo:mammo.mass_margin.indistinct",
+          "catalog:chest_skin_mammo:mammo.mass_margin.spiculated"
+        ]
+      },
+      {
+        "name": "Mass density",
+        "ask": "low, equal, high or fat-containing compared with nearby tissue",
+        "fields": [
+          "catalog:chest_skin_mammo:mammo.mass_density.low",
+          "catalog:chest_skin_mammo:mammo.mass_density.equal",
+          "catalog:chest_skin_mammo:mammo.mass_density.high",
+          "catalog:chest_skin_mammo:mammo.mass_density.fat_containing"
+        ]
+      },
+      {
+        "name": "Architectural distortion",
+        "ask": "any distortion of the normal tissue pattern and where",
+        "fields": [
+          "catalog:chest_skin_mammo:mammo.architectural_distortion"
+        ]
+      }
+    ],
+    "RT-CT-ABDPEL": [
+      {
+        "name": "Window and contrast",
+        "ask": "displayed window (soft tissue, lung or bone) and whether contrast is visible",
+        "fields": [
+          "ctdelta:CTAP.window_phase_gate"
+        ]
+      },
+      {
+        "name": "Liver",
+        "ask": "contour, size, enhancement pattern, focal lesions and visible hepatic vessels",
+        "fields": [
+          "catalog:body:CTAP.liver.morphology",
+          "catalog:body:CTAP.liver.enhancement",
+          "catalog:body:CTAP.liver.masses",
+          "catalog:body:CTAP.liver.vasculature"
+        ]
+      },
+      {
+        "name": "Gallbladder and bile ducts",
+        "ask": "gallbladder, intrahepatic ducts and common bile duct calibre",
+        "fields": [
+          "catalog:body:CTAP.biliary.gallbladder",
+          "catalog:body:CTAP.biliary.intrahepatic_ducts",
+          "catalog:body:CTAP.biliary.common_bile_duct"
+        ]
+      },
+      {
+        "name": "Pancreas",
+        "ask": "contour, enhancement, focal lesions and duct calibre",
+        "fields": [
+          "catalog:body:CTAP.pancreas.morphology",
+          "catalog:body:CTAP.pancreas.enhancement",
+          "catalog:body:CTAP.pancreas.lesions",
+          "catalog:body:CTAP.pancreas.ductal_dilation_anatomy"
+        ]
+      },
+      {
+        "name": "Spleen",
+        "ask": "size impression, enhancement and focal lesions",
+        "fields": [
+          "catalog:body:CTAP.spleen.size",
+          "catalog:body:CTAP.spleen.enhancement",
+          "catalog:body:CTAP.spleen.lesions"
+        ]
+      },
+      {
+        "name": "Adrenal glands",
+        "ask": "shape and any focal mass on each side",
+        "fields": [
+          "catalog:body:CTAP.adrenals.morphology",
+          "catalog:body:CTAP.adrenals.masses"
+        ]
+      },
+      {
+        "name": "Kidneys, ureters and bladder",
+        "ask": "kidney contour, enhancement, masses, stones, collecting system, ureters and bladder wall",
+        "fields": [
+          "catalog:body:CTAP.urinary.morphology",
+          "catalog:body:CTAP.urinary.enhancement",
+          "catalog:body:CTAP.urinary.masses",
+          "catalog:body:CTAP.urinary.stones",
+          "catalog:body:CTAP.urinary.collecting_system",
+          "catalog:body:CTAP.urinary.ureters",
+          "catalog:body:CTAP.urinary.bladder",
+          "catalog:body:CTAP.urinary.bladder_wall_thickness"
+        ]
+      },
+      {
+        "name": "Stomach and bowel",
+        "ask": "gastro-oesophageal junction, stomach, duodenum, bowel calibre, wall and appendix",
+        "fields": [
+          "catalog:body:CTAP.GI.distal_esophagus_GEJ",
+          "catalog:body:CTAP.GI.stomach",
+          "catalog:body:CTAP.GI.duodenum",
+          "catalog:body:CTAP.GI.small_large_bowel_caliber",
+          "catalog:body:CTAP.GI.small_large_bowel_wall_thickness",
+          "catalog:body:CTAP.GI.small_large_bowel_enhancement",
+          "catalog:body:CTAP.GI.appendix"
+        ]
+      },
+      {
+        "name": "Peritoneal cavity",
+        "ask": "free fluid, fluid collections, free air and peritoneal nodules",
+        "fields": [
+          "catalog:body:CTAP.GI.fluid_collections",
+          "catalog:body:CTAP.GI.free_fluid",
+          "catalog:body:CTAP.GI.free_air",
+          "catalog:body:CTAP.GI.peritoneal_omental_implants"
+        ]
+      },
+      {
+        "name": "Blood vessels",
+        "ask": "aorta, inferior vena cava, portal and mesenteric veins, visceral and iliac vessels",
+        "fields": [
+          "catalog:body:CTAP.vascular.portal_splenic_mesenteric_veins",
+          "catalog:body:CTAP.vascular.IVC",
+          "catalog:body:CTAP.vascular.abdominal_aorta",
+          "catalog:body:CTAP.vascular.visceral_arteries",
+          "catalog:body:CTAP.vascular.iliac_pelvic_femoral_vessels"
+        ]
+      },
+      {
+        "name": "Lymph nodes",
+        "ask": "enlarged nodes by region: lower chest, upper abdominal, retroperitoneal, mesenteric, pelvic, inguinal",
+        "fields": [
+          "catalog:body:CTAP.nodes.lower_chest",
+          "catalog:body:CTAP.nodes.upper_abdominal",
+          "catalog:body:CTAP.nodes.retroperitoneal",
+          "catalog:body:CTAP.nodes.mesenteric",
+          "catalog:body:CTAP.nodes.pelvic",
+          "catalog:body:CTAP.nodes.inguinal"
+        ]
+      },
+      {
+        "name": "Lower chest",
+        "ask": "visible lung bases and any pleural or pericardial fluid",
+        "fields": [
+          "catalog:body:CTAP.lower_chest.lung_bases",
+          "catalog:body:CTAP.lower_chest.pleural_effusion",
+          "catalog:body:CTAP.lower_chest.pericardial_effusion"
+        ]
+      },
+      {
+        "name": "Pelvic organs",
+        "ask": "visible uterus and ovaries, or prostate and seminal vesicles",
+        "fields": [
+          "ctdelta:CTAP.pelvic_reproductive_organs"
+        ]
+      },
+      {
+        "name": "Bones and body wall",
+        "ask": "visible spine, pelvis and ribs, muscles and abdominal wall",
+        "fields": [
+          "ctdelta:CTAP.osseous_structures",
+          "ctdelta:CTAP.muscles_body_wall_soft_tissues"
+        ]
+      }
+    ],
+    "RT-CT-CHEST": [
+      {
+        "name": "Lungs and airways",
+        "ask": "on lung window only: side, zone, focal or diffuse opacity, mass, cavity, airway calibre",
+        "fields": [
+          "ctdelta:CTCHEST.lung_parenchyma_airways"
+        ]
+      },
+      {
+        "name": "Mediastinum and hila",
+        "ask": "mediastinal and hilar soft tissue, contour and any mass",
+        "fields": [
+          "ctdelta:CTCHEST.mediastinum_hila"
+        ]
+      },
+      {
+        "name": "Lymph nodes",
+        "ask": "enlarged thoracic nodes and their location",
+        "fields": [
+          "catalog:body:CTCHEST.thoracic_nodes_adenopathy"
+        ]
+      },
+      {
+        "name": "Heart and pericardium",
+        "ask": "heart size impression and any pericardial or pleural fluid",
+        "fields": [
+          "ctdelta:CTCHEST.heart_pericardium",
+          "catalog:body:CTCHEST.pleura_pericardium_effusion"
+        ]
+      },
+      {
+        "name": "Thoracic vessels",
+        "ask": "calibre and contour of the aorta and pulmonary arteries",
+        "fields": [
+          "ctdelta:CTCHEST.thoracic_vessels"
+        ]
+      },
+      {
+        "name": "Chest wall and bones",
+        "ask": "ribs, spine, sternum and chest wall soft tissue",
+        "fields": [
+          "catalog:body:CTCHEST.bone_soft_tissue_slot"
+        ]
+      },
+      {
+        "name": "Upper abdomen and lower neck",
+        "ask": "any visible upper abdominal organs, adrenal glands or lower neck",
+        "fields": [
+          "ctdelta:CTCHEST.visible_upper_abdomen_lower_neck",
+          "catalog:body:CTCHEST.adrenal_slot"
+        ]
+      },
+      {
+        "name": "Devices",
+        "ask": "any implanted device or tube and its position",
+        "fields": [
+          "ctdelta:CTCHEST.implanted_devices"
+        ]
+      },
+      {
+        "name": "Other visible findings",
+        "ask": "anything visible that is not covered above",
+        "fields": [
+          "catalog:body:CTCHEST.other_slot"
+        ]
+      }
+    ],
+    "RT-CT-HEAD": [
+      {
+        "name": "Window and image quality",
+        "ask": "displayed window (brain or bone) and visible artifacts",
+        "fields": [
+          "ctdelta:CT_HEAD.window_kernel_gate",
+          "catalog:neuro_head_face:CT_HEAD_image_quality"
+        ]
+      },
+      {
+        "name": "Brain tissue",
+        "ask": "grey and white matter, focal areas of different density, side and lobe",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_brain_visible_findings"
+        ]
+      },
+      {
+        "name": "Ventricles",
+        "ask": "size, shape and symmetry of the ventricles",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_ventricles"
+        ]
+      },
+      {
+        "name": "Extra-axial spaces",
+        "ask": "spaces between brain and skull, any fluid or collection",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_extra_axial_spaces"
+        ]
+      },
+      {
+        "name": "Vascular structures",
+        "ask": "visible dense vessels or vascular calcification",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_vascular_structures"
+        ]
+      },
+      {
+        "name": "Skull and sinuses",
+        "ask": "skull bones, paranasal sinuses and mastoid air cells",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_bones_sinuses"
+        ]
+      },
+      {
+        "name": "Scalp and soft tissues",
+        "ask": "extracranial soft tissue swelling or collections",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_extracranial_soft_tissues"
+        ]
+      }
+    ],
+    "RT-CT-FACE": [
+      {
+        "name": "Window and image quality",
+        "ask": "displayed window (soft tissue or bone) and visible artifacts",
+        "fields": [
+          "ctdelta:CT_HEAD.window_kernel_gate",
+          "catalog:neuro_head_face:CT_HEAD_image_quality"
+        ]
+      },
+      {
+        "name": "Bones and sinuses",
+        "ask": "facial and skull bones, paranasal sinuses and mastoid air cells",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_bones_sinuses"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "facial and extracranial soft tissue swelling or collections",
+        "fields": [
+          "catalog:neuro_head_face:CT_HEAD_extracranial_soft_tissues"
+        ]
+      },
+      {
+        "name": "Ear and temporal bone",
+        "ask": "locate the ear and temporal bone structures if recognizable",
+        "fields": [
+          "catalog:neuro_head_face:CT_FACE_ear_temporal_visible_anatomy"
+        ]
+      },
+      {
+        "name": "Parotid region",
+        "ask": "locate the parotid region if recognizable",
+        "fields": [
+          "catalog:neuro_head_face:CT_FACE_parotid_visible_anatomy"
+        ]
+      },
+      {
+        "name": "Mandible",
+        "ask": "locate the mandible if recognizable",
+        "fields": [
+          "catalog:neuro_head_face:CT_FACE_mandible_visible_anatomy"
+        ]
+      },
+      {
+        "name": "Teeth",
+        "ask": "locate the teeth if recognizable",
+        "fields": [
+          "catalog:neuro_head_face:CT_FACE_teeth_visible_anatomy"
+        ]
+      }
+    ],
+    "RT-CT-NECK": [
+      {
+        "name": "Larynx",
+        "ask": "laryngeal airway lumen and surrounding soft tissue",
+        "fields": [
+          "ctdelta:CTNECK.larynx"
+        ]
+      },
+      {
+        "name": "Pharynx and oral cavity",
+        "ask": "pharyngeal and oral cavity soft tissues and airway",
+        "fields": [
+          "ctdelta:CTNECK.pharynx_oral_cavity"
+        ]
+      },
+      {
+        "name": "Thyroid and salivary glands",
+        "ask": "visible thyroid and salivary glands, size and focal areas",
+        "fields": [
+          "ctdelta:CTNECK.thyroid_salivary"
+        ]
+      },
+      {
+        "name": "Lymph nodes and vessels",
+        "ask": "visible neck nodes and the carotid and jugular vessels",
+        "fields": [
+          "ctdelta:CTNECK.nodes_vessels"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "visible cervical spine and other bones",
+        "fields": [
+          "ctdelta:CTNECK.bones"
+        ]
+      }
+    ],
+    "RT-MR-BRAIN": [
+      {
+        "name": "Brain parenchyma",
+        "ask": "grey and white matter appearance, focal areas with side and lobe",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_parenchyma"
+        ]
+      },
+      {
+        "name": "Ventricles and cisterns",
+        "ask": "size, shape and symmetry of ventricles and basal cisterns",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_ventricular_system",
+          "catalog:neuro_head_face:MR_BRAIN_basal_cisterns"
+        ]
+      },
+      {
+        "name": "Extra-axial space",
+        "ask": "spaces between brain and skull, any fluid or collection",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_extra_axial_space"
+        ]
+      },
+      {
+        "name": "Midline",
+        "ask": "position of midline structures and any shift",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_midline_relation"
+        ]
+      },
+      {
+        "name": "Posterior fossa",
+        "ask": "cerebellum and brainstem appearance",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_cerebellum",
+          "catalog:neuro_head_face:MR_BRAIN_brainstem"
+        ]
+      },
+      {
+        "name": "Skull, skull base and marrow",
+        "ask": "calvarium, skull base and bone marrow appearance",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_calvarium",
+          "catalog:neuro_head_face:MR_BRAIN_skull_base",
+          "catalog:neuro_head_face:MR_BRAIN_marrow"
+        ]
+      },
+      {
+        "name": "Vessels",
+        "ask": "visible vessels or flow voids",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_vascular_system"
+        ]
+      },
+      {
+        "name": "Sinuses and mastoids",
+        "ask": "paranasal sinuses and mastoid air cells",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_sinus_mastoid"
+        ]
+      },
+      {
+        "name": "Orbits",
+        "ask": "visible orbits and their contents",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_visible_orbits"
+        ]
+      },
+      {
+        "name": "Sella and upper neck",
+        "ask": "sella region and the visible upper cervical region",
+        "fields": [
+          "catalog:neuro_head_face:MR_BRAIN_sella",
+          "catalog:neuro_head_face:MR_BRAIN_visible_upper_cervical"
+        ]
+      }
+    ],
+    "RT-MR-ABD": [
+      {
+        "name": "Coverage and image quality",
+        "ask": "anatomic coverage and visible artifacts; do not assume the sequence",
+        "fields": [
+          "catalog:body:MRABD.coverage_sequence_quality"
+        ]
+      },
+      {
+        "name": "Pancreas",
+        "ask": "whether the pancreas is visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.pancreas"
+        ]
+      },
+      {
+        "name": "Spleen",
+        "ask": "whether the spleen is visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.spleen"
+        ]
+      },
+      {
+        "name": "Kidneys and ureters",
+        "ask": "whether the kidneys and ureters are visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.kidneys_ureters"
+        ]
+      },
+      {
+        "name": "Adrenal glands",
+        "ask": "whether the adrenal glands are visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.adrenals"
+        ]
+      },
+      {
+        "name": "Bile ducts and gallbladder",
+        "ask": "whether the bile ducts and gallbladder are visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.bile_ducts_gallbladder"
+        ]
+      },
+      {
+        "name": "Blood vessels",
+        "ask": "whether the abdominal vessels are visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.vasculature"
+        ]
+      },
+      {
+        "name": "Retroperitoneum",
+        "ask": "whether the retroperitoneum is visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.retroperitoneum"
+        ]
+      },
+      {
+        "name": "Bowel and peritoneum",
+        "ask": "whether the bowel and peritoneum are visible and assessable",
+        "fields": [
+          "catalog:body:MRABD.compartment.GI_peritoneum"
+        ]
+      }
+    ],
+    "RT-MR-KNEE": [
+      {
+        "name": "Menisci",
+        "ask": "whether the menisci are depicted; if so, their visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_knee_menisci"
+        ]
+      },
+      {
+        "name": "Ligaments",
+        "ask": "whether the ligaments are depicted; if so, their visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_knee_ligaments"
+        ]
+      },
+      {
+        "name": "Cartilage",
+        "ask": "whether articular cartilage is depicted; if so, its visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_knee_cartilage"
+        ]
+      },
+      {
+        "name": "Bone and marrow",
+        "ask": "visible bone outline and marrow appearance",
+        "fields": [
+          "catalog:msk_spine:mr_knee_bone_and_marrow"
+        ]
+      },
+      {
+        "name": "Bursae",
+        "ask": "whether any bursa is depicted; if so, its visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_knee_bursae"
+        ]
+      },
+      {
+        "name": "Alignment",
+        "ask": "visible alignment of the femur, tibia and patella",
+        "fields": [
+          "catalog:msk_spine:mr_knee_alignment"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "visible muscles, tendons and subcutaneous tissue",
+        "fields": [
+          "catalog:msk_spine:mr_knee_soft_tissues"
+        ]
+      },
+      {
+        "name": "Other visible findings",
+        "ask": "anything visible that is not covered above",
+        "fields": [
+          "catalog:msk_spine:mr_knee_incidental_visible_findings"
+        ]
+      }
+    ],
+    "RT-MR-SHOULDER": [
+      {
+        "name": "Rotator cuff",
+        "ask": "visible rotator cuff muscles and tendons",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_rotator_cuff_muscles_and_tendons"
+        ]
+      },
+      {
+        "name": "Supraspinatus outlet",
+        "ask": "space under the acromion and its visible contents",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_supraspinatus_outlet"
+        ]
+      },
+      {
+        "name": "Biceps tendon",
+        "ask": "long head of biceps tendon position and appearance",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_biceps_tendon"
+        ]
+      },
+      {
+        "name": "Articular surfaces",
+        "ask": "humeral head and glenoid articular surfaces",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_articular_surfaces"
+        ]
+      },
+      {
+        "name": "Labrum",
+        "ask": "whether the labrum is depicted; if so, its visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_labrum"
+        ]
+      },
+      {
+        "name": "Ligaments and capsule",
+        "ask": "visible major ligaments and joint capsule",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_selected_major_ligaments_and_capsule"
+        ]
+      },
+      {
+        "name": "Bone marrow",
+        "ask": "visible bone marrow appearance",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_selected_bone_marrow"
+        ]
+      },
+      {
+        "name": "Synovium",
+        "ask": "visible joint fluid or synovial thickening",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_selected_synovium"
+        ]
+      },
+      {
+        "name": "Cortical bone",
+        "ask": "visible cortical outline of the bones",
+        "fields": [
+          "catalog:msk_spine:mr_shoulder_selected_cortical_bone"
+        ]
+      }
+    ],
+    "RT-MR-HIP": [
+      {
+        "name": "Bones",
+        "ask": "visible bone marrow appearance and cortical outline",
+        "fields": [
+          "catalog:msk_spine:mr_hip_bone_marrow",
+          "catalog:msk_spine:mr_hip_selected_cortical_bone"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "visible hip and nearby joints, joint space and fluid",
+        "fields": [
+          "catalog:msk_spine:mr_hip_joints"
+        ]
+      },
+      {
+        "name": "Articular cartilage",
+        "ask": "whether articular cartilage is depicted; if so, its appearance",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_articular_cartilage"
+        ]
+      },
+      {
+        "name": "Fibrocartilage",
+        "ask": "whether the labrum is depicted; if so, its visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_fibrocartilage"
+        ]
+      },
+      {
+        "name": "Muscles and tendons",
+        "ask": "visible muscles and tendons around the hip",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_specific_muscles_and_tendons"
+        ]
+      },
+      {
+        "name": "Bursae",
+        "ask": "whether any bursa is depicted; if so, its visible appearance",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_surrounding_bursae"
+        ]
+      },
+      {
+        "name": "Synovium",
+        "ask": "visible joint fluid or synovial thickening",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_synovium"
+        ]
+      },
+      {
+        "name": "Nerves, vessels and nodes",
+        "ask": "visible neurovascular structures and lymph nodes",
+        "fields": [
+          "catalog:msk_spine:mr_hip_selected_neurovascular_structures",
+          "catalog:msk_spine:mr_hip_selected_lymph_nodes"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "visible subcutaneous and other soft tissues",
+        "fields": [
+          "catalog:msk_spine:mr_hip_soft_tissues"
+        ]
+      }
+    ],
+    "RT-MR-ANKLE": [
+      {
+        "name": "Tendons",
+        "ask": "visible major tendons around the ankle",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_major_tendons"
+        ]
+      },
+      {
+        "name": "Ligaments",
+        "ask": "visible major ligaments of the ankle",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_major_ligaments"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "visible joints, joint space and fluid",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_joints"
+        ]
+      },
+      {
+        "name": "Bones",
+        "ask": "visible bone outline and marrow appearance",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_bones"
+        ]
+      },
+      {
+        "name": "Synovium",
+        "ask": "visible joint fluid or synovial thickening",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_selected_synovium"
+        ]
+      },
+      {
+        "name": "Retinacula",
+        "ask": "visible retinacula over the tendons",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_selected_retinacula"
+        ]
+      },
+      {
+        "name": "Muscles",
+        "ask": "visible muscles and their appearance",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_selected_muscles"
+        ]
+      },
+      {
+        "name": "Sinus tarsi and plantar fascia",
+        "ask": "visible sinus tarsi fat and plantar fascia",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_selected_sinus_tarsi",
+          "catalog:msk_spine:mr_ankle_selected_plantar_fascia"
+        ]
+      },
+      {
+        "name": "Nerves, vessels and fat",
+        "ask": "visible neurovascular structures and subcutaneous tissue",
+        "fields": [
+          "catalog:msk_spine:mr_ankle_selected_neurovascular_structures",
+          "catalog:msk_spine:mr_ankle_selected_subcutaneous_tissue"
+        ]
+      }
+    ],
+    "RT-MR-MIDFOOT": [
+      {
+        "name": "Visible bones",
+        "ask": "visible bone outline and marrow appearance",
+        "fields": [
+          "catalog:msk_spine:mr_foot_core_transfer_visible_bones"
+        ]
+      },
+      {
+        "name": "Visible joints",
+        "ask": "visible joints, joint space and fluid",
+        "fields": [
+          "catalog:msk_spine:mr_foot_core_transfer_visible_joints"
+        ]
+      },
+      {
+        "name": "Visible soft tissues",
+        "ask": "visible tendons, muscles and subcutaneous tissue",
+        "fields": [
+          "catalog:msk_spine:mr_foot_core_transfer_visible_soft_tissues"
+        ]
+      }
+    ],
+    "RT-MR-TOE": [
+      {
+        "name": "Bone marrow and cortex",
+        "ask": "visible marrow appearance and cortical outline of the toe bones",
+        "fields": [
+          "catalog:msk_spine:mr_foot_digit_bone_marrow_and_cortex"
+        ]
+      },
+      {
+        "name": "Tendons",
+        "ask": "visible flexor and extensor tendons",
+        "fields": [
+          "catalog:msk_spine:mr_foot_digit_tendons"
+        ]
+      },
+      {
+        "name": "Joints",
+        "ask": "visible toe joints, joint space and fluid",
+        "fields": [
+          "catalog:msk_spine:mr_foot_digit_joints"
+        ]
+      },
+      {
+        "name": "Plantar plate",
+        "ask": "whether the plantar plate is depicted; if so, its appearance",
+        "fields": [
+          "catalog:msk_spine:mr_foot_digit_plantar_plate"
+        ]
+      },
+      {
+        "name": "Sesamoids",
+        "ask": "whether sesamoid bones are depicted; if so, their appearance",
+        "fields": [
+          "catalog:msk_spine:mr_foot_digit_sesamoids"
+        ]
+      }
+    ],
+    "RT-MR-SPINE": [
+      {
+        "name": "Alignment",
+        "ask": "visible vertebral alignment and curvature",
+        "fields": [
+          "catalog:msk_spine:mr_spine_alignment"
+        ]
+      },
+      {
+        "name": "Discs",
+        "ask": "visible intervertebral disc height, appearance and contour",
+        "fields": [
+          "catalog:msk_spine:mr_spine_discs"
+        ]
+      },
+      {
+        "name": "Canal and foramina",
+        "ask": "visible spinal canal and neural foramina calibre",
+        "fields": [
+          "catalog:msk_spine:mr_spine_canal_and_foramina"
+        ]
+      },
+      {
+        "name": "Neural relationship",
+        "ask": "relation of discs or bone to visible neural structures",
+        "fields": [
+          "catalog:msk_spine:mr_spine_neural_relationship"
+        ]
+      },
+      {
+        "name": "Spinal cord",
+        "ask": "visible spinal cord calibre and appearance",
+        "fields": [
+          "catalog:msk_spine:mr_spine_cord"
+        ]
+      },
+      {
+        "name": "Facet joints",
+        "ask": "visible facet joints and their appearance",
+        "fields": [
+          "catalog:msk_spine:mr_spine_facet_joints"
+        ]
+      },
+      {
+        "name": "Soft tissues",
+        "ask": "visible paraspinal and other soft tissues",
+        "fields": [
+          "catalog:msk_spine:mr_spine_visible_soft_tissues"
+        ]
+      }
+    ],
+    "RT-SKIN-DERM": [
+      {
+        "name": "Lines",
+        "ask": "any lines: colour and arrangement",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.lines"
+        ]
+      },
+      {
+        "name": "Dots",
+        "ask": "any dots: colour and arrangement",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.dots"
+        ]
+      },
+      {
+        "name": "Clods",
+        "ask": "any clods: colour and arrangement",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.clods"
+        ]
+      },
+      {
+        "name": "Circles",
+        "ask": "any circles: colour and arrangement",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.circles"
+        ]
+      },
+      {
+        "name": "Pseudopods",
+        "ask": "any pseudopods at the edge: colour and location",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.pseudopods"
+        ]
+      },
+      {
+        "name": "Structureless areas",
+        "ask": "any structureless areas: colour and extent",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.structureless"
+        ]
+      },
+      {
+        "name": "Network",
+        "ask": "any network pattern: colour and regularity",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.network"
+        ]
+      },
+      {
+        "name": "Vessels",
+        "ask": "any vessels: dotted, linear, coiled, looped or serpentine",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.dermoscopy.vessel_dots",
+          "catalog:chest_skin_mammo:skin.dermoscopy.vessel_linear",
+          "catalog:chest_skin_mammo:skin.dermoscopy.vessel_coiled",
+          "catalog:chest_skin_mammo:skin.dermoscopy.vessel_looped",
+          "catalog:chest_skin_mammo:skin.dermoscopy.vessel_serpentine"
+        ]
+      }
+    ],
+    "RT-SKIN-CLIN": [
+      {
+        "name": "Colour",
+        "ask": "colours of the visible skin change",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.color"
+        ]
+      },
+      {
+        "name": "Border",
+        "ask": "border of the visible skin change: sharp or ill-defined",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.border"
+        ]
+      },
+      {
+        "name": "Shape",
+        "ask": "shape of the visible skin change",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.shape"
+        ]
+      },
+      {
+        "name": "Scale",
+        "ask": "any visible scale on the surface",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.scale"
+        ]
+      },
+      {
+        "name": "Crust",
+        "ask": "any visible crust on the surface",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.crust"
+        ]
+      },
+      {
+        "name": "Flat or raised",
+        "ask": "whether the change appears flat or raised",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.flat_appearing",
+          "catalog:chest_skin_mammo:skin.clinical.raised_appearing"
+        ]
+      },
+      {
+        "name": "Location in image",
+        "ask": "where the change lies in the image",
+        "fields": [
+          "catalog:chest_skin_mammo:skin.clinical.image_coordinate_location"
+        ]
+      }
+    ]
+  }
+}

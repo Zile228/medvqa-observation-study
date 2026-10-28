@@ -1,0 +1,15 @@
+{
+  "slake": {
+    "repository": "BoKelvin/SLAKE",
+    "revision": "a9083ce6c34ac3ffb17671a605962924d8a8f9e9"
+  },
+  "omnimedvqa": {
+    "repository": "foreverbeliever/OmniMedVQA",
+    "revision": "1ba51c28fc0773bdf7efb8396e5bcfd4227e22da",
+    "archive_sha256": "12245e0f99afbc7d6f70e4ca3c2e5a7979a01816cd8159ae34539f4aa76adee0"
+  },
+  "vqa_rad": {
+    "annotations": "VQA_RAD_Dataset_Public_original.json",
+    "images": "original_public_vqarad_images"
+  }
+}

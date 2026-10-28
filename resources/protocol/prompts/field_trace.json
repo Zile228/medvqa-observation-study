@@ -1,0 +1,3920 @@
+{
+  "catalog": "resources/catalog/field_catalog.json",
+  "delta": "resources/catalog/ct_fields.json",
+  "catalog_version": "dataset_aligned_research_v2_20261015",
+  "delta_version": "ct_delta_r2.1_20261016",
+  "excluded_fields": [
+    "body:MRABD.chemical_shift_change",
+    "body:MRABD.diffusion_context",
+    "body:MRLIVER.chemical_shift_change",
+    "body:MRLIVER.pre_post_contrast_change",
+    "body:MRTHORAX.T1_T2_relative_signal",
+    "body:MRTHORAX.fat_suppression_signal_change",
+    "body:MRTHORAX.pre_post_gadolinium_change",
+    "chest_skin_mammo:skin.dermoscopy.shiny_white_streaks",
+    "msk_spine:mr_hip_arthrogram_acetabular_labrum",
+    "msk_spine:mr_hip_arthrogram_articular_cartilage",
+    "neuro_head_face:MR_BRAIN_contrast_change",
+    "neuro_head_face:MR_BRAIN_sequence_specific_signal"
+  ],
+  "routes": {
+    "RT-XR-CHEST": [
+      {
+        "item_no": 1,
+        "name": "Technical quality",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.quality.positioning",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.2, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No image adequacy guarantee for unseen anatomy"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.quality.penetration",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.2, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No image adequacy guarantee for unseen anatomy"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.quality.motion",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.2, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No image adequacy guarantee for unseen anatomy"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.quality.lung_volume",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.2, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No image adequacy guarantee for unseen anatomy"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.quality.artifact",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.2, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No image adequacy guarantee for unseen anatomy"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Lines, tubes and devices",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.devices",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 support/monitoring devices, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Chest wall",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.chest_wall",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 chest wall, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Mediastinum",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.mediastinum",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 mediastinum, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Hila",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.hila",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 hila, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Airways",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.airways",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 airways, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Lungs",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.lungs",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 lungs, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Lung opacity",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.finding.opacity",
+            "status": "source_backed_candidate",
+            "source_id": "FLEISCHNER2024-R1",
+            "source_anchor": "Opacity, PDF p9; descriptor",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No infection, edema, malignancy or histologic cause inferred"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.finding.consolidation",
+            "status": "source_backed_candidate",
+            "source_id": "FLEISCHNER2024-R1",
+            "source_anchor": "Consolidation, PDF p5; radiograph-specific sentence",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Do not transfer CT bronchovascular-obscuration rule or infer pneumonia"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.finding.atelectasis",
+            "status": "source_backed_candidate",
+            "source_id": "FLEISCHNER2024-R1",
+            "source_anchor": "Atelectasis, PDF p3; Figs30–38 CXR examples",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No obstruction cause, exact lobe or total extent from unsupported single view"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Rounded opacity",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.nodular_appearance",
+            "status": "author_adaptation",
+            "source_id": "FLEISCHNER2024-R1",
+            "source_anchor": "Nodule p9; CXR2019 section1.8.2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Not the formal nodule term or a pulmonary-origin confirmation"
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 10,
+        "name": "Pleura",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.pleura",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 pleura/diaphragm, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.finding.pleural_effusion",
+            "status": "source_backed_candidate",
+            "source_id": "FLEISCHNER2024-R1",
+            "source_anchor": "Pleura > Effusion, PDF pp10–11; Fig137 frontal CXR",
+            "family": "CXR / chest",
+            "unsupported_inferences": "No fluid chemistry, cause, volume or absence of small/loculated fluid"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 11,
+        "name": "Diaphragm",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:cxr.compartment.diaphragm",
+            "status": "source_backed_candidate",
+            "source_id": "CXR2019-R1",
+            "source_anchor": "Table 1.1 pleura/diaphragm, printed p2",
+            "family": "CXR / chest",
+            "unsupported_inferences": "Compartment visibility is not absence of disease or a defined subtype checklist"
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-WRIST": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_wrist_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|wrist",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_wrist_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|wrist",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_wrist_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|wrist",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_wrist_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|wrist",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-ELBOW": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_elbow_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|elbow",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_elbow_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|elbow",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_elbow_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|elbow",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_elbow_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|elbow",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-HUMERUS": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_humerus_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|humerus",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_humerus_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|humerus",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_humerus_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|humerus",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_humerus_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|humerus",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-SHOULDER": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_shoulder_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|shoulder",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_shoulder_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|shoulder",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_shoulder_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|shoulder",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_shoulder_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|shoulder",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-FINGER": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_finger_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|finger",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_finger_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|finger",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_finger_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|finger",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_finger_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|finger",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-XR-HAND": [
+      {
+        "item_no": 1,
+        "name": "Anatomic coverage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_hand_anatomic_selection",
+            "status": "author_adaptation",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|hand",
+            "unsupported_inferences": [
+              "Filename proves anatomy",
+              "Whole part intact or normal"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_hand_bones",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|hand",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_hand_joints",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|hand",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:xr_hand_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "XR-ACR23-FULL",
+            "source_anchor": "I Introduction; IV Table1; V Documentation",
+            "family": "MURA|X-Ray|hand",
+            "unsupported_inferences": [
+              "Normal study from one view",
+              "Occult fracture excluded",
+              "MRI tendon/cartilage/marrow signal claims",
+              "Calibrated measurement without evidence"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MAMMO": [
+      {
+        "item_no": 1,
+        "name": "Focus in image",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.image_focus",
+            "status": "author_adaptation",
+            "source_id": "ACR2025",
+            "source_anchor": "Author adaptation, no formal lexicon entry",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Not confirmed mass, quadrant, BI-RADS assessment or management"
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Mass shape",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_shape.oval",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.1",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Single-view density-like focus is not confirmed 3D mass"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_shape.lobulated",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.1",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Single-view density-like focus is not confirmed 3D mass"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_shape.round",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.1",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Single-view density-like focus is not confirmed 3D mass"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_shape.irregular",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.1",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Single-view density-like focus is not confirmed 3D mass"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Mass margin",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_margin.circumscribed",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.2",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "No benignity/malignancy decision from descriptor"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_margin.obscured",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.2",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "No benignity/malignancy decision from descriptor"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_margin.indistinct",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.2",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "No benignity/malignancy decision from descriptor"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_margin.spiculated",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.2",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "No benignity/malignancy decision from descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Mass density",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_density.low",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.3",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Not numerical tissue density or pathology"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_density.equal",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.3",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Not numerical tissue density or pathology"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_density.high",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.3",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Not numerical tissue density or pathology"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.mass_density.fat_containing",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p173, A.3",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "Not numerical tissue density or pathology"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Architectural distortion",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:mammo.architectural_distortion",
+            "status": "source_backed_candidate",
+            "source_id": "ACR2025",
+            "source_anchor": "AppendixB p174, C",
+            "family": "Mammography / breast",
+            "unsupported_inferences": "No cancer inference"
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-CT-ABDPEL": [
+      {
+        "item_no": 1,
+        "name": "Window and contrast",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTAP.window_phase_gate",
+            "status": "gate",
+            "source_id": [
+              "ACR-CTAP-2026",
+              "ALIUS2023"
+            ],
+            "source_anchor": "NEW gate; upgrades BODY-CTAP-ACR to 2026 full text",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "Specific phase timing from appearance alone when ambiguous"
+            ]
+          }
+        ],
+        "item_label": "gate"
+      },
+      {
+        "item_no": 2,
+        "name": "Liver",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.liver.morphology",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > morphology",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.liver.enhancement",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > enhancement",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.liver.masses",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > masses",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.liver.vasculature",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > vasculature",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Gallbladder and bile ducts",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.biliary.gallbladder",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > gallbladder",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.biliary.intrahepatic_ducts",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > intrahepatic ducts",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.biliary.common_bile_duct",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LIVER AND BILIARY > common bile duct",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Pancreas",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.pancreas.morphology",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > PANCREAS > morphology",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.pancreas.enhancement",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > PANCREAS > enhancement",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.pancreas.lesions",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > PANCREAS > lesions",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.pancreas.ductal_dilation_anatomy",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > PANCREAS > ductal dilation anatomy",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Spleen",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.spleen.size",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > SPLEEN > size",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.spleen.enhancement",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > SPLEEN > enhancement",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.spleen.lesions",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > SPLEEN > lesions",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Adrenal glands",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.adrenals.morphology",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > ADRENALS > morphology",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.adrenals.masses",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > ADRENALS > masses",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Kidneys, ureters and bladder",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.urinary.morphology",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > morphology",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.enhancement",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > enhancement",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.masses",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > masses",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.stones",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > stones",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.collecting_system",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > collecting system",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.ureters",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > ureters",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.bladder",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER > bladder",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.urinary.bladder_wall_thickness",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original DOCX FINDINGS > KIDNEYS, URETERS, AND BLADDER",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No appendicitis exclusion from a partial image.",
+              "No full-exam urinary/GI normality."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Stomach and bowel",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.GI.distal_esophagus_GEJ",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > distal esophagus GEJ",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.stomach",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > stomach",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.duodenum",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > duodenum",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.small_large_bowel_caliber",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > small large bowel caliber",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.small_large_bowel_wall_thickness",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > small large bowel wall thickness",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.small_large_bowel_enhancement",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > small large bowel enhancement",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.appendix",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original DOCX FINDINGS > GI TRACT AND PERITONEUM",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No appendicitis exclusion from a partial image.",
+              "No full-exam urinary/GI normality."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Peritoneal cavity",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.GI.fluid_collections",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > fluid collections",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.free_fluid",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > free fluid",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.free_air",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > free air",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.GI.peritoneal_omental_implants",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > GI TRACT AND PERITONEUM > peritoneal omental implants",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 10,
+        "name": "Blood vessels",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.vascular.portal_splenic_mesenteric_veins",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > VASCULATURE > portal splenic mesenteric veins",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.vascular.IVC",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > VASCULATURE > IVC",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.vascular.abdominal_aorta",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > VASCULATURE > abdominal aorta",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.vascular.visceral_arteries",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > VASCULATURE > visceral arteries",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.vascular.iliac_pelvic_femoral_vessels",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > VASCULATURE > iliac pelvic femoral vessels",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 11,
+        "name": "Lymph nodes",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.nodes.lower_chest",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > lower chest",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.nodes.upper_abdominal",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > upper abdominal",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.nodes.retroperitoneal",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > retroperitoneal",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.nodes.mesenteric",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > mesenteric",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.nodes.pelvic",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > pelvic",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.nodes.inguinal",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LYMPH NODES > inguinal",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 12,
+        "name": "Lower chest",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTAP.lower_chest.lung_bases",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LOWER CHEST > lung bases",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.lower_chest.pleural_effusion",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LOWER CHEST > pleural effusion",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTAP.lower_chest.pericardial_effusion",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTAP-HARTUNG-ORIGINAL",
+            "source_anchor": "Original attached DOCX FINDINGS > LOWER CHEST > pericardial effusion",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "No whole-organ/examination absence from a cropped frame.",
+              "No etiology, disease stage, function, or validated diagnostic threshold supplied by this checklist."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 13,
+        "name": "Pelvic organs",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTAP.pelvic_reproductive_organs",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50516",
+              "ALIUS2023"
+            ],
+            "source_anchor": "NEW (absent in Hartung set)",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Sex inferred from absence of organ",
+              "Gynecologic staging"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 14,
+        "name": "Bones and body wall",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTAP.osseous_structures",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTAP-2026",
+              "RSNA-50516",
+              "ALIUS2023"
+            ],
+            "source_anchor": "NEW (absent in Hartung set)",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Metastasis diagnosis"
+            ]
+          },
+          {
+            "field_id": "ctdelta:CTAP.muscles_body_wall_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTAP-2026",
+              "RSNA-50516",
+              "ALIUS2023"
+            ],
+            "source_anchor": "NEW (absent in Hartung set)",
+            "family": "CT/abdomen_or_pelvis",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-CT-CHEST": [
+      {
+        "item_no": 1,
+        "name": "Lungs and airways",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.lung_parenchyma_airways",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTCHEST-2023",
+              "RSNA-50515",
+              "ACR-HRCT-2025",
+              "FLEISCHNER2024 (catalog v2)"
+            ],
+            "source_anchor": "NEW (gap)",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Nodule management category",
+              "Malignancy",
+              "Stage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Mediastinum and hila",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.mediastinum_hila",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTCHEST-2023",
+              "RSNA-50515"
+            ],
+            "source_anchor": "NEW (gap); overlaps existing CTCHEST.thoracic_nodes_adenopathy for nodes",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Nodal stage",
+              "Invasion"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Lymph nodes",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTCHEST.thoracic_nodes_adenopathy",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTCHEST-SCHWARTZ2011-FIG1",
+            "source_anchor": "Fig1b > THORACIC NODES",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "No full-thorax negative from one frame.",
+              "No lung/heart/esophagus field definition implied by this figure."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Heart and pericardium",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.heart_pericardium",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50515"
+            ],
+            "source_anchor": "NEW (gap); complements CTCHEST.pleura_pericardium_effusion",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Cardiac function",
+              "Coronary disease on non-gated CT"
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTCHEST.pleura_pericardium_effusion",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTCHEST-SCHWARTZ2011-FIG1",
+            "source_anchor": "Fig1b > PLEURA/PERICARDIUM",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "No full-thorax negative from one frame.",
+              "No lung/heart/esophagus field definition implied by this figure."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Thoracic vessels",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.thoracic_vessels",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTCHEST-2023",
+              "RSNA-50515"
+            ],
+            "source_anchor": "NEW (gap)",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Pulmonary embolism without CTPA phase",
+              "Dissection without adequate phase"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Chest wall and bones",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTCHEST.bone_soft_tissue_slot",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTCHEST-SCHWARTZ2011-FIG1",
+            "source_anchor": "Fig1b > BONES/SOFT TISSUES",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "No full-thorax negative from one frame.",
+              "No lung/heart/esophagus field definition implied by this figure."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Upper abdomen and lower neck",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.visible_upper_abdomen_lower_neck",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTCHEST-2023",
+              "RSNA-50515"
+            ],
+            "source_anchor": "PARTIAL gap; overlaps existing CTCHEST.adrenal_slot",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice"
+            ]
+          },
+          {
+            "field_id": "catalog:body:CTCHEST.adrenal_slot",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTCHEST-SCHWARTZ2011-FIG1",
+            "source_anchor": "Fig1b > ADRENAL GLANDS",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "No full-thorax negative from one frame.",
+              "No lung/heart/esophagus field definition implied by this figure."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Devices",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTCHEST.implanted_devices",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "ACR-CTCHEST-2023"
+            ],
+            "source_anchor": "NEW (gap)",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "Device malposition without reference anatomy"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Other visible findings",
+        "fields": [
+          {
+            "field_id": "catalog:body:CTCHEST.other_slot",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-CTCHEST-SCHWARTZ2011-FIG1",
+            "source_anchor": "Fig1b > OTHER",
+            "family": "CT/chest",
+            "unsupported_inferences": [
+              "No full-thorax negative from one frame.",
+              "No lung/heart/esophagus field definition implied by this figure."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-CT-HEAD": [
+      {
+        "item_no": 1,
+        "name": "Window and image quality",
+        "fields": [
+          {
+            "field_id": "ctdelta:CT_HEAD.window_kernel_gate",
+            "status": "gate",
+            "source_id": [
+              "ACR-CTHEAD-2025"
+            ],
+            "source_anchor": "NEW gate",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "Fracture exclusion on brain window"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_image_quality",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Brain tissue",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_brain_visible_findings",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Ventricles",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_ventricles",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Extra-axial spaces",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_extra_axial_spaces",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Vascular structures",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_vascular_structures",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Skull and sinuses",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_bones_sinuses",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Scalp and soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_extracranial_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-CT-FACE": [
+      {
+        "item_no": 1,
+        "name": "Window and image quality",
+        "fields": [
+          {
+            "field_id": "ctdelta:CT_HEAD.window_kernel_gate",
+            "status": "gate",
+            "source_id": [
+              "ACR-CTHEAD-2025"
+            ],
+            "source_anchor": "NEW gate",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "Fracture exclusion on brain window"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_image_quality",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Bones and sinuses",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_bones_sinuses",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_HEAD_extracranial_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-CT-SISTROM2005",
+            "source_anchor": "Exhibit1",
+            "family": "CT/head",
+            "unsupported_inferences": [
+              "whole-head normality",
+              "default normal phrases",
+              "calibrated HU or dimensions from uncalibratedPNG",
+              "vessel patency or stenosis without dedicated vascular protocol"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Ear and temporal bone",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_FACE_ear_temporal_visible_anatomy",
+            "status": "author_adaptation",
+            "source_id": "NEURO-EXTRACRANIAL-ACR2016",
+            "source_anchor": "§IV.D Temporal Bone pp4–5",
+            "family": "CT/head_face",
+            "unsupported_inferences": [
+              "whole-ear/parotid/jaw/dentition normality",
+              "salivary tumor class",
+              "mandibular lesion/fracture class",
+              "dental pathology grade"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 5,
+        "name": "Parotid region",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_FACE_parotid_visible_anatomy",
+            "status": "author_adaptation",
+            "source_id": "NEURO-EXTRACRANIAL-ACR2016",
+            "source_anchor": "§IV.A Soft-tissue neck pp4–5",
+            "family": "CT/head_face",
+            "unsupported_inferences": [
+              "whole-ear/parotid/jaw/dentition normality",
+              "salivary tumor class",
+              "mandibular lesion/fracture class",
+              "dental pathology grade"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 6,
+        "name": "Mandible",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_FACE_mandible_visible_anatomy",
+            "status": "author_adaptation",
+            "source_id": "NEURO-EXTRACRANIAL-ACR2016",
+            "source_anchor": "§IV scope; no dedicated diagnostic field verified pp4–5",
+            "family": "CT/head_face",
+            "unsupported_inferences": [
+              "whole-ear/parotid/jaw/dentition normality",
+              "salivary tumor class",
+              "mandibular lesion/fracture class",
+              "dental pathology grade"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 7,
+        "name": "Teeth",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:CT_FACE_teeth_visible_anatomy",
+            "status": "author_adaptation",
+            "source_id": "NEURO-EXTRACRANIAL-ACR2016",
+            "source_anchor": "§IV.B sinus; no dedicated dental diagnostic field verified pp4–5",
+            "family": "CT/head_face",
+            "unsupported_inferences": [
+              "whole-ear/parotid/jaw/dentition normality",
+              "salivary tumor class",
+              "mandibular lesion/fracture class",
+              "dental pathology grade"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      }
+    ],
+    "RT-CT-NECK": [
+      {
+        "item_no": 1,
+        "name": "Larynx",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTNECK.larynx",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50674",
+              "ACR-CTNECK-2026"
+            ],
+            "source_anchor": "UPGRADE: replaces and retires CT.neck.laryngeal_lumen (pending_disabled -> institutional template)",
+            "family": "CT/neck",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Vocal cord function",
+              "Cancer stage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Pharynx and oral cavity",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTNECK.pharynx_oral_cavity",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50674"
+            ],
+            "source_anchor": "NEW",
+            "family": "CT/neck",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Thyroid and salivary glands",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTNECK.thyroid_salivary",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50674"
+            ],
+            "source_anchor": "NEW for thyroid; salivary part overlaps existing CT_FACE_parotid_visible_anatomy",
+            "family": "CT/neck",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Nodule risk category"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Lymph nodes and vessels",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTNECK.nodes_vessels",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50674"
+            ],
+            "source_anchor": "NEW",
+            "family": "CT/neck",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice",
+              "Nodal stage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "ctdelta:CTNECK.bones",
+            "status": "source_backed_candidate",
+            "source_id": [
+              "RSNA-50674",
+              "ACR-CTNECK-2026"
+            ],
+            "source_anchor": "NEW",
+            "family": "CT/neck",
+            "unsupported_inferences": [
+              "Whole-exam normality",
+              "Absence of disease outside the visible slice"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-BRAIN": [
+      {
+        "item_no": 1,
+        "name": "Brain parenchyma",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_parenchyma",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Ventricles and cisterns",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_ventricular_system",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_basal_cisterns",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Extra-axial space",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_extra_axial_space",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Midline",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_midline_relation",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Posterior fossa",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_cerebellum",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_brainstem",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Skull, skull base and marrow",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_calvarium",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_skull_base",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_marrow",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Vessels",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_vascular_system",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Sinuses and mastoids",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_sinus_mastoid",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Orbits",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_visible_orbits",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 10,
+        "name": "Sella and upper neck",
+        "fields": [
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_sella",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          },
+          {
+            "field_id": "catalog:neuro_head_face:MR_BRAIN_visible_upper_cervical",
+            "status": "source_backed_candidate",
+            "source_id": "NEURO-MR-ALRUWAILI2024",
+            "source_anchor": "§2.3 Table3",
+            "family": "MR/brain",
+            "unsupported_inferences": [
+              "complete normality from one slice",
+              "dedicated orbit/sella/vascular interpretation from generic brain image",
+              "age-adjusted clinical conclusion without age/context",
+              "diagnosis merely from a compartment heading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-ABD": [
+      {
+        "item_no": 1,
+        "name": "Coverage and image quality",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.coverage_sequence_quality",
+            "status": "source_backed_candidate",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "IV.C Examination Technique",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No standalone disease diagnosis or stage.",
+              "No universal diagnostic threshold.",
+              "No minimum-report-field claim."
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Pancreas",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.pancreas",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.A Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 3,
+        "name": "Spleen",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.spleen",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.B Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 4,
+        "name": "Kidneys and ureters",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.kidneys_ureters",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.C Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 5,
+        "name": "Adrenal glands",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.adrenals",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.E Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 6,
+        "name": "Bile ducts and gallbladder",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.bile_ducts_gallbladder",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.G Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 7,
+        "name": "Blood vessels",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.vasculature",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.F Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 8,
+        "name": "Retroperitoneum",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.retroperitoneum",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.D Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 9,
+        "name": "Bowel and peritoneum",
+        "fields": [
+          {
+            "field_id": "catalog:body:MRABD.compartment.GI_peritoneum",
+            "status": "author_adaptation",
+            "source_id": "BODY-MRABD-ACR2026-VERIFIED",
+            "source_anchor": "II.H Indications",
+            "family": "MR/abdomen",
+            "unsupported_inferences": [
+              "No disease inference from indication list.",
+              "No contour/caliber/severity definition supplied."
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      }
+    ],
+    "RT-MR-KNEE": [
+      {
+        "item_no": 1,
+        "name": "Menisci",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_menisci",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Ligaments",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_ligaments",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Cartilage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_cartilage",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Bone and marrow",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_bone_and_marrow",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Bursae",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_bursae",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Alignment",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_alignment",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Other visible findings",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_knee_incidental_visible_findings",
+            "status": "source_backed_candidate",
+            "source_id": "KNEE24",
+            "source_anchor": "Key recommendations; Summary statement; Table1",
+            "family": "RadImageNet|MR|knee",
+            "unsupported_inferences": [
+              "Whole joint normality",
+              "All structures intact",
+              "Unsupported grade or complete extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-SHOULDER": [
+      {
+        "item_no": 1,
+        "name": "Rotator cuff",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_rotator_cuff_muscles_and_tendons",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "All cuff intact",
+              "Tear subtype/extent from incomplete coverage",
+              "Labral subtype",
+              "Outlet syndrome from morphology alone"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Supraspinatus outlet",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_supraspinatus_outlet",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "All cuff intact",
+              "Tear subtype/extent from incomplete coverage",
+              "Labral subtype",
+              "Outlet syndrome from morphology alone"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Biceps tendon",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_biceps_tendon",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "All cuff intact",
+              "Tear subtype/extent from incomplete coverage",
+              "Labral subtype",
+              "Outlet syndrome from morphology alone"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Articular surfaces",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_articular_surfaces",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "All cuff intact",
+              "Tear subtype/extent from incomplete coverage",
+              "Labral subtype",
+              "Outlet syndrome from morphology alone"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Labrum",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_labrum",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "All cuff intact",
+              "Tear subtype/extent from incomplete coverage",
+              "Labral subtype",
+              "Outlet syndrome from morphology alone"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Ligaments and capsule",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_selected_major_ligaments_and_capsule",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "Unseen structure normal",
+              "Disease subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Bone marrow",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_selected_bone_marrow",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "Unseen structure normal",
+              "Disease subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Synovium",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_selected_synovium",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "Unseen structure normal",
+              "Disease subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Cortical bone",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_shoulder_selected_cortical_bone",
+            "status": "source_backed_candidate",
+            "source_id": "SHOULDER-ACR24-FULL",
+            "source_anchor": "V Documentation, PDFp6",
+            "family": "RadImageNet|MR|shoulder",
+            "unsupported_inferences": [
+              "Unseen structure normal",
+              "Disease subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-HIP": [
+      {
+        "item_no": 1,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_bone_marrow",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Complete hip normality",
+              "Disease cause or stage",
+              "Labral exclusion from broad pelvic field"
+            ]
+          },
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_cortical_bone",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_joints",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Complete hip normality",
+              "Disease cause or stage",
+              "Labral exclusion from broad pelvic field"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Articular cartilage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_articular_cartilage",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Fibrocartilage",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_fibrocartilage",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Muscles and tendons",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_specific_muscles_and_tendons",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Bursae",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_surrounding_bursae",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Synovium",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_synovium",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Nerves, vessels and nodes",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_neurovascular_structures",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          },
+          {
+            "field_id": "catalog:msk_spine:mr_hip_selected_lymph_nodes",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Unsupported disease subtype",
+              "Unseen structures normal",
+              "Complete lesion extent"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_hip_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "HIP-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp8",
+            "family": "RadImageNet|MR|hip",
+            "unsupported_inferences": [
+              "Complete hip normality",
+              "Disease cause or stage",
+              "Labral exclusion from broad pelvic field"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-ANKLE": [
+      {
+        "item_no": 1,
+        "name": "Tendons",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_major_tendons",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Instability diagnosis",
+              "All ligaments intact",
+              "Complete tear extent",
+              "Entire foot coverage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Ligaments",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_major_ligaments",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Instability diagnosis",
+              "All ligaments intact",
+              "Complete tear extent",
+              "Entire foot coverage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_joints",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Instability diagnosis",
+              "All ligaments intact",
+              "Complete tear extent",
+              "Entire foot coverage"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_bones",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Synovium",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_synovium",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Retinacula",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_retinacula",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Muscles",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_muscles",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Sinus tarsi and plantar fascia",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_sinus_tarsi",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          },
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_plantar_fascia",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 9,
+        "name": "Nerves, vessels and fat",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_neurovascular_structures",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          },
+          {
+            "field_id": "catalog:msk_spine:mr_ankle_selected_subcutaneous_tissue",
+            "status": "source_backed_candidate",
+            "source_id": "ANKLE-ACR26-FULL",
+            "source_anchor": "VI Documentation, PDFp7",
+            "family": "RadImageNet|MR|ankle_hindfoot",
+            "unsupported_inferences": [
+              "Unseen anatomy normal",
+              "Disease stage or subtype without criteria"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-MIDFOOT": [
+      {
+        "item_no": 1,
+        "name": "Visible bones",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_core_transfer_visible_bones",
+            "status": "author_adaptation",
+            "source_id": "FOOT16;HIP-ACR21;DIGITACR",
+            "source_anchor": "FOOT16 slides4–5 scope; HIP-ACR21 VI; DIGITACR VI limitedtodigits",
+            "family": "RadImageNet|MR|midfoot_forefoot",
+            "unsupported_inferences": [
+              "All-foot officialtemplate claim",
+              "Digit criterion applied to midfoot",
+              "Lisfranc/Chopart classification",
+              "All bones/tendons intact"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 2,
+        "name": "Visible joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_core_transfer_visible_joints",
+            "status": "author_adaptation",
+            "source_id": "FOOT16;HIP-ACR21;DIGITACR",
+            "source_anchor": "FOOT16 slides4–5 scope; HIP-ACR21 VI; DIGITACR VI limitedtodigits",
+            "family": "RadImageNet|MR|midfoot_forefoot",
+            "unsupported_inferences": [
+              "All-foot officialtemplate claim",
+              "Digit criterion applied to midfoot",
+              "Lisfranc/Chopart classification",
+              "All bones/tendons intact"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 3,
+        "name": "Visible soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_core_transfer_visible_soft_tissues",
+            "status": "author_adaptation",
+            "source_id": "FOOT16;HIP-ACR21;DIGITACR",
+            "source_anchor": "FOOT16 slides4–5 scope; HIP-ACR21 VI; DIGITACR VI limitedtodigits",
+            "family": "RadImageNet|MR|midfoot_forefoot",
+            "unsupported_inferences": [
+              "All-foot officialtemplate claim",
+              "Digit criterion applied to midfoot",
+              "Lisfranc/Chopart classification",
+              "All bones/tendons intact"
+            ]
+          }
+        ],
+        "item_label": "author_adaptation"
+      }
+    ],
+    "RT-MR-TOE": [
+      {
+        "item_no": 1,
+        "name": "Bone marrow and cortex",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_digit_bone_marrow_and_cortex",
+            "status": "source_backed_candidate",
+            "source_id": "DIGITACR",
+            "source_anchor": "VI Documentation: minimum marrow/cortex,tendons,joints; selected plantarplates/sesamoids",
+            "family": "RadImageNet|MR|toe_MTP_only",
+            "unsupported_inferences": [
+              "Entire foot coverage",
+              "Digit fields asserted for all midfoot",
+              "Unsupported injury grading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Tendons",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_digit_tendons",
+            "status": "source_backed_candidate",
+            "source_id": "DIGITACR",
+            "source_anchor": "VI Documentation: minimum marrow/cortex,tendons,joints; selected plantarplates/sesamoids",
+            "family": "RadImageNet|MR|toe_MTP_only",
+            "unsupported_inferences": [
+              "Entire foot coverage",
+              "Digit fields asserted for all midfoot",
+              "Unsupported injury grading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_digit_joints",
+            "status": "source_backed_candidate",
+            "source_id": "DIGITACR",
+            "source_anchor": "VI Documentation: minimum marrow/cortex,tendons,joints; selected plantarplates/sesamoids",
+            "family": "RadImageNet|MR|toe_MTP_only",
+            "unsupported_inferences": [
+              "Entire foot coverage",
+              "Digit fields asserted for all midfoot",
+              "Unsupported injury grading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Plantar plate",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_digit_plantar_plate",
+            "status": "source_backed_candidate",
+            "source_id": "DIGITACR",
+            "source_anchor": "VI Documentation: minimum marrow/cortex,tendons,joints; selected plantarplates/sesamoids",
+            "family": "RadImageNet|MR|toe_MTP_only",
+            "unsupported_inferences": [
+              "Entire foot coverage",
+              "Digit fields asserted for all midfoot",
+              "Unsupported injury grading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Sesamoids",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_foot_digit_sesamoids",
+            "status": "source_backed_candidate",
+            "source_id": "DIGITACR",
+            "source_anchor": "VI Documentation: minimum marrow/cortex,tendons,joints; selected plantarplates/sesamoids",
+            "family": "RadImageNet|MR|toe_MTP_only",
+            "unsupported_inferences": [
+              "Entire foot coverage",
+              "Digit fields asserted for all midfoot",
+              "Unsupported injury grading"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-MR-SPINE": [
+      {
+        "item_no": 1,
+        "name": "Alignment",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_alignment",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Discs",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_discs",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Canal and foramina",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_canal_and_foramina",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Neural relationship",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_neural_relationship",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Spinal cord",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_cord",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Facet joints",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_facet_joints",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Soft tissues",
+        "fields": [
+          {
+            "field_id": "catalog:msk_spine:mr_spine_visible_soft_tissues",
+            "status": "source_backed_candidate",
+            "source_id": "SPINE18",
+            "source_anchor": "IX.2 Radiologist quality; printedpp14–15",
+            "family": "RadImageNet|MR|spine",
+            "unsupported_inferences": [
+              "Symptom causation",
+              "Unsupported level",
+              "Whole cord/nerve normality",
+              "Lumbar lexicon treated as allspine consensus"
+            ]
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-SKIN-DERM": [
+      {
+        "item_no": 1,
+        "name": "Lines",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.lines",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Dots",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.dots",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Clods",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.clods",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Circles",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.circles",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Pseudopods",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.pseudopods",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Structureless areas",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.structureless",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableI manuscript pp16–17",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "Never apply to clinical photo or unknown acquisition; no diagnosis implied"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 7,
+        "name": "Network",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.network",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableII manuscript p18",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 8,
+        "name": "Vessels",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.vessel_dots",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableIII manuscript p20",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.vessel_linear",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableIII manuscript p20",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.vessel_coiled",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableIII manuscript p20",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.vessel_looped",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableIII manuscript p20",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.dermoscopy.vessel_serpentine",
+            "status": "source_backed_candidate",
+            "source_id": "IDS2016",
+            "source_anchor": "TableIII manuscript p20",
+            "family": "Dermoscopy / skin",
+            "unsupported_inferences": "No malignancy or disease diagnosis; no negatives where structures unresolved"
+          }
+        ],
+        "item_label": "source_backed"
+      }
+    ],
+    "RT-SKIN-CLIN": [
+      {
+        "item_no": 1,
+        "name": "Colour",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.color",
+            "status": "source_backed_candidate",
+            "source_id": "ILDS2016",
+            "source_anchor": "Table1 comments, PDF p3",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "No palpation, histology or disease diagnosis from this descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 2,
+        "name": "Border",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.border",
+            "status": "source_backed_candidate",
+            "source_id": "ILDS2016",
+            "source_anchor": "Table1 comments, PDF p3",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "No palpation, histology or disease diagnosis from this descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 3,
+        "name": "Shape",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.shape",
+            "status": "source_backed_candidate",
+            "source_id": "ILDS2016",
+            "source_anchor": "Table1 comments, PDF p3",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "No palpation, histology or disease diagnosis from this descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 4,
+        "name": "Scale",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.scale",
+            "status": "source_backed_candidate",
+            "source_id": "ILDS2016",
+            "source_anchor": "Table1 scale, PDF p3",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "No palpation, histology or disease diagnosis from this descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 5,
+        "name": "Crust",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.crust",
+            "status": "source_backed_candidate",
+            "source_id": "ILDS2016",
+            "source_anchor": "Table1 crust, PDF p3",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "No palpation, histology or disease diagnosis from this descriptor"
+          }
+        ],
+        "item_label": "source_backed"
+      },
+      {
+        "item_no": 6,
+        "name": "Flat or raised",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.flat_appearing",
+            "status": "author_adaptation",
+            "source_id": "ILDS2016",
+            "source_anchor": "Author adaptation from visual limits, not a glossary entry",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "Not an official new ILDS term"
+          },
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.raised_appearing",
+            "status": "author_adaptation",
+            "source_id": "ILDS2016",
+            "source_anchor": "Author adaptation from visual limits, not a glossary entry",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "Not an official new ILDS term"
+          }
+        ],
+        "item_label": "author_adaptation"
+      },
+      {
+        "item_no": 7,
+        "name": "Location in image",
+        "fields": [
+          {
+            "field_id": "catalog:chest_skin_mammo:skin.clinical.image_coordinate_location",
+            "status": "author_adaptation",
+            "source_id": "ILDS2016",
+            "source_anchor": "Author adaptation from visual limits, not a glossary entry",
+            "family": "Clinical photograph / skin",
+            "unsupported_inferences": "Not an official new ILDS term"
+          }
+        ],
+        "item_label": "author_adaptation"
+      }
+    ]
+  }
+}

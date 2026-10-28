@@ -1,0 +1,316 @@
+{
+  "id": "NATIVE-PROVENANCE-v1",
+  "protocol": "protocol_v1.md bản 1.3, §4.1",
+  "date": "2026-10-17",
+  "applies_to": "Mọi ảnh OmniMedVQA của COH-NAT-TEST (native-heldout300, kể cả mục dự phòng thay thế), COH-NAT-DEV (native300 cũ) và phần native của COH-PILOT.",
+  "purpose": "Gán (modality, vùng/acquisition) cho ảnh native theo provenance của dataset con, thay cho kiểm kê bằng ảnh có 2 người chấm. Đầu ra là nhãn trong danh sách đóng của protocol §4.1; route lấy bằng bảng tra có sẵn trong routes.json. File này không thêm route và không đổi nội dung prompt.",
+  "inputs": {
+    "allowed": [
+      "source_image_path, sau khi chuẩn hóa theo input_path_normalization, chỉ dùng cho 3 regex khai báo dưới",
+      "source_dataset (nếu bản ghi có trường này): CHỈ để đối chiếu với dataset trích từ đường dẫn (nguồn tên dataset là đường dẫn, không phải trường này)",
+      "mảng RGB của PNG đã đổi tên trung tính, chỉ cho kiểm nhất quán màu (consistency_checks)"
+    ],
+    "forbidden": [
+      "câu hỏi, options, đáp án, question_type, nhãn modality của OmniMedVQA (kể cả tên pool MR/X-Ray/Dermoscopy)",
+      "thư mục chẩn đoán (vd. thư mục lớp bệnh của RadImageNet, covid/normal/pneumonia...), thư mục study*_positive/negative của MURA, thư mục patient*",
+      "mọi token khác của đường dẫn hoặc tên file ngoài 3 regex dưới (vd. hậu tố '-normal' trong tên file RadImageNet bị regex bỏ qua, không được xuất ra)"
+    ],
+    "where_it_runs": "Chỉ trong bước prep (code), trước khi đổi tên trung tính hoàn tất thì đường dẫn gốc chỉ nằm trong id_map.json. Đầu ra ghi vào route_metadata.json: neutral_id, modality, region|acquisition, provenance_rule ∈ {'dataset_table', 'mura_xr', 'radimagenet_prefix'} (tên quy tắc, KHÔNG phải tên dataset hay token), ck_chroma_frac, route_reason ∈ {'ok', 'unknown_dataset_level', 'unknown_explicit_token', 'other', 'conflict', 'ck_color', 'ck_gray'}. Không ghi đường dẫn, tên dataset (vài tên dataset mang tên bệnh) hay token trung gian nào khác; bảng đếm tổng hợp theo dataset con (số ảnh mỗi route, số fail CK-COLOR; không có neutral_id) do bước prep xuất riêng vào log prep; liên kết ảnh ↔ dataset chỉ qua id_map.json ở bước chấm điểm.",
+    "input_path_normalization": {
+      "canonical_form": "Chuỗi đường dẫn TƯƠNG ĐỐI dạng 'Images/<dataset>/...', dấu phân cách '/', đúng như trường ảnh trong bản ghi QA OmniMedVQA (và trường source_image_path của native_heldout_candidates.json).",
+      "steps": [
+        "1. Thay mọi '\\' bằng '/'.",
+        "2. Nếu chuỗi chưa bắt đầu bằng 'Images/': tìm lần xuất hiện ĐẦU TIÊN của thành phần đường dẫn đúng bằng 'Images' (khớp '(?:^|/)Images/'), cắt bỏ mọi thứ đứng trước nó (vd. '/kaggle/input/.../OmniMedVQA/Images/MIAS/mdb133.png' → 'Images/MIAS/mdb133.png'; native300 trong packet cũ: bỏ tiền tố 'RQ3/data/omni_full/OmniMedVQA/'). Không có thành phần 'Images' → build DỪNG.",
+        "3. Không đổi hoa/thường, không bỏ khoảng trắng hay ký tự nào khác."
+      ],
+      "rule": "Chuỗi sau chuẩn hóa là đầu vào duy nhất của 3 regex. Phần bị cắt ở bước 2 không được đọc cho mục đích nào khác."
+    }
+  },
+  "extraction": {
+    "dataset": {
+      "regex": "^Images/(?P<dataset>[^/]+)/",
+      "apply_to": "source_image_path sau chuẩn hóa (input_path_normalization)",
+      "rule": "Regex phải khớp; KHÔNG khớp → build DỪNG (không bao giờ rơi vào FALLBACK; test T-NO-MATCH). Đây là nguồn duy nhất của tên dataset. Nếu bản ghi có source_dataset mà khác giá trị trích được → conflict → RT-FALLBACK (liệt kê và báo số lượng). Dataset không có trong dataset_table → build DỪNG (như quy tắc route_pairs ở §4.1); Protocol Designer bổ sung dòng (ánh xạ sang nhãn đóng có sẵn hoặc unknown, có lý do) trước khi khóa route_metadata.json."
+    },
+    "mura_region": {
+      "applies_when": "dataset == 'Mura'",
+      "regex": "(?:^|/)XR_(?P<code>[A-Z]+)(?=/)",
+      "apply_to": "source_image_path sau chuẩn hóa",
+      "rule": "Lấy mọi lần khớp. Không khớp lần nào, khớp hơn một lần, hoặc code ngoài closed_tokens.mura → build DỪNG (P2-1; Protocol Designer bổ sung dòng có lý do trước khi khóa route_metadata.json). Không đọc thư mục patient*, study*_positive/negative, valid/train, tên file.",
+      "closed_tokens": [
+        "ELBOW",
+        "FINGER",
+        "FOREARM",
+        "HAND",
+        "HUMERUS",
+        "SHOULDER",
+        "WRIST"
+      ]
+    },
+    "radimagenet_prefix": {
+      "applies_when": "dataset == 'RadImageNet'",
+      "regex": "^(?P<mri>mri-)?(?P<tok>[a-z]+)(?=[-0-9])",
+      "apply_to": "basename của source_image_path sau chuẩn hóa — CHỈ tên file, không bao giờ thư mục (thư mục con của RadImageNet là lớp chẩn đoán)",
+      "rule": "key = (mri ? 'mri-' : '') + tok. Regex không khớp, hoặc key không thuộc closed_tokens.radimagenet và không thuộc explicit_unknown_tokens → build DỪNG (P2-1; Protocol Designer bổ sung dòng có lý do trước khi khóa route_metadata.json). key thuộc explicit_unknown_tokens → modality = unknown, region = unknown → RT-FALLBACK (route_reason 'unknown_explicit_token'). Phần còn lại của tên file (vd. '-normal', chữ số) bị bỏ qua và không được xuất ra.",
+      "closed_tokens": [
+        "ankle",
+        "brain",
+        "foot",
+        "hip",
+        "knee",
+        "mrabd",
+        "mri-abd",
+        "shoulder",
+        "spine"
+      ],
+      "why_mri_prefix_is_parsed": "RadImageNet uses both '<region><number>.png' and '<region>-normal<number>.png'. The optional 'mri-' prefix is normalized so 'mrabd' and 'mri-abd' map to the same abdomen/MR route. The isolated token 'mri' remains unknown. Routing must remain unchanged when diagnostic directory labels change.",
+      "explicit_unknown_tokens": [
+        "mri"
+      ],
+      "explicit_unknown_reason": "'mri' đứng một mình (tên file dạng 'mri<số>.png') chỉ cho biết MR, không cho biết vùng → unknown → FALLBACK. Liệt kê tường minh để không token lạ nào khác rơi im lặng vào FALLBACK. Không có file nào dạng này trong 900 đường dẫn đã kiểm (R2 thu nhỏ)."
+    }
+  },
+  "dataset_table": [
+    {
+      "dataset": "Chest X-Ray PA",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "Dataset X-quang ngực thẳng (PA); một loại ảnh, một vùng."
+    },
+    {
+      "dataset": "CoronaHack",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "CoronaHack Chest X-Ray dataset; chỉ X-quang ngực."
+    },
+    {
+      "dataset": "Covid-19 tianchi",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "Covid-19 Image Dataset (X-quang ngực, 3 lớp); một loại ảnh, một vùng."
+    },
+    {
+      "dataset": "Covid19 heywhale",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "Bộ X-quang ngực COVID/viêm phổi virus/bình thường; một loại ảnh, một vùng. Kiểm màu vẫn áp dụng."
+    },
+    {
+      "dataset": "COVIDx CXR-4",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "COVIDx CXR-4 là tập X-quang ngực (CXR)."
+    },
+    {
+      "dataset": "Pulmonary Chest MC",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "Montgomery County CXR set; chỉ X-quang ngực."
+    },
+    {
+      "dataset": "Pulmonary Chest Shenzhen",
+      "modality": "X-ray",
+      "region": "chest",
+      "reason": "Shenzhen CXR set; chỉ X-quang ngực."
+    },
+    {
+      "dataset": "OCT & X-Ray 2017",
+      "modality": "unknown",
+      "region": "unknown",
+      "reason": "Dataset gốc (Kermany 2018) gồm HAI loại ảnh: OCT võng mạc và X-quang ngực nhi. Provenance cấp dataset không xác định được modality của từng ảnh. Kiểm màu không tách được OCT khỏi X-quang (cả hai đều thang xám). Không dùng tên file hay thư mục (thư mục là lớp chẩn đoán; NORMAL có ở cả hai phần) và không dùng nhãn pool của OmniMedVQA. Fail-closed → RT-FALLBACK. Ghi chú: mọi tên file trong pool hiện có đều có dạng của phần X-quang, nhưng quy tắc không được dùng tên file.",
+      "route_reason": "unknown_dataset_level"
+    },
+    {
+      "dataset": "MIAS",
+      "modality": "mammography",
+      "region": "breast",
+      "reason": "mini-MIAS: chỉ nhũ ảnh (MLO), một vùng."
+    },
+    {
+      "dataset": "Mura",
+      "modality": "X-ray",
+      "region": "from mura_region",
+      "reason": "MURA: X-quang cơ xương chi trên; vùng lấy từ mã XR_* (thư mục cấp vùng do tác giả dataset đặt)."
+    },
+    {
+      "dataset": "RadImageNet",
+      "modality": "from radimagenet_prefix",
+      "region": "from radimagenet_prefix",
+      "reason": "RadImageNet gồm CT, MR và siêu âm; modality KHÔNG suy được từ tên dataset. Chỉ các tiền tố trong closed_tokens (vùng chỉ có ở phần MR của RadImageNet, hoặc mang chữ 'mr'/'mri-') được gán MR; tiền tố khác → unknown."
+    },
+    {
+      "dataset": "ISIC2018",
+      "modality": "skin",
+      "acquisition": "dermoscopy",
+      "reason": "ISIC 2018 (HAM10000): ảnh dermoscopy."
+    },
+    {
+      "dataset": "ISIC2019",
+      "modality": "skin",
+      "acquisition": "dermoscopy",
+      "reason": "ISIC 2019 (HAM10000, BCN20000, MSK): ảnh dermoscopy."
+    },
+    {
+      "dataset": "ISIC2020",
+      "modality": "skin",
+      "acquisition": "dermoscopy",
+      "reason": "SIIM-ISIC 2020: ảnh dermoscopy."
+    },
+    {
+      "dataset": "ISBI2016",
+      "modality": "skin",
+      "acquisition": "dermoscopy",
+      "reason": "ISBI 2016 ISIC challenge: ảnh dermoscopy."
+    },
+    {
+      "dataset": "PAD-UFES-20",
+      "modality": "skin",
+      "acquisition": "clinical_photo",
+      "reason": "Ảnh chụp tổn thương da bằng điện thoại thông minh (không dermoscopy)."
+    },
+    {
+      "dataset": "Fitzpatrick 17k",
+      "modality": "skin",
+      "acquisition": "clinical_photo",
+      "reason": "Ảnh lâm sàng lấy từ atlas da liễu trực tuyến."
+    },
+    {
+      "dataset": "Monkeypox Skin Image 2022",
+      "modality": "skin",
+      "acquisition": "clinical_photo",
+      "reason": "Ảnh lâm sàng tổn thương da (thu từ nguồn web), không dermoscopy."
+    }
+  ],
+  "token_to_label": {
+    "mura": {
+      "WRIST": {
+        "region": "wrist",
+        "reason": "Trùng tên vùng route RT-XR-WRIST."
+      },
+      "ELBOW": {
+        "region": "elbow",
+        "reason": "Trùng RT-XR-ELBOW."
+      },
+      "HUMERUS": {
+        "region": "humerus",
+        "reason": "Trùng RT-XR-HUMERUS."
+      },
+      "SHOULDER": {
+        "region": "shoulder",
+        "reason": "Trùng RT-XR-SHOULDER."
+      },
+      "FINGER": {
+        "region": "finger",
+        "reason": "Trùng RT-XR-FINGER."
+      },
+      "HAND": {
+        "region": "hand",
+        "reason": "Trùng RT-XR-HAND."
+      },
+      "FOREARM": {
+        "region": "other",
+        "reason": "Không có route cẳng tay; ảnh cẳng tay có thể chứa một phần khuỷu hoặc cổ tay nhưng không xác định được từ mã → mơ hồ → other → RT-FALLBACK (fail-closed)."
+      }
+    },
+    "radimagenet": {
+      "knee": {
+        "modality": "MR",
+        "region": "knee",
+        "reason": "Gối chỉ có ở phần MR của RadImageNet → RT-MR-KNEE."
+      },
+      "shoulder": {
+        "modality": "MR",
+        "region": "shoulder",
+        "reason": "Vai, phần MR → RT-MR-SHOULDER."
+      },
+      "hip": {
+        "modality": "MR",
+        "region": "hip",
+        "reason": "Háng, phần MR → RT-MR-HIP."
+      },
+      "spine": {
+        "modality": "MR",
+        "region": "spine",
+        "reason": "Cột sống, phần MR → RT-MR-SPINE."
+      },
+      "brain": {
+        "modality": "MR",
+        "region": "brain",
+        "reason": "Não, phần MR → RT-MR-BRAIN."
+      },
+      "ankle": {
+        "modality": "MR",
+        "region": "ankle_hindfoot",
+        "reason": "Cổ chân; route RT-MR-ANKLE có header 'ankle and hindfoot'."
+      },
+      "foot": {
+        "modality": "MR",
+        "region": "foot_unresolved",
+        "reason": "Bàn chân, không phân được giữa bàn/ngón từ tiền tố → foot_unresolved; routes.json đã ánh xạ foot_unresolved → RT-MR-MIDFOOT (header 'foot')."
+      },
+      "mrabd": {
+        "modality": "MR",
+        "region": "abdomen",
+        "reason": "MR bụng/chậu → RT-MR-ABD."
+      },
+      "mri-abd": {
+        "modality": "MR",
+        "region": "abdomen",
+        "reason": "Cùng vùng với 'mrabd' (dạng tên file của lớp normal); phải cùng route để route không phụ thuộc lớp chẩn đoán."
+      }
+    }
+  },
+  "label_to_route": "Look up the fixed modality and region/acquisition labels in routes.json. Do not add routes or use diagnostic directory names. Unknown, other and conflicting labels use RT-FALLBACK.",
+  "consistency_checks": {
+    "id": "CK-COLOR-v1",
+    "declared_before_data": "Ngưỡng khai báo 17/10/2026, trước khi tải hay nhìn bất kỳ ảnh native nào trong dự án mới; không chỉnh sau khi thấy phân bố (đổi là deviation §12).",
+    "input": "Mảng RGB uint8 của PNG đã đổi tên trung tính (cùng mảng dùng để băm RGB, §2.3). Tính MỘT lần ở prep và đóng băng trong route_metadata.json (có SHA, kiểm 7); không tính lại ở bước sau.",
+    "metric": "chroma(p) = max(R,G,B) − min(R,G,B) cho mỗi pixel; ck_chroma_frac = tỷ lệ pixel có chroma > 24.",
+    "rules": [
+      {
+        "when": "modality ∈ {X-ray, mammography, MR}",
+        "fail_if": "ck_chroma_frac > 0.05",
+        "action": "RT-FALLBACK, route_reason = 'ck_color'",
+        "reason": "Ảnh X-quang/nhũ ảnh/MR là thang xám; >5% pixel có màu rõ nghĩa là ảnh không đúng loại provenance nói (vd. ảnh chụp phim, ảnh màu, OCT màu) hoặc có lớp phủ màu lớn. Mũi tên/chữ màu nhỏ (<5%) vẫn qua."
+      },
+      {
+        "when": "modality == skin",
+        "fail_if": "ck_chroma_frac < 0.02",
+        "action": "RT-FALLBACK, route_reason = 'ck_gray'",
+        "reason": "Ảnh da (dermoscopy hoặc lâm sàng) là ảnh màu; gần như không có pixel màu nghĩa là ảnh không đúng loại."
+      }
+    ],
+    "not_checked": "Kiểm này không tách được các loại ảnh cùng là thang xám (X-quang vs CT vs OCT vs MR) và không kiểm vùng giải phẫu. Đó là hạn chế của nhãn theo dataset (protocol §4.1).",
+    "reporting": "Ghi ck_chroma_frac cho mọi ảnh trong route_metadata.json; báo số ảnh fail theo dataset con (bảng tổng hợp của prep, không neutral_id) và theo cohort. Ở bước chấm điểm (qua id_map.json) báo thêm số fail theo lớp của dataset con, chỉ để mô tả: CK-COLOR chạy trên pixel nên có thể tương quan với lớp qua hình thức ảnh (vd. ảnh lớp COVID lấy từ web có mũi tên màu hoặc ám màu). Không dùng số này để sửa gì. Không có người chấm.",
+    "decoder_pin": "Tên và phiên bản thư viện giải mã ảnh (Pillow, và phiên bản libjpeg/libjpeg-turbo, zlib/libpng mà Pillow báo qua PIL.features) ghi vào run_config của prep, vì giải mã JPEG khác phiên bản có thể lệch vài mức ở ca sát ngưỡng.",
+    "mass_fail_rule": "Stop preparation if more than 20% of a native development dataset fails the predefined image-color check. Do not change the threshold during execution.",
+    "limitation": "Ảnh da rất tối hoặc thiếu sáng có thể có ck_chroma_frac < 0,02 và bị FALLBACK; ít ca nhưng có khía cạnh công bằng theo màu da, ghi vào hạn chế."
+  },
+  "mixed_type_datasets": {
+    "policy": "Dataset con được biết hoặc nghi chứa hơn một loại ảnh mà provenance cấp dataset/regex không tách được → modality = unknown → RT-FALLBACK cho cả dataset (fail-closed). Dataset một loại ảnh nhưng có rủi ro lẫn ảnh lạ → giữ nhãn dataset và dựa vào CK-COLOR.",
+    "known": [
+      {
+        "dataset": "OCT & X-Ray 2017",
+        "decision": "unknown → RT-FALLBACK",
+        "reason": "Xem dataset_table."
+      },
+      {
+        "dataset": "RadImageNet",
+        "decision": "modality theo tiền tố tên file; tiền tố ngoài danh sách → build dừng; 'mri' đứng một mình → unknown → FALLBACK",
+        "reason": "Dataset gồm CT/MR/siêu âm."
+      },
+      {
+        "dataset": "Mura",
+        "decision": "một loại ảnh (X-quang), nhiều vùng → vùng theo mã XR_*",
+        "reason": "Vùng do tác giả dataset gán ở cấp thư mục."
+      }
+    ]
+  },
+  "required_tests": [
+    "T-NO-MATCH (kiểm 14; P1-1): đường dẫn không chuẩn hóa được (không có thành phần 'Images') hoặc sau chuẩn hóa không khớp regex dataset → build DỪNG, không bao giờ FALLBACK. Kèm ca dương: đường dẫn tuyệt đối '/kaggle/input/.../Images/<ds>/...' và đường dẫn dùng '\\' phải chuẩn hóa về đúng 'Images/<ds>/...' và ra cùng route với dạng tương đối.",
+    "T-DIAG-INVARIANCE (kiểm 2): với mọi ảnh native, route không đổi khi (i) thay mọi thư mục ngoài 'Images/<dataset>/' và mã XR_* bằng mọi tên thư mục chẩn đoán khác của cùng dataset và bằng chuỗi ngẫu nhiên; (ii) MURA: đổi 'study*_positive' ↔ 'study*_negative', đổi patient*/study*, valid ↔ train; (iii) RadImageNet: đổi '<vùng><số>.png' ↔ '<vùng>-normal<số>.png' và 'mrabd<số>.png' ↔ 'mri-abd-normal<số>.png', kể cả khi đồng thời đổi thư mục; (iv) dataset ngoài RadImageNet: thay tên file bằng chuỗi ngẫu nhiên, hoặc thêm tiền tố mang lớp (vd. 'NORMAL-').",
+    "T-CLOSED-TOKENS (kiểm 14): mọi token trích ra (dataset, mã XR_*, key RadImageNet) thuộc dataset_table / closed_tokens / explicit_unknown_tokens; token ngoài danh sách (vd. 'ctabd', 'Knee', 'mri-knee', hai mã XR_* trong một đường dẫn) làm build DỪNG; mọi nhãn đầu ra thuộc danh sách nhãn đóng §4.1; bản ghi native của route_metadata.json chỉ có các trường và giá trị khai báo ở inputs.where_it_runs.",
+    "T-UNKNOWN-DATASET: dataset không có trong dataset_table làm build DỪNG (không rơi im lặng vào FALLBACK)."
+  ],
+  "revision": "v1, sửa sau R2 thu nhỏ (04-reviews/R2_mini_v1_3.md): P1-1, P2-1 đến P2-5"
+}

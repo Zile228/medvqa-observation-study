@@ -1,0 +1,4 @@
+pair,images_compared,exact_UTF8_text_different,whitespace_normalized_text_different,prompt_hash_different
+GEN_vs_ANA,13,13,13,0
+GEN_vs_GRD,13,13,13,0
+ANA_vs_GRD,13,12,12,0

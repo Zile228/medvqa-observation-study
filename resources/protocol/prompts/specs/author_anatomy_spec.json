@@ -1,0 +1,718 @@
+{
+  "id": "OBS-ANA-SPEC-v2",
+  "note": "Arm author-anatomy (vòng 2, sửa P1-2 của R2). Cấu trúc giải phẫu do tác giả tự đặt: quét theo vùng/khoang/tầng giải phẫu theo thứ tự đọc của tác giả, gọi tên cấu trúc bằng thuật ngữ giải phẫu chuẩn với mật độ thuật ngữ tương đương ARM-GRD. KHÔNG truy về nguồn lâm sàng nào và KHÔNG theo cấu trúc field của catalog (cách chọn và nhóm item khác). Bên chỉ dùng image-left/image-right, khớp frame. Cùng route, cùng header, cùng số item, cùng frame và định dạng đầu ra với ARM-GRD; độ dài (tokenizer thật) và từ vựng khớp theo length_check.json.",
+  "routes": {
+    "RT-XR-CHEST": [
+      {
+        "name": "Lung apices",
+        "ask": "apical lung zones and supraclavicular soft tissue"
+      },
+      {
+        "name": "Image-left upper zone",
+        "ask": "upper and mid lung zones on the image-left side, with vessels"
+      },
+      {
+        "name": "Image-right upper zone",
+        "ask": "upper and mid lung zones on the image-right side, with vessels"
+      },
+      {
+        "name": "Image-left lower zone",
+        "ask": "lower lung zone and costophrenic angle on the image-left side"
+      },
+      {
+        "name": "Image-right lower zone",
+        "ask": "lower lung zone and costophrenic angle on the image-right side"
+      },
+      {
+        "name": "Cardiac silhouette",
+        "ask": "heart borders, cardiac size impression and aortic arch"
+      },
+      {
+        "name": "Trachea and carina",
+        "ask": "tracheal position, carina and both hilar regions"
+      },
+      {
+        "name": "Hemidiaphragms",
+        "ask": "both hemidiaphragms and the subdiaphragmatic region"
+      },
+      {
+        "name": "Bony thorax",
+        "ask": "ribs, clavicles, scapulae and thoracic spine"
+      },
+      {
+        "name": "Thoracic soft tissues",
+        "ask": "chest wall and breast soft tissue shadows"
+      },
+      {
+        "name": "Projection and devices",
+        "ask": "projection, rotation and any lines or devices"
+      }
+    ],
+    "RT-XR-WRIST": [
+      {
+        "name": "Radius and ulna",
+        "ask": "distal radius and ulna, outline and alignment"
+      },
+      {
+        "name": "Carpal region",
+        "ask": "carpal bones and the spaces between them"
+      },
+      {
+        "name": "Metacarpal bases",
+        "ask": "metacarpal bases and the nearby joints"
+      },
+      {
+        "name": "Surrounding soft tissue",
+        "ask": "soft tissue contour, swelling and any foreign object"
+      }
+    ],
+    "RT-XR-ELBOW": [
+      {
+        "name": "Distal humerus",
+        "ask": "distal humerus and condylar outline"
+      },
+      {
+        "name": "Radial head",
+        "ask": "radial head and neck alignment"
+      },
+      {
+        "name": "Proximal ulna",
+        "ask": "olecranon and the spaces at the joint"
+      },
+      {
+        "name": "Fat pads and soft tissue",
+        "ask": "fat pads, soft tissue contour and any foreign object"
+      }
+    ],
+    "RT-XR-HUMERUS": [
+      {
+        "name": "Proximal humerus",
+        "ask": "upper end of the humerus, head and neck"
+      },
+      {
+        "name": "Humeral shaft",
+        "ask": "shaft outline, alignment and density"
+      },
+      {
+        "name": "Distal humerus",
+        "ask": "lower end of the humerus and the elbow"
+      },
+      {
+        "name": "Arm soft tissue",
+        "ask": "soft tissue contour, swelling and any foreign object"
+      }
+    ],
+    "RT-XR-SHOULDER": [
+      {
+        "name": "Glenohumeral region",
+        "ask": "position of the humeral head in the socket"
+      },
+      {
+        "name": "Acromioclavicular region",
+        "ask": "acromion and the end of the clavicle"
+      },
+      {
+        "name": "Scapula",
+        "ask": "scapula outline and joint spaces"
+      },
+      {
+        "name": "Shoulder soft tissue",
+        "ask": "soft tissue contour and any calcification"
+      }
+    ],
+    "RT-XR-FINGER": [
+      {
+        "name": "Proximal phalanx",
+        "ask": "proximal phalanx outline and alignment"
+      },
+      {
+        "name": "Distal phalanges",
+        "ask": "middle and distal phalanges and their outline"
+      },
+      {
+        "name": "Finger joints",
+        "ask": "spaces and alignment at the finger joints"
+      },
+      {
+        "name": "Finger soft tissue",
+        "ask": "soft tissue contour, swelling and any foreign object"
+      }
+    ],
+    "RT-XR-HAND": [
+      {
+        "name": "Carpus",
+        "ask": "carpal bones and the bases of the long bones"
+      },
+      {
+        "name": "Metacarpals",
+        "ask": "metacarpal shafts, outline and alignment"
+      },
+      {
+        "name": "Phalanges",
+        "ask": "phalanges and the finger joint spaces"
+      },
+      {
+        "name": "Hand soft tissue",
+        "ask": "soft tissue contour, swelling and any foreign object"
+      }
+    ],
+    "RT-MAMMO": [
+      {
+        "name": "Retroareolar region",
+        "ask": "tissue behind the nipple and any focal density"
+      },
+      {
+        "name": "Central breast",
+        "ask": "central fibroglandular tissue, any mass and its outline"
+      },
+      {
+        "name": "Posterior breast",
+        "ask": "tissue near the pectoralis muscle and any mass margin"
+      },
+      {
+        "name": "Overall tissue",
+        "ask": "overall breast density and any area denser than the rest"
+      },
+      {
+        "name": "Skin line",
+        "ask": "skin thickness, subcutaneous fat and any retraction"
+      }
+    ],
+    "RT-CT-ABDPEL": [
+      {
+        "name": "Image display",
+        "ask": "window setting, intravenous and oral contrast"
+      },
+      {
+        "name": "Image-left upper abdomen",
+        "ask": "liver and gallbladder outline, focal areas and the hepatic flexure"
+      },
+      {
+        "name": "Epigastrium",
+        "ask": "stomach, pancreatic head and body, and midline hepatic lobe outline"
+      },
+      {
+        "name": "Image-right upper abdomen",
+        "ask": "spleen size, pancreatic tail and the splenic flexure"
+      },
+      {
+        "name": "Image-left retroperitoneum",
+        "ask": "kidney, adrenal gland and ureter on the image-left side"
+      },
+      {
+        "name": "Image-right retroperitoneum",
+        "ask": "kidney, adrenal gland and ureter on the image-right side"
+      },
+      {
+        "name": "Midline vessels",
+        "ask": "aorta, inferior vena cava, portal and mesenteric vessels, calibre"
+      },
+      {
+        "name": "Retroperitoneal nodes",
+        "ask": "lymph nodes around the aorta, mesentery and iliac vessels"
+      },
+      {
+        "name": "Central abdomen",
+        "ask": "duodenum, jejunum, ileum and mesentery, with bowel calibre"
+      },
+      {
+        "name": "Flanks and colon",
+        "ask": "ascending and descending colon and paracolic gutters"
+      },
+      {
+        "name": "Pelvis",
+        "ask": "urinary bladder, rectum, and uterus or prostate outline"
+      },
+      {
+        "name": "Peritoneal spaces",
+        "ask": "ascites, free gas and peritoneal or omental nodules"
+      },
+      {
+        "name": "Lung bases",
+        "ask": "basal lung, pleural spaces and pericardium, any fluid"
+      },
+      {
+        "name": "Musculoskeletal",
+        "ask": "lumbar spine, pelvis, ribs and abdominal wall muscles"
+      }
+    ],
+    "RT-CT-CHEST": [
+      {
+        "name": "Image-left lung",
+        "ask": "parenchyma, airways and fissures of the image-left lung"
+      },
+      {
+        "name": "Image-right lung",
+        "ask": "parenchyma, airways and fissures of the image-right lung"
+      },
+      {
+        "name": "Anterior mediastinum",
+        "ask": "upper front region, mediastinal fat and lymph nodes"
+      },
+      {
+        "name": "Middle mediastinum",
+        "ask": "heart, pericardium, trachea and main bronchi"
+      },
+      {
+        "name": "Great vessels",
+        "ask": "ascending and descending aorta and pulmonary trunk"
+      },
+      {
+        "name": "Posterior mediastinum",
+        "ask": "oesophagus and the tissue beside the spine"
+      },
+      {
+        "name": "Pleural spaces",
+        "ask": "pleural surfaces and dependent pleural spaces"
+      },
+      {
+        "name": "Thoracic wall",
+        "ask": "ribs, sternum, thoracic spine and chest wall muscles"
+      },
+      {
+        "name": "Slice edges",
+        "ask": "upper abdomen or lower neck at the edges, and any device"
+      }
+    ],
+    "RT-CT-HEAD": [
+      {
+        "name": "Image display",
+        "ask": "brain or bone window and any artifacts"
+      },
+      {
+        "name": "Cerebral lobes",
+        "ask": "frontal, parietal, temporal and occipital regions, any focal area"
+      },
+      {
+        "name": "Deep brain",
+        "ask": "basal ganglia and thalami, any focal area"
+      },
+      {
+        "name": "Fluid spaces",
+        "ask": "ventricles and cisterns, their size and symmetry"
+      },
+      {
+        "name": "Back of the brain",
+        "ask": "cerebellum and brainstem appearance"
+      },
+      {
+        "name": "Bony skull",
+        "ask": "calvarium, skull base, sinuses and mastoids"
+      },
+      {
+        "name": "Outer soft tissue",
+        "ask": "scalp and orbits, swelling or collections"
+      }
+    ],
+    "RT-CT-FACE": [
+      {
+        "name": "Image display",
+        "ask": "soft tissue or bone window and visible artifacts"
+      },
+      {
+        "name": "Orbits",
+        "ask": "orbital walls and contents, outline and symmetry"
+      },
+      {
+        "name": "Sinuses",
+        "ask": "maxillary and other paranasal sinuses, air and walls"
+      },
+      {
+        "name": "Nasal region",
+        "ask": "locate the nasal cavity and septum if recognizable"
+      },
+      {
+        "name": "Side of the face",
+        "ask": "locate the temporal and ear region if recognizable"
+      },
+      {
+        "name": "Jaws",
+        "ask": "locate the maxilla and mandible if recognizable"
+      },
+      {
+        "name": "Facial soft tissue",
+        "ask": "facial soft tissue, swelling or collections"
+      }
+    ],
+    "RT-CT-NECK": [
+      {
+        "name": "Pharynx",
+        "ask": "pharyngeal airway and the surrounding soft tissue"
+      },
+      {
+        "name": "Laryngeal level",
+        "ask": "airway and soft tissue at the laryngeal level"
+      },
+      {
+        "name": "Anterior neck",
+        "ask": "thyroid gland and the soft tissue anterior to the airway"
+      },
+      {
+        "name": "Lateral neck",
+        "ask": "carotid and jugular vessels and the adjacent lymph nodes"
+      },
+      {
+        "name": "Posterior neck",
+        "ask": "cervical vertebrae and the posterior neck muscles"
+      }
+    ],
+    "RT-MR-BRAIN": [
+      {
+        "name": "Frontal lobes",
+        "ask": "frontal cortex and white matter appearance"
+      },
+      {
+        "name": "Parietal and occipital lobes",
+        "ask": "parietal and occipital cortex and white matter appearance"
+      },
+      {
+        "name": "Temporal lobes",
+        "ask": "temporal cortex and white matter, any focal area"
+      },
+      {
+        "name": "Deep grey matter",
+        "ask": "basal ganglia and thalami appearance"
+      },
+      {
+        "name": "Central white matter",
+        "ask": "periventricular white matter appearance"
+      },
+      {
+        "name": "Ventricles",
+        "ask": "ventricle size, shape and symmetry"
+      },
+      {
+        "name": "Posterior fossa",
+        "ask": "cerebellum, pons and medulla appearance"
+      },
+      {
+        "name": "Brain surface",
+        "ask": "extra-axial spaces over the brain surface, any fluid"
+      },
+      {
+        "name": "Skull base",
+        "ask": "sella, pituitary region and skull base"
+      },
+      {
+        "name": "Face and scalp",
+        "ask": "orbits, paranasal sinuses, mastoids and scalp"
+      }
+    ],
+    "RT-MR-ABD": [
+      {
+        "name": "Coverage and artifacts",
+        "ask": "anatomic coverage and artifacts; do not assume the sequence"
+      },
+      {
+        "name": "Hepatobiliary region",
+        "ask": "whether liver and gallbladder are visible and assessable"
+      },
+      {
+        "name": "Pancreatic region",
+        "ask": "whether pancreas and duodenum are visible and assessable"
+      },
+      {
+        "name": "Splenic region",
+        "ask": "whether the spleen is visible and assessable"
+      },
+      {
+        "name": "Image-left renal region",
+        "ask": "whether kidney and adrenal are visible and assessable"
+      },
+      {
+        "name": "Image-right renal region",
+        "ask": "whether kidney and adrenal are visible and assessable"
+      },
+      {
+        "name": "Central vessels",
+        "ask": "whether aorta and vena cava are visible and assessable"
+      },
+      {
+        "name": "Bowel",
+        "ask": "whether bowel loops are visible and assessable"
+      },
+      {
+        "name": "Body wall and spine",
+        "ask": "whether body wall and spine are visible and assessable"
+      }
+    ],
+    "RT-MR-KNEE": [
+      {
+        "name": "Medial compartment",
+        "ask": "whether medial femur and tibia are depicted; if so, their appearance"
+      },
+      {
+        "name": "Lateral compartment",
+        "ask": "whether lateral femur and tibia are depicted; if so, their appearance"
+      },
+      {
+        "name": "Patellofemoral joint",
+        "ask": "whether the patella and trochlea are depicted; if so, their appearance"
+      },
+      {
+        "name": "Intercondylar notch",
+        "ask": "cruciate structures in the notch"
+      },
+      {
+        "name": "Extensor tendons",
+        "ask": "quadriceps and patellar tendon appearance"
+      },
+      {
+        "name": "Popliteal fossa",
+        "ask": "popliteal vessels and posterior capsule"
+      },
+      {
+        "name": "Sides of the knee",
+        "ask": "collateral structures along both sides"
+      },
+      {
+        "name": "Fluid and fat",
+        "ask": "joint fluid, fat pads and other findings"
+      }
+    ],
+    "RT-MR-SHOULDER": [
+      {
+        "name": "Humeral head",
+        "ask": "humeral head contour and marrow"
+      },
+      {
+        "name": "Glenoid",
+        "ask": "glenoid surface, rim and cartilage"
+      },
+      {
+        "name": "Subacromial space",
+        "ask": "space under the acromion and its contents"
+      },
+      {
+        "name": "Superior tendon",
+        "ask": "tendon above the humeral head"
+      },
+      {
+        "name": "Anterior structures",
+        "ask": "front tendon and biceps groove"
+      },
+      {
+        "name": "Posterior structures",
+        "ask": "back tendon and posterior capsule"
+      },
+      {
+        "name": "Acromioclavicular joint",
+        "ask": "joint between acromion and clavicle"
+      },
+      {
+        "name": "Joint recesses",
+        "ask": "joint fluid and recesses"
+      },
+      {
+        "name": "Superficial soft tissue",
+        "ask": "deltoid and subcutaneous fat"
+      }
+    ],
+    "RT-MR-HIP": [
+      {
+        "name": "Femoral head",
+        "ask": "femoral head marrow and cortical outline"
+      },
+      {
+        "name": "Femoral neck",
+        "ask": "femoral neck and trochanteric appearance"
+      },
+      {
+        "name": "Acetabulum",
+        "ask": "whether the acetabular cartilage is depicted; if so, its appearance"
+      },
+      {
+        "name": "Acetabular rim",
+        "ask": "whether the labral region is depicted; if so, its appearance"
+      },
+      {
+        "name": "Anterior hip",
+        "ask": "visible iliopsoas and anterior tendons"
+      },
+      {
+        "name": "Lateral hip",
+        "ask": "whether the trochanteric bursa is depicted; if so, its appearance"
+      },
+      {
+        "name": "Joint space",
+        "ask": "visible joint fluid and synovial lining"
+      },
+      {
+        "name": "Medial hip",
+        "ask": "visible femoral vessels, nerves and lymph nodes"
+      },
+      {
+        "name": "Pelvic bones",
+        "ask": "visible pelvic bones and subcutaneous tissues"
+      }
+    ],
+    "RT-MR-ANKLE": [
+      {
+        "name": "Ankle joint",
+        "ask": "visible tibia, talus and joint fluid"
+      },
+      {
+        "name": "Medial side",
+        "ask": "visible medial malleolus, ligament and tendons"
+      },
+      {
+        "name": "Lateral side",
+        "ask": "visible lateral malleolus, ligaments and tendons"
+      },
+      {
+        "name": "Front of ankle",
+        "ask": "visible tendons and joint recess in front"
+      },
+      {
+        "name": "Back of ankle",
+        "ask": "visible Achilles tendon and fat"
+      },
+      {
+        "name": "Hindfoot bones",
+        "ask": "visible talus and calcaneus appearance"
+      },
+      {
+        "name": "Subtalar region",
+        "ask": "visible subtalar joint and sinus tarsi"
+      },
+      {
+        "name": "Sole",
+        "ask": "visible plantar fascia and muscles"
+      },
+      {
+        "name": "Outer soft tissue",
+        "ask": "visible skin and subcutaneous fat"
+      }
+    ],
+    "RT-MR-MIDFOOT": [
+      {
+        "name": "Tarsal region",
+        "ask": "visible tarsal bones and marrow outline"
+      },
+      {
+        "name": "Forefoot joints",
+        "ask": "visible joint spaces and articular fluid"
+      },
+      {
+        "name": "Foot soft tissue",
+        "ask": "visible tendons, muscles and fat"
+      }
+    ],
+    "RT-MR-TOE": [
+      {
+        "name": "Metatarsal head",
+        "ask": "visible marrow and cortical outline of the metatarsal head"
+      },
+      {
+        "name": "Toe phalanges",
+        "ask": "visible phalanges, marrow and cortex"
+      },
+      {
+        "name": "Toe joint",
+        "ask": "visible joint space, capsule and fluid"
+      },
+      {
+        "name": "Top of the toe",
+        "ask": "whether the dorsal tendon is depicted; if so, its appearance"
+      },
+      {
+        "name": "Under the toe",
+        "ask": "whether flexor tendons and fat are depicted; if so, their appearance"
+      }
+    ],
+    "RT-MR-SPINE": [
+      {
+        "name": "Vertebral bodies",
+        "ask": "visible vertebral body height and marrow"
+      },
+      {
+        "name": "Disc levels",
+        "ask": "visible discs and endplates at each level"
+      },
+      {
+        "name": "Spinal canal",
+        "ask": "visible thecal sac and spinal canal width"
+      },
+      {
+        "name": "Spinal cord",
+        "ask": "visible spinal cord or conus appearance"
+      },
+      {
+        "name": "Posterior elements",
+        "ask": "visible laminae, spinous processes and facet joints"
+      },
+      {
+        "name": "Neural foramina",
+        "ask": "visible foramina and nerve roots"
+      },
+      {
+        "name": "Paraspinal tissues",
+        "ask": "visible paraspinal muscles and soft tissue"
+      }
+    ],
+    "RT-SKIN-DERM": [
+      {
+        "name": "Lesion centre",
+        "ask": "colours and structures at the lesion centre"
+      },
+      {
+        "name": "Lesion periphery",
+        "ask": "colours and structures at the lesion edge"
+      },
+      {
+        "name": "Lesion border",
+        "ask": "border sharpness and contour of the lesion"
+      },
+      {
+        "name": "Lesion symmetry",
+        "ask": "colour and structure symmetry across two axes"
+      },
+      {
+        "name": "Colour distribution",
+        "ask": "brown, black, blue, red or white areas"
+      },
+      {
+        "name": "Vascular pattern",
+        "ask": "visible vessels and redness within the lesion"
+      },
+      {
+        "name": "Lesion surface",
+        "ask": "scale, crust, ulceration or keratin"
+      },
+      {
+        "name": "Perilesional skin",
+        "ask": "surrounding skin pigmentation and hair"
+      }
+    ],
+    "RT-SKIN-CLIN": [
+      {
+        "name": "Centre",
+        "ask": "colour of the skin change at its centre"
+      },
+      {
+        "name": "Edge",
+        "ask": "edge of the change: sharp or blurred"
+      },
+      {
+        "name": "Spread",
+        "ask": "one or several skin changes and their arrangement"
+      },
+      {
+        "name": "Surface flakes",
+        "ask": "any scale over the change"
+      },
+      {
+        "name": "Dried surface",
+        "ask": "any crust or exudate on the change"
+      },
+      {
+        "name": "Surrounding skin",
+        "ask": "redness or darker skin around the change"
+      },
+      {
+        "name": "Body site",
+        "ask": "body site and skin shown in the image"
+      }
+    ]
+  }
+}
